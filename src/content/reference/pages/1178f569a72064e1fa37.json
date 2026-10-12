@@ -1,0 +1,32 @@
+{
+  "path": "/en/docs/cookie_policy",
+  "sourceUrl": "https://www.biddershighway.com/en/docs/cookie_policy",
+  "title": "Cookie policy",
+  "description": "Some personal data is collected while using Bidders Highway. For all users, we collect IP-address, timestamp, and some technical data about your device. The...",
+  "canonicalUrl": "https://www.biddershighway.com/en/docs/cookie_policy",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/docs/cookie_policy"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/docs/cookie_policy"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/docs/cookie_policy"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/docs/cookie_policy"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><div class=\"py-12 bg-off-white text-center\"><div class=\"container mx-auto px-4 lg:max-w-4xl\"><h1 class=\"text-3xl md:text-5xl\">Cookie policy</h1></div></div><div class=\"container mx-auto px-4 lg:max-w-4xl py-12\"><div class=\"terms-body\"><p>Some personal data is collected while using Bidders Highway. For all users, we collect IP-address, timestamp, and some technical data about your device. The purpose of this collection is to maintain the security of the website, and to analyze and improve the functions offered by Bidders Highway. For users who are registered and logged in, additional data is collected:</p>\n\n<ul>\n  <li>Name</li>\n  <li>E-mail address</li>\n  <li>Address</li>\n  <li>Country</li>\n  <li>Latest login timestamp</li>\n  <li>Language preference</li>\n  <li>Swedish Personnummer (when logging in using BankID)</li>\n</ul>\n\n<p>Before bidding, users will also need to register a credit card. The collection and processing of this data is necessary for ensuring correct functionality of the Bidders Highway platform and the fulfillment of our terms and conditions.\n\n</p><h2>Subprocessors</h2>\n\n<p>Bidders Highway are using the following subprocessors:</p>\n\n<p>\n  <strong>Google Analytics</strong>: Measures the number of visitors to the website and analyzes how they navigate around.<br>\n  <strong>Plausible</strong>: Measures visits and on-site events without using cookies.<br>\n  <strong>Stripe</strong>: Used for payments.<br>\n  <strong>Amazon SES</strong>: The email service within Amazon Web Services, which delivers our email — both account email and the newsletter.<br>\n</p>\n\n<h2>Cookies on Bidders Highway</h2>\n\n<p>Listing of cookies used:</p>\n\n<h3>First-party cookies</h3>\n\n<ul>\n  <li>_highway_session, login data and CSRF (session)</li>\n  <li>banner, Cookie banner (1 year)</li>\n</ul>\n\n<h3>Third-party cookies</h3>\n\n<ul>\n  <li>_ga*, Google Analytics (2 years)</li>\n  <li>_fbp*, Meta (2 years)</li>\n  <li>_shopify_*, Shopify widget (2 years)</li>\n</ul>\n\n<p>\n  In addition to the cookies listed above, additional third-party cookies may be used. These are set by external data controllers or data processors in connection with the use of the website. Third-party cookies may change over time, including their name, function, and technical design. Such changes do not affect our obligation to obtain valid consent in accordance with the General Data Protection Regulation (GDPR) and applicable legislation.\n</p>\n</div><opt-out-controller class=\"flex gap-2\"><a href=\"#\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300\" data-opt-out-target=\"optInButton\" data-action=\"opt-out#optIn\">Accept cookies</a><a href=\"#\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-neutral-500 hover:bg-neutral-600\" data-opt-out-target=\"optOutButton\" data-action=\"opt-out#optOut\">Deny cookies</a></opt-out-controller></div></main>",
+  "links": [
+    "/en/docs/cookie_policy"
+  ]
+}

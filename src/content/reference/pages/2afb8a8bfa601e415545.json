@@ -1,0 +1,33 @@
+{
+  "path": "/sv/posts/tips-om-man-vill-salja-sin-bil",
+  "sourceUrl": "https://www.biddershighway.com/sv/posts/tips-om-man-vill-salja-sin-bil",
+  "title": "Tips om man vill sälja sin bil",
+  "description": "Vad är det som gör en bil attraktiv på marknaden? Här kommer några tips från oss för att öka chanserna för just ditt objekt.",
+  "canonicalUrl": "https://www.biddershighway.com/sv/posts/tips-om-man-vill-salja-sin-bil",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/posts/tips-for-selling-your-car"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/posts/tips-om-man-vill-salja-sin-bil"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/posts/tipps-zum-verkauf-ihres-autos"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/posts/tips-om-man-vill-salja-sin-bil"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pb-0 lg:px-0 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">Tips om man vill sälja sin bil</h1><div class=\"flex flex-wrap gap-2 mt-4\"><span class=\"inline-block text-sm px-3 py-1 border border-black rounded-full\">Guider</span></div><span class=\"text-neutral-500 block mt-6\">Vad är det som gör en bil attraktiv på marknaden? Här kommer några tips från oss för att öka chanserna för just ditt objekt.</span><div class=\"flex mt-6\"><div class=\"mr-2\"><a href=\"/sv/authors/jacob-odqvist\"><img alt=\"\" class=\"rounded-full w-[48px]\" src=\"/assets/jacob-odqvist-44be25a1.jpg\"></a></div><div><a href=\"/sv/authors/jacob-odqvist\" class=\"block hover:underline\">Jacob Odqvist</a><span class=\"block text-neutral-500 text-sm\">21 juni 2022 14:00</span></div></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/601bf33b5beeea5f43ecb47d378aca27\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><h2>Håll koll på kommentarerna</h2><div>Varje objekt har ett eget kommentarsfält där inloggade budgivare kan ställa följdfrågor. Här rekommenderar vi att varje säljare dagligen under auktionen går in och svarar. Man får såklart en notifikation när det behövs och ju snabbare och utförligare svar ju större chans för bud.</div><h2>Ren bil innan fotografering</h2><div>Detta kan låta självklart men faktum är att det är till stor del fotografierna som säljer bilen. Det räcker oftast inte med en lätt avtorkning, utan för att 150+ bilder verkligen ska göra sitt jobb krävs det att bilen fått en ordentlig tvätt invändigt och utvändigt. Helst av ett proffs. Det är i sammanhanget ett litet åtagande för att skapa de bästa förutsättningarna att sälja sin bil.</div><h2>Ju mer info desto bättre budgivning</h2><div>Innan intervju och fotografering: se till att ha så mycket dokumentation, extranycklar och eventuella tillbehör redo. Ju mer som kan dokumenteras desto mer attraktivt blir ditt objekt.</div><h2>Var ärlig kring skick</h2><div>Trovärdighet är viktigt och att en gammal bil har skavanker är inget konstigt, men ju tydligare beskrivning och mer dokumentation desto större är chansen att din bil säljs och att inga frågor uppkommer.</div><h2>Sätt inte ett för högt reservationspris</h2><div>En tumregel är att för höga reservationspriser faktiskt hämmar budgivning. Trenden visar att när reservationspriset är mött och en budgivare faktiskt har möjlighet att ropa hem objektet kommer också budgivningen igång med ett bättre slutpris som följd. Eftersom säljare på Bidders Highway inte betalar några säljavgifter kan man också överväga ett lite lägre reservationspris.</div></div><div class=\"xl:w-2/3 mt-10 lg:mt-12\"><h2 class=\"text-xl font-semibold mb-2\">0 Kommentarer</h2><div class=\"mb-16\"><span class=\"block border bg-rose-50 text-neutral-600 p-4 my-4 rounded\">Du måste vara inloggad för att kunna skriva kommentarer.</span><ul id=\"comments\"></ul></div></div></div></article><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/sv\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">Se alla våra bilauktioner</a></div></main>",
+  "links": [
+    "/sv/authors/jacob-odqvist",
+    "/sv"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "path": "/sv/posts/tipsa-oss-och-tjana-pengar",
+  "sourceUrl": "https://www.biddershighway.com/sv/posts/tipsa-oss-och-tjana-pengar",
+  "title": "Tipsa oss och tjäna pengar!",
+  "description": "Vi lanserar \"Tipstelefonen\"! Ett sätt för dig att tjäna en slant på bilar eller motorcyklar som du tipsar in till oss och som sedan säljs.",
+  "canonicalUrl": "https://www.biddershighway.com/sv/posts/tipsa-oss-och-tjana-pengar",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/posts/tip-us-off-and-earn-money"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/posts/tipsa-oss-och-tjana-pengar"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/posts/gib-uns-einen-tipp-und-verdiene-geld"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/posts/tipsa-oss-och-tjana-pengar"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pb-0 lg:px-0 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">Tipsa oss och tjäna pengar!</h1><span class=\"text-neutral-500 block mt-6\">Vi lanserar \"Tipstelefonen\"! Ett sätt för dig att tjäna en slant på bilar eller motorcyklar som du tipsar in till oss och som sedan säljs.</span><div class=\"flex mt-6\"><div class=\"mr-2\"><a href=\"/sv/authors/bidders-highway\"><img alt=\"\" class=\"rounded-full w-[48px]\" src=\"/assets/bidders-highway-63938c17.jpg\"></a></div><div><a href=\"/sv/authors/bidders-highway\" class=\"block hover:underline\">Bidders Highway</a><span class=\"block text-neutral-500 text-sm\">22 mars 2023 15:00</span></div></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/4e680abb69bb012265b7a34791213e5c\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><div>Många objekt vi får in till Bidders Highway är på rekommendation eller via nån, som känner nån, som känner nån. Detta är vi såklart tacksamma för. Att det finns supporters där ute som gillar och stödjer det vi gör. Således, mot bakgrund av detta och som ett sätt att ge tillbaka, testar vi nu ett nytt projekt under arbetsnamnet Tipstelefonen.<br><br>Här kan du som tipsare av fina objekt få möjlighet att ta del av vår säljprovision. Lite som en hittelön.<br><br>Genom att tipsa oss om ett objekt som sedan leder till en lyckad avslutad auktion delar vi med oss av 10% av vår nettoavgift till dig som tipsare.<br><br>Allt som behövs är följande:<br>– Som tipsare måste du ha ett registrerat användarnamn på Bidders Highway eftersom det är detta vi använder som referens för att du ska kunna få betalt.<br>– Objektet är lämpligt att säljas på vår plattform och håller sig till kvaliteten och urvalet av det vi för närvarande har listat.<br>-Säljaren av objektet anger ditt användarnamn när han pratar med vårt team om försäljning, alternativt att säljaren själv skickar in sitt objekt till oss och uppger ditt användarnamn som referens.<br><br><strong>Hur det fungerar?</strong><br>När en potentiell lead har tagits emot av vårt auktionsteam och noterat att det är hänvisat från dig (med ditt användarnamn), kommer vi att tagga auktionslistan när den fortskrider genom vårt system. Om det sedan blir en lyckad auktion med bekräftad försäljning över reservationspriset kommer vårt team att kontakta dig för att betala dig för ditt tips!<br><br><strong>Hur ser ersättningen ut?</strong><br>Om du hänvisar en bil som säljs för 100.000sek --&gt; Bidders Highway nettoprovision* = 6000sek --&gt; kommer tipsprovisionen att vara 600sek.<br>Om du hänvisar en bil som säljs för 1.000.000sek--&gt; Bidders Highway nettoprovision* = 60.000sek --&gt; kommer tipsprovisionen att vara 6000sek.<br><br>*Nettoprovision är slagavgiften ex moms.&nbsp;</div></div><div class=\"xl:w-2/3 mt-10 lg:mt-12\"><h2 class=\"text-xl font-semibold mb-2\">0 Kommentarer</h2><div class=\"mb-16\"><span class=\"block border bg-rose-50 text-neutral-600 p-4 my-4 rounded\">Du måste vara inloggad för att kunna skriva kommentarer.</span><ul id=\"comments\"></ul></div></div></div></article><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/sv\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">Se alla våra bilauktioner</a></div></main>",
+  "links": [
+    "/sv/authors/bidders-highway",
+    "/sv"
+  ]
+}

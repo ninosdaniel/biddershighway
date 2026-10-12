@@ -1,0 +1,34 @@
+{
+  "path": "/en/posts/masculine-and-feminine-behind-the-volvo-success-story-amazon",
+  "sourceUrl": "https://www.biddershighway.com/en/posts/masculine-and-feminine-behind-the-volvo-success-story-amazon",
+  "title": "Masculine and feminine behind the Volvo success story Amazon",
+  "description": "Over 660,000 cars built, a production period of 14 years and a name that sticks: The Jan Wilsgaard-designed Volvo Amazon marks an iconic era for the Swedish car brand.",
+  "canonicalUrl": "https://www.biddershighway.com/en/posts/masculine-and-feminine-behind-the-volvo-success-story-amazon",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/posts/masculine-and-feminine-behind-the-volvo-success-story-amazon"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/posts/manligt-och-kvinnligt-bakom-volvosuccen-amazon"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/posts/mannlich-und-weiblich-hinter-dem-volvo-erfolg-amazon"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/posts/manligt-och-kvinnligt-bakom-volvosuccen-amazon"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pb-0 lg:px-0 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">Masculine and feminine behind the Volvo success story Amazon</h1><div class=\"flex flex-wrap gap-2 mt-4\"><span class=\"inline-block text-sm px-3 py-1 border border-black rounded-full\">Featured cars</span></div><span class=\"text-neutral-500 block mt-6\">Over 660,000 cars built, a production period of 14 years and a name that sticks: The Jan Wilsgaard-designed Volvo Amazon marks an iconic era for the Swedish car brand.</span><div class=\"flex mt-6\"><div class=\"mr-2\"><a href=\"/en/authors/bidders-highway\"><img alt=\"\" class=\"rounded-full w-[48px]\" src=\"/assets/bidders-highway-63938c17.jpg\"></a></div><div><a href=\"/en/authors/bidders-highway\" class=\"block hover:underline\">Bidders Highway</a><span class=\"block text-neutral-500 text-sm\">July 19, 2023 11:00</span></div></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/9a462f81f08f34d4e318081a5ba58459\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><div>Perhaps it is the contrasts that make the Volvo Amazon so fascinating. The name itself is a blend of masculine and feminine, with the masculine in Volvo's logo and the feminine associations in the word Amazon. The Amazons were a tribe of female warriors according to Greek mythology; perhaps it was precisely this that was so appealing about the slender and skilfully designed car. The fascination with the name does not end there. During the production stage, the S was swapped for a Z, giving the spelling Amazon, and the cars exported outside Scandinavia were instead called 121 and 122. Some even refer to it as the Volvo Canadian. The estate model – the 220 series – arrived only six years after the first launch (1962) and was manufactured in 73,000 units. One of them is the fine object on Bidders Highway – a grey 1965 model, discovered by the current seller in a magazine feature.<br><br>– This one appeared in 2012 in Bilsport issue 5, he says. It was on the cover of that issue. I looked at the registration plate and tracked him down and praised his build.<br><br></div><div></div><div><br>The car had just been finished, so a sale was not relevant at that point. But they stayed in touch, and a few months later came the long-awaited call, where the builder said he might be willing to let it go.<br><br>– I wasn't looking for an ordinary car; I wanted to buy a finished one. It should preferably have a nice engine and so on. We brought it home with covered transport up to Luleå on 27 December 2012. I was active in my younger years, but now I'm an older man, and the polishing cloth has become my thing, along with the smaller details.<br><br>The Volvo Amazon stirs emotions wherever it turns up. Everyone seems to have something to say about it, or can share an Amazon-related memory.<br><br>– Among others, there was a woman in her fifties who came up and said, 'Oh, what a lovely car, was the windscreen this small when the car was new?' I replied, 'Yes, it hasn't been changed at all!' And then she asked, 'May I look inside the car?' Of course she could. She stuck her head in and said, 'Wow, it smells like Amazon!'<br><br>To round things off, the seller has a few wishes regarding the next owner: preferably someone just as meticulous as himself.<br><br>– And someone who cares for it tenderly, drives it like a precious gem and never leaves it unattended.<br><br>Want to own this national treasure? <a href=\"https://www.biddershighway.com/sv/auctions/volvo-amazon-custom\">Visit the auction page!</a></div></div><div class=\"xl:w-2/3 mt-10 lg:mt-12\"><h2 class=\"text-xl font-semibold mb-2\">0 Comments</h2><div class=\"mb-16\"><span class=\"block border bg-rose-50 text-neutral-600 p-4 my-4 rounded\">You need to be signed in in order to post comments.</span><ul id=\"comments\"></ul></div></div></div></article><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/en\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">View all our car auctions</a></div></main>",
+  "links": [
+    "/en/authors/bidders-highway",
+    "/sv/auctions/volvo-amazon-custom",
+    "/en"
+  ]
+}

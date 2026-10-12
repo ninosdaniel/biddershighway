@@ -1,0 +1,32 @@
+{
+  "path": "/de/docs/about_us",
+  "sourceUrl": "https://www.biddershighway.com/de/docs/about_us",
+  "title": "Über Bidders Highway",
+  "description": "Bidders Highway ist eine Online-Auktionsplattform für Liebhaber- und Sammlerautos, gegründet von Enthusiasten für Enthusiasten mit dem Ziel, dass es genauso...",
+  "canonicalUrl": "https://www.biddershighway.com/de/docs/about_us",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/docs/about_us"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/docs/about_us"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/docs/about_us"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/docs/about_us"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><div class=\"py-12 bg-off-white text-center\"><div class=\"container mx-auto px-4 lg:max-w-4xl\"><h1 class=\"text-3xl md:text-5xl\">Über Bidders Highway</h1></div></div><div class=\"container mx-auto px-4 lg:max-w-4xl py-12\"><div class=\"terms-body\"><p>Bidders Highway ist eine Online-Auktionsplattform für Liebhaber- und Sammlerautos, gegründet von Enthusiasten für Enthusiasten mit dem Ziel, dass es genauso viel Spaß machen soll, besondere Autos zu kaufen und zu verkaufen, wie sie zu besitzen und zu fahren.</p> <p>\n</p><p>Wir haben unseren Sitz in Stockholm, arbeiten aber mit Autos in ganz Schweden und auch international.</p>\n<p>Unsere Auktionen finden rund um die Uhr an 7 Tagen statt und es werden ständig neue Angebote eingestellt.</p>\n<p>Wir helfen Verkäufern dabei, ihre Auktionsangebote auf unserer Plattform zu dokumentieren und sie dann an potenzielle Käufer in aller Welt zu vermarkten.</p>\n</div><opt-out-controller class=\"flex gap-2\"><a href=\"#\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300\" data-opt-out-target=\"optInButton\" data-action=\"opt-out#optIn\">Cookies akzeptieren</a><a href=\"#\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-neutral-500 hover:bg-neutral-600\" data-opt-out-target=\"optOutButton\" data-action=\"opt-out#optOut\">Cookies ablehnen</a></opt-out-controller></div></main>",
+  "links": [
+    "/de/docs/about_us"
+  ]
+}

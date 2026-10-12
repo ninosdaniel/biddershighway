@@ -1,0 +1,33 @@
+{
+  "path": "/en/posts/the-italian-day-2025",
+  "sourceUrl": "https://www.biddershighway.com/en/posts/the-italian-day-2025",
+  "title": "The Italian Day 2025",
+  "description": "The annual \"Italian Day\" event, which is organized by Fiat Classic Svezia in Hässleholm on May 1st, was a real treat for anyone who likes Italian cars. Here you can find everything that the boot-shaped country has to offer in terms of cars, with everything from Fiat, Ferrari, Maserati, Lancia, Alfa Romeo and Lamborghini.",
+  "canonicalUrl": "https://www.biddershighway.com/en/posts/the-italian-day-2025",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/posts/the-italian-day-2025"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/posts/italienska-dagen-2025-1-1"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/posts/italienska-dagen-2025"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/posts/italienska-dagen-2025-1-1"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pb-0 lg:px-0 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">The Italian Day 2025</h1><div class=\"flex flex-wrap gap-2 mt-4\"><span class=\"inline-block text-sm px-3 py-1 border border-black rounded-full\">Event</span></div><span class=\"text-neutral-500 block mt-6\">The annual \"Italian Day\" event, which is organized by Fiat Classic Svezia in Hässleholm on May 1st, was a real treat for anyone who likes Italian cars. Here you can find everything that the boot-shaped country has to offer in terms of cars, with everything from Fiat, Ferrari, Maserati, Lancia, Alfa Romeo and Lamborghini.</span><div class=\"flex mt-6\"><div class=\"mr-2\"><a href=\"/en/authors/tomas-jonsson\"><img alt=\"\" class=\"rounded-full w-[48px]\" src=\"/assets/tomas-jonsson-e8f8c691.jpg\"></a></div><div><a href=\"/en/authors/tomas-jonsson\" class=\"block hover:underline\">Tomas Jönsson</a><span class=\"block text-neutral-500 text-sm\">May 02, 2025 18:00</span></div></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/a81c04e128acfb25f5cec3e009f59d77\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><p>Bidders Highway proudly posed with two Ferraris, a Maserati and a Fiat Lombardi from 1975 which will also be auctioned on our site soon! We also gave out a small prize to our own Top 3 favorites where the choice fell on a seriously dented Fiat 127, a Fiat Dino 2000 and an Alfa Romeo Montreal that has had the same owner since 1983.</p><p>We got to meet many lovely people to discuss both cars and auctions with in the lovely weather that offered summer temperatures!</p><p><strong>We look forward to coming back next year!</strong></p><p><img src=\"https://d3k81ch9hvuctc.cloudfront.net/company/VvKuFN/images/fbfd0065-7b1e-4da1-9740-63d3f13076da.jpeg\" alt=\"Italienska Dagen 2025\"></p><p><img src=\"https://d3k81ch9hvuctc.cloudfront.net/company/VvKuFN/images/e5f6c611-b300-4f51-bebf-b71cbf45f6b4.jpeg\" alt=\"Italienska Dagen 2025\"></p><p><img src=\"https://d3k81ch9hvuctc.cloudfront.net/company/VvKuFN/images/4d5f57a4-19ac-4f69-84d9-8f9e19af04bc.jpeg\" alt=\"Italienska Dagen 2025\"></p><p><img src=\"https://d3k81ch9hvuctc.cloudfront.net/company/VvKuFN/images/cf9364a8-1f78-4399-a9d7-28e87bfa0837.jpeg\" alt=\"Italienska Dagen 2025\"></p><p><img src=\"https://d3k81ch9hvuctc.cloudfront.net/company/VvKuFN/images/784f8da9-5193-4519-8023-0967c5cd8441.jpeg\" alt=\"Italienska Dagen 2025\"></p></div><div class=\"xl:w-2/3 mt-10 lg:mt-12\"><h2 class=\"text-xl font-semibold mb-2\">0 Comments</h2><div class=\"mb-16\"><span class=\"block border bg-rose-50 text-neutral-600 p-4 my-4 rounded\">You need to be signed in in order to post comments.</span><ul id=\"comments\"></ul></div></div></div></article><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/en\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">View all our car auctions</a></div></main>",
+  "links": [
+    "/en/authors/tomas-jonsson",
+    "/en"
+  ]
+}

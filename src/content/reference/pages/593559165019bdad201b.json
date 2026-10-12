@@ -1,0 +1,33 @@
+{
+  "path": "/de/posts/willkommen-fredrik",
+  "sourceUrl": "https://www.biddershighway.com/de/posts/willkommen-fredrik",
+  "title": "Willkommen Fredrik!",
+  "description": "Lassen Sie uns den neuesten Zuwachs im Redaktionsteam vorstellen, Fredrik Johansson, bei Bidders Highway. Fredrik arbeitet auch bei Bilsport & MC, der eigenen Versicherungsgesellschaft der Motorsportbegeisterten.",
+  "canonicalUrl": "https://www.biddershighway.com/de/posts/willkommen-fredrik",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/posts/welcome-fredrik"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/posts/valkommen-fredrik"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/posts/willkommen-fredrik"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/posts/valkommen-fredrik"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pb-0 lg:px-0 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">Willkommen Fredrik!</h1><span class=\"text-neutral-500 block mt-6\">Lassen Sie uns den neuesten Zuwachs im Redaktionsteam vorstellen, Fredrik Johansson, bei Bidders Highway. Fredrik arbeitet auch bei Bilsport &amp; MC, der eigenen Versicherungsgesellschaft der Motorsportbegeisterten.</span><div class=\"flex mt-6\"><div class=\"mr-2\"><a href=\"/de/authors/bidders-highway\"><img alt=\"\" class=\"rounded-full w-[48px]\" src=\"/assets/bidders-highway-63938c17.jpg\"></a></div><div><a href=\"/de/authors/bidders-highway\" class=\"block hover:underline\">Bidders Highway</a><span class=\"block text-neutral-500 text-sm\">März 31, 2023 12:30</span></div></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/275a3cad8d40b801fe40a0f5bd9c7a71\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><div>Hallo!<br><br>Zeit, mich vorzustellen. Ich heiße Fredrik und bin wahrscheinlich der älteste Zweiunddreißigjährige der Welt. Aufgewachsen in einer Garage zwischen Bussen und Taxis, erkannte ich früh, dass Fahrzeuge eine Lebensweise sind. Mein erstes Auto bekam ich im Alter von zehn Jahren, und wie viele seitdem durch meine Hände gegangen sind, müsste ich lange nachrechnen.<br><br>In den letzten Jahren habe ich mich darauf konzentriert, Autos vor ihrem Schicksal zu retten – ein Auto mit Algen oder Moos lässt bei mir den Puls steigen! Die Spontankäufe von Traktoren, schlechten Saabs oder Tjorven-Transportern sowie mein Hobby-Schrauben für den Eigenbedarf reichen selten aus. Die Zeit übrigens auch nicht…<br><br>Zukünftig werde ich einige Artikel rund um den Besitz eines Hobbyautos oder Hobby-Motorrads teilen und auch einen Einblick in den Alltag eines Motorliebhabers geben.<br><br>Wir hören und sehen uns!</div></div><div class=\"xl:w-2/3 mt-10 lg:mt-12\"><h2 class=\"text-xl font-semibold mb-2\">0 Kommentare</h2><div class=\"mb-16\"><span class=\"block border bg-rose-50 text-neutral-600 p-4 my-4 rounded\">Sie müssen eingeloggt sein um Kommentare schreiben zu können.</span><ul id=\"comments\"></ul></div></div></div></article><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/de\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">Alle unsere Autoauktionen ansehen</a></div></main>",
+  "links": [
+    "/de/authors/bidders-highway",
+    "/de"
+  ]
+}

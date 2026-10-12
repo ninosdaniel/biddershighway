@@ -1,0 +1,31 @@
+{
+  "path": "/en/docs/confirmation_sent",
+  "sourceUrl": "https://www.biddershighway.com/en/docs/confirmation_sent",
+  "title": "Confirm your E-mail",
+  "description": "Thank you for signing up! We've sent an e-mail containing a confirmation link to the address you just gave us. Please click that link in order to complete...",
+  "canonicalUrl": "https://www.biddershighway.com/en/docs/confirmation_sent",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/docs/confirmation_sent"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/docs/confirmation_sent"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/docs/confirmation_sent"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/docs/confirmation_sent"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><div class=\"py-12 bg-off-white text-center\"><div class=\"container mx-auto px-4 lg:max-w-4xl\"><h1 class=\"text-3xl md:text-5xl\">Confirm your E-mail</h1></div></div><div class=\"container mx-auto px-4 lg:max-w-4xl py-12\"><div class=\"terms-body\"><div class=\"rounded-sm bg-green-50 border border-green-300 text-neutral-800 p-4\">\n  Thank you for signing up! We've sent an e-mail containing a confirmation link to the address you just gave us. Please click that link in order to complete your registration. If you haven't received the e-mail within a minute, check your spam folder.\n</div>\n</div></div></main>",
+  "links": [],
+  "robots": "noindex, follow"
+}

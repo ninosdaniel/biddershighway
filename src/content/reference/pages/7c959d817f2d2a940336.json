@@ -1,0 +1,33 @@
+{
+  "path": "/de/posts/planst-du-einen-fahrzeugwechsel-vor-dem-fruhling",
+  "sourceUrl": "https://www.biddershighway.com/de/posts/planst-du-einen-fahrzeugwechsel-vor-dem-fruhling",
+  "title": "Planst du einen Fahrzeugwechsel vor dem Frühling?",
+  "description": "Weitere nützliche Inhalte von Bidders Highway sind unterwegs!",
+  "canonicalUrl": "https://www.biddershighway.com/de/posts/planst-du-einen-fahrzeugwechsel-vor-dem-fruhling",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/posts/planning-a-car-swap-ahead-of-spring"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/posts/planerar-du-ett-bilbyte-infor-varen?"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/posts/planst-du-einen-fahrzeugwechsel-vor-dem-fruhling"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/posts/planerar-du-ett-bilbyte-infor-varen?"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pb-0 lg:px-0 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">Planst du einen Fahrzeugwechsel vor dem Frühling?</h1><span class=\"text-neutral-500 block mt-6\">Weitere nützliche Inhalte von Bidders Highway sind unterwegs!</span><div class=\"flex mt-6\"><div class=\"mr-2\"><a href=\"/de/authors/jacob-odqvist\"><img alt=\"\" class=\"rounded-full w-[48px]\" src=\"/assets/jacob-odqvist-44be25a1.jpg\"></a></div><div><a href=\"/de/authors/jacob-odqvist\" class=\"block hover:underline\">Jacob Odqvist</a><span class=\"block text-neutral-500 text-sm\">Januar 19, 2023 16:00</span></div></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/7832d3f5f771c8eec939afc0087461f9\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><div>Willkommen zurück nach einer hoffentlich schönen Weihnachts- und Neujahrszeit. 2023 hat mit einem fulminanten Start begonnen, und wir nähern uns mit großen Schritten der Zeit des Jahres, in der die meisten Enthusiastenfahrzeuge den Besitzer wechseln.&nbsp;</div><div><br></div><div>Bei Bidders Highway sind wir ausgelastet damit, Sammlungen zu besuchen und Fahrzeuge zu fotografieren, und wir rechnen mit einem sehr spannenden Frühling. Mit diesem Gedanken im Hinterkopf werden wir in der nächsten Zeit eine Reihe von Newslettern verschicken, in denen wir uns genauer ansehen, worauf man achten sollte, wenn man plant, seine Enthusiastenfahrzeuge oder Motorräder zu verkaufen. Oder wenn man einfach einen Zuwachs in der Garage plant!</div><div><br></div><div>Wir werden künftig einfache Tipps und Ratschläge geben, die beim Verkauf wirklich einen Unterschied machen, und zudem einen genaueren Blick auf verschiedene Modelle werfen, denen wir in Bezug auf Beliebtheit und Nachfrage eine große Zukunft voraussagen.&nbsp;</div><div><br></div><div>Wir setzen unser Angebot fort, bei dem wir Verkäufern auch eine kostenlose Fotografie ihres Fahrzeugs anbieten, wenn sie sich entscheiden, im Frühling bei uns zu verkaufen.&nbsp;</div><div><br></div><div>Bleiben Sie dran, wir hören bald voneinander.</div><div><br></div><div>Das Team von Bidders Highway</div></div><div class=\"xl:w-2/3 mt-10 lg:mt-12\"><h2 class=\"text-xl font-semibold mb-2\">0 Kommentare</h2><div class=\"mb-16\"><span class=\"block border bg-rose-50 text-neutral-600 p-4 my-4 rounded\">Sie müssen eingeloggt sein um Kommentare schreiben zu können.</span><ul id=\"comments\"></ul></div></div></div></article><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/de\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">Alle unsere Autoauktionen ansehen</a></div></main>",
+  "links": [
+    "/de/authors/jacob-odqvist",
+    "/de"
+  ]
+}

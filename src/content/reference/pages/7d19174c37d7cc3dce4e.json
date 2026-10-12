@@ -1,0 +1,34 @@
+{
+  "path": "/en/posts/an-italian-beauty---alfa-romeo-2000-gtv",
+  "sourceUrl": "https://www.biddershighway.com/en/posts/an-italian-beauty---alfa-romeo-2000-gtv",
+  "title": "An Italian beauty - Alfa Romeo 2000 GTV",
+  "description": "When the Alfa Romeo 2000 GTV was launched, it marked the final evolution of the car model, building upon its predecessor, the 1750. It received a new grille, a larger engine, and more power.",
+  "canonicalUrl": "https://www.biddershighway.com/en/posts/an-italian-beauty---alfa-romeo-2000-gtv",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/posts/an-italian-beauty---alfa-romeo-2000-gtv"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/posts/en-italiensk-skonhet-alfa-romeo-2000-gtv"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/posts/eine-italienische-schonheit-alfa-romeo-2000-gtv"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/posts/en-italiensk-skonhet-alfa-romeo-2000-gtv"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pb-0 lg:px-0 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">An Italian beauty - Alfa Romeo 2000 GTV</h1><div class=\"flex flex-wrap gap-2 mt-4\"><span class=\"inline-block text-sm px-3 py-1 border border-black rounded-full\">Featured cars</span></div><span class=\"text-neutral-500 block mt-6\">When the Alfa Romeo 2000 GTV was launched, it marked the final evolution of the car model, building upon its predecessor, the 1750. It received a new grille, a larger engine, and more power.</span><div class=\"flex mt-6\"><div class=\"mr-2\"><a href=\"/en/authors/bidders-highway\"><img alt=\"\" class=\"rounded-full w-[48px]\" src=\"/assets/bidders-highway-63938c17.jpg\"></a></div><div><a href=\"/en/authors/bidders-highway\" class=\"block hover:underline\">Bidders Highway</a><span class=\"block text-neutral-500 text-sm\">September 26, 2023 13:00</span></div></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/62c656b87ac82efa738d205ea3a35bab\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><div>It's easy to get tangled up in the various designations with both numbers and model names associated with the base model 1750, which actually originates from the 105/115 series. Yes, you see.<br><br>Despite potential confusion regarding its nomenclature, there is one point on which the majority agrees: the sporty Bertone Coupé is a beauty that appears to transcend eras and trends. For the seller of this unique item on Bidders Highway, it all began with a 1750.<br><br><br><br>– I purchased my Alfa Romeo 2000 GTV in 1990, and it was my first car,\" he recalls. \"My brother had a 1750 when I was 14 years old, and I was completely captivated by it. It's the same body.<br><br>The seed had been planted. He told his brother that he would buy a similar one when he was old enough to get his driver's license.<br>– And so it happened! When I bought the car, I was still in military service and used it as a daily driver for 6-7 years.<br><br><br><br>Afterward, the decision was made to perform a complete restoration, which was easier said than done since he didn't have a garage. The renovation plans were put on hold, and life got in the way - it would be almost ten years before the restoration began.<br>– We built a house here in Falun, and suddenly we had a garage,\" he continues. \"So, we moved the car from Stockholm. And then I could start taking it apart. I've taken it completely apart. I've done everything myself except for the paint.<br><br>The body was sanded down to the metal, which then received several new coats of red paint - fitting for an Italian car.<br>– When I saw the new paint for the first time, it looked like a candy cane! It was so shiny and beautiful. And yet, the clear coat hadn't even been applied yet.<br><br><br><br>It took about two years to complete the car, and it was built entirely according to the vision he had as a child - with sports seats, a Momo steering wheel, and GTA wheels.<br>– I hope the car goes to someone who has a passion for this body style. Ideally, someone who takes over, perhaps refines it further, and maybe has a different idea of how it should look inside. Unfortunately, the car has been sitting - I want someone to take over and come up with something exciting!<br><br><a href=\"https://www.biddershighway.com/en/auctions/alfa-romeo-2000-gtv-bertone-coupe\"><strong><em>Click here to view the auction!</em></strong></a></div></div><div class=\"xl:w-2/3 mt-10 lg:mt-12\"><h2 class=\"text-xl font-semibold mb-2\">0 Comments</h2><div class=\"mb-16\"><span class=\"block border bg-rose-50 text-neutral-600 p-4 my-4 rounded\">You need to be signed in in order to post comments.</span><ul id=\"comments\"></ul></div></div></div></article><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/en\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">View all our car auctions</a></div></main>",
+  "links": [
+    "/en/authors/bidders-highway",
+    "/en/auctions/alfa-romeo-2000-gtv-bertone-coupe",
+    "/en"
+  ]
+}

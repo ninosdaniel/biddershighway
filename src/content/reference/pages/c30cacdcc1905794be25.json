@@ -1,0 +1,33 @@
+{
+  "path": "/en/posts/tip-us-off-and-earn-money",
+  "sourceUrl": "https://www.biddershighway.com/en/posts/tip-us-off-and-earn-money",
+  "title": "Tip us off and earn money!",
+  "description": "We're launching the \"Tip Line\"! A way for you to earn some cash on cars or motorcycles that you tip us off about and that are subsequently sold.",
+  "canonicalUrl": "https://www.biddershighway.com/en/posts/tip-us-off-and-earn-money",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/posts/tip-us-off-and-earn-money"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/posts/tipsa-oss-och-tjana-pengar"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/posts/gib-uns-einen-tipp-und-verdiene-geld"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/posts/tipsa-oss-och-tjana-pengar"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pb-0 lg:px-0 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">Tip us off and earn money!</h1><span class=\"text-neutral-500 block mt-6\">We're launching the \"Tip Line\"! A way for you to earn some cash on cars or motorcycles that you tip us off about and that are subsequently sold.</span><div class=\"flex mt-6\"><div class=\"mr-2\"><a href=\"/en/authors/bidders-highway\"><img alt=\"\" class=\"rounded-full w-[48px]\" src=\"/assets/bidders-highway-63938c17.jpg\"></a></div><div><a href=\"/en/authors/bidders-highway\" class=\"block hover:underline\">Bidders Highway</a><span class=\"block text-neutral-500 text-sm\">March 22, 2023 15:00</span></div></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/4e680abb69bb012265b7a34791213e5c\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><div>Many of the items we receive at Bidders Highway come through recommendations or via someone, who knows someone, who knows someone. We are of course grateful for this. That there are supporters out there who like and support what we do. Thus, with this in mind and as a way of giving back, we are now testing a new project under the working name Tip Line.<br><br>Here you, as a tipster of fine items, can get the opportunity to take part in our sales commission. A bit like a finder's fee.<br><br>By tipping us off about an item that then leads to a successfully concluded auction, we will share 10% of our net fee with you as the tipster.<br><br>All that's needed is the following:<br>– As a tipster you must have a registered username on Bidders Highway since this is what we use as a reference so that you can get paid.<br>– The item is suitable for sale on our platform and adheres to the quality and selection of what we currently have listed.<br>-The seller of the item states your username when speaking with our team about the sale, or alternatively the seller submits their item to us themselves and states your username as a reference.<br><br><strong>How does it work?</strong><br>Once a potential lead has been received by our auction team and noted as referred by you (with your username), we will tag the auction listing as it progresses through our system. If it then results in a successful auction with a confirmed sale above the reserve price, our team will contact you to pay you for your tip!<br><br><strong>What does the compensation look like?</strong><br>If you refer a car that sells for 100,000 SEK --&gt; Bidders Highway net commission* = 6,000 SEK --&gt; the tip commission will be 600 SEK.<br>If you refer a car that sells for 1,000,000 SEK --&gt; Bidders Highway net commission* = 60,000 SEK --&gt; the tip commission will be 6,000 SEK.<br><br>*Net commission is the hammer fee excluding VAT.&nbsp;</div></div><div class=\"xl:w-2/3 mt-10 lg:mt-12\"><h2 class=\"text-xl font-semibold mb-2\">0 Comments</h2><div class=\"mb-16\"><span class=\"block border bg-rose-50 text-neutral-600 p-4 my-4 rounded\">You need to be signed in in order to post comments.</span><ul id=\"comments\"></ul></div></div></div></article><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/en\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">View all our car auctions</a></div></main>",
+  "links": [
+    "/en/authors/bidders-highway",
+    "/en"
+  ]
+}

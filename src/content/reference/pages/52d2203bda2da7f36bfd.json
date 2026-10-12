@@ -1,0 +1,31 @@
+{
+  "path": "/de/docs/confirmation_sent",
+  "sourceUrl": "https://www.biddershighway.com/de/docs/confirmation_sent",
+  "title": "Bestätigen Sie Ihre E-Mail",
+  "description": "Danke fürs Anmelden! Wir haben eine E-Mail mit einem Bestätigungslink an die von Ihnen angegebene Adresse gesendet. Bitte klicken Sie auf diesen Link, um...",
+  "canonicalUrl": "https://www.biddershighway.com/de/docs/confirmation_sent",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/docs/confirmation_sent"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/docs/confirmation_sent"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/docs/confirmation_sent"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/docs/confirmation_sent"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><div class=\"py-12 bg-off-white text-center\"><div class=\"container mx-auto px-4 lg:max-w-4xl\"><h1 class=\"text-3xl md:text-5xl\">Bestätigen Sie Ihre E-Mail</h1></div></div><div class=\"container mx-auto px-4 lg:max-w-4xl py-12\"><div class=\"terms-body\"><div class=\"rounded-sm bg-green-50 border border-green-300 text-neutral-800 p-4\">\n  Danke fürs Anmelden! Wir haben eine E-Mail mit einem Bestätigungslink an die von Ihnen angegebene Adresse gesendet. Bitte klicken Sie auf diesen Link, um Ihre Registrierung abzuschließen. Wenn Sie die E-Mail nicht innerhalb einer Minute erhalten haben, überprüfen Sie Ihren Spam-Ordner.\n</div>\n</div></div></main>",
+  "links": [],
+  "robots": "noindex, follow"
+}

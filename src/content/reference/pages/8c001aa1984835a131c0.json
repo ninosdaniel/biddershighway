@@ -1,0 +1,41 @@
+{
+  "path": "/en/questions/whats-the-difference-between-a-max-bid-and-a-pre-bid_01d8db0c-871d-4e9a-93d2-9895fe7231b5",
+  "sourceUrl": "https://www.biddershighway.com/en/questions/whats-the-difference-between-a-max-bid-and-a-pre-bid_01d8db0c-871d-4e9a-93d2-9895fe7231b5",
+  "title": "What's the difference between a max bid and a pre bid?",
+  "description": "Before an auction goes live, there is always the opportunity to place a so-called advance bid on all items. This is a binding bid and will be displayed in...",
+  "canonicalUrl": "https://www.biddershighway.com/en/questions/whats-the-difference-between-a-max-bid-and-a-pre-bid_01d8db0c-871d-4e9a-93d2-9895fe7231b5",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/questions/whats-the-difference-between-a-max-bid-and-a-pre-bid_01d8db0c-871d-4e9a-93d2-9895fe7231b5"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/questions/whats-the-difference-between-a-max-bid-and-a-pre-bid_01d8db0c-871d-4e9a-93d2-9895fe7231b5"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/questions/whats-the-difference-between-a-max-bid-and-a-pre-bid_01d8db0c-871d-4e9a-93d2-9895fe7231b5"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/questions/whats-the-difference-between-a-max-bid-and-a-pre-bid_01d8db0c-871d-4e9a-93d2-9895fe7231b5"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><div class=\"bg-off-white\"><div class=\"container mx-auto px-4\"><div class=\"flex flex-wrap gap-1 mb-8 pt-8 lg:mb-16 breadcrumb\"><a href=\"/en/questions\">Home</a><i class=\"icon\">chevron_right</i><a href=\"/en/question_categories/buying\">Buying</a><i class=\"icon\">chevron_right</i><span>What's the difference between a max bid and a pre bid?</span></div><div class=\"lg:flex gap-16 mb-16\"><div class=\"lg:w-3/4\"><h1 class=\"font-serif text-5xl mb-8\">What's the difference between a max bid and a pre bid?</h1><div class=\"bg-white rounded-lg p-8 auction-body\"><p>Before an auction goes live, there is always the opportunity to place a so-called advance bid on all items. This is a binding bid and will be displayed in its total amount when the auction starts.</p><p>Maximum bids are the bids you place when the auction has gone live and mean that you enter the maximum price you want to pay for the item and let your bid be automatically increased according to the bid increase step if another bidder chooses to place a higher bid. This happens until your maximum bid is reached.</p></div></div><div class=\"lg:w-1/4 mt-8 lg:mt-0\"><h2 class=\"text-xl font-semibold mb-6\">Categories</h2><ul class=\"flex flex-wrap gap-2 lg:block\"><li><a href=\"/en/questions\" class=\"block lg:px-4 lg:py-3 font-semibold text-neutral-500 hover:text-neutral-600 transition-colors border rounded border-transparent\">All</a></li><li><a href=\"/en/question_categories/buying\" class=\"block lg:px-4 lg:py-3 font-semibold text-neutral-500 hover:text-neutral-600 transition-colors border rounded border-transparent px-2 border-black! text-black! hover:text-black!\">Buying</a></li><li><a href=\"/en/question_categories/selling\" class=\"block lg:px-4 lg:py-3 font-semibold text-neutral-500 hover:text-neutral-600 transition-colors border rounded border-transparent\">Selling</a></li><li><a href=\"/en/question_categories/bidding\" class=\"block lg:px-4 lg:py-3 font-semibold text-neutral-500 hover:text-neutral-600 transition-colors border rounded border-transparent\">Bidding</a></li><li><a href=\"/en/question_categories/documentation\" class=\"block lg:px-4 lg:py-3 font-semibold text-neutral-500 hover:text-neutral-600 transition-colors border rounded border-transparent\">Documentation</a></li><li><a href=\"/en/question_categories/account\" class=\"block lg:px-4 lg:py-3 font-semibold text-neutral-500 hover:text-neutral-600 transition-colors border rounded border-transparent\">Account</a></li><li><a href=\"/en/question_categories/payment\" class=\"block lg:px-4 lg:py-3 font-semibold text-neutral-500 hover:text-neutral-600 transition-colors border rounded border-transparent\">Payments</a></li><li><a href=\"/en/question_categories/shipping\" class=\"block lg:px-4 lg:py-3 font-semibold text-neutral-500 hover:text-neutral-600 transition-colors border rounded border-transparent\">Shipping</a></li><li><a href=\"/en/question_categories/verification\" class=\"block lg:px-4 lg:py-3 font-semibold text-neutral-500 hover:text-neutral-600 transition-colors border rounded border-transparent\">Verification</a></li></ul></div></div></div><div class=\"container mx-auto px-4 pb-16\"><div class=\"w-full p-8 bg-amber-100 rounded sm:flex justify-between items-center\"><div><h2 class=\"font-serif text-2xl sm:text-4xl mb-4\">Other questions?</h2><p class=\"text-sm sm:text-base mb-2 sm:mb-8\">You can send us an email. We'll be happy to help!</p><a href=\"mailto:support@biddershighway.com\" class=\"font-bold underline hover:text-neutral-800\">support@biddershighway.com</a></div><a href=\"mailto:support@biddershighway.com\" class=\"hidden sm:block\"><img src=\"/assets/contact-us-4411369c.svg\" alt=\"Contact us\" class=\"w-48 h-36\"></a></div></div><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/en\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">View all our car auctions</a></div></div></main>",
+  "links": [
+    "/en/questions",
+    "/en/question_categories/buying",
+    "/en/question_categories/selling",
+    "/en/question_categories/bidding",
+    "/en/question_categories/documentation",
+    "/en/question_categories/account",
+    "/en/question_categories/payment",
+    "/en/question_categories/shipping",
+    "/en/question_categories/verification",
+    "/en"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "path": "/sv/pages/who-are-we%3F",
+  "sourceUrl": "https://www.biddershighway.com/sv/pages/who-are-we%3F",
+  "title": "Vilka är vi?",
+  "description": "Vi är ett team av bilnördar, reklamare och plattformsbyggare. Med rötter i bilhandeln och erfarenhet av stora tekniska lösningar bygger vi Sveriges mest transparenta bilauktionsplattform – för entusiastbilar, samlarbilar, sportbilar och motorcyklar.",
+  "canonicalUrl": "https://www.biddershighway.com/sv/pages/who-are-we%3F",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/pages/who-are-we%3F"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/pages/who-are-we%3F"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/pages/who-are-we%3F"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/pages/who-are-we%3F"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><div class=\"bg-neutral-50 border-b\"><div class=\"container mx-auto px-4 py-3\"><nav class=\"flex items-center text-sm text-neutral-600\"><a href=\"/sv/pages\" class=\"hover:text-blue-600\">Alla sidor</a><span class=\"mx-2\">/</span><a href=\"/sv/pages/about-us\" class=\"hover:text-blue-600\">Om oss</a><span class=\"mx-2\">/</span><span class=\"text-neutral-800 font-medium\">Vilka är vi?</span></nav></div></div><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">Vilka är vi?</h1><span class=\"text-neutral-500 block mt-6\">Vi är ett team av bilnördar, reklamare och plattformsbyggare. Med rötter i bilhandeln och erfarenhet av stora tekniska lösningar bygger vi Sveriges mest transparenta bilauktionsplattform – för entusiastbilar, samlarbilar, sportbilar och motorcyklar.</span><div class=\"mt-6\"><span class=\"text-neutral-500 text-sm\">29 september 2025 12:30</span></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/b204dbab288cb25a84d999a7773069b5\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><img src=\"https://bidders-highway.fra1.digitaloceanspaces.com/fk1ch5ej8vm2sb903r39uhg5ijsq\"><p><strong>Jacob Odqvist, VD &amp; Grundare</strong></p><p>Jacob Odqvists livslånga passion för bilar och motorcyklar gjorde att han grundade Bidders Highway 2022. Med Guldägg, Guldlejon och Grand Prix från Cannes i bagaget har Jacob reklamarens fingertoppskänsla kombinerat med passionen hos en fordonsälskare som fått åka i Steve Jobs BMW Z8 i Silicon Valley och har kört Gotland Grand National på en 950 cc Dakarhoj på 200 kilo.</p><img src=\"https://bidders-highway.fra1.digitaloceanspaces.com/epgf0egdll0vs9xxf2yl2hx610by\"><p><strong>Erik Cederberg, Auktionschef</strong></p><p>Erik Cederberg är auktionschef på Bidders Highway. Erik är utan tvekan den som har köpt, sålt, kört, rejsat, och pratat mest bil i hela Sverige, någonsin. Hans meriter sträcker sig från att ta ha vunnit Carrera Pan Americana i Mexiko och American Street Car Series (2 gånger!) till att korsa Europa (ensam) i en Ferrari 456 GT när han var 17 år gammal!</p><img src=\"https://bidders-highway.fra1.digitaloceanspaces.com/s2eyzdlsk4wx6h1guvvcmgi6ihhq\"><p><strong>Johan Halse, CTO</strong></p><p>Johan är den som utvecklar sajten och ser till att allt fungerar tekniskt. Nördar kommer i många former och även om Johan alltid varit mer intresserad av datorer än bilar, så har Bidders Highway öppnat entusiastvärlden på vid gavel för honom. V50:n är såld och ersatt av en pigg liten Suzuki Jimny, och så fort leasingavtalet på elbilen löper ut så hägrar en Range Rover i framtiden.</p><img src=\"https://bidders-highway.fra1.digitaloceanspaces.com/b0wtglu54wm7sgcpqcrad9pjaqnu\"><p> <strong>Rasmus Christenssen, Auktionshandläggare</strong></p><p>Rasmus Christensen har arbetat på Bidders Highway sedan 2023. Bilintressets resa har gått från banåka i ung ålder till att kravla runt i skogen med fyrhjulsdrift och bygga lägerplatser på äldre dagar.</p><img src=\"https://bidders-highway.fra1.digitaloceanspaces.com/7pajp5u6nylz95lv81g3yvc5zsk7\"><p><strong>Tomas Jönsson, Marknadschef</strong></p><p>Tomas Jönsson är Bidders Highways marknadschef och har drivits av en skaparglädje sedan barnsben då han sprang runt med sin mormors VHS-kamera och spelade in rånarfilmer och biljakter med sina kompisar. Som vuxen har han fortsatt skapa. Som grundare av bilevenemangen Route of Sweden och Snowscape Rally är Tomas ett känt namn i bilkretsar. I garaget har Tomas en Magnus Walker-signerad 911 och en Isuzu Piazza Turbo Handling By Lotus ... Det du!</p><img src=\"https://bidders-highway.fra1.digitaloceanspaces.com/88fgln71uvgt8r4k9txc23s2du6d\"><p><strong>Jens Trulsson, Fotografering &amp; Support</strong></p><p>Egentligen vill Jens Trulsson vara racerförare, men bristen på talang och pengar har gjort att han istället har tyckt till om fordon i i svenska och internationella biltidningar i över 20 års tid. Numera hjälper han entusiaster att sälja sina fordon på auktion samt att göra provkörningsvideor på Youtube.</p></div></div><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/sv\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">Se alla våra bilauktioner</a></div></article></main>",
+  "links": [
+    "/sv/pages",
+    "/sv/pages/about-us",
+    "/sv"
+  ]
+}

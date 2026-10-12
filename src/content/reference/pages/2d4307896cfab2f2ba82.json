@@ -1,0 +1,33 @@
+{
+  "path": "/en/posts/snowscape-rally-2024-1",
+  "sourceUrl": "https://www.biddershighway.com/en/posts/snowscape-rally-2024-1",
+  "title": "Snowscape Rally 2024",
+  "description": "This year's edition of the Snowscape Rally has come to an end! Join us and the other participants on 2600 snow-covered km on some of Scandinavia's most beautiful roads!",
+  "canonicalUrl": "https://www.biddershighway.com/en/posts/snowscape-rally-2024-1",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/posts/snowscape-rally-2024-1"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/posts/snowscape-rally-2024"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/posts/snowscape-rally-2024"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/posts/snowscape-rally-2024"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pb-0 lg:px-0 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">Snowscape Rally 2024</h1><div class=\"flex flex-wrap gap-2 mt-4\"><span class=\"inline-block text-sm px-3 py-1 border border-black rounded-full\">Event</span></div><span class=\"text-neutral-500 block mt-6\">This year's edition of the Snowscape Rally has come to an end! Join us and the other participants on 2600 snow-covered km on some of Scandinavia's most beautiful roads!</span><div class=\"flex mt-6\"><div class=\"mr-2\"><a href=\"/en/authors/erik-cederberg\"><img alt=\"\" class=\"rounded-full w-[48px]\" src=\"/assets/erik-cederberg-f2835b6d.jpg\"></a></div><div><a href=\"/en/authors/erik-cederberg\" class=\"block hover:underline\">Erik Cederberg</a><span class=\"block text-neutral-500 text-sm\">February 01, 2024 13:00</span></div></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/80e5d4a08b0b8f458a98e2a9b99ef993\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><div>The Snowscape Rally is an event for car enthusiasts who really dare to use their cars, whether it's a new McLaren or a 60's Lincoln Continental with a Viper V10. What all participants have in common is precisely the interest in fun cars, driving and all the social things that arise when you spend almost a week and 2600km together.<br><br>With the above in mind, it was of course a no-brainer that Bidders Highway would not only participate in the event, but also sponsor it for the first time.<br><br><br>I myself have participated before, then in my Porsche 997 GT2 that was kitted up for winter driving, but this year I chose to go with a car that is a little more adapted for this type of driving but at the same time still very fun on curvy and snowy roads. The choice naturally fell on our Audi RS6 C5 with over 510 hp, which we also kitted out with everything from extra lights, roof box, etc. A true \"modern classic\" that behaved exemplary (almost in any case, more on that below) on everything from driving on ice, over mountain passes in blizzards and many highway miles on smooth roads with all the packing and in comfort.<br><br><br>We started in Stockholm at our friends on Strandvägen 56 with Tom Bertling in the lead, and went straight to Norway with stops in Trysil, Hemsedal, Loen, Kristiansund and then back to Åre for a 2-day finish. During the week we had activities such as ice driving, sledding, several culinary experiences, but the absolute best was of course the absolutely fantastic roads we drove. We drove through some of the most beautiful fjords, curvy mountain passages, icy plateaus that are often completely closed in winter and not least along the Atlantic coast where we also had the pleasure of driving the recognized Atlantic Road.<br><br><br>The range of cars that took part was enormous, including an Audi R8 with a twin turbo, a Lincoln Continental with a Viper V10 engine, several Porsches, a McLaren 540 and a highly modified Abarth 595, a simply blissful mix. All the cars behaved in an exemplary manner until the last day when our RS6 had charging problems and ended up being towed to the workshop. But with a little assistance in Östersund and an older car-electric guru out in the country, it was resolved quickly with a new regulator and a day later we were back on the road.<br><br><br><strong>For those of us who love to drive, and are of the opinion that even enthusiast cars deserve to be driven all year round, this is clearly one of the most fun events you can do!</strong><br><br>Find more photos and videos on Snowscape Rally's <a href=\"https://www.instagram.com/snowscaperally\"><strong>Instagram!</strong></a><br>If you're interested in participating in future events, check out <a href=\"https://www.snowscaperally.com/\"><strong>www.snowscaperally.com</strong></a>!</div></div><div class=\"xl:w-2/3 mt-10 lg:mt-12\"><h2 class=\"text-xl font-semibold mb-2\">0 Comments</h2><div class=\"mb-16\"><span class=\"block border bg-rose-50 text-neutral-600 p-4 my-4 rounded\">You need to be signed in in order to post comments.</span><ul id=\"comments\"></ul></div></div></div></article><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/en\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">View all our car auctions</a></div></main>",
+  "links": [
+    "/en/authors/erik-cederberg",
+    "/en"
+  ]
+}

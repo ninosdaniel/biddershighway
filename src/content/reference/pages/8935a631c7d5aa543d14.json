@@ -1,0 +1,33 @@
+{
+  "path": "/en/posts/german-engineering-for-the-discerning-car-enthusiast",
+  "sourceUrl": "https://www.biddershighway.com/en/posts/german-engineering-for-the-discerning-car-enthusiast",
+  "title": "German engineering for the discerning car enthusiast",
+  "description": "Possibly the ultimate enthusiast's car? It undeniably ticks several boxes when it comes to the definitive classic. Known colloquially as the \"Dallas moped\" or simply: the SL-Class. And we're not referring to Stockholm's public transport – but to Mercedes-Benz's grand tourer series.",
+  "canonicalUrl": "https://www.biddershighway.com/en/posts/german-engineering-for-the-discerning-car-enthusiast",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/posts/german-engineering-for-the-discerning-car-enthusiast"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/posts/tysk-ingenjorskonst-for-den-medvetna-bilentusiasten"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/posts/deutsche-ingenieurskunst-fur-den-bewussten-autoliebhaber"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/posts/tysk-ingenjorskonst-for-den-medvetna-bilentusiasten"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pb-0 lg:px-0 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">German engineering for the discerning car enthusiast</h1><span class=\"text-neutral-500 block mt-6\">Possibly the ultimate enthusiast's car? It undeniably ticks several boxes when it comes to the definitive classic. Known colloquially as the \"Dallas moped\" or simply: the SL-Class. And we're not referring to Stockholm's public transport – but to Mercedes-Benz's grand tourer series.</span><div class=\"flex mt-6\"><div class=\"mr-2\"><a href=\"/en/authors/bidders-highway\"><img alt=\"\" class=\"rounded-full w-[48px]\" src=\"/assets/bidders-highway-63938c17.jpg\"></a></div><div><a href=\"/en/authors/bidders-highway\" class=\"block hover:underline\">Bidders Highway</a><span class=\"block text-neutral-500 text-sm\">June 27, 2023 09:00</span></div></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/d8857b4641f2c2a4c5e50d5d04e783c6\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><div>It's hardly surprising that the SL-Class is so sought after. It has been produced since 1955 in a number of different iterations, with the R107 model being the longest-serving of them all. It was manufactured between 1971–1989 and signalled to the world that one had made it. What true happiness actually is, we'll have to get back to you on, but for the seller of this particular car, a red R107 was the coolest thing one could own.<br><br>– You remember Lucy Ewing driving around in one in the TV series Dallas, the seller recounts with a twinkle in his eye. But that hasn't really influenced me, it's more just been my interest in cars. And I've never been a fan of big, flashy American V8s, even if they can be cool in their own right.<br><br><br><br>The seller is now of retirement age, and the appeal and priorities look different today than when he bought it almost 15 years ago.<br><br>– I've enjoyed being able to put the top down and drive around in it, he continues. I haven't driven it all that much, that's mainly how I've used it. I joined the Mercedes-Benz Club and the motoring historians in Örnsköldsvik, and took part in the National Day Rally. Those moments have been memorable, and I'll never forget the restoration work on the body before the repaint.<br><br>When the time came to buy, the process was fairly smooth. He doesn't describe it as a hunt, but rather as keeping a constant eye on the market.<br><br>– I had a bit of an idea of what was coming and going, and the pricing and so on. But it wasn't an active search. Once one turned up that felt right and nice, and we agreed on it at home at the same time, we went for it.<br><br><br><br>The baton is now being passed on, preferably to a car enthusiast like himself. His interest in cars remains, however, and perhaps there could be talk of a new enthusiast's car down the line.<br><br>– It felt a bit cooler 15 years ago than it does today, he concludes. But we'll see, you never know! I'd happily see it go to someone 15–20 years younger, who has the energy and time to use it. It shouldn't stand around as decoration – this car is meant to be driven.</div></div><div class=\"xl:w-2/3 mt-10 lg:mt-12\"><h2 class=\"text-xl font-semibold mb-2\">0 Comments</h2><div class=\"mb-16\"><span class=\"block border bg-rose-50 text-neutral-600 p-4 my-4 rounded\">You need to be signed in in order to post comments.</span><ul id=\"comments\"></ul></div></div></div></article><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/en\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">View all our car auctions</a></div></main>",
+  "links": [
+    "/en/authors/bidders-highway",
+    "/en"
+  ]
+}

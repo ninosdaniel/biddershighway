@@ -1,0 +1,33 @@
+{
+  "path": "/sv/posts/varluftning",
+  "sourceUrl": "https://www.biddershighway.com/sv/posts/varluftning",
+  "title": "Vårluftning",
+  "description": "Ett värdefullt men enkelt tips inför vårens första tur!",
+  "canonicalUrl": "https://www.biddershighway.com/sv/posts/varluftning",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/posts/spring-airing"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/posts/varluftning"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/posts/fruhjahrsluftung"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/posts/varluftning"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pb-0 lg:px-0 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">Vårluftning</h1><span class=\"text-neutral-500 block mt-6\">Ett värdefullt men enkelt tips inför vårens första tur!</span><div class=\"flex mt-6\"><div class=\"mr-2\"><a href=\"/sv/authors/bidders-highway\"><img alt=\"\" class=\"rounded-full w-[48px]\" src=\"/assets/bidders-highway-63938c17.jpg\"></a></div><div><a href=\"/sv/authors/bidders-highway\" class=\"block hover:underline\">Bidders Highway</a><span class=\"block text-neutral-500 text-sm\">22 februari 2023 10:15</span></div></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/a31a4d42e563f132383ea2f73d07c371\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><div>Har inte väderapparna och kvicksilvret på fönsterkanten visat minusresultat länge nu? Var det inte snödroppar i vägkanten på väg hem från jobbet? Skulle man inte unna sig en uppstart i alla fall?&nbsp;<br><br></div><div>Det bits naglar, tittas på bilder eller kanske till och med budas på Bidders som ett substitut tills vintervilan tar slut? Men om vi tänker oss fram ett litet tag, vad tänker vi på när det är dags att dra igång pärlan igen? Här listar vi några av de viktigaste tipsen inför vårmönstringen!<br><br></div><div>Kan väl inleda med att vi själv sällan eller aldrig gör något av detta med våra bilar, förutom en sak!&nbsp;<br><br></div><div>”Lukta och lyssna” – oavsett om du hänger på pluspolen på batteriet efter vintern eller hänger dit ett nytt batteri på ladugårds fyndet är det viktigt att lyssna och lukta. Luktar det bränt? Fräser något? Två ljud som snabbt kan sätta eld på alla dina drömmar. Verkar allt lugnt kan vi gå vidare till att se över alla slangar och kopplingar i motorrummet, läcker det mer än i höstas? Något nytt?&nbsp;<br><br></div><div>Slå på tändningen och lyssna lite till, låter bränslepumpen (om du har en elektrisk historia). Vrid om nyckeln nu, lyssna och förhoppningsvis hoppar hon igång. Nu kikar vi igen, läcker något? Bensin är aldrig bra om det läcker. Låt henne stå på tomgång en stund och håll ögonen öppna. Sedan ska vi unna oss att få i växel, dra lite i handbromsen. Upp och ner ett par gånger, pumpa lite på kopplingspedalen.&nbsp;<br><br></div><div>I med växel och rulla ut! Var den så här dålig i höstas verkligen? Nja, kanske. Men oftast krävs det några kilometer innan allt börjar funka igen, däcken blir rundare och alla vätskor värms upp. Kanske funkar halva elsystemet vid start men efter en tur till macken funkar allt. Det är charm mina vänner.<br><br></div><div>Dags att tvätta och byta olja nu? Dammsuga och vaxa? Nu är säsongen igång 😊</div></div><div class=\"xl:w-2/3 mt-10 lg:mt-12\"><h2 class=\"text-xl font-semibold mb-2\">0 Kommentarer</h2><div class=\"mb-16\"><span class=\"block border bg-rose-50 text-neutral-600 p-4 my-4 rounded\">Du måste vara inloggad för att kunna skriva kommentarer.</span><ul id=\"comments\"></ul></div></div></div></article><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/sv\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">Se alla våra bilauktioner</a></div></main>",
+  "links": [
+    "/sv/authors/bidders-highway",
+    "/sv"
+  ]
+}

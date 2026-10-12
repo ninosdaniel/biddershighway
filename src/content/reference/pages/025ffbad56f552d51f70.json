@@ -1,0 +1,33 @@
+{
+  "path": "/de/pages/safety-and-security-at-bidders-highway",
+  "sourceUrl": "https://www.biddershighway.com/de/pages/safety-and-security-at-bidders-highway",
+  "title": "Sicherheit und Vertrauen bei Bidders Highway",
+  "description": "Sichere, überwachte Auktionen mit verifizierten Bietern. Hunderte Fahrzeuge vermittelt. Verbindliche Bedingungen für Käufer und Verkäufer.",
+  "canonicalUrl": "https://www.biddershighway.com/de/pages/safety-and-security-at-bidders-highway",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/pages/safety-and-security-at-bidders-highway"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/pages/safety-and-security-at-bidders-highway"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/pages/safety-and-security-at-bidders-highway"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/pages/safety-and-security-at-bidders-highway"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><div class=\"bg-neutral-50 border-b\"><div class=\"container mx-auto px-4 py-3\"><nav class=\"flex items-center text-sm text-neutral-600\"><a href=\"/de/pages\" class=\"hover:text-blue-600\">Alle Seiten</a></nav></div></div><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">Sicherheit und Vertrauen bei Bidders Highway</h1><span class=\"text-neutral-500 block mt-6\">Sichere, überwachte Auktionen mit verifizierten Bietern. Hunderte Fahrzeuge vermittelt. Verbindliche Bedingungen für Käufer und Verkäufer.</span><div class=\"mt-6\"><span class=\"text-neutral-500 text-sm\">September 30, 2025 09:00</span></div></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><p><span style=\"color: rgb(0, 0, 0);\">Der Kauf oder Verkauf über Bidders Highway soll sich immer sicher anfühlen. Unser Geschäftsmodell ist darauf ausgelegt, Käufern und Verkäufern von der ersten Kontaktaufnahme bis zum Abschluss des Geschäfts Vertrauen zu geben.</span></p><p><span style=\"color: rgb(0, 0, 0);\">Jeder Bieter wird mit BankID oder Kreditkarte verifiziert. So stellen wir sicher, dass nur seriöse und identifizierte Personen an den Auktionen teilnehmen. Alle Verkäufer werden vor Beginn einer Auktion persönlich von uns kontaktiert, damit sowohl der Verkäufer als auch das Objekt unseren Anforderungen entsprechen.</span></p><p><span style=\"color: rgb(0, 0, 0);\">Alle Auktionen werden von unserem Team überwacht, um faire und transparente Gebote zu gewährleisten. Käufer erhalten Zugang zu hunderten Fotos jedes Objekts, oft mit detaillierten Beschreibungen, sodass fundierte Entscheidungen vor dem Bieten möglich sind.</span></p><p><span style=\"color: rgb(0, 0, 0);\">Nach Abschluss einer Auktion gelten verbindliche Verträge gemäß unseren Bedingungen für Käufer und Verkäufer. Das schafft Sicherheit und Verlässlichkeit für alle Beteiligten. Sollte dennoch etwas schiefgehen, stehen wir unterstützend zur Seite.</span></p><p><span style=\"color: rgb(0, 0, 0);\">Wir haben bereits Hunderte von Fahrzeugen erfolgreich vermittelt, die ein neues Zuhause gefunden haben. Unser Ruf ist eines unserer wichtigsten Güter, und wir setzen alles daran, ihn mit jeder Transaktion weiter zu stärken.</span></p><p><span style=\"color: rgb(0, 0, 0);\">Bei Bidders Highway sind Sicherheit und Transparenz selbstverständlich. Unser Ziel ist, dass sich jeder Kunde heute und in Zukunft sicher fühlt.</span></p></div></div><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/de\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">Alle unsere Autoauktionen ansehen</a></div></article></main>",
+  "links": [
+    "/de/pages",
+    "/de"
+  ]
+}

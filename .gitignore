@@ -1,3 +1,11 @@
 node_modules
 dist
+.next
+public/__deployment/
+coverage
+supabase/.temp/
+supabase/.branches/
 .DS_Store
+.env
+.env.*
+!.env.example

@@ -1,0 +1,33 @@
+{
+  "path": "/de/posts/fruhjahrsluftung",
+  "sourceUrl": "https://www.biddershighway.com/de/posts/fruhjahrsluftung",
+  "title": "Frühjahrslüftung",
+  "description": "Ein wertvoller, aber einfacher Tipp vor der ersten Ausfahrt des Frühlings!",
+  "canonicalUrl": "https://www.biddershighway.com/de/posts/fruhjahrsluftung",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/posts/spring-airing"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/posts/varluftning"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/posts/fruhjahrsluftung"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/posts/varluftning"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pb-0 lg:px-0 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">Frühjahrslüftung</h1><span class=\"text-neutral-500 block mt-6\">Ein wertvoller, aber einfacher Tipp vor der ersten Ausfahrt des Frühlings!</span><div class=\"flex mt-6\"><div class=\"mr-2\"><a href=\"/de/authors/bidders-highway\"><img alt=\"\" class=\"rounded-full w-[48px]\" src=\"/assets/bidders-highway-63938c17.jpg\"></a></div><div><a href=\"/de/authors/bidders-highway\" class=\"block hover:underline\">Bidders Highway</a><span class=\"block text-neutral-500 text-sm\">Februar 22, 2023 10:15</span></div></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/a31a4d42e563f132383ea2f73d07c371\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><div>Haben die Wetter-Apps und das Quecksilber auf der Fensterbank nicht schon seit einer Weile Minusgrade angezeigt? Gab es nicht schon Schneeglöckchen am Straßenrand auf dem Heimweg von der Arbeit? Sollte man sich nicht trotzdem eine Inbetriebnahme gönnen?&nbsp;<br><br></div><div>Da wird an den Nägeln gekaut, Bilder angeschaut oder vielleicht sogar auf Bidders geboten, als Ersatz, bis die Winterruhe vorbei ist? Aber wenn wir ein kleines Stück vorausdenken, woran denken wir, wenn es Zeit ist, das Juwel wieder zum Leben zu erwecken? Hier listen wir einige der wichtigsten Tipps für die Frühjahrsmusterung auf!<br><br></div><div>Wir können damit beginnen, dass wir selbst mit unseren Autos selten oder nie etwas von alldem machen, außer einer Sache!&nbsp;<br><br></div><div>„Riechen und Horchen“ – egal ob Sie nach dem Winter den Pluspol an der Batterie anschließen oder eine neue Batterie an den Scheunenfund hängen, es ist wichtig zu horchen und zu riechen. Riecht es verbrannt? Zischt etwas? Zwei Geräusche, die schnell alle Ihre Träume in Flammen aufgehen lassen können. Scheint alles ruhig, können wir weitermachen und alle Schläuche und Anschlüsse im Motorraum überprüfen – tropft mehr als im Herbst? Etwas Neues?&nbsp;<br><br></div><div>Schalten Sie die Zündung ein und horchen Sie noch etwas, klingt die Kraftstoffpumpe richtig (wenn Sie eine elektrische Variante haben)? Drehen Sie nun den Schlüssel, horchen Sie, und hoffentlich springt sie an. Nun schauen wir wieder nach, tropft etwas? Benzin ist nie gut, wenn es leckt. Lassen Sie sie eine Weile im Leerlauf stehen und behalten Sie alles im Auge. Dann gönnen wir uns, einen Gang einzulegen, ziehen etwas an der Handbremse. Ein paar Mal hoch und runter, etwas auf das Kupplungspedal pumpen.&nbsp;<br><br></div><div>Gang rein und losrollen! War sie im Herbst wirklich so schlecht? Na ja, vielleicht. Aber meistens braucht es ein paar Kilometer, bevor alles wieder funktioniert, die Reifen runder werden und alle Flüssigkeiten sich erwärmen. Vielleicht funktioniert beim Start nur die Hälfte der Elektrik, aber nach einer Fahrt zur Tankstelle funktioniert alles. Das ist der Charme, meine Freunde.<br><br></div><div>Zeit zum Waschen und Ölwechsel jetzt? Staubsaugen und Wachsen? Die Saison ist jetzt eröffnet 😊</div></div><div class=\"xl:w-2/3 mt-10 lg:mt-12\"><h2 class=\"text-xl font-semibold mb-2\">0 Kommentare</h2><div class=\"mb-16\"><span class=\"block border bg-rose-50 text-neutral-600 p-4 my-4 rounded\">Sie müssen eingeloggt sein um Kommentare schreiben zu können.</span><ul id=\"comments\"></ul></div></div></div></article><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/de\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">Alle unsere Autoauktionen ansehen</a></div></main>",
+  "links": [
+    "/de/authors/bidders-highway",
+    "/de"
+  ]
+}

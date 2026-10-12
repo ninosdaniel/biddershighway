@@ -1,0 +1,33 @@
+{
+  "path": "/en/posts/a-german-tuning-firm-with-roots-in-motorsport",
+  "sourceUrl": "https://www.biddershighway.com/en/posts/a-german-tuning-firm-with-roots-in-motorsport",
+  "title": "A German tuning firm with roots in motorsport",
+  "description": "What happens if you take an engine from a larger BMW and put it into a smaller BMW? This was the philosophy of the German tuning firm Hartge. And the result? Raw and unique cars, primarily based on BMW's model range. Eventually, tuning was also offered for MINI, Juno Racing Cars and Range Rover.",
+  "canonicalUrl": "https://www.biddershighway.com/en/posts/a-german-tuning-firm-with-roots-in-motorsport",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/posts/a-german-tuning-firm-with-roots-in-motorsport"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/posts/en-tysk-trimningsfirma-med-rotter-i-motorsporten"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/posts/eine-deutsche-tuningfirma-mit-wurzeln-im-motorsport"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/posts/en-tysk-trimningsfirma-med-rotter-i-motorsporten"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pb-0 lg:px-0 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">A German tuning firm with roots in motorsport</h1><span class=\"text-neutral-500 block mt-6\">What happens if you take an engine from a larger BMW and put it into a smaller BMW? This was the philosophy of the German tuning firm Hartge. And the result? Raw and unique cars, primarily based on BMW's model range. Eventually, tuning was also offered for MINI, Juno Racing Cars and Range Rover.</span><div class=\"flex mt-6\"><div class=\"mr-2\"><a href=\"/en/authors/bidders-highway\"><img alt=\"\" class=\"rounded-full w-[48px]\" src=\"/assets/bidders-highway-63938c17.jpg\"></a></div><div><a href=\"/en/authors/bidders-highway\" class=\"block hover:underline\">Bidders Highway</a><span class=\"block text-neutral-500 text-sm\">May 31, 2023 10:00</span></div></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/035abd43806bebd6c25cb4fd6cb5593d\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><div>The car we have up on the site now is no exception: a Hartge H35-24, which is based on a BMW E30 325i. A fun piece of trivia is that this very car was put to the test in Biltidningen Car in 1986, pitted against the corresponding M3, as well as the Alpina B6 2.8. That says something about its performance.<br><br>The firm's full name is Herbert Hartge GmbH &amp; Co. KG and it was founded in 1971 in the German town of Merzig, right next to the French border. Three years later, the firm moved to larger premises in the nearby village of Beckingen, where it remained until it was wound down as late as 2019.<br><br><br><br></div><div>Co-founder and racing driver Herbert Hartge was himself a BMW enthusiast and active in circuit racing with various modified BMW models in the 1970s, such as the 1602, 2002, 320 and 635 CSi. Today, the tuning firm's upgraded BMW cars are considered among the hottest and most unique out there, especially for those seeking something a little more exclusive.<br><br></div><div>In 1985, the firm was approved as its own vehicle manufacturer by the German equivalent of the Swedish Transport Agency, whereupon a hands-on inspection by Hartge himself meant that the cars leaving the factory in Beckingen were assigned their own chassis number, and were designated as official Hartge cars.<br><br><br><br><br></div></div><div class=\"xl:w-2/3 mt-10 lg:mt-12\"><h2 class=\"text-xl font-semibold mb-2\">0 Comments</h2><div class=\"mb-16\"><span class=\"block border bg-rose-50 text-neutral-600 p-4 my-4 rounded\">You need to be signed in in order to post comments.</span><ul id=\"comments\"></ul></div></div></div></article><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/en\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">View all our car auctions</a></div></main>",
+  "links": [
+    "/en/authors/bidders-highway",
+    "/en"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "path": "/en/posts/an-exciting-broadening-of-our-range",
+  "sourceUrl": "https://www.biddershighway.com/en/posts/an-exciting-broadening-of-our-range",
+  "title": "An exciting broadening of our range",
+  "description": "More horsepower as Bidders Highway welcomes race cars and enthusiast builds!",
+  "canonicalUrl": "https://www.biddershighway.com/en/posts/an-exciting-broadening-of-our-range",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/posts/an-exciting-broadening-of-our-range"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/posts/en-spannande-breddning-av-vart-utbud"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/posts/eine-spannende-erweiterung-unseres-angebots"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/posts/en-spannande-breddning-av-vart-utbud"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pb-0 lg:px-0 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">An exciting broadening of our range</h1><span class=\"text-neutral-500 block mt-6\">More horsepower as Bidders Highway welcomes race cars and enthusiast builds!</span><div class=\"flex mt-6\"><div class=\"mr-2\"><a href=\"/en/authors/bidders-highway\"><img alt=\"\" class=\"rounded-full w-[48px]\" src=\"/assets/bidders-highway-63938c17.jpg\"></a></div><div><a href=\"/en/authors/bidders-highway\" class=\"block hover:underline\">Bidders Highway</a><span class=\"block text-neutral-500 text-sm\">March 28, 2023 12:35</span></div></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/d298cf2b65f12c5b49879075df740250\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><div><strong>More horsepower as Bidders Highway welcomes race cars and enthusiast builds!</strong><br><br>We, like many others, feel that modified cars and competition vehicles also deserve a professional marketplace.<br><br>It's hard to have missed that Bidders Highway has become synonymous with cars and motorcycles of the slightly more unique kind. Our ambition remains to be the marketplace for enthusiasts within the vehicle hobby, and what could be more fitting than to take a closer look at competition vehicles and pure special builds.<br><br>The team at Bidders Highway has extensive experience with exactly this type of object, which makes us a suitable player to take on vehicles that might otherwise have been difficult to both document and market properly elsewhere. We will of course continue with motorcycles, classics and everything in between.<br><br>We can also announce that we have begun a collaboration with <a href=\"https://www.804meter.com/\"><strong>804Meter.com</strong></a>, who every year arrange fast-paced events at closed airfields around the country where brave drivers get the chance to show what their creations can do in an organised setting. A real speed festival where we hope to see many of the objects again at auction with us.<br><br>The first event for 2023 takes place on 13 May in Hultsfred, and we hope to see several of you there!<br><br>/The Bidders Highway Team</div></div><div class=\"xl:w-2/3 mt-10 lg:mt-12\"><h2 class=\"text-xl font-semibold mb-2\">0 Comments</h2><div class=\"mb-16\"><span class=\"block border bg-rose-50 text-neutral-600 p-4 my-4 rounded\">You need to be signed in in order to post comments.</span><ul id=\"comments\"></ul></div></div></div></article><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/en\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">View all our car auctions</a></div></main>",
+  "links": [
+    "/en/authors/bidders-highway",
+    "/en"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "path": "/en/pages/contact-us",
+  "sourceUrl": "https://www.biddershighway.com/en/pages/contact-us",
+  "title": "Contact us",
+  "description": "Here you will find information on how to most easily get in touch with the right person at Bidders Highway. Choose the right contact method and we will help you faster.",
+  "canonicalUrl": "https://www.biddershighway.com/en/pages/contact-us",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/pages/contact-us"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/pages/contact-us"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/pages/contact-us"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/pages/contact-us"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><div class=\"bg-neutral-50 border-b\"><div class=\"container mx-auto px-4 py-3\"><nav class=\"flex items-center text-sm text-neutral-600\"><a href=\"/en/pages\" class=\"hover:text-blue-600\">All Pages</a><span class=\"mx-2\">/</span><a href=\"/en/pages/about-us\" class=\"hover:text-blue-600\">About us</a><span class=\"mx-2\">/</span><span class=\"text-neutral-800 font-medium\">Contact us</span></nav></div></div><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">Contact us</h1><span class=\"text-neutral-500 block mt-6\">Here you will find information on how to most easily get in touch with the right person at Bidders Highway. Choose the right contact method and we will help you faster.</span><div class=\"mt-6\"><span class=\"text-neutral-500 text-sm\">September 28, 2025 13:00</span></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/ddd4f59c048eb65d68d9570e814d12f2\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><h2><b>Customer Service &amp; Support</b></h2><p>For questions about accounts, bidding, auctions, viewing requests or verification.</p><p>Email: <b><i><a href=\"mailto:support@biddershighway.com\">support@biddershighway.com</a></i></b></p><h2><span style=\"font-size: 16px; font-family: &quot;Inter var&quot;, ui-sans-serif, system-ui, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;;\">Tip: many common questions are answered in our <b><a href=\"https://www.biddershighway.com/en/questions\">FAQ.</a><br><br></b></span></h2><h2><b>Finance &amp; Payments</b></h2><p>Invoice and payment questions, commissions, receipts and payments.</p><p>Email: <b><i><a href=\"mailto:ekonomi@biddershighway.com\">ekonomi@biddershighway.com</a></i></b></p><h2 style=\"margin-bottom: 12px; line-height: 1.2;\"><b>Press &amp; Media</b></h2><p style=\"margin-bottom: 12px; line-height: 1.2;\"><font face=\"Inter var, ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji\"><span style=\"font-size: 16px;\">Interviews and media inquiries.<br></span></font><font face=\"Inter var, ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji\"><span style=\"font-weight: inherit;\"><br>Contact: </span></font><i style=\"font-weight: inherit;\"><b><a href=\"mailto:jacob.odqvist@biddershighway.com\">jacob.odqvist@biddershighway.com</a></b></i></p><p style=\"margin-bottom: 12px; line-height: 1.2;\"><b><br></b></p><p style=\"margin-bottom: 12px; line-height: 1.2;\"><b>We can provide:</b></p><p></p><ul><li>Press kit with logos (PNG/SVG), graphic profile and product/screenshots.</li><li>Team and environment photos and short company boilerplate.</li><li>Market data: bid statistics, valuation trends, export shares etc. for the Swedish and Nordic market.</li><li>Quotes and background from the team/representatives.</li></ul><p></p></div></div><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/en\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">View all our car auctions</a></div></article></main>",
+  "links": [
+    "/en/pages",
+    "/en/pages/about-us",
+    "/en/questions",
+    "/en"
+  ]
+}

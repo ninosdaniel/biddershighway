@@ -1,0 +1,33 @@
+{
+  "path": "/en/posts/the-photography",
+  "sourceUrl": "https://www.biddershighway.com/en/posts/the-photography",
+  "title": "The Photography",
+  "description": "Simple tips for getting the most out of your photography",
+  "canonicalUrl": "https://www.biddershighway.com/en/posts/the-photography",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/posts/the-photography"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/posts/fotograferingen"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/posts/das-fotografieren"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/posts/fotograferingen"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pb-0 lg:px-0 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">The Photography</h1><span class=\"text-neutral-500 block mt-6\">Simple tips for getting the most out of your photography</span><div class=\"flex mt-6\"><div class=\"mr-2\"><a href=\"/en/authors/bidders-highway\"><img alt=\"\" class=\"rounded-full w-[48px]\" src=\"/assets/bidders-highway-63938c17.jpg\"></a></div><div><a href=\"/en/authors/bidders-highway\" class=\"block hover:underline\">Bidders Highway</a><span class=\"block text-neutral-500 text-sm\">January 20, 2023 12:09</span></div></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/540505038e6027185a963a24a5e87894\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><div>Once you have decided to sell your car, we are there to help. At Bidders Highway you can choose to photograph your car yourself and will of course get free access to our photo guide. But taking over 100 detailed, good pictures can be difficult if you are not used to it, so we are happy to put you in touch with one of our photographers who specialise in exactly this type of car. They are located all over the country and we help you book an appointment.</div><div><br></div><div>Even if you don't take the pictures yourself, there is a lot you as a seller can do to make them extra good. Here are some tips.</div><div><br></div><div><strong>Preparation</strong>&nbsp;</div><div>Investing an extra hour in preparing your car or motorcycle for photography is incredibly effective and important. Make sure you have ticked off the points below before the photographer arrives, and the pictures will be better and the photo shoot will run more smoothly.&nbsp;</div><div><br></div><div><strong>Clean</strong> <strong>car</strong></div><div>Make sure your car is properly washed. All dirt and debris will show up in the pictures, and we recommend going a step further than a simple home wash and actually going for a full detailing. This pays off in the long run and makes a big difference to the pictures. The cleaning should cover the exterior, interior, and don't forget the engine bay.</div><div><br></div><div><strong>Photo location</strong></div><div>Photographing a car in its proper environment enhances the feeling and the car's personality. Before the photographer arrives, we recommend thinking ahead and finding a nice spot where the car can stand out while also providing a nice setting. If the car is not drivable, make sure instead that the location where it will be photographed is clean and tidy.</div><div><br></div><div><strong>Documentation and spare parts</strong></div><div>Being able to present documentation, old photos, receipts and keys in pictures gives a significantly better overall impression.</div><div><br></div><div><strong>Time</strong></div><div>It's good not to be in a hurry. Expect a thorough photo shoot to take about 2 hours.&nbsp;</div></div><div class=\"xl:w-2/3 mt-10 lg:mt-12\"><h2 class=\"text-xl font-semibold mb-2\">0 Comments</h2><div class=\"mb-16\"><span class=\"block border bg-rose-50 text-neutral-600 p-4 my-4 rounded\">You need to be signed in in order to post comments.</span><ul id=\"comments\"></ul></div></div></div></article><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/en\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">View all our car auctions</a></div></main>",
+  "links": [
+    "/en/authors/bidders-highway",
+    "/en"
+  ]
+}

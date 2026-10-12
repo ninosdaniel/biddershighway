@@ -1,0 +1,34 @@
+{
+  "path": "/en/posts/the-dentists-choice-bmc-austin-cooper",
+  "sourceUrl": "https://www.biddershighway.com/en/posts/the-dentists-choice-bmc-austin-cooper",
+  "title": "The dentists choice, BMC Austin Cooper",
+  "description": "If you missed the moment back in the 60s on purchasing a new Mini, here is your chance!",
+  "canonicalUrl": "https://www.biddershighway.com/en/posts/the-dentists-choice-bmc-austin-cooper",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/posts/the-dentists-choice-bmc-austin-cooper"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/posts/tandlakare-kindbergs-val-bmc-austin-cooper"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/posts/die-wahl-von-zahnarztin-kindberg-bmc-austin-cooper"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/posts/tandlakare-kindbergs-val-bmc-austin-cooper"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pb-0 lg:px-0 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">The dentists choice, BMC Austin Cooper</h1><div class=\"flex flex-wrap gap-2 mt-4\"><span class=\"inline-block text-sm px-3 py-1 border border-black rounded-full\">Featured cars</span></div><span class=\"text-neutral-500 block mt-6\">If you missed the moment back in the 60s on purchasing a new Mini, here is your chance!</span><div class=\"flex mt-6\"><div class=\"mr-2\"><a href=\"/en/authors/bidders-highway\"><img alt=\"\" class=\"rounded-full w-[48px]\" src=\"/assets/bidders-highway-63938c17.jpg\"></a></div><div><a href=\"/en/authors/bidders-highway\" class=\"block hover:underline\">Bidders Highway</a><span class=\"block text-neutral-500 text-sm\">January 13, 2024 14:00</span></div></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/8f69d6e32d59ceda86f0a3c88cea6062\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><div>The year is 1965 and the world is in a turbulent time to say the least. The media is dominated by the Vietnam War and riots in the States. In Sweden, the Rolling Stones arouse complete hysteria when they give a concert in a fully packed Royal Tennis Hall in Stockholm and outside the Earth's atmosphere, Edward H. White becomes the first American to do a spacewalk. An exciting time to say the least!<br><br>In the midst of all the stormy happenings, a modest BMC Austin Cooper is delivered to Södra Järnvägsgatan 23 in Växjö late afternoon. Motorbolaget Växjö was located in the premises at the address and the import of the car was handled by British Leyland. The car was bought by dentist Kerstin Kindberg who used it as a means of transport for many years. The lady's son had a classmate from school who had eyes for the car and later bought it. The buyer is the current owner of this Mini and that makes the car's history both accessible and fun for potential new buyers to learn about. If you are interested in looking at the car, you will find it <a href=\"https://www.biddershighway.com/en/auctions/austin-cooper\"><strong>here</strong></a>.<br><br><br>The car in question has been completely renovated during 2016 and today looks like new, if not even better! The condition is exceptionally good and can probably be said to be better than when it was delivered to the first owner. In classic green with period correct Minilite rims and an incredibly appealing and fun interior in green, the car is an incredible piece of motoring history! The car comes with a large amount of history, both in documentation but above all because the current owner has had the car since 1978! He can certainly tell countless stories about the car and memories from the years as an owner.<br><br>As examples of accompanying curiosities, the original receipt from the purchase remains, the sign mounted by the company that sold the car and a lot of other things from, among other things, the renovation. I could write countless lines about how incredible the condition is, but I suggest you go in and take a look at the car!<br><br><a href=\"https://www.biddershighway.com/en/auctions/austin-cooper\"><strong>Click here to view the auction!</strong></a><strong> </strong><br><br></div></div><div class=\"xl:w-2/3 mt-10 lg:mt-12\"><h2 class=\"text-xl font-semibold mb-2\">0 Comments</h2><div class=\"mb-16\"><span class=\"block border bg-rose-50 text-neutral-600 p-4 my-4 rounded\">You need to be signed in in order to post comments.</span><ul id=\"comments\"></ul></div></div></div></article><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/en\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">View all our car auctions</a></div></main>",
+  "links": [
+    "/en/authors/bidders-highway",
+    "/en/auctions/austin-cooper",
+    "/en"
+  ]
+}

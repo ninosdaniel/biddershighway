@@ -1,0 +1,33 @@
+{
+  "path": "/de/posts/wir-feiern-heute-unseren-1-geburtstag",
+  "sourceUrl": "https://www.biddershighway.com/de/posts/wir-feiern-heute-unseren-1-geburtstag",
+  "title": "Wir feiern heute unseren 1. Geburtstag!",
+  "description": "Ein großes Dankeschön an unsere Kunden, Follower, Leser und das Team hinter Bidders Highway!",
+  "canonicalUrl": "https://www.biddershighway.com/de/posts/wir-feiern-heute-unseren-1-geburtstag",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/posts/were-celebrating-our-1st-anniversary-today"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/posts/vi-firar-1-ar-idag"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/posts/wir-feiern-heute-unseren-1-geburtstag"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/posts/vi-firar-1-ar-idag"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pb-0 lg:px-0 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">Wir feiern heute unseren 1. Geburtstag!</h1><span class=\"text-neutral-500 block mt-6\">Ein großes Dankeschön an unsere Kunden, Follower, Leser und das Team hinter Bidders Highway!</span><div class=\"flex mt-6\"><div class=\"mr-2\"><a href=\"/de/authors/jacob-odqvist\"><img alt=\"\" class=\"rounded-full w-[48px]\" src=\"/assets/jacob-odqvist-44be25a1.jpg\"></a></div><div><a href=\"/de/authors/jacob-odqvist\" class=\"block hover:underline\">Jacob Odqvist</a><span class=\"block text-neutral-500 text-sm\">März 01, 2023 14:10</span></div></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/0f9fbc0da17f25accd37259a0125d5e1\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><div>Heute vor einem Jahr haben wir mit zitterndem Finger den Startknopf für das gedrückt, was heute Bidders Highway ist. Würde es funktionieren, würden wir Autos bekommen, würde sich überhaupt jemand dafür interessieren?<br><br>Die Antwort auf alle drei Fragen ist ein lautes - <strong>JA!</strong><br><br>Obwohl unsere Umwelt auf alle möglichen Arten auf und ab war, hat das erste Jahr von Bidders Highway unsere Erwartungen bei Weitem übertroffen. Absolut fantastisch. Wir sind so unglaublich glücklich und dankbar für eure Unterstützung, euer Engagement und eure wunderbaren Autos und Motorräder.\n\nWir sind gekommen, um zu bleiben, jetzt kommen die Stützräder ab und wir versprechen euch einen Frühling mit wirklich tollen Objekten. Also bleibt dran.<br>Nichts davon wäre ohne euch, unsere Follower, möglich gewesen.<br><br>Natürlich möchte ich auch die Gelegenheit nutzen, um dem hart arbeitenden Team hinter Bidders Highway einen besonderen Dank auszusprechen.<br><br>Ihr seid fantastisch!<br><br>Mit freundlichen Grüßen,<br>Jacob Odqvist<br>CEO/Gründer&nbsp;<br><br>Bidders Highway</div></div><div class=\"xl:w-2/3 mt-10 lg:mt-12\"><h2 class=\"text-xl font-semibold mb-2\">0 Kommentare</h2><div class=\"mb-16\"><span class=\"block border bg-rose-50 text-neutral-600 p-4 my-4 rounded\">Sie müssen eingeloggt sein um Kommentare schreiben zu können.</span><ul id=\"comments\"></ul></div></div></div></article><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/de\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">Alle unsere Autoauktionen ansehen</a></div></main>",
+  "links": [
+    "/de/authors/jacob-odqvist",
+    "/de"
+  ]
+}

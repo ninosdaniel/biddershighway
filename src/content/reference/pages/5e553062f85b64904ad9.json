@@ -1,0 +1,33 @@
+{
+  "path": "/de/posts/gib-uns-einen-tipp-und-verdiene-geld",
+  "sourceUrl": "https://www.biddershighway.com/de/posts/gib-uns-einen-tipp-und-verdiene-geld",
+  "title": "Gib uns einen Tipp und verdiene Geld!",
+  "description": "Wir starten die \"Tipp-Hotline\"! Eine Möglichkeit für dich, etwas Geld zu verdienen mit Autos oder Motorrädern, die du uns meldest und die anschließend verkauft werden.",
+  "canonicalUrl": "https://www.biddershighway.com/de/posts/gib-uns-einen-tipp-und-verdiene-geld",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/posts/tip-us-off-and-earn-money"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/posts/tipsa-oss-och-tjana-pengar"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/posts/gib-uns-einen-tipp-und-verdiene-geld"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/posts/tipsa-oss-och-tjana-pengar"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pb-0 lg:px-0 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">Gib uns einen Tipp und verdiene Geld!</h1><span class=\"text-neutral-500 block mt-6\">Wir starten die \"Tipp-Hotline\"! Eine Möglichkeit für dich, etwas Geld zu verdienen mit Autos oder Motorrädern, die du uns meldest und die anschließend verkauft werden.</span><div class=\"flex mt-6\"><div class=\"mr-2\"><a href=\"/de/authors/bidders-highway\"><img alt=\"\" class=\"rounded-full w-[48px]\" src=\"/assets/bidders-highway-63938c17.jpg\"></a></div><div><a href=\"/de/authors/bidders-highway\" class=\"block hover:underline\">Bidders Highway</a><span class=\"block text-neutral-500 text-sm\">März 22, 2023 15:00</span></div></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/4e680abb69bb012265b7a34791213e5c\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><div>Viele der Objekte, die wir bei Bidders Highway erhalten, kommen durch Empfehlungen oder über jemanden, der jemanden kennt, der jemanden kennt. Dafür sind wir natürlich dankbar. Dass es da draußen Unterstützer gibt, die mögen und fördern, was wir tun. Vor diesem Hintergrund und als eine Art, etwas zurückzugeben, testen wir nun ein neues Projekt unter dem Arbeitstitel Tipp-Hotline.<br><br>Hier hast du als Tippgeber für feine Objekte die Möglichkeit, an unserer Verkaufsprovision teilzuhaben. Ein bisschen wie ein Finderlohn.<br><br>Indem du uns einen Tipp zu einem Objekt gibst, der dann zu einer erfolgreich abgeschlossenen Auktion führt, teilen wir 10% unserer Nettogebühr mit dir als Tippgeber.<br><br>Alles, was benötigt wird, ist Folgendes:<br>– Als Tippgeber musst du einen registrierten Benutzernamen bei Bidders Highway haben, da wir diesen als Referenz verwenden, damit du bezahlt werden kannst.<br>– Das Objekt eignet sich für den Verkauf auf unserer Plattform und entspricht der Qualität und Auswahl dessen, was wir derzeit gelistet haben.<br>-Der Verkäufer des Objekts gibt deinen Benutzernamen an, wenn er mit unserem Team über den Verkauf spricht, oder alternativ reicht der Verkäufer sein Objekt selbst bei uns ein und gibt deinen Benutzernamen als Referenz an.<br><br><strong>Wie funktioniert es?</strong><br>Sobald ein potenzieller Lead von unserem Auktionsteam empfangen und als von dir vermittelt notiert wurde (mit deinem Benutzernamen), werden wir das Auktionsinserat markieren, während es unser System durchläuft. Wenn es dann zu einer erfolgreichen Auktion mit bestätigtem Verkauf über dem Mindestpreis kommt, wird unser Team dich kontaktieren, um dich für deinen Tipp zu bezahlen!<br><br><strong>Wie sieht die Vergütung aus?</strong><br>Wenn du ein Auto vermittelst, das für 100.000 SEK verkauft wird --&gt; Bidders Highway Nettoprovision* = 6.000 SEK --&gt; beträgt die Tippprovision 600 SEK.<br>Wenn du ein Auto vermittelst, das für 1.000.000 SEK verkauft wird --&gt; Bidders Highway Nettoprovision* = 60.000 SEK --&gt; beträgt die Tippprovision 6.000 SEK.<br><br>*Die Nettoprovision ist die Zuschlagsgebühr exklusive Mehrwertsteuer.&nbsp;</div></div><div class=\"xl:w-2/3 mt-10 lg:mt-12\"><h2 class=\"text-xl font-semibold mb-2\">0 Kommentare</h2><div class=\"mb-16\"><span class=\"block border bg-rose-50 text-neutral-600 p-4 my-4 rounded\">Sie müssen eingeloggt sein um Kommentare schreiben zu können.</span><ul id=\"comments\"></ul></div></div></div></article><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/de\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">Alle unsere Autoauktionen ansehen</a></div></main>",
+  "links": [
+    "/de/authors/bidders-highway",
+    "/de"
+  ]
+}

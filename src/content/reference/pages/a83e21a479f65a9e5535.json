@@ -1,0 +1,33 @@
+{
+  "path": "/en/posts/it-hardly-gets-better-than-with-a-mustang-fastback",
+  "sourceUrl": "https://www.biddershighway.com/en/posts/it-hardly-gets-better-than-with-a-mustang-fastback",
+  "title": "It hardly gets better than with a Mustang Fastback",
+  "description": "As a model, the Ford Mustang has a solid history. It has been part of Ford's model range since 1964 and is set to be launched in its seventh generation during 2024. Everyone's favourite \"pony car\" doesn't seem to be bowing out anytime soon…",
+  "canonicalUrl": "https://www.biddershighway.com/en/posts/it-hardly-gets-better-than-with-a-mustang-fastback",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/posts/it-hardly-gets-better-than-with-a-mustang-fastback"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/posts/det-blir-knappast-battre-an-med-en-mustang-fastback"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/posts/besser-als-mit-einem-mustang-fastback-geht-es-kaum"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/posts/det-blir-knappast-battre-an-med-en-mustang-fastback"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pb-0 lg:px-0 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">It hardly gets better than with a Mustang Fastback</h1><div class=\"flex flex-wrap gap-2 mt-4\"><span class=\"inline-block text-sm px-3 py-1 border border-black rounded-full\">Featured cars</span></div><span class=\"text-neutral-500 block mt-6\">As a model, the Ford Mustang has a solid history. It has been part of Ford's model range since 1964 and is set to be launched in its seventh generation during 2024. Everyone's favourite \"pony car\" doesn't seem to be bowing out anytime soon…</span><div class=\"flex mt-6\"><div class=\"mr-2\"><a href=\"/en/authors/bidders-highway\"><img alt=\"\" class=\"rounded-full w-[48px]\" src=\"/assets/bidders-highway-63938c17.jpg\"></a></div><div><a href=\"/en/authors/bidders-highway\" class=\"block hover:underline\">Bidders Highway</a><span class=\"block text-neutral-500 text-sm\">June 16, 2023 09:30</span></div></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/2842e4c75b54df7d9dd5d18dcf356748\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><div>The object here is a Ford Mustang Fastback from 1967. We had a chat with the seller to hear more about his experiences with it. The car was purchased as a restoration project from a dealer he had known for a while.<br>– I've been into this pretty much since I became an adult, the seller tells us. I had my first Mustang when I was 19, and soon I'll turn 64. The idea was that I wouldn't have more than the most recent one I bought. But then there was one more…<br><br>Over the years, he has owned a total of four Mustangs. He brought the \"sixty-seven\" home in 2006, after which a complete restoration got underway. Just over ten years later, the car was finished, with many exciting experiences along the way.<br>– It basically arrived in pieces, he continues. Every single screw has been loosened. I've sourced parts both here at home and travelled to the USA.<br><br><br><br>All the parts are available – getting them home, however, has proven easier said than done. On one occasion, he was met by a broken-into suitcase on the baggage carousel after a trip.<br>– There was a red note in the bag, they had opened it and checked whether it was a missile or something similar! The brake booster has that shape…<br><br>He also had to throw away a brand new power steering cylinder at the airport in the USA, as security refused to let it through.<br>– I wasn't allowed to bring it on the plane because it was coated in grease. 3,000 kronor in a trash can at the airport in Atlanta!<br><br><br><br>The car has been fully restored to its original specification, with the exception of the interior. According to the Marti Report, this example rolled out of the factory with a black interior.<br>– But I'm not fond of black interiors, so I changed the colour. The interior colour also determines the stripes on the exterior, which became Maroon Red, which is also an original colour.<br><br>The seller goes on to say that the countdown to retirement has begun. A caravan was purchased a few years ago, and a move with his wife is on the horizon. That's why it's also time to sell off<br>the cars to new, hopeful owners.<br><br></div></div><div class=\"xl:w-2/3 mt-10 lg:mt-12\"><h2 class=\"text-xl font-semibold mb-2\">0 Comments</h2><div class=\"mb-16\"><span class=\"block border bg-rose-50 text-neutral-600 p-4 my-4 rounded\">You need to be signed in in order to post comments.</span><ul id=\"comments\"></ul></div></div></div></article><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/en\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">View all our car auctions</a></div></main>",
+  "links": [
+    "/en/authors/bidders-highway",
+    "/en"
+  ]
+}

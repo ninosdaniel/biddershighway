@@ -1,0 +1,33 @@
+{
+  "path": "/de/posts/das-fotografieren",
+  "sourceUrl": "https://www.biddershighway.com/de/posts/das-fotografieren",
+  "title": "Das Fotografieren",
+  "description": "Einfache Tipps, um das Beste aus Ihrer Fotografie herauszuholen",
+  "canonicalUrl": "https://www.biddershighway.com/de/posts/das-fotografieren",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/posts/the-photography"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/posts/fotograferingen"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/posts/das-fotografieren"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/posts/fotograferingen"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pb-0 lg:px-0 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">Das Fotografieren</h1><span class=\"text-neutral-500 block mt-6\">Einfache Tipps, um das Beste aus Ihrer Fotografie herauszuholen</span><div class=\"flex mt-6\"><div class=\"mr-2\"><a href=\"/de/authors/bidders-highway\"><img alt=\"\" class=\"rounded-full w-[48px]\" src=\"/assets/bidders-highway-63938c17.jpg\"></a></div><div><a href=\"/de/authors/bidders-highway\" class=\"block hover:underline\">Bidders Highway</a><span class=\"block text-neutral-500 text-sm\">Januar 20, 2023 12:09</span></div></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/540505038e6027185a963a24a5e87894\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><div>Sobald Sie sich entschieden haben, Ihr Auto zu verkaufen, sind wir da, um zu helfen. Bei Bidders Highway können Sie Ihr Auto selbst fotografieren und erhalten dafür natürlich kostenlosen Zugang zu unserem Fotoleitfaden. Aber über 100 detaillierte, gute Bilder aufzunehmen kann schwierig sein, wenn man es nicht gewohnt ist. Deshalb bringen wir Sie gerne mit einem unserer Fotografen in Kontakt, die sich genau auf diese Art von Bildern spezialisiert haben. Sie sind im ganzen Land tätig, und wir helfen Ihnen bei der Buchung.</div><div><br></div><div>Auch wenn man die Bilder nicht selbst aufnimmt, gibt es viel, was man als Verkäufer tun kann, damit sie besonders gut werden. Hier sind einige Tipps.</div><div><br></div><div><strong>Vorbereitung</strong>&nbsp;</div><div>Eine zusätzliche Stunde in die Vorbereitung Ihres Autos oder Motorrads für die Fotografie zu investieren, ist unglaublich effektiv und wichtig. Stellen Sie sicher, dass Sie die untenstehenden Punkte abgehakt haben, bevor der Fotograf eintrifft, dann werden die Bilder besser und das Fotografieren läuft reibungsloser ab.&nbsp;</div><div><br></div><div><strong>Sauberes</strong> <strong>Auto</strong></div><div>Stellen Sie sicher, dass Ihr Auto gründlich gewaschen ist. Jeglicher Schmutz und Abfall ist auf den Bildern zu sehen, und wir empfehlen, einen Schritt weiter zu gehen als eine einfache Handwäsche und tatsächlich eine vollständige Aufbereitung vorzunehmen. Das zahlt sich langfristig aus und macht einen großen Unterschied bei den Bildern. Die Reinigung sollte Außenbereich, Innenraum umfassen, und vergessen Sie den Motorraum nicht.</div><div><br></div><div><strong>Fotostandort</strong></div><div>Ein Auto in seiner passenden Umgebung zu fotografieren verstärkt das Gefühl und die Persönlichkeit des Autos. Bevor der Fotograf eintrifft, empfehlen wir, sich im Voraus Gedanken zu machen und einen schönen Ort zu finden, an dem das Auto hervorstechen kann und gleichzeitig einen schönen Rahmen bietet. Falls das Auto nicht fahrbereit ist, sorgen Sie stattdessen dafür, dass der Ort, an dem es fotografiert werden soll, sauber und ordentlich ist.</div><div><br></div><div><strong>Dokumentation und Ersatzteile</strong></div><div>Wenn man Dokumentation, alte Fotos, Quittungen und Schlüssel auf Bildern präsentieren kann, verbessert das den Gesamteindruck erheblich.</div><div><br></div><div><strong>Zeit</strong></div><div>Es ist gut, es nicht eilig zu haben. Rechnen Sie damit, dass ein ausführliches Fotoshooting etwa 2 Stunden dauert.&nbsp;</div></div><div class=\"xl:w-2/3 mt-10 lg:mt-12\"><h2 class=\"text-xl font-semibold mb-2\">0 Kommentare</h2><div class=\"mb-16\"><span class=\"block border bg-rose-50 text-neutral-600 p-4 my-4 rounded\">Sie müssen eingeloggt sein um Kommentare schreiben zu können.</span><ul id=\"comments\"></ul></div></div></div></article><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/de\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">Alle unsere Autoauktionen ansehen</a></div></main>",
+  "links": [
+    "/de/authors/bidders-highway",
+    "/de"
+  ]
+}

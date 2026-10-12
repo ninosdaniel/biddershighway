@@ -1,0 +1,33 @@
+{
+  "path": "/de/posts/tipps-zum-verkauf-ihres-autos",
+  "sourceUrl": "https://www.biddershighway.com/de/posts/tipps-zum-verkauf-ihres-autos",
+  "title": "Tipps zum Verkauf Ihres Autos",
+  "description": "Was macht ein Auto auf dem Markt attraktiv? Hier sind einige Tipps von uns, um die Chancen für Ihr Objekt zu erhöhen.",
+  "canonicalUrl": "https://www.biddershighway.com/de/posts/tipps-zum-verkauf-ihres-autos",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/posts/tips-for-selling-your-car"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/posts/tips-om-man-vill-salja-sin-bil"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/posts/tipps-zum-verkauf-ihres-autos"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/posts/tips-om-man-vill-salja-sin-bil"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pb-0 lg:px-0 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">Tipps zum Verkauf Ihres Autos</h1><div class=\"flex flex-wrap gap-2 mt-4\"><span class=\"inline-block text-sm px-3 py-1 border border-black rounded-full\">Anleitungen</span></div><span class=\"text-neutral-500 block mt-6\">Was macht ein Auto auf dem Markt attraktiv? Hier sind einige Tipps von uns, um die Chancen für Ihr Objekt zu erhöhen.</span><div class=\"flex mt-6\"><div class=\"mr-2\"><a href=\"/de/authors/jacob-odqvist\"><img alt=\"\" class=\"rounded-full w-[48px]\" src=\"/assets/jacob-odqvist-44be25a1.jpg\"></a></div><div><a href=\"/de/authors/jacob-odqvist\" class=\"block hover:underline\">Jacob Odqvist</a><span class=\"block text-neutral-500 text-sm\">Juni 21, 2022 14:00</span></div></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/601bf33b5beeea5f43ecb47d378aca27\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><h2>Behalten Sie die Kommentare im Auge</h2><div>Jedes Objekt hat ein eigenes Kommentarfeld, in dem eingeloggte Bieter Rückfragen stellen können. Wir empfehlen, dass jeder Verkäufer während der Auktion täglich hineinschaut und antwortet. Man erhält natürlich eine Benachrichtigung, wenn es nötig ist, und je schneller und ausführlicher die Antwort, desto größer die Chance auf Gebote.</div><h2>Sauberes Auto vor dem Fotografieren</h2><div>Das mag selbstverständlich klingen, aber tatsächlich sind es größtenteils die Fotos, die das Auto verkaufen. Ein leichtes Abwischen reicht meist nicht aus — damit 150+ Bilder wirklich ihre Wirkung entfalten, braucht das Auto eine gründliche Wäsche, innen und außen. Am besten von einem Profi. In diesem Zusammenhang ist das ein kleiner Aufwand, um die besten Voraussetzungen für den Verkauf Ihres Autos zu schaffen.</div><h2>Je mehr Infos, desto besseres Bieten</h2><div>Vor dem Interview und der Fotografie: Sorgen Sie dafür, dass so viel Dokumentation, Zusatzschlüssel und eventuelles Zubehör bereit liegen. Je mehr dokumentiert werden kann, desto attraktiver wird Ihr Objekt.</div><h2>Seien Sie ehrlich über den Zustand</h2><div>Glaubwürdigkeit ist wichtig, und es ist nichts Ungewöhnliches, dass ein älteres Auto Gebrauchsspuren hat, aber je klarer die Beschreibung und je mehr Dokumentation vorhanden ist, desto größer ist die Chance, dass Ihr Auto verkauft wird und keine Fragen aufkommen.</div><h2>Setzen Sie keinen zu hohen Mindestpreis</h2><div>Eine Faustregel besagt, dass ein zu hoher Mindestpreis das Bieten tatsächlich hemmt. Der Trend zeigt, dass, sobald der Mindestpreis erreicht ist und ein Bieter tatsächlich die Möglichkeit hat, das Objekt zu ersteigern, auch das Bieten in Gang kommt, was zu einem besseren Endpreis führt. Da Verkäufer bei Bidders Highway keine Verkäufergebühren zahlen, können Sie auch einen etwas niedrigeren Mindestpreis in Erwägung ziehen.</div></div><div class=\"xl:w-2/3 mt-10 lg:mt-12\"><h2 class=\"text-xl font-semibold mb-2\">0 Kommentare</h2><div class=\"mb-16\"><span class=\"block border bg-rose-50 text-neutral-600 p-4 my-4 rounded\">Sie müssen eingeloggt sein um Kommentare schreiben zu können.</span><ul id=\"comments\"></ul></div></div></div></article><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/de\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">Alle unsere Autoauktionen ansehen</a></div></main>",
+  "links": [
+    "/de/authors/jacob-odqvist",
+    "/de"
+  ]
+}

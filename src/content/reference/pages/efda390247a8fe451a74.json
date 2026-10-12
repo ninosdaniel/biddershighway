@@ -1,0 +1,33 @@
+{
+  "path": "/en/posts/the-ceo-has-the-floor---november",
+  "sourceUrl": "https://www.biddershighway.com/en/posts/the-ceo-has-the-floor---november",
+  "title": "The CEO has the floor - November",
+  "description": "November is going down in history as our strongest month to date, with a sell-through rate that has sometimes reached 90%. That’s amazing, but perhaps not a coincidence. What we’re seeing happen right now is what happens when sellers really start to understand – and exploit – the full potential of the auction format.",
+  "canonicalUrl": "https://www.biddershighway.com/en/posts/the-ceo-has-the-floor---november",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/posts/the-ceo-has-the-floor---november"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/posts/vdn-har-ordet---november"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/posts/der-ceo-hat-das-wort-november"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/posts/vdn-har-ordet---november"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pb-0 lg:px-0 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">The CEO has the floor - November</h1><div class=\"flex flex-wrap gap-2 mt-4\"><span class=\"inline-block text-sm px-3 py-1 border border-black rounded-full\">Jacob's takes</span></div><span class=\"text-neutral-500 block mt-6\">November is going down in history as our strongest month to date, with a sell-through rate that has sometimes reached 90%. That’s amazing, but perhaps not a coincidence. What we’re seeing happen right now is what happens when sellers really start to understand – and exploit – the full potential of the auction format.</span><div class=\"flex mt-6\"><div class=\"mr-2\"><a href=\"/en/authors/jacob-odqvist\"><img alt=\"\" class=\"rounded-full w-[48px]\" src=\"/assets/jacob-odqvist-44be25a1.jpg\"></a></div><div><a href=\"/en/authors/jacob-odqvist\" class=\"block hover:underline\">Jacob Odqvist</a><span class=\"block text-neutral-500 text-sm\">November 28, 2025 12:00</span></div></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/bc9a025b993bf8012319f353ce99be17\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><h3>Classified ad or auction – what's the difference?</h3><p>Many who have previously sold through classified ads are used to setting a high price. They expect a margin of bargaining. The problem is that this price often does not reflect the market's actual willingness to pay. It is more of a wish than a valuation. Often taken from other classified ads - which also only show what sellers want, not what someone has actually paid.&nbsp;</p><p>An auction works completely differently - and this is where the strategic key lies. We do not set a visible starting price, but work with a hidden reserve price - or none at all. The crucial thing is that this price must never be set too high. Too high reservation levels stifle engagement, close the door to bidding and cause the auction to lose momentum. On the other hand, if you set a lower reserve price, you open up for active bidding - which almost always leads to a higher final price. It is a simple but powerful rule of thumb: lower reserve price = more paid.&nbsp;</p><p><b>For this to work, of course, a strong bidding base is required - and we have that at Bidders Highway.</b></p><p><img src=\"https://bidders-highway.fra1.digitaloceanspaces.com/wzekx5axurfzztdf70i4ppk95ebp\"></p><h2><p>When, where and how</p></h2><p>Another important difference is the time frame. A classified ad is out until further notice – often for months without closing. An auction is concentrated. It has a deadline. It creates focus and pressure. It becomes a deal. So no, we are not disparaging classified ads. But we want to highlight how different these two forms of sales actually are. Auction sales require a different mindset, but those who learn to play with the format – instead of against it – often get better pay, faster deals and above all: the right buyer. And that, my friends, is why we are seeing so many successful deals right now.</p><p><strong>By the pen and the mallet</strong></p><img src=\"https://bidders-highway.fra1.digitaloceanspaces.com/2e520wywzpp7t638bh5ygi406j8g\"><p><strong>Jacob Odqvist, CEO Bidders Highway</strong></p></div><div class=\"xl:w-2/3 mt-10 lg:mt-12\"><h2 class=\"text-xl font-semibold mb-2\">0 Comments</h2><div class=\"mb-16\"><span class=\"block border bg-rose-50 text-neutral-600 p-4 my-4 rounded\">You need to be signed in in order to post comments.</span><ul id=\"comments\"></ul></div></div></div></article><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/en\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">View all our car auctions</a></div></main>",
+  "links": [
+    "/en/authors/jacob-odqvist",
+    "/en"
+  ]
+}

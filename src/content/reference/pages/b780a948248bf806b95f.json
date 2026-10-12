@@ -1,0 +1,33 @@
+{
+  "path": "/sv/posts/brutala-byggen-omskrivna-i-bilsport",
+  "sourceUrl": "https://www.biddershighway.com/sv/posts/brutala-byggen-omskrivna-i-bilsport",
+  "title": "Brutala byggen omskrivna i Bilsport!",
+  "description": "Två riktigt spännande bilar uppe på auktion som tidigare fått sina alldeles egna artiklar i kända tidningen Bilsport!",
+  "canonicalUrl": "https://www.biddershighway.com/sv/posts/brutala-byggen-omskrivna-i-bilsport",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/posts/brutal-builds-covered-by-bilsport-magazine"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/posts/brutala-byggen-omskrivna-i-bilsport"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/posts/brutale-bauten-vorgestellt-in-bilsport"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/posts/brutala-byggen-omskrivna-i-bilsport"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pb-0 lg:px-0 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">Brutala byggen omskrivna i Bilsport!</h1><span class=\"text-neutral-500 block mt-6\">Två riktigt spännande bilar uppe på auktion som tidigare fått sina alldeles egna artiklar i kända tidningen Bilsport!</span><div class=\"flex mt-6\"><div class=\"mr-2\"><a href=\"/sv/authors/rasmus-christensen\"><img alt=\"\" class=\"rounded-full w-[48px]\" src=\"/assets/rasmus-christensen-51a88c90.jpg\"></a></div><div><a href=\"/sv/authors/rasmus-christensen\" class=\"block hover:underline\">Rasmus Christensen</a><span class=\"block text-neutral-500 text-sm\"> 4 juli 2024 10:00</span></div></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/59cd97a1384b14ff2fcc90bcd7fcd6bd\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><p>Få svenska bilentusiaster har missat de otaliga reportage Bilsport skrivit om balla bilar byggda i vårt långa land. Första avsnittet av Bilsport släpptes redan 1962 och även om tidningen fram till 1974 inriktade sig på tävlingsresultat och statistik från månadens rally- och bantävlingar, snarare än reportage från bilbyggares garage.</p> <p><br></p> <p>Att få ett reportage skrivet om bilen av gänget på Bilsport-redaktionen har alltid varit ett tecken på att det man skapat faller fler i smaken. Vi på Bidders Highway har haft flertalet ”Bilsport-bilar” ute på auktion, bland annat en mycket uppskattad grön Volvo 244 V8 som delades hej-vilt på webben innan den avslutade auktionen på ca. 160.000kr. Vi har även haft äran att få auktionera ut Leif Tufvessons otroliga Chevrolet G10 Sportsvan som medverkade i Bilsport. Den stannade på imponerande 960.000kr i slutbud.</p> <p><br></p> <p>I skrivande stund har vi två ”Bilsport-bilar” ute på sajten. Bägge är mycket spännande byggen och den ena sticker ut mer än den andra. Bilbyggare verkar dock vid ett tillfälle eller ett annat tänkt ”om inte tillverkaren tänker bygga den här bilen får jag väl göra det själv”.</p> <p><br></p> <p>Först ut är en hissnande ball Ford Escort från 1970 som breddats och fått något så perfekt som en Sierra Sapphire Cosworth-maskin nedtryck under motorhuven. Fokus för bygget är kvalité och tillräcklig prestanda, men framför allt hållbarhet. Med sin låga vikt om ca. 1050kg och en maskin som klarar att ladda 1.5-bar är prestandan ett faktum. Detta är ett perfekt exemplar för dig som tycker att Mike Costin och Keith Duckworth fokuserade allt för mycket på F1 på det färgglada 70- talet.</p> <p><br></p> <p>Bil nummer två är på sitt sätt ännu mer hissnande än Escorten. En körglad och inspirerad individ fick vid ett tillfälle för sig att sko-horna ned en 5.3-liter V8 i bakluckan på en Porsche 912 från 1965, en bil som från början är högst osportig, även om den satte standarden för en av världens mest brukbara sportbilar. Med över 400hk och en ordentlig V8 över bakvagnen skjuter på det något hiskeligt ut ur kurvorna, har vi fått höra. Man undrar förstås vad Ingenjör Ferdinand Porsche hade sagt om bygget?</p> <p><br></p> <p>Pricken över I:het på bägge dessa fantastiska maskiner är att dem självklart är besiktigade, godkända och helt gatlegala i sina nuvarande utföranden!</p></div><div class=\"xl:w-2/3 mt-10 lg:mt-12\"><h2 class=\"text-xl font-semibold mb-2\">0 Kommentarer</h2><div class=\"mb-16\"><span class=\"block border bg-rose-50 text-neutral-600 p-4 my-4 rounded\">Du måste vara inloggad för att kunna skriva kommentarer.</span><ul id=\"comments\"></ul></div></div></div></article><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/sv\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">Se alla våra bilauktioner</a></div></main>",
+  "links": [
+    "/sv/authors/rasmus-christensen",
+    "/sv"
+  ]
+}

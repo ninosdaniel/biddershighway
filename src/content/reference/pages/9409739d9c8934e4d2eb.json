@@ -1,0 +1,34 @@
+{
+  "path": "/en/posts/the-ultimate-post-car-with-an-exciting-history",
+  "sourceUrl": "https://www.biddershighway.com/en/posts/the-ultimate-post-car-with-an-exciting-history",
+  "title": "The ultimate “post car” with an exciting history",
+  "description": "An unusual, unique and fully restored Dart Swinger in top condition!",
+  "canonicalUrl": "https://www.biddershighway.com/en/posts/the-ultimate-post-car-with-an-exciting-history",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/posts/the-ultimate-post-car-with-an-exciting-history"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/posts/den-ultimata-”stolpebilen”-med-en-spannande-historik"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/posts/das-ultimative-saulenauto-mit-einer-spannenden-geschichte"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/posts/den-ultimata-”stolpebilen”-med-en-spannande-historik"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pb-0 lg:px-0 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">The ultimate “post car” with an exciting history</h1><div class=\"flex flex-wrap gap-2 mt-4\"><span class=\"inline-block text-sm px-3 py-1 border border-black rounded-full\">Featured cars</span></div><span class=\"text-neutral-500 block mt-6\">An unusual, unique and fully restored Dart Swinger in top condition!</span><div class=\"flex mt-6\"><div class=\"mr-2\"><a href=\"/en/authors/bidders-highway\"><img alt=\"\" class=\"rounded-full w-[48px]\" src=\"/assets/bidders-highway-63938c17.jpg\"></a></div><div><a href=\"/en/authors/bidders-highway\" class=\"block hover:underline\">Bidders Highway</a><span class=\"block text-neutral-500 text-sm\">August 11, 2023 14:00</span></div></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/94c9cfc5d5852938ff74aa63a5735a3c\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><div>Take a perfectly ordinary passenger car, remove two doors and crank up the engine. A successful concept that has proven itself time and again over the years. The Dodge Dart Swinger 340 is no exception.&nbsp;</div><div><br></div><div>This was a car that, in its day, targeted a more price-conscious clientele. It was priced a bit better than, for example, the Chevrolet Nova SS, which was one of the model's main competitors, along with cars like the Mercury Comet and Oldsmobile Omega. The Swinger 340 package meant that the Dart got, among other things, a small block V8 good for 275 horsepower, dual exhausts and upgraded suspension. <br><br></div><div><br></div><div>The owner of the item on Bidders Highway has a long history with American cars, especially somewhat less common models.&nbsp;</div><div>– I bought a 1959 Dodge Custom Sierra D500 a few years ago, which had been sitting since 1974 at a scrapyard in California, he says. It's an incredibly odd car, made in about 200 examples, a station wagon.</div><div><br></div><div>After a while with the station wagon he felt he wanted a bit more power, a bit more muscle. This marked the start of a ten-year hunt. He went and looked at a bunch of Darts, most of which were pretty run-down once you actually came to see the cars.&nbsp;</div><div>– And then this one turned up after nearly ten years, last summer in an ad in Dalsland, he continues. I knew right away that I had to have this one, with the color combination and everything. For some reason I apparently always buy cars with brown interiors! It's not what I'm primarily looking for, I have to say, but for some reason it tends to turn out that way…<br><br></div><div><br></div><div>Now it's time to let the car move on. And he himself plans to take on a project he doesn't need to be quite as careful with.&nbsp;</div><div>– That's why I'm selling it, I would never have sold it otherwise! I realized that this car is really too nice for me. As a buyer, I picture the 60-year-old man and his wife, maybe even a retired couple, who love going on long drives, because it's as reliable as can be. And you still have this power that's in the 340. The engine is brutal.</div><div><br></div><div>An interesting bit of trivia is that the car was bought new by a soldier heading to Vietnam, who unfortunately never made it home to drive the car.&nbsp;</div><div>– I'm always moved by the fallen soldier who never got to drive it, he concludes. It's something I always carry with me when I'm out on a drive.<br><br><a href=\"https://www.biddershighway.com/sv/auctions/dodge-dart-swinger-340\"><strong><em>Click here to go to the auction!</em></strong></a> <br><br></div><div><br></div></div><div class=\"xl:w-2/3 mt-10 lg:mt-12\"><h2 class=\"text-xl font-semibold mb-2\">0 Comments</h2><div class=\"mb-16\"><span class=\"block border bg-rose-50 text-neutral-600 p-4 my-4 rounded\">You need to be signed in in order to post comments.</span><ul id=\"comments\"></ul></div></div></div></article><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/en\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">View all our car auctions</a></div></main>",
+  "links": [
+    "/en/authors/bidders-highway",
+    "/sv/auctions/dodge-dart-swinger-340",
+    "/en"
+  ]
+}

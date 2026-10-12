@@ -1,0 +1,33 @@
+{
+  "path": "/en/posts/lotus-esprit---one-of-the-most-iconic-wedge-cars-of-all-time",
+  "sourceUrl": "https://www.biddershighway.com/en/posts/lotus-esprit---one-of-the-most-iconic-wedge-cars-of-all-time",
+  "title": "Lotus Esprit - one of the most iconic wedge cars of all time",
+  "description": "A fantastic specimen up for auction!",
+  "canonicalUrl": "https://www.biddershighway.com/en/posts/lotus-esprit---one-of-the-most-iconic-wedge-cars-of-all-time",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/posts/lotus-esprit---one-of-the-most-iconic-wedge-cars-of-all-time"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/posts/lotus-esprit-–-en-av-tidernas-mest-igenkannliga-sa-kallade-kilbilar-"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/posts/lotus-esprit-einer-der-unverwechselbarsten-sogenannten-keilautos-aller-zeiten"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/posts/lotus-esprit-–-en-av-tidernas-mest-igenkannliga-sa-kallade-kilbilar-"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pb-0 lg:px-0 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">Lotus Esprit - one of the most iconic wedge cars of all time</h1><div class=\"flex flex-wrap gap-2 mt-4\"><span class=\"inline-block text-sm px-3 py-1 border border-black rounded-full\">Featured cars</span></div><span class=\"text-neutral-500 block mt-6\">A fantastic specimen up for auction!</span><div class=\"flex mt-6\"><div class=\"mr-2\"><a href=\"/en/authors/bidders-highway\"><img alt=\"\" class=\"rounded-full w-[48px]\" src=\"/assets/bidders-highway-63938c17.jpg\"></a></div><div><a href=\"/en/authors/bidders-highway\" class=\"block hover:underline\">Bidders Highway</a><span class=\"block text-neutral-500 text-sm\">August 03, 2023 12:00</span></div></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/fd3548a59fc8ff67f69d2aeee92304ac\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><div>It's hard to believe it was designed in the first half of the 1970s. The fact that it was produced until 2004 confirms that this car model was truly ahead of its time. We owe the Esprit's design to the guru Giorgetto Giugiaro – the same man who designed classics like the first Golf and the \"timeless\" DeLorean DMC-12.<br><br></div><div>For some, the Esprit might be best known as Roger Moore's Bond car. Moore drove a Lotus Esprit in two films – a red one in \"The Spy Who Loved Me,\" and a white one in \"For Your Eyes Only.\" The white Esprit in \"For Your Eyes Only\" was actually the car the seller of Bidders Highway's item dreamt about as a child.<br><br>- \"I had seen the James Bond movies, and one was completely captivated when seeing one of these in real life,\" he recalls. \"When I was a teenager, someone in my little community had bought one of these cars, and I've always thought they are incredibly beautiful.\"<br><br></div><div><br><br></div><div>It was a few years later that the hunt for one's own Esprit began. The seller got in touch with an enthusiast, or one could call him a Lotus expert.<br>- \"He had a full handle on all sensible Lotuses available in Sweden, it felt like. He knew that there was a guy who had several Lotuses who might be willing to sell one. I wanted one that was in really good condition, and this one was exceptional.\"</div><div><br>It didn't turn out to be a white car, which was the original idea. It ended up being silver, possibly making it even more rare from that perspective.<br>- \"You can't be too picky as there aren't that many around, but the glass roof was a big plus,\" the seller continues. \"It gives a sense of space in the car even though it's quite small.\"</div><div><br></div><div><br>Additionally, the current item also has a connection to the world of movies. However, not through the secret agent James Bond, but rather Police Commissioner Martin Beck, played by actor Carl-Gustaf Lindstedt in the 1976 film \"Man on the Roof.\" He is, in fact, the car's first owner. So not a Bond car per se, but rather a Beck car. \"That's well worth a nod, isn't it?\"<br><br></div><div></div></div><div class=\"xl:w-2/3 mt-10 lg:mt-12\"><h2 class=\"text-xl font-semibold mb-2\">0 Comments</h2><div class=\"mb-16\"><span class=\"block border bg-rose-50 text-neutral-600 p-4 my-4 rounded\">You need to be signed in in order to post comments.</span><ul id=\"comments\"></ul></div></div></div></article><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/en\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">View all our car auctions</a></div></main>",
+  "links": [
+    "/en/authors/bidders-highway",
+    "/en"
+  ]
+}

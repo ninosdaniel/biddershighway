@@ -1,0 +1,34 @@
+{
+  "path": "/en/posts/an-unparalleled-design-that-still-holds-up-today",
+  "sourceUrl": "https://www.biddershighway.com/en/posts/an-unparalleled-design-that-still-holds-up-today",
+  "title": "An unparalleled design that still holds up today",
+  "description": "Did you know that the sleek and elegant sports car Jaguar E-Type was based on a racing car? The predecessor is called the D-Type – the car that clinched victory in the 24 Hours of Le Mans race three years in a row between 1955 and 1957. Certainly not a bad role model. One could subsequently describe the E-Type as a bit more refined and sophisticated in its design language compared to its big brother.",
+  "canonicalUrl": "https://www.biddershighway.com/en/posts/an-unparalleled-design-that-still-holds-up-today",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/posts/an-unparalleled-design-that-still-holds-up-today"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/posts/en-oovertraffad-design-som-star-sig-an-i-dag"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/posts/ein-unubertroffenes-design-das-sich-bis-heute-bewahrt-hat"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/posts/en-oovertraffad-design-som-star-sig-an-i-dag"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pb-0 lg:px-0 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">An unparalleled design that still holds up today</h1><div class=\"flex flex-wrap gap-2 mt-4\"><span class=\"inline-block text-sm px-3 py-1 border border-black rounded-full\">Featured cars</span></div><span class=\"text-neutral-500 block mt-6\">Did you know that the sleek and elegant sports car Jaguar E-Type was based on a racing car? The predecessor is called the D-Type – the car that clinched victory in the 24 Hours of Le Mans race three years in a row between 1955 and 1957. Certainly not a bad role model. One could subsequently describe the E-Type as a bit more refined and sophisticated in its design language compared to its big brother.</span><div class=\"flex mt-6\"><div class=\"mr-2\"><a href=\"/en/authors/bidders-highway\"><img alt=\"\" class=\"rounded-full w-[48px]\" src=\"/assets/bidders-highway-63938c17.jpg\"></a></div><div><a href=\"/en/authors/bidders-highway\" class=\"block hover:underline\">Bidders Highway</a><span class=\"block text-neutral-500 text-sm\">August 25, 2023 11:00</span></div></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/987e572a548f4eda09166f67da0d0736\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><div>The man behind the lines is Malcolm Sayer, a former aeronautical engineer who later became an aerodynamicist in the automotive industry. The stars must have aligned when he picked up the pen, as automotive design itself may have reached its pinnacle with the launch of the Jaguar E-Type. Its beauty has endured since it was unveiled at the Geneva International Motor Show in 1961.</div><div><br>This object is from the year 1969 and has been in the seller's possession for 17 years. He acquired it after posing a question to the then-owner.<br>– The car was in the same town as I lived in, the object's seller at Bidders Highway recounts. I always admired that car and have thought that it's so stylish. \"The world's most stylish car,\" as one has heard of. And at some point, I said to the then-owner, \"If you're going to sell it, you could let me know!\"</div><div><br></div><div><br></div><div>This happened in the early 2000s, after which they established contact. A few years passed, and suddenly the phone rings. The then-owner explains that he's ready to sell.<br>– I had to go to the bank, I had no money then! But it went well. There was quite a bit to do with it back then, and I've invested a lot of money in it.</div><div><br>He mentions that the car has brought great joy and has been driven extensively during the years he's owned it.<br>– It's a fantastic car, and I hope it goes to someone who really uses the car, someone who isn't afraid to drive it. Someone who enjoys the driving experience because you really become one with the car.</div><div><br></div><div><br></div><div>Apart from rides on the winding roads in the forests of Småland over the years, he has several personal memories with the car to share. One stands out a bit more.<br>– My wife and I were heading to a car gathering on Öland, for English cars. On the way back, we swung by Kalmar and went to a toy store. Foolishly, we bought one of these large inflatable cushions, which the kids find fun to sit in. And it didn't fit in the trunk... My wife had to hold it on her lap the whole way home!<br><br><a href=\"https://www.biddershighway.com/en/auctions/jaguar-e-type\"><strong><em>Click here to view the auction!</em></strong></a></div><div><br></div></div><div class=\"xl:w-2/3 mt-10 lg:mt-12\"><h2 class=\"text-xl font-semibold mb-2\">0 Comments</h2><div class=\"mb-16\"><span class=\"block border bg-rose-50 text-neutral-600 p-4 my-4 rounded\">You need to be signed in in order to post comments.</span><ul id=\"comments\"></ul></div></div></div></article><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/en\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">View all our car auctions</a></div></main>",
+  "links": [
+    "/en/authors/bidders-highway",
+    "/en/auctions/jaguar-e-type",
+    "/en"
+  ]
+}

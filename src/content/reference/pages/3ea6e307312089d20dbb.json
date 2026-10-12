@@ -1,0 +1,41 @@
+{
+  "path": "/sv/questions/i-cant-log-in-what-should-i-do_0199e8d5-a261-75aa-b1be-27d38b948bf9",
+  "sourceUrl": "https://www.biddershighway.com/sv/questions/i-cant-log-in-what-should-i-do_0199e8d5-a261-75aa-b1be-27d38b948bf9",
+  "title": "Jag kan inte logga in – vad gör jag?",
+  "description": "Kontrollera inloggningsmetoden - Du måste använda samma metod som när du skapade kontot.",
+  "canonicalUrl": "https://www.biddershighway.com/sv/questions/i-cant-log-in-what-should-i-do_0199e8d5-a261-75aa-b1be-27d38b948bf9",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/questions/i-cant-log-in-what-should-i-do_0199e8d5-a261-75aa-b1be-27d38b948bf9"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/questions/i-cant-log-in-what-should-i-do_0199e8d5-a261-75aa-b1be-27d38b948bf9"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/questions/i-cant-log-in-what-should-i-do_0199e8d5-a261-75aa-b1be-27d38b948bf9"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/questions/i-cant-log-in-what-should-i-do_0199e8d5-a261-75aa-b1be-27d38b948bf9"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><div class=\"bg-off-white\"><div class=\"container mx-auto px-4\"><div class=\"flex flex-wrap gap-1 mb-8 pt-8 lg:mb-16 breadcrumb\"><a href=\"/sv/questions\">Vanliga frågor</a><i class=\"icon\">chevron_right</i><a href=\"/sv/question_categories/account\">Konto</a><i class=\"icon\">chevron_right</i><span>Jag kan inte logga in – vad gör jag?</span></div><div class=\"lg:flex gap-16 mb-16\"><div class=\"lg:w-3/4\"><h1 class=\"font-serif text-5xl mb-8\">Jag kan inte logga in – vad gör jag?</h1><div class=\"bg-white rounded-lg p-8 auction-body\"><p><b>Kontrollera inloggningsmetoden -&nbsp;</b>Du måste använda <b>samma metod</b> som när du skapade kontot.</p><p></p><ul><li><b>Skapade du kontot med BankID?</b> Välj <i>Logga in med BankID.</i> Inloggning med mejladress och lösenord fungerar inte för det kontot.</li><li><b>Skapade du kontot med mejl och lösenord? </b>Använd din mejladress och ditt lösenord. BankID-inloggning fungerar inte för det kontot.</li></ul><p></p><p><b>Osäker på hur du registrerade dig?&nbsp;</b></p><p></p><ul><li>Prova BankID. Om du blir erbjuden att skapa ett nytt konto – <b>avbryt</b> och prova mejl + lösenord i stället</li><li>Prova <i>Glömt lösenordet?</i> med din mejladress. Får du inget mejl inom några minuter har du sannolikt inte ett mejl/lösenord-konto för den adressen.</li></ul><p></p><p><b>Användarnamn är inte inloggning.</b> \"Användarnamn\" är bara namnet som visas när du lägger bud. Det kan inte användas för att logga in.</p><p><b>Fortfarande problem?&nbsp;</b></p><p></p><ul><li>Kontrollera stavningen av din mejladress.</li><li>Säkerställ att du använder rätt BankID-profil på rätt personnummer.&nbsp;</li><li>Maila oss på <i>support@biddershigjway.com</i></li></ul><p></p></div></div><div class=\"lg:w-1/4 mt-8 lg:mt-0\"><h2 class=\"text-xl font-semibold mb-6\">Kategorier</h2><ul class=\"flex flex-wrap gap-2 lg:block\"><li><a href=\"/sv/questions\" class=\"block lg:px-4 lg:py-3 font-semibold text-neutral-500 hover:text-neutral-600 transition-colors border rounded border-transparent\">Alla frågor</a></li><li><a href=\"/sv/question_categories/buying\" class=\"block lg:px-4 lg:py-3 font-semibold text-neutral-500 hover:text-neutral-600 transition-colors border rounded border-transparent\">Köpa</a></li><li><a href=\"/sv/question_categories/selling\" class=\"block lg:px-4 lg:py-3 font-semibold text-neutral-500 hover:text-neutral-600 transition-colors border rounded border-transparent\">Sälja</a></li><li><a href=\"/sv/question_categories/bidding\" class=\"block lg:px-4 lg:py-3 font-semibold text-neutral-500 hover:text-neutral-600 transition-colors border rounded border-transparent\">Budgivning</a></li><li><a href=\"/sv/question_categories/documentation\" class=\"block lg:px-4 lg:py-3 font-semibold text-neutral-500 hover:text-neutral-600 transition-colors border rounded border-transparent\">Dokumentation</a></li><li><a href=\"/sv/question_categories/account\" class=\"block lg:px-4 lg:py-3 font-semibold text-neutral-500 hover:text-neutral-600 transition-colors border rounded border-transparent px-2 border-black! text-black! hover:text-black!\">Konto</a></li><li><a href=\"/sv/question_categories/payment\" class=\"block lg:px-4 lg:py-3 font-semibold text-neutral-500 hover:text-neutral-600 transition-colors border rounded border-transparent\">Betalningar</a></li><li><a href=\"/sv/question_categories/shipping\" class=\"block lg:px-4 lg:py-3 font-semibold text-neutral-500 hover:text-neutral-600 transition-colors border rounded border-transparent\">Transport</a></li><li><a href=\"/sv/question_categories/verification\" class=\"block lg:px-4 lg:py-3 font-semibold text-neutral-500 hover:text-neutral-600 transition-colors border rounded border-transparent\">Verifikation</a></li></ul></div></div></div><div class=\"container mx-auto px-4 pb-16\"><div class=\"w-full p-8 bg-amber-100 rounded sm:flex justify-between items-center\"><div><h2 class=\"font-serif text-2xl sm:text-4xl mb-4\">Andra frågor?</h2><p class=\"text-sm sm:text-base mb-2 sm:mb-8\">Du kan skicka oss ett mejl. Vi hjälper gärna till!</p><a href=\"mailto:support@biddershighway.com\" class=\"font-bold underline hover:text-neutral-800\">support@biddershighway.com</a></div><a href=\"mailto:support@biddershighway.com\" class=\"hidden sm:block\"><img src=\"/assets/contact-us-4411369c.svg\" alt=\"Contact us\" class=\"w-48 h-36\"></a></div></div><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/sv\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">Se alla våra bilauktioner</a></div></div></main>",
+  "links": [
+    "/sv/questions",
+    "/sv/question_categories/account",
+    "/sv/question_categories/buying",
+    "/sv/question_categories/selling",
+    "/sv/question_categories/bidding",
+    "/sv/question_categories/documentation",
+    "/sv/question_categories/payment",
+    "/sv/question_categories/shipping",
+    "/sv/question_categories/verification",
+    "/sv"
+  ]
+}

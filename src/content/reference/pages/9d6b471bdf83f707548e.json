@@ -1,0 +1,32 @@
+{
+  "path": "/sv/docs/about_us",
+  "sourceUrl": "https://www.biddershighway.com/sv/docs/about_us",
+  "title": "Om Bidders Highway",
+  "description": "Bidders Highway är en online auktionsplattform för entusiast- och samlarbilar, grundat av entusiaster för entusiaster med ambitionen att det ska bli lika...",
+  "canonicalUrl": "https://www.biddershighway.com/sv/docs/about_us",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/docs/about_us"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/docs/about_us"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/docs/about_us"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/docs/about_us"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><div class=\"py-12 bg-off-white text-center\"><div class=\"container mx-auto px-4 lg:max-w-4xl\"><h1 class=\"text-3xl md:text-5xl\">Om Bidders Highway</h1></div></div><div class=\"container mx-auto px-4 lg:max-w-4xl py-12\"><div class=\"terms-body\"><p>Bidders Highway är en online auktionsplattform för entusiast- och samlarbilar, grundat av entusiaster för entusiaster med ambitionen att det ska bli lika roligt att köpa och sälja speciella bilar, som det är att äga och köra dem.</p>\n<p>Vi är baserade i Stockholm Sverige men jobbar med bilar i hela landet och internationellt.</p>\n<p>Våra auktioner sker löpande dygnet runt över 7 dagar och det kommer hela tiden in nya objekt. Vi hjälper säljare att dokumentera sina auktionslistningar på vår plattform och marknadsför dem sedan till potentiella köpare runt om i världen.</p>\n</div><opt-out-controller class=\"flex gap-2\"><a href=\"#\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300\" data-opt-out-target=\"optInButton\" data-action=\"opt-out#optIn\">Acceptera cookies</a><a href=\"#\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-neutral-500 hover:bg-neutral-600\" data-opt-out-target=\"optOutButton\" data-action=\"opt-out#optOut\">Avvisa cookies</a></opt-out-controller></div></main>",
+  "links": [
+    "/sv/docs/about_us"
+  ]
+}

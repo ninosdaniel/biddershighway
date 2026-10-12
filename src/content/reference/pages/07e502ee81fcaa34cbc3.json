@@ -1,0 +1,45 @@
+{
+  "path": "/sv/question_categories/shipping",
+  "sourceUrl": "https://www.biddershighway.com/sv/question_categories/shipping",
+  "title": "Vanliga frågor: Transport",
+  "description": "Här hittar du information om Transport relaterat till bilauktioner på Bidders Highway.",
+  "canonicalUrl": "https://www.biddershighway.com/sv/question_categories/shipping",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/question_categories/shipping"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/question_categories/shipping"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/question_categories/shipping"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/question_categories/shipping"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><div class=\"bg-off-white\"><div class=\"container mx-auto px-4\"><div class=\"flex flex-wrap gap-1 mb-8 pt-8 lg:mb-16 breadcrumb\"><a href=\"/sv/questions\">Vanliga frågor</a><i class=\"icon\">chevron_right</i><a href=\"/sv/question_categories/shipping\">Transport</a></div><div class=\"lg:flex gap-16 mb-16\"><div class=\"lg:w-3/4\"><h1 class=\"font-serif text-5xl mb-8\">Transport</h1><ul class=\"bg-white rounded-lg xl:grid grid-cols-2 gap-16 p-8 test-questions\"><li class=\"mb-12 xl:mb-0\"><h2 class=\"text-xl text-semibold mb-4\"><a href=\"/sv/questions/what-happens-at-the-end-of-the-auction-if-i-have-the-winning-bid_7bfa28f2-f250-4c96-af3e-768a48dd4edc\" class=\"text-green-600 hover:text-green-700 transition-colors\">Vad händer vid avslutad auktion om jag har det vinnande budet?</a></h2><p class=\"mb-4\"> Du som vinnande budgivare kommer först att erlägga din avgift till Bidders Highway, och när det har skett kommer Bidders Highway digitalt göra en introduktion för att ni ska få varandras kontaktuppgifter, för att göra upp om hur betalning och leverans skall ske. </p><a href=\"/sv/questions/what-happens-at-the-end-of-the-auction-if-i-have-the-winning-bid_7bfa28f2-f250-4c96-af3e-768a48dd4edc\" class=\"underline hover:text-neutral-800\">Läs mer</a></li><li class=\"mb-12 xl:mb-0\"><h2 class=\"text-xl text-semibold mb-4\"><a href=\"/sv/questions/what-happens-if-the-bidding-doesnt-reach-the-reserve-price_88960487-d401-4c3a-8534-b3973c6e6007\" class=\"text-green-600 hover:text-green-700 transition-colors\">Vad händer om budgivningen inte når reservationspriset?</a></h2><p class=\"mb-4\">Möts inte reserven får de tre högsta budgivarna efter avslutad auktion möjligheten att lägga ett sista bud alternativt möta reservationspris. Dessa bud gäller sedan i 24 timmar för att vi ska få möjligheten att förmedla detta till säljaren. Det är alltid först till kvarn som gäller och ofta går det snabbt därför är det viktigt att kolla sin mail och svara snabbt. Om säljaren väljer att avstå ev...</p><a href=\"/sv/questions/what-happens-if-the-bidding-doesnt-reach-the-reserve-price_88960487-d401-4c3a-8534-b3973c6e6007\" class=\"underline hover:text-neutral-800\">Läs mer</a></li><li class=\"mb-12 xl:mb-0\"><h2 class=\"text-xl text-semibold mb-4\"><a href=\"/sv/questions/what-happens-after-the-auction-ends-if-my-vehicle-is-sold_19f4f7ea-e7aa-446e-9c32-49d46ecfa30f\" class=\"text-green-600 hover:text-green-700 transition-colors\">Vad händer efter avslutad auktion om min bil säljs?</a></h2><p class=\"mb-4\"> När din bil uppnått önskat reservationspris och auktionen är avslutad kommer Bidders Highway först kontakta köparen för att debitera avgiften. När denna är erlagd kommer vi göra en digital introduktion mellan köpare och säljare för att slutföra betalningen och enas om överlämnandet av den nya bilen. </p><a href=\"/sv/questions/what-happens-after-the-auction-ends-if-my-vehicle-is-sold_19f4f7ea-e7aa-446e-9c32-49d46ecfa30f\" class=\"underline hover:text-neutral-800\">Läs mer</a></li><li class=\"mb-12 xl:mb-0\"><h2 class=\"text-xl text-semibold mb-4\"><a href=\"/sv/questions/what-does-the-transport-available-label-mean-on-a-listing_019bc6d8-a482-7a23-96c1-094e54ef0858\" class=\"text-green-600 hover:text-green-700 transition-colors\">Vad innebär etiketten Transport möjlig i en auktion?</a></h2><p class=\"mb-4\">Etiketten betyder att antingen säljaren kan hjälpa till med transport, eller att vi samarbetar med fristående transportpartners (samarbetspartners) som har täckning där objektet står. Bidders Highway erbjuder ingen egen transporttjänst.</p><a href=\"/sv/questions/what-does-the-transport-available-label-mean-on-a-listing_019bc6d8-a482-7a23-96c1-094e54ef0858\" class=\"underline hover:text-neutral-800\">Läs mer</a></li></ul></div><div class=\"lg:w-1/4 mt-8 mb-8 lg:mt-0\"><h2 class=\"text-xl font-semibold mb-6\">Kategorier</h2><ul class=\"flex flex-wrap gap-2 lg:block\"><li><a href=\"/sv/questions\" class=\"block lg:px-4 lg:py-3 font-semibold text-neutral-500 hover:text-neutral-600 transition-colors border rounded border-transparent\">Alla frågor</a></li><li><a href=\"/sv/question_categories/buying\" class=\"block lg:px-4 lg:py-3 font-semibold text-neutral-500 hover:text-neutral-600 transition-colors border rounded border-transparent\">Köpa</a></li><li><a href=\"/sv/question_categories/selling\" class=\"block lg:px-4 lg:py-3 font-semibold text-neutral-500 hover:text-neutral-600 transition-colors border rounded border-transparent\">Sälja</a></li><li><a href=\"/sv/question_categories/bidding\" class=\"block lg:px-4 lg:py-3 font-semibold text-neutral-500 hover:text-neutral-600 transition-colors border rounded border-transparent\">Budgivning</a></li><li><a href=\"/sv/question_categories/documentation\" class=\"block lg:px-4 lg:py-3 font-semibold text-neutral-500 hover:text-neutral-600 transition-colors border rounded border-transparent\">Dokumentation</a></li><li><a href=\"/sv/question_categories/account\" class=\"block lg:px-4 lg:py-3 font-semibold text-neutral-500 hover:text-neutral-600 transition-colors border rounded border-transparent\">Konto</a></li><li><a href=\"/sv/question_categories/payment\" class=\"block lg:px-4 lg:py-3 font-semibold text-neutral-500 hover:text-neutral-600 transition-colors border rounded border-transparent\">Betalningar</a></li><li><a href=\"/sv/question_categories/shipping\" class=\"block lg:px-4 lg:py-3 font-semibold text-neutral-500 hover:text-neutral-600 transition-colors border rounded border-transparent px-2 border-black! text-black! hover:text-black!\">Transport</a></li><li><a href=\"/sv/question_categories/verification\" class=\"block lg:px-4 lg:py-3 font-semibold text-neutral-500 hover:text-neutral-600 transition-colors border rounded border-transparent\">Verifikation</a></li></ul></div></div></div><div class=\"container mx-auto px-4 pb-16\"><div class=\"w-full p-8 bg-amber-100 rounded sm:flex justify-between items-center\"><div><h2 class=\"font-serif text-2xl sm:text-4xl mb-4\">Andra frågor?</h2><p class=\"text-sm sm:text-base mb-2 sm:mb-8\">Du kan skicka oss ett mejl. Vi hjälper gärna till!</p><a href=\"mailto:support@biddershighway.com\" class=\"font-bold underline hover:text-neutral-800\">support@biddershighway.com</a></div><a href=\"mailto:support@biddershighway.com\" class=\"hidden sm:block\"><img src=\"/assets/contact-us-4411369c.svg\" alt=\"Contact us\" class=\"w-48 h-36\"></a></div></div><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/sv\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">Se alla våra bilauktioner</a></div></div></main>",
+  "links": [
+    "/sv/questions",
+    "/sv/question_categories/shipping",
+    "/sv/questions/what-happens-at-the-end-of-the-auction-if-i-have-the-winning-bid_7bfa28f2-f250-4c96-af3e-768a48dd4edc",
+    "/sv/questions/what-happens-if-the-bidding-doesnt-reach-the-reserve-price_88960487-d401-4c3a-8534-b3973c6e6007",
+    "/sv/questions/what-happens-after-the-auction-ends-if-my-vehicle-is-sold_19f4f7ea-e7aa-446e-9c32-49d46ecfa30f",
+    "/sv/questions/what-does-the-transport-available-label-mean-on-a-listing_019bc6d8-a482-7a23-96c1-094e54ef0858",
+    "/sv/question_categories/buying",
+    "/sv/question_categories/selling",
+    "/sv/question_categories/bidding",
+    "/sv/question_categories/documentation",
+    "/sv/question_categories/account",
+    "/sv/question_categories/payment",
+    "/sv/question_categories/verification",
+    "/sv"
+  ]
+}

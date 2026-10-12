@@ -1,0 +1,30 @@
+{
+  "path": "/de/sign_ins/new",
+  "sourceUrl": "https://www.biddershighway.com/de/sign_ins/new",
+  "title": "Bidders Highway - Bilauktioner",
+  "description": "Das führende Auktionsportal für Oldtimer und Sammlerautos. Erkunden und schauen Sie sich Hunderte von Klassikern an, kaufen oder verkaufen Sie Ihr Traumauto mit Leichtigkeit.",
+  "canonicalUrl": "https://www.biddershighway.com/de/sign_ins/new",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/sign_ins/new"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/sign_ins/new"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/sign_ins/new"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/sign_ins/new"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><div class=\"bg-white pb-20\"><div class=\"bg-off-white py-6 sm:py-12\"><div class=\"container mx-auto px-4 text-center\"><h1 class=\"text-3xl md:text-5xl mb-0\">Anmelden</h1><span class=\"hidden sm:block text-neutral-400 mt-4\">Wir schicken dir einen sicheren Anmeldelink per E-Mail.</span></div></div><div class=\"container mx-auto px-4 pt-6 sm:pt-10\"><div class=\"max-w-2xl mx-auto\"></div><div class=\"lg:grid grid-cols-2 gap-12 items-start max-w-5xl mx-auto\"><div class=\"mb-6 sm:mb-0\"><h2 class=\"hidden sm:block text-2xl md:text-3xl font-bold text-neutral-900\">Willkommen zurück bei Bidders Highway</h2><p class=\"text-neutral-600 mt-4 leading-relaxed\">Verwende deine E-Mail-Adresse, um einen sicheren Anmeldelink zu erhalten.</p><p class=\"text-neutral-600 mt-4 leading-relaxed\">Er läuft nach 30 Minuten ab und bringt dich direkt zurück.</p><div class=\"mt-6 rounded-lg bg-neutral-50 border border-neutral-200 p-4\"><h3 class=\"text-sm font-semibold text-neutral-800\">Zur E-Mail</h3><p class=\"text-neutral-600 mt-2 text-sm leading-relaxed\">Wenn sie nicht sofort ankommt, prüfe bitte deinen Spam-Ordner.</p></div></div><div class=\"bg-white shadow-lg rounded-xl p-6 md:p-8 border border-neutral-100\"><form class=\"new_sign_in\" id=\"new_sign_in\" action=\"/de/sign_ins\" accept-charset=\"UTF-8\" method=\"post\"><div class=\"mb-4 lg:mb-6\"><label class=\"block text-sm font-semibold text-neutral-700 mb-2\" for=\"sign_in_email\">E-Mail</label><p class=\"text-xs text-neutral-500 mb-2\">Wir schicken dir einen Anmeldelink per E-Mail. Kein Passwort nötig.</p><input autofocus=\"autofocus\" autocomplete=\"email\" class=\"border border-stone-300 bg-white text-base py-2.5 px-4 focus:border-stone-500 transition-colors placeholder:text-stone-400 w-full rounded-md\" type=\"email\" name=\"sign_in[email]\" id=\"sign_in_email\"></div><div class=\"pt-2\"><input type=\"submit\" name=\"commit\" value=\"Anmeldelink senden\" class=\"bg-jaffa hover:bg-zest text-white font-bold py-3 px-8 rounded-lg cursor-pointer transition-all transform shadow-lg hover:shadow-xl w-full\" data-disable-with=\"Anmeldelink senden\"></div></form></div></div></div></div></main>",
+  "links": []
+}

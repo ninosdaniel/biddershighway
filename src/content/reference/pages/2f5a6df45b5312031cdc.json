@@ -1,0 +1,33 @@
+{
+  "path": "/en/posts/planning-a-car-swap-ahead-of-spring",
+  "sourceUrl": "https://www.biddershighway.com/en/posts/planning-a-car-swap-ahead-of-spring",
+  "title": "Planning a car swap ahead of spring?",
+  "description": "More useful content from Bidders Highway on the way!",
+  "canonicalUrl": "https://www.biddershighway.com/en/posts/planning-a-car-swap-ahead-of-spring",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/posts/planning-a-car-swap-ahead-of-spring"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/posts/planerar-du-ett-bilbyte-infor-varen?"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/posts/planst-du-einen-fahrzeugwechsel-vor-dem-fruhling"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/posts/planerar-du-ett-bilbyte-infor-varen?"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pb-0 lg:px-0 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">Planning a car swap ahead of spring?</h1><span class=\"text-neutral-500 block mt-6\">More useful content from Bidders Highway on the way!</span><div class=\"flex mt-6\"><div class=\"mr-2\"><a href=\"/en/authors/jacob-odqvist\"><img alt=\"\" class=\"rounded-full w-[48px]\" src=\"/assets/jacob-odqvist-44be25a1.jpg\"></a></div><div><a href=\"/en/authors/jacob-odqvist\" class=\"block hover:underline\">Jacob Odqvist</a><span class=\"block text-neutral-500 text-sm\">January 19, 2023 16:00</span></div></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/7832d3f5f771c8eec939afc0087461f9\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><div>Welcome back after a hopefully lovely Christmas and New Year. 2023 has gotten off to a flying start, and we are rapidly approaching the time of year when the most enthusiast cars change owners.&nbsp;</div><div><br></div><div>At Bidders Highway we are busy visiting collections and photographing cars, and we predict a very exciting spring. With this in mind, over the coming period we will be sending out a number of newsletters where we take a closer look at what to consider if you are planning to sell your enthusiast cars or motorcycles. Or if you are simply planning an addition to the garage!</div><div><br></div><div>Going forward we will give simple tips and advice that really make a difference when selling, as well as take an extra look at various models that we predict have a bright future in terms of popularity and demand.&nbsp;</div><div><br></div><div>We continue with our offer where we also give sellers free photography of their car if they choose to sell with us this spring.&nbsp;</div><div><br></div><div>Keep an eye out, we'll be in touch soon.</div><div><br></div><div>The team at Bidders Highway</div></div><div class=\"xl:w-2/3 mt-10 lg:mt-12\"><h2 class=\"text-xl font-semibold mb-2\">0 Comments</h2><div class=\"mb-16\"><span class=\"block border bg-rose-50 text-neutral-600 p-4 my-4 rounded\">You need to be signed in in order to post comments.</span><ul id=\"comments\"></ul></div></div></div></article><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/en\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">View all our car auctions</a></div></main>",
+  "links": [
+    "/en/authors/jacob-odqvist",
+    "/en"
+  ]
+}

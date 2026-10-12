@@ -1,0 +1,33 @@
+{
+  "path": "/sv/pages",
+  "sourceUrl": "https://www.biddershighway.com/sv/pages",
+  "title": "Innehållssidor",
+  "description": "Utforska vår omfattande samling av informationssidor, guider och resurser",
+  "canonicalUrl": "https://www.biddershighway.com/sv/pages",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/pages"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/pages"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/pages"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/pages"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><header class=\"bg-off-white\"><div class=\"container mx-auto px-4 py-12\"><h1 class=\"text-3xl lg:text-4xl xl:text-5xl mb-4\">Innehållssidor</h1><p class=\"text-neutral-600 text-lg\">Bläddra i vår samling av informationssidor och guider</p></div></header><div class=\"container mx-auto px-4 my-8 lg:my-12\"><div class=\"grid gap-8 md:grid-cols-2 lg:grid-cols-3\"><article class=\"border border-neutral-200 rounded-lg overflow-hidden hover:shadow-lg transition-shadow\"><a href=\"/sv/pages/safety-and-security-at-bidders-highway\"><div class=\"aspect-video bg-neutral-100\"></div><div class=\"p-6\"><h3 class=\"text-xl font-semibold mb-2 hover:text-blue-600\">Trygghet och säkerhet på Bidders Highway</h3><p class=\"text-neutral-600 mb-3 line-clamp-3\">Trygga auktioner med verifierade budgivare. Hundratals fordon förmedlade, bindande villkor och fullt stöd för köpare och säljare.</p><span class=\"text-sm text-neutral-500\">30 september 2025 09:00</span></div></a></article><article class=\"border border-neutral-200 rounded-lg overflow-hidden hover:shadow-lg transition-shadow\"><a href=\"/sv/pages/about-us\"><div class=\"aspect-video bg-neutral-100\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/82e8a589370c79c59f6c4fd9de820573\" alt=\"Om oss\" class=\"w-full h-full object-cover\"></div><div class=\"p-6\"><h3 class=\"text-xl font-semibold mb-2 hover:text-blue-600\">Om oss</h3><p class=\"text-neutral-600 mb-3 line-clamp-3\">Bidders Highway är en digital marknadsplats för entusiastfordon. Bilar och motorcyklar som betyder något extra för sina ägare.</p><span class=\"text-sm text-neutral-500\">22 september 2025 09:00</span></div></a></article></div></div></article></main>",
+  "links": [
+    "/sv/pages/safety-and-security-at-bidders-highway",
+    "/sv/pages/about-us"
+  ]
+}

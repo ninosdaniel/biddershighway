@@ -1,0 +1,33 @@
+{
+  "path": "/sv/posts/speed-weekend-arsunda-2023",
+  "sourceUrl": "https://www.biddershighway.com/sv/posts/speed-weekend-arsunda-2023",
+  "title": "Speed Weekend Årsunda 2023",
+  "description": "Eventet för dem som älskar bredställ och fart!",
+  "canonicalUrl": "https://www.biddershighway.com/sv/posts/speed-weekend-arsunda-2023",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/posts/speed-weekend-arsunda-2023"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/posts/speed-weekend-arsunda-2023"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/posts/speed-weekend-arsunda-2023"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/posts/speed-weekend-arsunda-2023"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pb-0 lg:px-0 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">Speed Weekend Årsunda 2023</h1><div class=\"flex flex-wrap gap-2 mt-4\"><span class=\"inline-block text-sm px-3 py-1 border border-black rounded-full\">Event</span></div><span class=\"text-neutral-500 block mt-6\">Eventet för dem som älskar bredställ och fart!</span><div class=\"flex mt-6\"><div class=\"mr-2\"><a href=\"/sv/authors/bidders-highway\"><img alt=\"\" class=\"rounded-full w-[48px]\" src=\"/assets/bidders-highway-63938c17.jpg\"></a></div><div><a href=\"/sv/authors/bidders-highway\" class=\"block hover:underline\">Bidders Highway</a><span class=\"block text-neutral-500 text-sm\">28 februari 2023 16:05</span></div></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/2bf80c13f4b053ba16b2b2555ac00c77\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><div>Hej läsare!<br><br>Varje år, i djupet av vintern, samlas bil- och motorcykelentusiaster i den lilla orten Årsunda för ett unikt evenemang - Speed Weekend Årsunda. Detta adrenalindrivna evenemang ger deltagarna chansen att köra sina fordon på en frusen sjö och pressa dem till deras gränser på två plogade banor och en raka för topphastighet.<br><br>Bidders Highway var med och sponsrade detta året och vi åkte upp tillsammans med våra egna bilar för att deltaga och lära känna massor av nya likasinnade entusiaster. <br><br>En fantastisk upplevelse som kombinerar fartens spänning med naturens skönhet. Oavsett om du är en professionell förare eller bara ett fan av motorsport så rekommenderar vi starkt att planera in ett besök under nästa år.<br><br>Vi har publicerat bilder och videos från eventet på vår <a href=\"https://www.instagram.com/biddershighway/\"><strong>Instagram</strong></a>, kika gärna in där och följ oss om du inte redan gör det!<br><br>/Teamet på Bidders Highway</div></div><div class=\"xl:w-2/3 mt-10 lg:mt-12\"><h2 class=\"text-xl font-semibold mb-2\">0 Kommentarer</h2><div class=\"mb-16\"><span class=\"block border bg-rose-50 text-neutral-600 p-4 my-4 rounded\">Du måste vara inloggad för att kunna skriva kommentarer.</span><ul id=\"comments\"></ul></div></div></div></article><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/sv\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">Se alla våra bilauktioner</a></div></main>",
+  "links": [
+    "/sv/authors/bidders-highway",
+    "/sv"
+  ]
+}

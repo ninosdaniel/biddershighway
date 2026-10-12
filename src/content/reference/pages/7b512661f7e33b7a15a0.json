@@ -1,0 +1,32 @@
+{
+  "path": "/de/docs/cookie_policy",
+  "sourceUrl": "https://www.biddershighway.com/de/docs/cookie_policy",
+  "title": "Cookie-Richtlinie",
+  "description": "Bei der Nutzung von Bidders Highway werden einige personenbezogene Daten erfasst. Für alle Nutzer sammeln wir die IP-Adresse, den Zeitstempel und einige...",
+  "canonicalUrl": "https://www.biddershighway.com/de/docs/cookie_policy",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/docs/cookie_policy"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/docs/cookie_policy"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/docs/cookie_policy"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/docs/cookie_policy"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><div class=\"py-12 bg-off-white text-center\"><div class=\"container mx-auto px-4 lg:max-w-4xl\"><h1 class=\"text-3xl md:text-5xl\">Cookie-Richtlinie</h1></div></div><div class=\"container mx-auto px-4 lg:max-w-4xl py-12\"><div class=\"terms-body\"><p>Bei der Nutzung von Bidders Highway werden einige personenbezogene Daten erfasst. Für alle Nutzer sammeln wir die IP-Adresse, den Zeitstempel und einige technische Daten über Ihr Gerät. Der Zweck dieser Datenerhebung ist es, die Sicherheit der Website zu gewährleisten und die von Bidders Highway angebotenen Funktionen zu analysieren und zu verbessern. Für Nutzer, die registriert und eingeloggt sind, werden weitere Daten erfasst:</p>&gt;\n\n<ul>\n  <li>Name</li>\n  <li>E-Mail-Adresse</li>\n  <li>Adresse</li>\n  <li>Land</li>\n  <li>Zeitstempel der letzten Anmeldung</li>\n  <li>Sprachpräferenz</li>\n  <li>Schwedische Personennummer (wenn Sie sich mit der BankID anmelden)</li>\n</ul>\n\n<p>Bevor Sie ein Gebot abgeben, müssen Nutzer außerdem eine Kreditkarte registrieren. Die Erhebung und Verarbeitung dieser Daten ist notwendig, um die korrekte Funktionalität der Plattform Bidders Highway und die Erfüllung unserer Allgemeinen Geschäftsbedingungen zu gewährleisten.\n\n</p><h2>Unterauftragsverarbeiter</h2>\n\n<p>Bidders Highway verwendet die folgenden Unterauftragsverarbeiter:</p>\n\n<p>\n  <strong>Google Analytics</strong>: Misst die Anzahl der Besucher der Website und analysiert, wie sie sich auf der Website bewegen.<br>\n  <strong>Plausible</strong>: Misst Besuche und Ereignisse auf der Website, ohne Cookies zu verwenden.<br>\n  <strong>Stripe</strong>: Wird für Zahlungen verwendet.<br>\n  <strong>Amazon SES</strong>: Der E-Mail-Dienst von Amazon Web Services, der unsere E-Mails versendet – sowohl Kontonachrichten als auch den Newsletter.<br>\n</p>\n\n<h2>Cookies auf Bidders Highway</h2>\n\n<p>Auflistung der verwendeten Cookies:</p>\n\n<h3>Erstanbieter-Cookies</h3>\n\n<ul>\n  <li>_highway_session, Anmeldedaten und CSRF (Sitzung)</li>\n  <li>Banner, Cookie-Banner (1 Jahr)</li>\n</ul>\n\n<h3>Drittanbieter-Cookies</h3>\n\n<ul>\n  <li>_ga*, Google Analytics (2 Jahre)</li>\n  <li>_fbp*, Meta (2 Jahre)</li>\n  <li>_shopify_*, Shopify-Widget (2 Jahre)</li>\n</ul>\n\n<p>\n  Zusätzlich zu den oben genannten Cookies können weitere Cookies von Drittanbietern verwendet werden. Diese werden von externen Verantwortlichen oder Auftragsverarbeitern im Zusammenhang mit der Nutzung der Website gesetzt. Cookies von Drittanbietern können sich im Laufe der Zeit ändern, einschließlich ihres Namens, ihrer Funktion und ihrer technischen Ausgestaltung. Solche Änderungen berühren nicht unsere Verpflichtung, eine wirksame Einwilligung gemäß der Datenschutz-Grundverordnung (DSGVO) und der geltenden Gesetzgebung einzuholen.\n</p>\n</div><opt-out-controller class=\"flex gap-2\"><a href=\"#\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300\" data-opt-out-target=\"optInButton\" data-action=\"opt-out#optIn\">Cookies akzeptieren</a><a href=\"#\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-neutral-500 hover:bg-neutral-600\" data-opt-out-target=\"optOutButton\" data-action=\"opt-out#optOut\">Cookies ablehnen</a></opt-out-controller></div></main>",
+  "links": [
+    "/de/docs/cookie_policy"
+  ]
+}

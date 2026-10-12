@@ -1,0 +1,88 @@
+{
+  "processed": 733,
+  "manifestEntries": 721,
+  "files": 721,
+  "counts": {
+    "home": 4,
+    "questions": 144,
+    "pages": 21,
+    "posts": 468,
+    "docs": 12,
+    "sales_inquiries": 3,
+    "estate-sales": 3,
+    "collection_leads": 3,
+    "sign_ins": 3,
+    "users": 3,
+    "cars": 3,
+    "motorcycles": 3,
+    "auctions": 9,
+    "question_categories": 24,
+    "authors": 18
+  },
+  "errors": [
+    {
+      "path": "/en/posts/nurburgring-hit-and-run-%E2%80%93-is-it-even-possible",
+      "error": "HTTP 404"
+    },
+    {
+      "path": "/sv/posts/nurburgring-hit-and-run-%E2%80%93-gar-det-ens",
+      "error": "HTTP 404"
+    },
+    {
+      "path": "/en/posts/the-ceo-has-the-floor---december/january",
+      "error": "HTTP 404"
+    },
+    {
+      "path": "/sv/posts/vdn-har-ordet---december/januari-1-1",
+      "error": "HTTP 404"
+    },
+    {
+      "path": "/en/posts/from-peoples-car-to-collectors-item---which-models-are-next",
+      "error": "HTTP 404"
+    },
+    {
+      "path": "/sv/posts/fran-folkbil-till-samlarobjekt-%E2%80%93-vilka-modeller-star-nast-pa-tur",
+      "error": "HTTP 404"
+    },
+    {
+      "path": "/en/posts/reservation-price-%E2%80%93-safe-protection-or-a-brake-on-bidding",
+      "error": "HTTP 404"
+    },
+    {
+      "path": "/sv/posts/reservationspris-%E2%80%93-tryggt-skydd-eller-bromskloss-for-budgivningen",
+      "error": "HTTP 404"
+    },
+    {
+      "path": "/sv/posts/planerar-du-ett-bilbyte-infor-varen",
+      "error": "HTTP 404"
+    },
+    {
+      "path": "/sv/posts/motor-mornings-by-bidders-highway-11/6",
+      "error": "HTTP 404"
+    },
+    {
+      "path": "/en/posts/%22no-reserve-auction%22---pure-madness-or-downright-genius",
+      "error": "HTTP 404"
+    },
+    {
+      "path": "/sv/posts/%22no-reserve-auction%22---ren-galenskap-eller-rent-av-genialiskt",
+      "error": "HTTP 404"
+    }
+  ],
+  "assets": 29,
+  "unmatchedAssets": [
+    {
+      "url": "/assets/tailwind-bf4ffbde.css",
+      "filename": "tailwind-bf4ffbde.css",
+      "source": null
+    }
+  ],
+  "remainingQueue": 0,
+  "capReached": false,
+  "omittedAtLimit": [],
+  "uncapturedLinkedEditorialPaths": [],
+  "verification": {
+    "unsafeMarkupPaths": [],
+    "totalMainHtmlCharacters": 6725343
+  }
+}

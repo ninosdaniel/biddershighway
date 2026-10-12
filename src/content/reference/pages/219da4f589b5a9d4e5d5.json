@@ -1,0 +1,33 @@
+{
+  "path": "/de/posts/eine-deutsche-tuningfirma-mit-wurzeln-im-motorsport",
+  "sourceUrl": "https://www.biddershighway.com/de/posts/eine-deutsche-tuningfirma-mit-wurzeln-im-motorsport",
+  "title": "Eine deutsche Tuningfirma mit Wurzeln im Motorsport",
+  "description": "Was passiert, wenn man den Motor eines größeren BMW in einen kleineren BMW einbaut? Das war die Philosophie der deutschen Tuningfirma Hartge. Und das Ergebnis? Rohe und einzigartige Fahrzeuge, vor allem basierend auf BMWs Modellpalette. Mit der Zeit wurde auch Tuning für MINI, Juno Racing Cars und Range Rover angeboten.",
+  "canonicalUrl": "https://www.biddershighway.com/de/posts/eine-deutsche-tuningfirma-mit-wurzeln-im-motorsport",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/posts/a-german-tuning-firm-with-roots-in-motorsport"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/posts/en-tysk-trimningsfirma-med-rotter-i-motorsporten"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/posts/eine-deutsche-tuningfirma-mit-wurzeln-im-motorsport"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/posts/en-tysk-trimningsfirma-med-rotter-i-motorsporten"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pb-0 lg:px-0 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">Eine deutsche Tuningfirma mit Wurzeln im Motorsport</h1><span class=\"text-neutral-500 block mt-6\">Was passiert, wenn man den Motor eines größeren BMW in einen kleineren BMW einbaut? Das war die Philosophie der deutschen Tuningfirma Hartge. Und das Ergebnis? Rohe und einzigartige Fahrzeuge, vor allem basierend auf BMWs Modellpalette. Mit der Zeit wurde auch Tuning für MINI, Juno Racing Cars und Range Rover angeboten.</span><div class=\"flex mt-6\"><div class=\"mr-2\"><a href=\"/de/authors/bidders-highway\"><img alt=\"\" class=\"rounded-full w-[48px]\" src=\"/assets/bidders-highway-63938c17.jpg\"></a></div><div><a href=\"/de/authors/bidders-highway\" class=\"block hover:underline\">Bidders Highway</a><span class=\"block text-neutral-500 text-sm\">Mai 31, 2023 10:00</span></div></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/035abd43806bebd6c25cb4fd6cb5593d\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><div>Das Auto, das wir jetzt auf der Seite haben, ist da keine Ausnahme: ein Hartge H35-24, der auf einem BMW E30 325i basiert. Eine amüsante Kuriosität ist, dass genau dieses Fahrzeug 1986 in der Biltidningen Car getestet wurde und dabei gegen den entsprechenden M3 sowie den Alpina B6 2.8 antrat. Das sagt einiges über seine Leistung aus.<br><br>Der vollständige Name der Firma lautet Herbert Hartge GmbH &amp; Co. KG und wurde 1971 in der deutschen Stadt Merzig gegründet, direkt an der französischen Grenze. Drei Jahre später zog die Firma in größere Räumlichkeiten im nahegelegenen Dorf Beckingen um, wo sie bis zu ihrer Auflösung im Jahr 2019 blieb.<br><br><br><br></div><div>Der Mitbegründer und zugleich Rennfahrer Herbert Hartge war selbst BMW-Enthusiast und in den 1970er-Jahren im Rundstreckenrennsport mit verschiedenen modifizierten BMW-Modellen aktiv, wie dem 1602, 2002, 320 und 635 CSi. Heute gelten die aufgewerteten BMW-Fahrzeuge der Tuningfirma als eines der heißesten und einzigartigsten Angebote überhaupt, besonders für alle, die nach etwas Exklusiverem suchen.<br><br></div><div>1985 wurde die Firma vom deutschen Pendant zur schwedischen Transportbehörde als eigenständiger Fahrzeughersteller anerkannt, woraufhin eine persönliche Abnahme durch Hartge selbst dazu führte, dass die Fahrzeuge, die das Werk in Beckingen verließen, eine eigene Fahrgestellnummer erhielten und offiziell als Hartge-Fahrzeuge bezeichnet wurden.<br><br><br><br><br></div></div><div class=\"xl:w-2/3 mt-10 lg:mt-12\"><h2 class=\"text-xl font-semibold mb-2\">0 Kommentare</h2><div class=\"mb-16\"><span class=\"block border bg-rose-50 text-neutral-600 p-4 my-4 rounded\">Sie müssen eingeloggt sein um Kommentare schreiben zu können.</span><ul id=\"comments\"></ul></div></div></div></article><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/de\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">Alle unsere Autoauktionen ansehen</a></div></main>",
+  "links": [
+    "/de/authors/bidders-highway",
+    "/de"
+  ]
+}

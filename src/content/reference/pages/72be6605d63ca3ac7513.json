@@ -1,0 +1,41 @@
+{
+  "path": "/de/questions/what-does-the-function-tested-label-mean-on-a-listing_019bc6d8-a402-7d9a-8ea9-65ecf15794f1",
+  "sourceUrl": "https://www.biddershighway.com/de/questions/what-does-the-function-tested-label-mean-on-a-listing_019bc6d8-a402-7d9a-8ea9-65ecf15794f1",
+  "title": "What does the Function-tested label mean on a listing?",
+  "description": "Function-tested means the seller has personally tested the specific functions listed for that item and certified the status of each (e.g., works / does not...",
+  "canonicalUrl": "https://www.biddershighway.com/de/questions/what-does-the-function-tested-label-mean-on-a-listing_019bc6d8-a402-7d9a-8ea9-65ecf15794f1",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/questions/what-does-the-function-tested-label-mean-on-a-listing_019bc6d8-a402-7d9a-8ea9-65ecf15794f1"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/questions/what-does-the-function-tested-label-mean-on-a-listing_019bc6d8-a402-7d9a-8ea9-65ecf15794f1"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/questions/what-does-the-function-tested-label-mean-on-a-listing_019bc6d8-a402-7d9a-8ea9-65ecf15794f1"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/questions/what-does-the-function-tested-label-mean-on-a-listing_019bc6d8-a402-7d9a-8ea9-65ecf15794f1"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><div class=\"bg-off-white\"><div class=\"container mx-auto px-4\"><div class=\"flex flex-wrap gap-1 mb-8 pt-8 lg:mb-16 breadcrumb\"><a href=\"/de/questions\">Häufige Frage</a><i class=\"icon\">chevron_right</i><a href=\"/de/question_categories/verification\">Verifizierung</a><i class=\"icon\">chevron_right</i><span>What does the Function-tested label mean on a listing?</span></div><div class=\"lg:flex gap-16 mb-16\"><div class=\"lg:w-3/4\"><h1 class=\"font-serif text-5xl mb-8\">What does the Function-tested label mean on a listing?</h1><div class=\"bg-white rounded-lg p-8 auction-body\"><p><em>Function-tested</em> means the <strong>seller has personally</strong> tested the\n<strong>specific functions listed for that item</strong> and <strong>certified the status</strong> of each\n(e.g., <em>works / does not work</em>). It is a <strong>basic function check</strong> intended to provide a\nquick snapshot - it is <strong>not</strong> a professional inspection or a guarantee.</p>\n<p><strong>Important:</strong> The test is <strong>not performed by Bidders Highway</strong>. The information is\n<strong>self-reported by the seller</strong> and published in the auction to increase transparency.</p>\n<p><strong>Typical items (examples):</strong></p>\n<ul>\n  <li>Roadworthy (can be driven)</li>\n  <li>Valid inspection (besiktning)</li>\n  <li>AC</li>\n  <li>Trip meter</li>\n  <li>Media</li>\n  <li>Electrical functions</li>\n  <li>Instrument cluster</li>\n  <li>Seat belts</li>\n  <li>Lighting</li>\n  <li>Engine</li>\n  <li>Brakes</li>\n  <li>Clutch</li>\n</ul>\n<p><em>Status icons in the list:</em> ✔︎ = works, ✖︎ = does not work.</p>\n<p><strong>Scope and limitations:</strong></p>\n<ul>\n  <li>Applies <strong>only</strong> to the functions <strong>listed</strong> for the item.</li>\n  <li>Does <strong>not</strong> predict future failures or cover latent defects and does <strong>not</strong>\n  replace a professional inspection or diagnostics.</li>\n  <li>Buyers should review the description, photos and videos, ask questions as needed, and for\n  high-value transactions consider <strong>Secure payment (Swiftcourt/escrow)</strong> for extra peace of\n  mind.</li>\n</ul></div></div><div class=\"lg:w-1/4 mt-8 lg:mt-0\"><h2 class=\"text-xl font-semibold mb-6\">Kategorien</h2><ul class=\"flex flex-wrap gap-2 lg:block\"><li><a href=\"/de/questions\" class=\"block lg:px-4 lg:py-3 font-semibold text-neutral-500 hover:text-neutral-600 transition-colors border rounded border-transparent\">Alle</a></li><li><a href=\"/de/question_categories/buying\" class=\"block lg:px-4 lg:py-3 font-semibold text-neutral-500 hover:text-neutral-600 transition-colors border rounded border-transparent\">Einkaufen</a></li><li><a href=\"/de/question_categories/selling\" class=\"block lg:px-4 lg:py-3 font-semibold text-neutral-500 hover:text-neutral-600 transition-colors border rounded border-transparent\">Verkaufen</a></li><li><a href=\"/de/question_categories/bidding\" class=\"block lg:px-4 lg:py-3 font-semibold text-neutral-500 hover:text-neutral-600 transition-colors border rounded border-transparent\">Bieten</a></li><li><a href=\"/de/question_categories/documentation\" class=\"block lg:px-4 lg:py-3 font-semibold text-neutral-500 hover:text-neutral-600 transition-colors border rounded border-transparent\">Dokumentation</a></li><li><a href=\"/de/question_categories/account\" class=\"block lg:px-4 lg:py-3 font-semibold text-neutral-500 hover:text-neutral-600 transition-colors border rounded border-transparent\">Konto</a></li><li><a href=\"/de/question_categories/payment\" class=\"block lg:px-4 lg:py-3 font-semibold text-neutral-500 hover:text-neutral-600 transition-colors border rounded border-transparent\">Zahlungen</a></li><li><a href=\"/de/question_categories/shipping\" class=\"block lg:px-4 lg:py-3 font-semibold text-neutral-500 hover:text-neutral-600 transition-colors border rounded border-transparent\">Transport</a></li><li><a href=\"/de/question_categories/verification\" class=\"block lg:px-4 lg:py-3 font-semibold text-neutral-500 hover:text-neutral-600 transition-colors border rounded border-transparent px-2 border-black! text-black! hover:text-black!\">Verifizierung</a></li></ul></div></div></div><div class=\"container mx-auto px-4 pb-16\"><div class=\"w-full p-8 bg-amber-100 rounded sm:flex justify-between items-center\"><div><h2 class=\"font-serif text-2xl sm:text-4xl mb-4\">Weitere Fragen?</h2><p class=\"text-sm sm:text-base mb-2 sm:mb-8\">Sie können uns eine E-Mail senden. Wir helfen Ihnen gerne weiter!</p><a href=\"mailto:support@biddershighway.com\" class=\"font-bold underline hover:text-neutral-800\">support@biddershighway.com</a></div><a href=\"mailto:support@biddershighway.com\" class=\"hidden sm:block\"><img src=\"/assets/contact-us-4411369c.svg\" alt=\"Contact us\" class=\"w-48 h-36\"></a></div></div><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/de\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">Alle unsere Autoauktionen ansehen</a></div></div></main>",
+  "links": [
+    "/de/questions",
+    "/de/question_categories/verification",
+    "/de/question_categories/buying",
+    "/de/question_categories/selling",
+    "/de/question_categories/bidding",
+    "/de/question_categories/documentation",
+    "/de/question_categories/account",
+    "/de/question_categories/payment",
+    "/de/question_categories/shipping",
+    "/de"
+  ]
+}

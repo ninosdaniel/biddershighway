@@ -1,0 +1,84 @@
+{
+  "path": "/sv/cars",
+  "sourceUrl": "https://www.biddershighway.com/sv/cars",
+  "title": "Klassiska bilar och entusiastbilar till salu – alla märken",
+  "description": "Hitta entusiastbilar efter märke på Bidders Highway: pågående auktioner, annonser och sålda bilar.",
+  "canonicalUrl": "https://www.biddershighway.com/sv/cars",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/cars"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/cars"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/cars"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/cars"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><div class=\"container mx-auto px-4 py-8\"><h1 class=\"font-serif uppercase text-3xl md:text-4xl lg:text-5xl text-racing-700 mb-2\">Bilar</h1><p class=\"text-neutral-600 mb-8 max-w-3xl\">Här hittar du alla bilmärken som säljs eller har sålts på Bidders Highway – från svenska klassiker som Volvo och Saab till tyska, italienska, brittiska och amerikanska sportbilar. Välj ett märke för att se pågående auktioner, annonser och tidigare försäljningar.</p><ul class=\"grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3 mb-16\"><li><a href=\"/sv/cars/alfa-romeo\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Alfa Romeo</a></li><li><a href=\"/sv/cars/alpina\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Alpina</a></li><li><a href=\"/sv/cars/amc\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">AMC</a></li><li><a href=\"/sv/cars/aston-martin\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Aston Martin</a></li><li><a href=\"/sv/cars/audi\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Audi</a></li><li><a href=\"/sv/cars/austin\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Austin</a></li><li><a href=\"/sv/cars/austin-healey\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Austin-Healey</a></li><li><a href=\"/sv/cars/bentley\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Bentley</a></li><li><a href=\"/sv/cars/bmw\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">BMW</a></li><li><a href=\"/sv/cars/buick\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Buick</a></li><li><a href=\"/sv/cars/cadillac\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Cadillac</a></li><li><a href=\"/sv/cars/chevrolet\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Chevrolet</a></li><li><a href=\"/sv/cars/chrysler\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Chrysler</a></li><li><a href=\"/sv/cars/citroen\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Citroën</a></li><li><a href=\"/sv/cars/datsun\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Datsun</a></li><li><a href=\"/sv/cars/de-tomaso\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">De Tomaso</a></li><li><a href=\"/sv/cars/dodge\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Dodge</a></li><li><a href=\"/sv/cars/ferrari\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Ferrari</a></li><li><a href=\"/sv/cars/fiat\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Fiat</a></li><li><a href=\"/sv/cars/ford\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Ford</a></li><li><a href=\"/sv/cars/gmc\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">GMC</a></li><li><a href=\"/sv/cars/honda\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Honda</a></li><li><a href=\"/sv/cars/jaguar\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Jaguar</a></li><li><a href=\"/sv/cars/jeep\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Jeep</a></li><li><a href=\"/sv/cars/lamborghini\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Lamborghini</a></li><li><a href=\"/sv/cars/lancia\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Lancia</a></li><li><a href=\"/sv/cars/land-rover\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Land Rover</a></li><li><a href=\"/sv/cars/lincoln\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Lincoln</a></li><li><a href=\"/sv/cars/lotus\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Lotus</a></li><li><a href=\"/sv/cars/maserati\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Maserati</a></li><li><a href=\"/sv/cars/mazda\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Mazda</a></li><li><a href=\"/sv/cars/mercedes-benz\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Mercedes-Benz</a></li><li><a href=\"/sv/cars/mercury\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Mercury</a></li><li><a href=\"/sv/cars/mg\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">MG</a></li><li><a href=\"/sv/cars/mini\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Mini</a></li><li><a href=\"/sv/cars/morgan\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Morgan</a></li><li><a href=\"/sv/cars/morris\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Morris</a></li><li><a href=\"/sv/cars/nissan\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Nissan</a></li><li><a href=\"/sv/cars/oldsmobile\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Oldsmobile</a></li><li><a href=\"/sv/cars/opel\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Opel</a></li><li><a href=\"/sv/cars/peugeot\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Peugeot</a></li><li><a href=\"/sv/cars/plymouth\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Plymouth</a></li><li><a href=\"/sv/cars/pontiac\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Pontiac</a></li><li><a href=\"/sv/cars/porsche\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Porsche</a></li><li><a href=\"/sv/cars/renault\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Renault</a></li><li><a href=\"/sv/cars/rolls-royce\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Rolls-Royce</a></li><li><a href=\"/sv/cars/rover\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Rover</a></li><li><a href=\"/sv/cars/saab\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Saab</a></li><li><a href=\"/sv/cars/subaru\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Subaru</a></li><li><a href=\"/sv/cars/toyota\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Toyota</a></li><li><a href=\"/sv/cars/triumph\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Triumph</a></li><li><a href=\"/sv/cars/volkswagen\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Volkswagen</a></li><li><a href=\"/sv/cars/volvo\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Volvo</a></li></ul></div></main>",
+  "links": [
+    "/sv/cars/alfa-romeo",
+    "/sv/cars/alpina",
+    "/sv/cars/amc",
+    "/sv/cars/aston-martin",
+    "/sv/cars/audi",
+    "/sv/cars/austin",
+    "/sv/cars/austin-healey",
+    "/sv/cars/bentley",
+    "/sv/cars/bmw",
+    "/sv/cars/buick",
+    "/sv/cars/cadillac",
+    "/sv/cars/chevrolet",
+    "/sv/cars/chrysler",
+    "/sv/cars/citroen",
+    "/sv/cars/datsun",
+    "/sv/cars/de-tomaso",
+    "/sv/cars/dodge",
+    "/sv/cars/ferrari",
+    "/sv/cars/fiat",
+    "/sv/cars/ford",
+    "/sv/cars/gmc",
+    "/sv/cars/honda",
+    "/sv/cars/jaguar",
+    "/sv/cars/jeep",
+    "/sv/cars/lamborghini",
+    "/sv/cars/lancia",
+    "/sv/cars/land-rover",
+    "/sv/cars/lincoln",
+    "/sv/cars/lotus",
+    "/sv/cars/maserati",
+    "/sv/cars/mazda",
+    "/sv/cars/mercedes-benz",
+    "/sv/cars/mercury",
+    "/sv/cars/mg",
+    "/sv/cars/mini",
+    "/sv/cars/morgan",
+    "/sv/cars/morris",
+    "/sv/cars/nissan",
+    "/sv/cars/oldsmobile",
+    "/sv/cars/opel",
+    "/sv/cars/peugeot",
+    "/sv/cars/plymouth",
+    "/sv/cars/pontiac",
+    "/sv/cars/porsche",
+    "/sv/cars/renault",
+    "/sv/cars/rolls-royce",
+    "/sv/cars/rover",
+    "/sv/cars/saab",
+    "/sv/cars/subaru",
+    "/sv/cars/toyota",
+    "/sv/cars/triumph",
+    "/sv/cars/volkswagen",
+    "/sv/cars/volvo"
+  ]
+}

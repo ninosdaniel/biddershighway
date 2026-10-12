@@ -1,0 +1,33 @@
+{
+  "path": "/en/posts/the-washing-guide-exterior",
+  "sourceUrl": "https://www.biddershighway.com/en/posts/the-washing-guide-exterior",
+  "title": "The Washing Guide: Exterior",
+  "description": "Spring is just around the corner. Time to bring out the gem? Or is it a new acquisition that should shine like never before? Then let's grab the wash bucket!",
+  "canonicalUrl": "https://www.biddershighway.com/en/posts/the-washing-guide-exterior",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/posts/the-washing-guide-exterior"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/posts/tvattguiden:-exteriort"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/posts/der-waschguide-aussen"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/posts/tvattguiden:-exteriort"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pb-0 lg:px-0 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">The Washing Guide: Exterior</h1><div class=\"flex flex-wrap gap-2 mt-4\"><span class=\"inline-block text-sm px-3 py-1 border border-black rounded-full\">Guides</span></div><span class=\"text-neutral-500 block mt-6\">Spring is just around the corner. Time to bring out the gem? Or is it a new acquisition that should shine like never before? Then let's grab the wash bucket!</span><div class=\"flex mt-6\"><div class=\"mr-2\"><a href=\"/en/authors/fredrik-johansson\"><img alt=\"\" class=\"rounded-full w-[48px]\" src=\"/assets/fredrik-johansson-388c6379.jpg\"></a></div><div><a href=\"/en/authors/fredrik-johansson\" class=\"block hover:underline\">Fredrik Johansson</a><span class=\"block text-neutral-500 text-sm\">April 14, 2023 15:00</span></div></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/b830e6e598b384d8792f8c8edeca29e3\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><div>First and foremost, we want to dissolve particles, dirt, salt, tar etc, so we start with degreasing.&nbsp;</div><div><br></div><div>You can choose between cold degreaser or alkaline degreaser, I always go for alkaline which you dilute yourself with water. The stronger it is, the more dirt disappears. Spray it on under the window trim, be a bit careful with black plastic trim, and then let it work for a few minutes. Then rinse off with water, high pressure is preferable.</div><div><br></div><div>Once this is done, you may need to go over it with an iron fallout remover, which, like the degreaser, dissolves rust particles and things you never thought would come off. If the dirt is deep-seated, you may need to go over it with a soft detailing brush.</div><div><br></div><div>At the same time, you can also apply wheel cleaner, which is designed to remove brake dust. Let the iron fallout remover and the wheel cleaner work for a few minutes before you rinse off once again.</div><div><br></div><div>Now for the final step in what is known as the pre-wash! You've probably seen it on social media, the foam. Or foam, which a few years ago hit the market like a bomb. Using a special pressure sprayer, you cover the vehicle in thick foam and let it work for a few more minutes. These steps are essential for loosening as much dirt as possible from the paint before you move on to the mechanical wash. That is, your sponge and your hand power.</div><div><br></div><div>Hopefully she already looks much better now, but we're not done yet!&nbsp;<br><br></div><div>Now we're going to fill a sizeable bucket with lukewarm water, and into it we'll add a splash of car shampoo. An advantage when washing by hand is to get yourself a wash mitt or a microfibre sponge. These soak up a good amount of water and reduce the risk of wash scratches. Start from the top and work your way down when washing, and rinse off at regular intervals. A light touch and the same type of scrubbing all over the car.</div><div><br></div><div>Finally, do the wheels and tyres, a wheel brush is worth its weight in gold! If you like, go ahead and open the doors and shampoo the door jambs too, and rinse them out, that way you avoid ugly stains on your trousers when getting in and out…</div><div><br></div><div>Rinse the car off again.</div><div><br></div><div>Now, last but not least, we're going to protect the car a bit with some type of spray wax. There are thousands of products on the market and they're all used differently. We prefer the ones you spray onto the wet paint, dry with a microfibre cloth, and then you're done. With the cloth you can also tidy up spots you missed while scrubbing.</div><div><br></div><div>The tyres love tyre shine, no question about it, and if you have plastic trim you can use it there too.</div><div><br></div><div>There we go! Exterior done, in the next installment we'll talk about the interior!</div><div><br></div><div>Advanced stuff then? Engine wash, of course. So satisfying to do. Let the car cool down, spray alkaline degreaser in the engine bay and then go over it with a detailing brush. Cover the electrical box and other electronics with a plastic bag. Then rinse off with high pressure, try to avoid spraying directly onto electrical boxes and the ignition system. Then start the car and let it warm up. It's worth it, trust us.<br><br>Good luck!</div></div><div class=\"xl:w-2/3 mt-10 lg:mt-12\"><h2 class=\"text-xl font-semibold mb-2\">0 Comments</h2><div class=\"mb-16\"><span class=\"block border bg-rose-50 text-neutral-600 p-4 my-4 rounded\">You need to be signed in in order to post comments.</span><ul id=\"comments\"></ul></div></div></div></article><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/en\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">View all our car auctions</a></div></main>",
+  "links": [
+    "/en/authors/fredrik-johansson",
+    "/en"
+  ]
+}

@@ -4,20 +4,38 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "test": "node --test src/features/home/data/liveListings.test.js src/lib/site/*.test.js supabase/tests/*.test.mjs",
+    "dev": "next dev --port 3000",
+    "build": "next build",
+    "start": "next start --port 3000",
+    "preview": "next start --port 3000",
+    "import:reference": "node scripts/import-reference.mjs",
+    "test:edge": "deno test --allow-env --config supabase/functions/deno.json supabase/functions/tests",
+    "check:edge": "deno check --config supabase/functions/deno.json supabase/functions/website-api/index.ts supabase/functions/website-cron/index.ts supabase/functions/website-webhooks/index.ts"
   },
   "dependencies": {
+    "@emotion/cache": "^11.14.0",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
     "@mui/icons-material": "^7.0.2",
     "@mui/material": "^7.0.2",
+    "@supabase/supabase-js": "^2.117.3",
+    "cheerio": "^1.2.0",
+    "html-react-parser": "^6.1.8",
+    "next": "^16.4.0",
+    "qrcode.react": "^4.2.0",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "sanitize-html": "^2.18.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^5.0.4",
-    "vite": "^7.1.7"
+    "@electric-sql/pglite": "^0.5.9",
+    "deno": "^2.9.6",
+    "esbuild": "^0.28.2",
+    "prettier": "^3.9.10",
+    "supabase": "^2.120.0"
+  },
+  "overrides": {
+    "baseline-browser-mapping": "^2.11.0"
   }
 }

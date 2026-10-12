@@ -1,0 +1,32 @@
+{
+  "path": "/en/docs/about_us",
+  "sourceUrl": "https://www.biddershighway.com/en/docs/about_us",
+  "title": "About Bidders Highway",
+  "description": "Bidders Highway is an online auction platform for enthusiast and collector cars, founded by enthusiasts for enthusiasts with the ambition that it should be...",
+  "canonicalUrl": "https://www.biddershighway.com/en/docs/about_us",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/docs/about_us"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/docs/about_us"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/docs/about_us"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/docs/about_us"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><div class=\"py-12 bg-off-white text-center\"><div class=\"container mx-auto px-4 lg:max-w-4xl\"><h1 class=\"text-3xl md:text-5xl\">About Bidders Highway</h1></div></div><div class=\"container mx-auto px-4 lg:max-w-4xl py-12\"><div class=\"terms-body\"><p>Bidders Highway is an online auction platform for enthusiast and collector cars, founded by enthusiasts for enthusiasts with the ambition that it should be as enjoyable to buy and sell special cars, as it is to own and drive them.</p>\n<p>We are based in Stockholm but work with cars across the entirety of Sweden as well as internationally.</p>\n<p>Our auctions take place around the clock over 7 days and new listings are constantly being added.</p>\n<p>We help sellers to document their auction listings on our platform and then market them to potential buyers around the world.</p>\n</div><opt-out-controller class=\"flex gap-2\"><a href=\"#\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300\" data-opt-out-target=\"optInButton\" data-action=\"opt-out#optIn\">Accept cookies</a><a href=\"#\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-neutral-500 hover:bg-neutral-600\" data-opt-out-target=\"optOutButton\" data-action=\"opt-out#optOut\">Deny cookies</a></opt-out-controller></div></main>",
+  "links": [
+    "/en/docs/about_us"
+  ]
+}

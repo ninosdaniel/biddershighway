@@ -1,0 +1,30 @@
+{
+  "path": "/sv/users/new",
+  "sourceUrl": "https://www.biddershighway.com/sv/users/new",
+  "title": "Bidders Highway - Bilauktioner",
+  "description": "Auktioner av entusiastbilar online. Köp eller sälj ditt fordon hos oss! Bidders Highway ser till att din bil eller motorcykel går för rätt pris.",
+  "canonicalUrl": "https://www.biddershighway.com/sv/users/new",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/users/new"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/users/new"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/users/new"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/users/new"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><div class=\"bg-white pb-20\"><div class=\"bg-off-white py-6 sm:py-12\"><div class=\"container mx-auto px-4 text-center\"><h1 class=\"text-3xl md:text-5xl mb-0\">Skapa konto</h1><span class=\"hidden sm:block text-neutral-400 mt-4\">Vi skickar en inloggningslänk via e-post.</span></div></div><div class=\"container mx-auto px-4 pt-6 sm:pt-10\"><div class=\"max-w-2xl mx-auto\"></div><div class=\"lg:grid grid-cols-2 gap-12 items-start max-w-5xl mx-auto\"><div class=\"mb-6 sm:mb-0\"><h2 class=\"hidden sm:block text-2xl md:text-3xl font-bold text-neutral-900\">Välkommen till Bidders Highway</h2><p class=\"text-neutral-600 mt-4 leading-relaxed\">Vi är glada att ha dig här. Sveriges bästa auktionssajt för samlarbilar väntar.</p><p class=\"text-neutral-600 mt-4 leading-relaxed\">Vi skickar en säker inloggningslänk så att du kan komma igång direkt.</p><div class=\"mt-6 rounded-lg bg-neutral-50 border border-neutral-200 p-4\"><h3 class=\"text-sm font-semibold text-neutral-800\">Om mejlet</h3><p class=\"text-neutral-600 mt-2 text-sm leading-relaxed\">Det kan ta några minuter innan det kommer. Kolla alla inkorgar, även skräppost och kampanjer.</p></div></div><div class=\"bg-white shadow-lg rounded-xl p-6 md:p-8 border border-neutral-100\"><form class=\"new_user\" id=\"new_user\" action=\"/sv/users\" accept-charset=\"UTF-8\" method=\"post\"><input name=\"user[accept_terms]\" type=\"hidden\" value=\"0\" autocomplete=\"off\"><input class=\"absolute -left-[2000px] top-0\" type=\"checkbox\" value=\"1\" name=\"user[accept_terms]\" id=\"user_accept_terms\"><div class=\"mb-4 lg:mb-6\"><label class=\"block text-sm font-semibold text-neutral-700 mb-2\" for=\"user_name\">Namn</label><input autofocus=\"autofocus\" autocomplete=\"name\" class=\"border border-stone-300 bg-white text-base py-2.5 px-4 focus:border-stone-500 transition-colors placeholder:text-stone-400 w-full rounded-md\" required=\"required\" type=\"text\" name=\"user[name]\" id=\"user_name\"></div><div class=\"mb-4 lg:mb-6\"><label class=\"block text-sm font-semibold text-neutral-700 mb-2\" for=\"user_email\">E-post</label><input autocomplete=\"email\" class=\"border border-stone-300 bg-white text-base py-2.5 px-4 focus:border-stone-500 transition-colors placeholder:text-stone-400 w-full rounded-md\" required=\"required\" type=\"email\" name=\"user[email]\" id=\"user_email\"></div><input autocomplete=\"off\" value=\"sv\" type=\"hidden\" name=\"user[locale]\" id=\"user_locale\"><input autocomplete=\"off\" type=\"hidden\" name=\"user[new_user_bookmark_id]\" id=\"user_new_user_bookmark_id\"><div class=\"pt-2\"><input type=\"submit\" name=\"commit\" value=\"Fortsätt\" class=\"bg-jaffa hover:bg-zest text-white font-bold py-3 px-8 rounded-lg cursor-pointer transition-all transform shadow-lg hover:shadow-xl w-full\" data-disable-with=\"Fortsätt\"></div></form></div></div></div></div></main>",
+  "links": []
+}

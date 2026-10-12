@@ -1,0 +1,35 @@
+{
+  "path": "/de/pages/what-is-bidders-highway%3F",
+  "sourceUrl": "https://www.biddershighway.com/de/pages/what-is-bidders-highway%3F",
+  "title": "Was ist Bidders Highway?",
+  "description": "Bidders Highway ist eine Online-Auktionsplattform für Liebhaberfahrzeuge – von Oldtimern und Sammlerautos bis hin zu Sportwagen, Cabrios und Motorrädern mit dem gewissen Extra. Wir sind um eine aktive Community von Auto- und Motorrad-Nerds wie uns herum aufgebaut und wollen ein Treffpunkt sein, an dem sich Menschen treffen, Wissen austauschen und Artikel finden, die auf dem restlichen Markt oft nicht zu finden sind.",
+  "canonicalUrl": "https://www.biddershighway.com/de/pages/what-is-bidders-highway%3F",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/pages/what-is-bidders-highway%3F"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/pages/what-is-bidders-highway%3F"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/pages/what-is-bidders-highway%3F"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/pages/what-is-bidders-highway%3F"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><div class=\"bg-neutral-50 border-b\"><div class=\"container mx-auto px-4 py-3\"><nav class=\"flex items-center text-sm text-neutral-600\"><a href=\"/de/pages\" class=\"hover:text-blue-600\">Alle Seiten</a><span class=\"mx-2\">/</span><a href=\"/de/pages/about-us\" class=\"hover:text-blue-600\">Über uns</a><span class=\"mx-2\">/</span><span class=\"text-neutral-800 font-medium\">Was ist Bidders Highway?</span></nav></div></div><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">Was ist Bidders Highway?</h1><span class=\"text-neutral-500 block mt-6\">Bidders Highway ist eine Online-Auktionsplattform für Liebhaberfahrzeuge – von Oldtimern und Sammlerautos bis hin zu Sportwagen, Cabrios und Motorrädern mit dem gewissen Extra. Wir sind um eine aktive Community von Auto- und Motorrad-Nerds wie uns herum aufgebaut und wollen ein Treffpunkt sein, an dem sich Menschen treffen, Wissen austauschen und Artikel finden, die auf dem restlichen Markt oft nicht zu finden sind.</span><div class=\"mt-6\"><span class=\"text-neutral-500 text-sm\">Oktober 01, 2025 10:00</span></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/ca3f30198b0731fd7e655dc00d156292\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><h2><strong>Dies ist Bidders Highway</strong></h2><p>In Schweden werden jährlich rund 75.000 Fahrzeuge dieser Kategorie verkauft – unsere Plattform macht den Kauf und Verkauf reibungslos, schnell und transparent.&nbsp;</p><p>&nbsp;Im Vergleich zu herkömmlichen Auktionshäusern bieten wir ein vereinfachtes Modell: kuratierte Auswahl, professionelle Fotos und Dokumentation, 7-tägiges Bieten, Bank-ID und verbindliche Gebote für eine sichere Transaktion. Alle Artikel werden von unserem Team ausgewählt, während der Verkäufer für den Zustand garantiert – ein Kompromiss, der mehr Sicherheit bietet als eine Kleinanzeige, aber dennoch die Flexibilität bietet, die Enthusiasten schätzen, wenn man unseren Bewertungen Glauben schenken darf.</p><p><i>\"Empfehlenswert! Einfach, übersichtlich und unkompliziert.“</i> <b>Anders, September 2025</b>&nbsp;</p><p><i>\"Vom ersten Kontakt über die Fotografie, die Beschreibung des Autos bis hin zum Verkauf zeigt sich Bidders Highway persönlich und professionell. Ich kann ihnen nur die Höchstbewertung geben!\"</i> <b>Erik L, Juli 2025</b></p><p> <strong>Lesen Sie mehr auf <a href=\"https://se.trustpilot.com/review/biddershighway.com\" rel=\"noopener noreferrer\" target=\"_blank\">Trustpilot.com</a></strong></p><p><b>Weitere Informationen zum Verkaufen und Kaufen auf unserem Marktplatz finden Sie in unseren <a href=\"https://www.biddershighway.com/de/questions\">FAQ.</a></b></p></div></div><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/de\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">Alle unsere Autoauktionen ansehen</a></div></article></main>",
+  "links": [
+    "/de/pages",
+    "/de/pages/about-us",
+    "/de/questions",
+    "/de"
+  ]
+}

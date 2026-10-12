@@ -1,0 +1,34 @@
+{
+  "path": "/en/pages/who-are-we%3F",
+  "sourceUrl": "https://www.biddershighway.com/en/pages/who-are-we%3F",
+  "title": "Who are we?",
+  "description": "We are a team of car nerds, advertisers and platform builders. With roots in the car trade and experience in large-scale technical solutions, we are building Sweden's most transparent car auction platform - for enthusiast cars, collector cars, sports cars and motorcycles.",
+  "canonicalUrl": "https://www.biddershighway.com/en/pages/who-are-we%3F",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/pages/who-are-we%3F"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/pages/who-are-we%3F"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/pages/who-are-we%3F"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/pages/who-are-we%3F"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><div class=\"bg-neutral-50 border-b\"><div class=\"container mx-auto px-4 py-3\"><nav class=\"flex items-center text-sm text-neutral-600\"><a href=\"/en/pages\" class=\"hover:text-blue-600\">All Pages</a><span class=\"mx-2\">/</span><a href=\"/en/pages/about-us\" class=\"hover:text-blue-600\">About us</a><span class=\"mx-2\">/</span><span class=\"text-neutral-800 font-medium\">Who are we?</span></nav></div></div><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">Who are we?</h1><span class=\"text-neutral-500 block mt-6\">We are a team of car nerds, advertisers and platform builders. With roots in the car trade and experience in large-scale technical solutions, we are building Sweden's most transparent car auction platform - for enthusiast cars, collector cars, sports cars and motorcycles.</span><div class=\"mt-6\"><span class=\"text-neutral-500 text-sm\">September 29, 2025 12:30</span></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/b204dbab288cb25a84d999a7773069b5\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><img src=\"https://bidders-highway.fra1.digitaloceanspaces.com/q00v4upbl4xn6mtnzbk8ww08o0a5\"><p><span><b>Jacob Odqvist, CEO &amp; Founder</b></span></p><p>Jacob Odqvist's lifelong passion for cars and motorcycles led him to found Bidders Highway in 2022. With Golden Eggs, Golden Lions and the Grand Prix from Cannes under his belt, Jacob has combined the tact of an advertiser with the passion of a vehicle lover who has been able to ride in Steve Jobs' BMW Z8 in Silicon Valley and has raced the Gotland Grand National on a 950 cc Dakar bike weighing 200 kilos.</p><img src=\"https://bidders-highway.fra1.digitaloceanspaces.com/lwklr2a2bhu238ssfdh0iy9ibxgx\"><p><span><b>Erik Cederberg, Head of auctions</b></span></p><p>Erik Cederberg is the auction manager at Bidders Highway. Erik is without a doubt the person who has bought, sold, driven, traveled, and talked about the most cars in all of Sweden, ever. His credentials range from winning the Carrera Pan Americana in Mexico and the American Street Car Series (2 times!) to crossing Europe (alone) in a Ferrari 456 GT when he was 17 years old!</p><img src=\"https://bidders-highway.fra1.digitaloceanspaces.com/57b36jt6cj2pccce4drsdw9gczm2\"><p><span><b>Johan Halse, CTO</b></span></p><p>Johan is the one who develops the site and makes sure everything works technically. Geeks come in many forms and although Johan has always been more interested in computers than cars, Bidders Highway has opened up the enthusiast world wide for him. The V50 has been sold and replaced by a nimble little Suzuki Jimny, and as soon as the lease on the electric car expires, a Range Rover looms in the future.</p><img src=\"https://bidders-highway.fra1.digitaloceanspaces.com/a7q2dw7hk5331sw1at7b1f8gpo22\"><p><span><b>Rasmus Christenssen, Auctioneer administrator</b></span></p><p>Rasmus Christensen has worked at Bidders Highway since 2023. His car interest journey has gone from track racing at a young age to crawling around the forest with four-wheel drive and building campsites in his older days.</p><img src=\"https://bidders-highway.fra1.digitaloceanspaces.com/18yuwcoyd0qbv242avycy1z6hkgk\"><p><b><span>Tomas Jönsson,&nbsp;</span>Marketing manager</b></p><p>Tomas Jönsson is Bidders Highway's marketing manager and has been driven by a joy of creation since childhood when he ran around with his grandmother's VHS camera and recorded robber films and car chases with his friends. As an adult, he has continued to create. As the founder of the car events Route of Sweden and Snowscape Rally, Tomas is a well-known name in car circles. In the garage, Tomas has a Magnus Walker-signed 911 and an Isuzu Piazza Turbo Handling By Lotus ... How about that!</p><img src=\"https://bidders-highway.fra1.digitaloceanspaces.com/1sxsm0l38w4lkjw298s0ytv1v8ld\"><p><b><span>Jens Trulsson,&nbsp;</span>Photography &amp; Support</b></p><p>Jens Trulsson actually wants to be a racing driver, but the lack of talent and money has meant that he has instead been reviewing vehicles in Swedish and international car magazines for over 20 years. Nowadays, he helps enthusiasts sell their vehicles at auction and makes test drive videos on Youtube.</p></div></div><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/en\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">View all our car auctions</a></div></article></main>",
+  "links": [
+    "/en/pages",
+    "/en/pages/about-us",
+    "/en"
+  ]
+}

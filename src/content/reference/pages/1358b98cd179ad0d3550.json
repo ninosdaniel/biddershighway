@@ -1,0 +1,33 @@
+{
+  "path": "/sv/pages/safety-and-security-at-bidders-highway",
+  "sourceUrl": "https://www.biddershighway.com/sv/pages/safety-and-security-at-bidders-highway",
+  "title": "Trygghet och säkerhet på Bidders Highway",
+  "description": "Trygga auktioner med verifierade budgivare. Hundratals fordon förmedlade, bindande villkor och fullt stöd för köpare och säljare.",
+  "canonicalUrl": "https://www.biddershighway.com/sv/pages/safety-and-security-at-bidders-highway",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/pages/safety-and-security-at-bidders-highway"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/pages/safety-and-security-at-bidders-highway"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/pages/safety-and-security-at-bidders-highway"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/pages/safety-and-security-at-bidders-highway"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><div class=\"bg-neutral-50 border-b\"><div class=\"container mx-auto px-4 py-3\"><nav class=\"flex items-center text-sm text-neutral-600\"><a href=\"/sv/pages\" class=\"hover:text-blue-600\">Alla sidor</a></nav></div></div><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">Trygghet och säkerhet på Bidders Highway</h1><span class=\"text-neutral-500 block mt-6\">Trygga auktioner med verifierade budgivare. Hundratals fordon förmedlade, bindande villkor och fullt stöd för köpare och säljare.</span><div class=\"mt-6\"><span class=\"text-neutral-500 text-sm\">30 september 2025 09:00</span></div></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><p><span>Att köpa eller sälja via Bidders Highway ska alltid kännas tryggt. Vår affärsmodell är utformad för att ge både köpare och säljare en säker upplevelse från första kontakt till avslutad affär.</span></p><p><span>Varje budgivare verifieras med BankID eller kreditkort. Det innebär att du som säljare kan känna dig säker på att endast seriösa och identifierade personer deltar i auktionerna. Alla säljare kontaktas dessutom personligen av oss innan en auktion startar. På så sätt kan vi försäkra oss om att både objektet och säljaren uppfyller våra krav.</span></p><p><span>Alla auktioner övervakas av vårt team för att garantera en rättvis och transparent budgivning. Som köpare får du tillgång till hundratals bilder på varje objekt, ofta tillsammans med detaljerade beskrivningar, vilket gör att du kan fatta välgrundade beslut innan du lägger ett bud.</span></p><p><span>När en auktion avslutas gäller bindande avtal enligt våra villkor för både köpare och säljare. Det skapar trygghet och förutsägbarhet för alla parter. Skulle något mot förmodan inte gå som planerat finns vi här för att stötta och hjälpa till att lösa situationen.</span></p><p><span>Vi har redan förmedlat hundratals fordon som fått nya hem genom vår plattform. Vårt rykte är en av våra viktigaste tillgångar, och vi är måna om att varje affär ska stärka förtroendet för oss ytterligare.</span></p><p><span>På Bidders Highway är säkerhet och transparens alltid en självklarhet. Vår ambition är att varje kund ska känna sig trygg, både idag och i framtiden.</span></p></div></div><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/sv\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">Se alla våra bilauktioner</a></div></article></main>",
+  "links": [
+    "/sv/pages",
+    "/sv"
+  ]
+}

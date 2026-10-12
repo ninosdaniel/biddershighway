@@ -1,0 +1,33 @@
+{
+  "path": "/sv/posts/en-tysk-trimningsfirma-med-rotter-i-motorsporten",
+  "sourceUrl": "https://www.biddershighway.com/sv/posts/en-tysk-trimningsfirma-med-rotter-i-motorsporten",
+  "title": "En tysk trimningsfirma med rötter i motorsporten",
+  "description": "Vad händer om du tar en motor från en större BMW och stoppar in den i en mindre BMW? Detta var filosofin hos den tyska trimningsfirman Hartge.  Och resultatet? Råa och unika bilar, primärt baserade på BMW:s modellutbud. På sikt erbjöds även trimning för MINI, Juno Racing Cars och Range Rover. ",
+  "canonicalUrl": "https://www.biddershighway.com/sv/posts/en-tysk-trimningsfirma-med-rotter-i-motorsporten",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/posts/a-german-tuning-firm-with-roots-in-motorsport"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/posts/en-tysk-trimningsfirma-med-rotter-i-motorsporten"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/posts/eine-deutsche-tuningfirma-mit-wurzeln-im-motorsport"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/posts/en-tysk-trimningsfirma-med-rotter-i-motorsporten"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pb-0 lg:px-0 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">En tysk trimningsfirma med rötter i motorsporten</h1><span class=\"text-neutral-500 block mt-6\">Vad händer om du tar en motor från en större BMW och stoppar in den i en mindre BMW? Detta var filosofin hos den tyska trimningsfirman Hartge.  Och resultatet? Råa och unika bilar, primärt baserade på BMW:s modellutbud. På sikt erbjöds även trimning för MINI, Juno Racing Cars och Range Rover. </span><div class=\"flex mt-6\"><div class=\"mr-2\"><a href=\"/sv/authors/bidders-highway\"><img alt=\"\" class=\"rounded-full w-[48px]\" src=\"/assets/bidders-highway-63938c17.jpg\"></a></div><div><a href=\"/sv/authors/bidders-highway\" class=\"block hover:underline\">Bidders Highway</a><span class=\"block text-neutral-500 text-sm\">31 maj 2023 10:00</span></div></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/035abd43806bebd6c25cb4fd6cb5593d\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><div>Bilen vi har uppe på sajten nu är inget undantag: en Hartge H35-24, som är en BMW E30 325i i grunden. Kul kuriosa är att just detta objekt sattes&nbsp; på prov i Biltidningen Car 1986, och ställde skåpet mot den motsvarande M3:an, samt Alpina B6 2.8. Det säger en del om dess prestanda.<br><br>Firmans fullständiga namn är Herbert Hartge GmBH &amp; Co. KG och grundades 1971 i den tyska staden Merzig, alldeles intill den franska gränsen. Tre år senare flyttade firman till större lokaler i den närliggande byn Beckningen, och förblev här ända fram till avvecklingen så sent som 2019.<br><br><br><br></div><div>Medgrundaren och tillika racingföraren Herbert Hartge var själv BMW-entusiast samt aktiv inom banracing med diverse modifierade BMW-modeller på 1970-talet, såsom 1602, 2002, 320 och 635 CSi. I dag anses trimningsfirmans upphottade BMW-bilar vara bland det hetaste och mest unika som finns, särskilt för dig som söker något av det lite mer selektiva slaget.<br><br></div><div>1985 godkändes firman som egen fordonstillverkare av den tyska motsvarigheten till Transportstyrelsen, varpå en handpåläggning av självaste Hartge innebar att bilarna som lämnade fabriken i Beckningen tilldelades ett eget chassinummer, samt benämndes som officiella Hartge-bilar.<br><br><br><br><br></div></div><div class=\"xl:w-2/3 mt-10 lg:mt-12\"><h2 class=\"text-xl font-semibold mb-2\">0 Kommentarer</h2><div class=\"mb-16\"><span class=\"block border bg-rose-50 text-neutral-600 p-4 my-4 rounded\">Du måste vara inloggad för att kunna skriva kommentarer.</span><ul id=\"comments\"></ul></div></div></div></article><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/sv\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">Se alla våra bilauktioner</a></div></main>",
+  "links": [
+    "/sv/authors/bidders-highway",
+    "/sv"
+  ]
+}

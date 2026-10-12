@@ -1,0 +1,33 @@
+{
+  "path": "/en/posts/reduced-fee-on-items-under-100000-sek",
+  "sourceUrl": "https://www.biddershighway.com/en/posts/reduced-fee-on-items-under-100000-sek",
+  "title": "Reduced fee on items under 100,000 SEK!",
+  "description": "Even better terms with a lower fee!",
+  "canonicalUrl": "https://www.biddershighway.com/en/posts/reduced-fee-on-items-under-100000-sek",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/posts/reduced-fee-on-items-under-100000-sek"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/posts/sankt-avgift-pa-objekt-under-100000-sek"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/posts/gesenkte-gebuhr-fur-objekte-unter-100000-sek"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/posts/sankt-avgift-pa-objekt-under-100000-sek"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pb-0 lg:px-0 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">Reduced fee on items under 100,000 SEK!</h1><span class=\"text-neutral-500 block mt-6\">Even better terms with a lower fee!</span><div class=\"flex mt-6\"><div class=\"mr-2\"><a href=\"/en/authors/bidders-highway\"><img alt=\"\" class=\"rounded-full w-[48px]\" src=\"/assets/bidders-highway-63938c17.jpg\"></a></div><div><a href=\"/en/authors/bidders-highway\" class=\"block hover:underline\">Bidders Highway</a><span class=\"block text-neutral-500 text-sm\">March 13, 2023 14:45</span></div></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/552d1d61003ce84be89321c04b9b84f0\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><div>We are now lowering our previous fixed minimum fee of 7,500 SEK on items under 100,000 SEK. The new fee will instead be 3,750 SEK for items sold for under 50,000 SEK.<br><br>The reason is that we want it to be more advantageous for bidders to win items in the lower price ranges.<br><br><strong>Our new fee model is therefore as follows:</strong></div><ul><li>3,750 SEK incl. VAT as a fixed fee on all items up to 50,000 SEK.</li><li>7.5% incl. VAT on all items over 50,000 SEK.</li><li>We still retain our \"cap\" of a maximum of 75,000 SEK in fees on all sales over 1,000,000 SEK.<br><br></li></ul><div>We hope that, like us, you think this is a great idea and we very much look forward to all the exciting bidding this coming spring.<br><br>Happy Bidding!<br><br>Best regards,<br>Team Bidders Highway</div></div><div class=\"xl:w-2/3 mt-10 lg:mt-12\"><h2 class=\"text-xl font-semibold mb-2\">0 Comments</h2><div class=\"mb-16\"><span class=\"block border bg-rose-50 text-neutral-600 p-4 my-4 rounded\">You need to be signed in in order to post comments.</span><ul id=\"comments\"></ul></div></div></div></article><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/en\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">View all our car auctions</a></div></main>",
+  "links": [
+    "/en/authors/bidders-highway",
+    "/en"
+  ]
+}

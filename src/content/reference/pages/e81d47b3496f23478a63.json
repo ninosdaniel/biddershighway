@@ -1,0 +1,34 @@
+{
+  "path": "/sv/pages/why-auctions%3F",
+  "sourceUrl": "https://www.biddershighway.com/sv/pages/why-auctions%3F",
+  "title": "Varför just auktioner?",
+  "description": "Auktion samlar rätt köpare samtidigt och driver fram ett marknadspris på kort tid – med skydd i form av reservationspris och moderering.",
+  "canonicalUrl": "https://www.biddershighway.com/sv/pages/why-auctions%3F",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/pages/why-auctions%3F"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/pages/why-auctions%3F"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/pages/why-auctions%3F"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/pages/why-auctions%3F"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><div class=\"bg-neutral-50 border-b\"><div class=\"container mx-auto px-4 py-3\"><nav class=\"flex items-center text-sm text-neutral-600\"><a href=\"/sv/pages\" class=\"hover:text-blue-600\">Alla sidor</a><span class=\"mx-2\">/</span><a href=\"/sv/pages/about-us\" class=\"hover:text-blue-600\">Om oss</a><span class=\"mx-2\">/</span><span class=\"text-neutral-800 font-medium\">Varför just auktioner?</span></nav></div></div><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">Varför just auktioner?</h1><span class=\"text-neutral-500 block mt-6\">Auktion samlar rätt köpare samtidigt och driver fram ett marknadspris på kort tid – med skydd i form av reservationspris och moderering.</span><div class=\"mt-6\"><span class=\"text-neutral-500 text-sm\"> 1 oktober 2025 08:00</span></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/98c84485d844c569d4fea55af6923d43\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><h1>Varför vi har auktioner på Bidders Highway?</h1><p>Auktion är smartast för entusiastfordon: internationell, nischad räckvidd som hittar rätt köpare till rätt pris. Tidsatt budgivning i 7 dagar skapar tempo och köplust, medan proffsfoto, video och en välskriven annons lyfter värdet.</p><p>Vi rekommenderar oftast No Reserve – det driver fler bud och högre slutpris – men reservationspris finns för dig som vill ha extra skydd. Valet görs tillsammans med din handläggare, och alla bud är loggade och bindande, så du slipper oseriösa prutförsök.</p><h2>Få marknadsmässigt betalt</h2><ul>\n<li>Internationell räckvidd och segmenterad publik</li>\n<li>Varje objekt är unikt och med budgivning når man rätt köpare till rätt pris</li>\n<li>Tidsatt budgivning (7 dagar) ökar momentum</li>\n<li>Reservationspris skyddar säljarens lägstanivå</li>\n<li>Proffsfoto, video och välskriven annons</li>\n<li>Inga oseriösa prutförsök – bud loggas och är bindande</li>\n</ul><p><strong><a>Starta din försäljning redan idag!</a></strong></p><h2>Trygghet &amp; transparens för båda parter</h2><ul>\n<li>BankID krävs för budgivning och kommentarer.</li>\n<li>Modererat flöde &amp; kurerat utbud – intervju och dokumentation innan publicering.</li>\n<li>Minst 150 bilder (och ofta video) per objekt för full transparens.</li>\n<li>Tydlig, publik budhistorik samt öppna frågor/svar.</li>\n<li>Klara villkor och definierad process för leverans/överlåtelse.</li>\n<li>Kommentarsfält för kontakt med säljaren (modererat).</li>\n<li>Alla visningsförfrågningar hanteras via oss.</li>\n<li>Bilen står kvar hos säljaren till dess att auktionen är avslutad.</li>\n</ul><p><strong>Resultatet: transparenta och trygga affärer för entusiastfordon – från första bud till ägarbyte</strong></p><p><strong>Mer information kring hur man både säljer och köper på marknadsplats finns i vår <a>FAQ</a></strong></p></div></div><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/sv\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">Se alla våra bilauktioner</a></div></article></main>",
+  "links": [
+    "/sv/pages",
+    "/sv/pages/about-us",
+    "/sv"
+  ]
+}

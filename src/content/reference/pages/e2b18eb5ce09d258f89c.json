@@ -1,0 +1,34 @@
+{
+  "path": "/en/pages/why-auctions%3F",
+  "sourceUrl": "https://www.biddershighway.com/en/pages/why-auctions%3F",
+  "title": "Why auctions?",
+  "description": "Auction brings together the right buyers at the same time and drives a market price in a short time – with protection in the form of a reserve price and moderation.",
+  "canonicalUrl": "https://www.biddershighway.com/en/pages/why-auctions%3F",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/pages/why-auctions%3F"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/pages/why-auctions%3F"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/pages/why-auctions%3F"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/pages/why-auctions%3F"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><div class=\"bg-neutral-50 border-b\"><div class=\"container mx-auto px-4 py-3\"><nav class=\"flex items-center text-sm text-neutral-600\"><a href=\"/en/pages\" class=\"hover:text-blue-600\">All Pages</a><span class=\"mx-2\">/</span><a href=\"/en/pages/about-us\" class=\"hover:text-blue-600\">About us</a><span class=\"mx-2\">/</span><span class=\"text-neutral-800 font-medium\">Why auctions?</span></nav></div></div><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">Why auctions?</h1><span class=\"text-neutral-500 block mt-6\">Auction brings together the right buyers at the same time and drives a market price in a short time – with protection in the form of a reserve price and moderation.</span><div class=\"mt-6\"><span class=\"text-neutral-500 text-sm\">October 01, 2025 08:00</span></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/98c84485d844c569d4fea55af6923d43\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><h1>Why do we have auctions on Bidders Highway?</h1><p> Auction is the smartest for enthusiast vehicles: international, niche reach that finds the right buyer at the right price. Timed bidding for 7 days creates pace and buying desire, while professional photos, video and a well-written ad raise the value. We usually recommend No Reserve – it drives more bids and a higher final price – but a reserve price is available for those who want extra protection. The choice is made together with your agent, and all bids are logged and binding, so you avoid frivolous haggling attempts.</p><h2> Get paid according to market standards</h2><ul>\n<li> International reach and segmented audience</li>\n<li> Each object is unique and with bidding you reach the right buyer at the right price.</li>\n<li> Timed bidding (7 days) increases momentum</li>\n<li> Reservation price protects the seller's minimum level</li>\n<li> Professional photos, video and well-written ad</li>\n<li> No frivolous bargaining attempts – bids are logged and are binding.</li>\n</ul><p> <strong><a>Start your sales today!</a></strong></p><h2><b>Security &amp; transparency for both parties</b></h2><ul>\n<li>BankID is required for bidding and comments.</li>\n<li>Moderated feed &amp; curated selection – interview and documentation before publication.</li>\n<li>At least 150 images (and often video) per item for full transparency.</li>\n<li>Clear, public bidding history and open questions/answers.</li>\n<li>Clear terms and conditions and defined process for delivery/transfer.</li>\n<li>Comment field for contacting the seller (moderated).</li>\n<li>All viewing requests are handled through us.</li>\n<li>The car remains with the seller until the auction is over.</li>\n</ul><p><b>The result: transparent and secure transactions for enthusiast vehicles – from first bid to change of ownership</b></p><p><b>More information about how to both sell and buy on the marketplace can be found in our <a>FAQ</a></b></p></div></div><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/en\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">View all our car auctions</a></div></article></main>",
+  "links": [
+    "/en/pages",
+    "/en/pages/about-us",
+    "/en"
+  ]
+}

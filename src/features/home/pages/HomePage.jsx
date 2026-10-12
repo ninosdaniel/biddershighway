@@ -1,10 +1,10 @@
 import { Container } from "@mui/material";
-import { HeroSection } from "../sections/HeroSection";
+import { ListingGridSection } from "../sections/ListingGridSection";
 
 export function HomePage() {
   return (
-    <Container maxWidth="lg" sx={{ py: { xs: 8, md: 14 } }}>
-      <HeroSection />
+    <Container maxWidth="lg" sx={{ pt: { xs: 3, md: 4 }, pb: { xs: 6, md: 8 } }}>
+      <ListingGridSection />
     </Container>
   );
 }

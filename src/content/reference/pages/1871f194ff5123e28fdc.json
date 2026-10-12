@@ -1,0 +1,33 @@
+{
+  "path": "/de/posts/eine-spannende-erweiterung-unseres-angebots",
+  "sourceUrl": "https://www.biddershighway.com/de/posts/eine-spannende-erweiterung-unseres-angebots",
+  "title": "Eine spannende Erweiterung unseres Angebots",
+  "description": "Mehr Pferdestärken, denn Bidders Highway heißt Rennwagen und Enthusiasten-Umbauten willkommen!",
+  "canonicalUrl": "https://www.biddershighway.com/de/posts/eine-spannende-erweiterung-unseres-angebots",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/posts/an-exciting-broadening-of-our-range"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/posts/en-spannande-breddning-av-vart-utbud"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/posts/eine-spannende-erweiterung-unseres-angebots"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/posts/en-spannande-breddning-av-vart-utbud"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pb-0 lg:px-0 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">Eine spannende Erweiterung unseres Angebots</h1><span class=\"text-neutral-500 block mt-6\">Mehr Pferdestärken, denn Bidders Highway heißt Rennwagen und Enthusiasten-Umbauten willkommen!</span><div class=\"flex mt-6\"><div class=\"mr-2\"><a href=\"/de/authors/bidders-highway\"><img alt=\"\" class=\"rounded-full w-[48px]\" src=\"/assets/bidders-highway-63938c17.jpg\"></a></div><div><a href=\"/de/authors/bidders-highway\" class=\"block hover:underline\">Bidders Highway</a><span class=\"block text-neutral-500 text-sm\">März 28, 2023 12:35</span></div></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/d298cf2b65f12c5b49879075df740250\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><div><strong>Mehr Pferdestärken, denn Bidders Highway heißt Rennwagen und Enthusiasten-Umbauten willkommen!</strong><br><br>Wir sind, wie viele andere auch, der Ansicht, dass modifizierte Fahrzeuge und Wettbewerbsfahrzeuge ebenfalls einen professionellen Marktplatz verdienen.<br><br>Dass Bidders Highway zum Synonym für Autos und Motorräder der etwas einzigartigeren Art geworden ist, war schwer zu übersehen. Unser Ziel bleibt es, der Marktplatz für Enthusiasten im Fahrzeughobby zu sein, und was wäre da passender, als sich Wettbewerbsfahrzeuge und reinrassige Spezialanfertigungen etwas genauer anzusehen.<br><br>Das Team von Bidders Highway verfügt über große Erfahrung genau mit dieser Art von Objekten, was uns zu einem geeigneten Partner macht, um Fahrzeuge aufzunehmen, die andernorts sonst vielleicht schwer korrekt zu dokumentieren und zu vermarkten gewesen wären. Selbstverständlich werden wir weiterhin Motorräder, Klassiker und alles dazwischen anbieten.<br><br>Wir können außerdem bekannt geben, dass wir eine Zusammenarbeit mit <a href=\"https://www.804meter.com/\"><strong>804Meter.com</strong></a> begonnen haben, die jedes Jahr temporeiche Events auf gesperrten Flugplätzen im ganzen Land veranstalten, bei denen mutige Fahrer die Möglichkeit erhalten, unter geordneten Bedingungen zu zeigen, was ihre Kreationen draufhaben. Ein echtes Geschwindigkeitsfest, bei dem wir hoffen, viele der Objekte später bei uns in der Auktion wiederzusehen.<br><br>Das erste Event für 2023 findet am 13. Mai in Hultsfred statt, und wir hoffen, dort viele von euch zu treffen!<br><br>/Das Team von Bidders Highway</div></div><div class=\"xl:w-2/3 mt-10 lg:mt-12\"><h2 class=\"text-xl font-semibold mb-2\">0 Kommentare</h2><div class=\"mb-16\"><span class=\"block border bg-rose-50 text-neutral-600 p-4 my-4 rounded\">Sie müssen eingeloggt sein um Kommentare schreiben zu können.</span><ul id=\"comments\"></ul></div></div></div></article><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/de\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">Alle unsere Autoauktionen ansehen</a></div></main>",
+  "links": [
+    "/de/authors/bidders-highway",
+    "/de"
+  ]
+}

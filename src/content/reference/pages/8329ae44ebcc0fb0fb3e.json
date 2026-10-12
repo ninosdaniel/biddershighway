@@ -1,0 +1,33 @@
+{
+  "path": "/en/posts/spring-airing",
+  "sourceUrl": "https://www.biddershighway.com/en/posts/spring-airing",
+  "title": "Spring Airing",
+  "description": "A valuable but simple tip ahead of spring's first drive!",
+  "canonicalUrl": "https://www.biddershighway.com/en/posts/spring-airing",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/posts/spring-airing"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/posts/varluftning"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/posts/fruhjahrsluftung"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/posts/varluftning"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pb-0 lg:px-0 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">Spring Airing</h1><span class=\"text-neutral-500 block mt-6\">A valuable but simple tip ahead of spring's first drive!</span><div class=\"flex mt-6\"><div class=\"mr-2\"><a href=\"/en/authors/bidders-highway\"><img alt=\"\" class=\"rounded-full w-[48px]\" src=\"/assets/bidders-highway-63938c17.jpg\"></a></div><div><a href=\"/en/authors/bidders-highway\" class=\"block hover:underline\">Bidders Highway</a><span class=\"block text-neutral-500 text-sm\">February 22, 2023 10:15</span></div></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/a31a4d42e563f132383ea2f73d07c371\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><div>Haven't the weather apps and the mercury on the windowsill been showing negative results for a while now? Weren't there snowdrops along the roadside on the way home from work? Shouldn't you treat yourself to a start-up anyway?&nbsp;<br><br></div><div>Do you bite your nails, look at pictures, or maybe even bid on Bidders as a substitute until winter hibernation is over? But if we think ahead a little, what do we need to consider when it's time to fire up the gem again? Here we list some of the most important tips ahead of the spring muster!<br><br></div><div>We can start by saying that we ourselves rarely or never do any of this with our cars, except for one thing!&nbsp;<br><br></div><div>\"Smell and listen\" – whether you're connecting the positive terminal on the battery after winter or hooking up a new battery to the barn find, it's important to listen and smell. Does it smell burnt? Is something sizzling? Two sounds that can quickly set fire to all your dreams. If everything seems calm, we can move on to checking all the hoses and connections in the engine bay – is there more leaking than last autumn? Anything new?&nbsp;<br><br></div><div>Turn on the ignition and listen a little more, does the fuel pump sound right (if you have an electric setup)? Now turn the key, listen, and hopefully she starts right up. Now we look again – is anything leaking? Petrol is never good if it's leaking. Let her idle for a while and keep your eyes open. Then we'll treat ourselves to engaging a gear, pull the handbrake a little. Up and down a few times, pump the clutch pedal a bit.&nbsp;<br><br></div><div>Put it in gear and roll out! Was it really this bad last autumn? Well, maybe. But usually it takes a few kilometres before everything starts working again, the tyres become rounder and all the fluids warm up. Maybe half the electrical system works at start-up, but after a trip to the petrol station everything works. That's charm, my friends.<br><br></div><div>Time to wash and change the oil now? Vacuum and wax? The season is now underway 😊</div></div><div class=\"xl:w-2/3 mt-10 lg:mt-12\"><h2 class=\"text-xl font-semibold mb-2\">0 Comments</h2><div class=\"mb-16\"><span class=\"block border bg-rose-50 text-neutral-600 p-4 my-4 rounded\">You need to be signed in in order to post comments.</span><ul id=\"comments\"></ul></div></div></div></article><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/en\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">View all our car auctions</a></div></main>",
+  "links": [
+    "/en/authors/bidders-highway",
+    "/en"
+  ]
+}

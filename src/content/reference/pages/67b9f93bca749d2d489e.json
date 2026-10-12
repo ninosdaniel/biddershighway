@@ -1,0 +1,33 @@
+{
+  "path": "/en/posts/motor-mornings-by-bidders-highway-116",
+  "sourceUrl": "https://www.biddershighway.com/en/posts/motor-mornings-by-bidders-highway-116",
+  "title": "Motor Mornings by Bidders Highway 11/6",
+  "description": "Our first edition of Motor Mornings!",
+  "canonicalUrl": "https://www.biddershighway.com/en/posts/motor-mornings-by-bidders-highway-116",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/posts/motor-mornings-by-bidders-highway-116"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/posts/motor-mornings-by-bidders-highway-11/6"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/posts/motor-mornings-by-bidders-highway-116"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/posts/motor-mornings-by-bidders-highway-11/6"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pb-0 lg:px-0 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">Motor Mornings by Bidders Highway 11/6</h1><div class=\"flex flex-wrap gap-2 mt-4\"><span class=\"inline-block text-sm px-3 py-1 border border-black rounded-full\">Event</span></div><span class=\"text-neutral-500 block mt-6\">Our first edition of Motor Mornings!</span><div class=\"flex mt-6\"><div class=\"mr-2\"><a href=\"/en/authors/bidders-highway\"><img alt=\"\" class=\"rounded-full w-[48px]\" src=\"/assets/bidders-highway-63938c17.jpg\"></a></div><div><a href=\"/en/authors/bidders-highway\" class=\"block hover:underline\">Bidders Highway</a><span class=\"block text-neutral-500 text-sm\">June 14, 2023 12:00</span></div></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/17cea0c4b98b1602d994a5e46f5538b6\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><div>A big thank you to all the enthusiasts who stopped by and said hello during our first edition of Motor Mornings! 🏁<br><br></div><div>The turnout was fantastic, with a wide range of cars and a few motorcycles showing up. We look forward to doing this again with you soon! Stay updated on our social media and newsletter for upcoming dates. We've posted an album on Facebook with about 90 pictures from Sunday's meet if you'd like to see more 😃<br><br>More pictures here: https://www.facebook.com/media/set/?vanity=BiddersHighway&amp;set=a.271646335370576</div></div><div class=\"xl:w-2/3 mt-10 lg:mt-12\"><h2 class=\"text-xl font-semibold mb-2\">0 Comments</h2><div class=\"mb-16\"><span class=\"block border bg-rose-50 text-neutral-600 p-4 my-4 rounded\">You need to be signed in in order to post comments.</span><ul id=\"comments\"></ul></div></div></div></article><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/en\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">View all our car auctions</a></div></main>",
+  "links": [
+    "/en/authors/bidders-highway",
+    "/en"
+  ]
+}

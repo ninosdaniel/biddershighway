@@ -1,0 +1,34 @@
+{
+  "path": "/en/posts/a-two-wheeled-honda-with-cult-status-and-six-cylinders",
+  "sourceUrl": "https://www.biddershighway.com/en/posts/a-two-wheeled-honda-with-cult-status-and-six-cylinders",
+  "title": "A Two-Wheeled Honda with Cult Status and Six Cylinders",
+  "description": "It's no wonder this motorcycle is held so dear by so many motorcycle enthusiasts. The Honda CBX 1000 is one of the few six-cylinder motorcycles and was early on dubbed a \"hyperbike\" thanks to its performance, which impressed alongside what was already on the market.",
+  "canonicalUrl": "https://www.biddershighway.com/en/posts/a-two-wheeled-honda-with-cult-status-and-six-cylinders",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/posts/a-two-wheeled-honda-with-cult-status-and-six-cylinders"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/posts/en-tvahjulig-honda-med-kultstatus-och-sex-cylindrar"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/posts/eine-zweiradrige-honda-mit-kultstatus-und-sechs-zylindern"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/posts/en-tvahjulig-honda-med-kultstatus-och-sex-cylindrar"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pb-0 lg:px-0 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">A Two-Wheeled Honda with Cult Status and Six Cylinders</h1><div class=\"flex flex-wrap gap-2 mt-4\"><span class=\"inline-block text-sm px-3 py-1 border border-black rounded-full\">Featured cars</span></div><span class=\"text-neutral-500 block mt-6\">It's no wonder this motorcycle is held so dear by so many motorcycle enthusiasts. The Honda CBX 1000 is one of the few six-cylinder motorcycles and was early on dubbed a \"hyperbike\" thanks to its performance, which impressed alongside what was already on the market.</span><div class=\"flex mt-6\"><div class=\"mr-2\"><a href=\"/en/authors/bidders-highway\"><img alt=\"\" class=\"rounded-full w-[48px]\" src=\"/assets/bidders-highway-63938c17.jpg\"></a></div><div><a href=\"/en/authors/bidders-highway\" class=\"block hover:underline\">Bidders Highway</a><span class=\"block text-neutral-500 text-sm\">August 16, 2023 12:00</span></div></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/288dea5f1e49bd2adfc5bb54c9e9a15c\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><div>The name refers to the size of the engine – 1,047 cc – a straight six with four valves per cylinder and two overhead camshafts. And not only that: it was also installed transversely. This particular object has a very interesting history and was bought new by the designer Pelle Petterson. He has designed everything from watches to mopeds, to cars and boats. He has also designed a particular Volvo – the Saint's P1800 from the 1960s.&nbsp;</div><div>– Pelle Petterson bought this bike in 1980 in Newport, where he competed for Sweden in the America's Cup, says the seller of the object at Bidders Highway. It appears in the purchase contract that it was bought through the company The Swedish Challenge for the America's Cup Inc, with Pelle Petterson's signature. After the competition, the CBX 1000 and a few more motorcycles were loaded into a container to be shipped to Sweden.<br><br></div><div><br>Once back home in Sweden, the motorcycle remained with Pelle Petterson for 16 years. It was only upon a sale to Claes Ronge at Ahlqvist MC that it was registered for use in Sweden.&nbsp;</div><div>– At that point, the 16-year-old front tyre was also replaced with a new one, he continues. The front tyre was manufactured in 1995 and is still fitted today. Claes owned the CBX for about ten years.&nbsp;</div><div><br></div><div>A total of 38,079 units of the Honda CBX 1000 were built in Japan and 3,150 at Honda's factory in Ohio, USA. Production lasted four years – between 1978 and 1982. This particular example is exceptional, with an interesting connection to Swedish industrial design besides.<br><br><a href=\"https://www.biddershighway.com/sv/auctions/honda-cbx-1000\"><strong><em>Click here to go to the auction page!</em></strong></a> <br><br></div></div><div class=\"xl:w-2/3 mt-10 lg:mt-12\"><h2 class=\"text-xl font-semibold mb-2\">0 Comments</h2><div class=\"mb-16\"><span class=\"block border bg-rose-50 text-neutral-600 p-4 my-4 rounded\">You need to be signed in in order to post comments.</span><ul id=\"comments\"></ul></div></div></div></article><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/en\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">View all our car auctions</a></div></main>",
+  "links": [
+    "/en/authors/bidders-highway",
+    "/sv/auctions/honda-cbx-1000",
+    "/en"
+  ]
+}

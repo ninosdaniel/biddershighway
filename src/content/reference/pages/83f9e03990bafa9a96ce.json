@@ -1,0 +1,33 @@
+{
+  "path": "/sv/posts/tvattguiden:-interiort",
+  "sourceUrl": "https://www.biddershighway.com/sv/posts/tvattguiden:-interiort",
+  "title": "Tvättguiden: Interiört",
+  "description": "Visst är det riktigt kul med en ren utsida men insidan av bilen är ju där du spenderar mest tid. Dags att plocka ut påsen med jordnötter och barnens glömda mackor och få till en insida i nyskick.",
+  "canonicalUrl": "https://www.biddershighway.com/sv/posts/tvattguiden:-interiort",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/posts/washing-guide-interior"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/posts/tvattguiden:-interiort"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/posts/waschanleitung-innenraum"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/posts/tvattguiden:-interiort"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pb-0 lg:px-0 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">Tvättguiden: Interiört</h1><div class=\"flex flex-wrap gap-2 mt-4\"><span class=\"inline-block text-sm px-3 py-1 border border-black rounded-full\">Guider</span></div><span class=\"text-neutral-500 block mt-6\">Visst är det riktigt kul med en ren utsida men insidan av bilen är ju där du spenderar mest tid. Dags att plocka ut påsen med jordnötter och barnens glömda mackor och få till en insida i nyskick.</span><div class=\"flex mt-6\"><div class=\"mr-2\"><a href=\"/sv/authors/fredrik-johansson\"><img alt=\"\" class=\"rounded-full w-[48px]\" src=\"/assets/fredrik-johansson-388c6379.jpg\"></a></div><div><a href=\"/sv/authors/fredrik-johansson\" class=\"block hover:underline\">Fredrik Johansson</a><span class=\"block text-neutral-500 text-sm\">27 april 2023 15:25</span></div></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/802b0d124a63891d4313abc89c58efaf\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><div>Ibland kan man förvånas hur smutsig insidan på folks fordon ofta är, det sägs ju att ratten är smutsigare än en offentlig toalett exempelvis. Skulle du spendera flera timmar på en offentlig toalett? Inte många av oss troligen…</div><div><br></div><div>Vi börjar med att tömma bilen på allt, kasta ut solglasögon, posten på golvet, skräpet, gummistövlarna etc och golvmattorna. Sedan inleder vi med en rejäl dammsugning. Även här kan en borste vara bra då grus gärna fastnar lite överallt. Dammsug tills du känner att du kan äta glass från golvet ungefär.</div><div><br></div><div>Är mattor och säten extra smutsiga kan du hyra en klädseltvätt, dessa brukar gå att hyra för ett par hundralappar och resultatet brukar bli fantastiskt. Då ser du även hur illa det var innan!</div><div><br></div><div>Efter detta tar vi en mikrofiberduk och någon typ av interiörrengöring och torkar av alla, alltså verkligen alla, ytor i bilen. Jag kör diskmedel och vatten i sprayflaska, brukar funka minst lika bra som alla färdiga medel. Vissa ställen kan du behöva en liten borste för, exempelvis ratten, att gnugga loss smutsen.</div><div><br></div><div>Rutorna är alltid ett gissel, hur får man framrutan ren egentligen?&nbsp; Om vi ändå hade svaret, men ibland lyckas man inte alls (läs: aldrig) men försök att inte spraya alltför mycket medel och torka av rutan små delar, då minskar risken för att den ser ut som en skräckfilm i solljus sen…</div><div><br></div><div>Har bilen vinyl, läder eller konstmaterial som ser ut som något liknande? Behandla med läderrengöring, dessa återfuktar och förutom att minska risker för slitage på stolar, ratt etc blir det precis som hon såg ut när hon kom från fabriken.&nbsp;</div><div><br></div><div>Sist men inte minst ska vi torka av dörrgångarna, har du spolat av dem innan brukar det räcka med att torka av med en fuktig trasa.&nbsp;</div><div><br></div><div>Nu ligger ju dock golvmattorna på trottoaren, just ja! Fram med alkalisk avfettning och en borste, spraya på och gnugga innan du spolar av dessa med högtryck, har du gummimattor är däck/vinylglans a match made in heaven.</div><div><br></div><div>Har du kikat på artikeln om att tvätta utsidan? Om inte har du det kvar nu, men med ett gott samvete på insidan!</div></div><div class=\"xl:w-2/3 mt-10 lg:mt-12\"><h2 class=\"text-xl font-semibold mb-2\">0 Kommentarer</h2><div class=\"mb-16\"><span class=\"block border bg-rose-50 text-neutral-600 p-4 my-4 rounded\">Du måste vara inloggad för att kunna skriva kommentarer.</span><ul id=\"comments\"></ul></div></div></div></article><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/sv\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">Se alla våra bilauktioner</a></div></main>",
+  "links": [
+    "/sv/authors/fredrik-johansson",
+    "/sv"
+  ]
+}

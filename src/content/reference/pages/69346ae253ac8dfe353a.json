@@ -1,0 +1,33 @@
+{
+  "path": "/sv/posts/fotograferingen",
+  "sourceUrl": "https://www.biddershighway.com/sv/posts/fotograferingen",
+  "title": "Fotograferingen",
+  "description": "Enkla tips för att få ut så mycket som möjligt av sin fotografering ",
+  "canonicalUrl": "https://www.biddershighway.com/sv/posts/fotograferingen",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/posts/the-photography"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/posts/fotograferingen"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/posts/das-fotografieren"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/posts/fotograferingen"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pb-0 lg:px-0 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">Fotograferingen</h1><span class=\"text-neutral-500 block mt-6\">Enkla tips för att få ut så mycket som möjligt av sin fotografering </span><div class=\"flex mt-6\"><div class=\"mr-2\"><a href=\"/sv/authors/bidders-highway\"><img alt=\"\" class=\"rounded-full w-[48px]\" src=\"/assets/bidders-highway-63938c17.jpg\"></a></div><div><a href=\"/sv/authors/bidders-highway\" class=\"block hover:underline\">Bidders Highway</a><span class=\"block text-neutral-500 text-sm\">20 januari 2023 12:09</span></div></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/540505038e6027185a963a24a5e87894\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><div>När man väl har bestämt sig för att sälja sin bil så finns vi där för att hjälpa till. På Bidders Highway kan man välja att fotografera sin bil själv och får då såklart gratis tillgång till vår fotoguide. Men att ta över 100 detaljerade bra bilder kan vara svårt om man inte är van därför sätter vi dig gärna i kontakt med någon av våra fotografer som är specialister på just denna typ av bilder. Dom finns över hela landet och vi hjälper dig att boka.</div><div><br></div><div>Även om man inte tar bilderna själv finns det dock massor man som säljare kan göra för at det ska bli extra bra. Här är några tips.</div><div><br></div><div><strong>Förberedelse</strong>&nbsp;</div><div>Att investera en extra timme att förbereda sin bil eller MC för fotografering är otroligt effektivt och viktigt. Se till att ha bockat av punkterna nedan innan fotografen kommer så kommer bilderna bli bättre och fotograferingen flyta på smidigare.&nbsp;</div><div><br></div><div><strong>Ren</strong> <strong>bil</strong></div><div>Se till att din bil är ordentligt tvättad. All smuts och skräp kommer med på bilderna och vi rekommenderar att man går steget längre än en enkel hemmatvätt och faktiskt satsar på hel hel rekord. Detta betalar sig i längden och gör stor skillnad på bilderna. Rengöringen skall omfatta exteriör, interiör och glöm inte bort motorrummet.</div><div><br></div><div><strong>Fotoplats</strong></div><div>Att fotografera en bil i sin rätta miljö förstärker känslan och bilens personlighet. Innan fotografen anländer rekommenderar vi att man tänkt till och hittat en fin plats där bilen kan sticka ut och samtidigt ge en fin inramning. I det fall att bilen inte är körbar se då istället till at det är rent och snyggt på den plats där den skall fotograferas.</div><div><br></div><div><strong>Dokumentation och reservdelar</strong></div><div>Kan man presentera dokumentation, gamla bilder, kvitton och nycklar på bild ger det ett betydligt bättre helhetsintryck.</div><div><br></div><div><strong>Tid</strong></div><div>Det är bra att inte ha bråttom. Räkna med att en utförlig fotografering tar ca 2 timmar.&nbsp;</div></div><div class=\"xl:w-2/3 mt-10 lg:mt-12\"><h2 class=\"text-xl font-semibold mb-2\">0 Kommentarer</h2><div class=\"mb-16\"><span class=\"block border bg-rose-50 text-neutral-600 p-4 my-4 rounded\">Du måste vara inloggad för att kunna skriva kommentarer.</span><ul id=\"comments\"></ul></div></div></div></article><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/sv\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">Se alla våra bilauktioner</a></div></main>",
+  "links": [
+    "/sv/authors/bidders-highway",
+    "/sv"
+  ]
+}

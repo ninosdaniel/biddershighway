@@ -1,0 +1,33 @@
+{
+  "path": "/en/posts/few-cars-have-the-same-impact-on-popular-culture-as-the-fiat-500",
+  "sourceUrl": "https://www.biddershighway.com/en/posts/few-cars-have-the-same-impact-on-popular-culture-as-the-fiat-500",
+  "title": "Few cars have the same impact on popular culture as the Fiat 500",
+  "description": "Only a handful of cars are able to summarise a whole era. These often end up on posters, postcards, and are often replicated as models in souvenir shops. The Fiat 500 is one of those.",
+  "canonicalUrl": "https://www.biddershighway.com/en/posts/few-cars-have-the-same-impact-on-popular-culture-as-the-fiat-500",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/posts/few-cars-have-the-same-impact-on-popular-culture-as-the-fiat-500"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/posts/fa-bilar-med-samma-popularkulturella-inflytande-som-fiat-500"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/posts/nur-wenige-autos-haben-einen-vergleichbaren-popkulturellen-einfluss-wie-der-fiat-500"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/posts/fa-bilar-med-samma-popularkulturella-inflytande-som-fiat-500"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pb-0 lg:px-0 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">Few cars have the same impact on popular culture as the Fiat 500</h1><div class=\"flex flex-wrap gap-2 mt-4\"><span class=\"inline-block text-sm px-3 py-1 border border-black rounded-full\">Featured cars</span></div><span class=\"text-neutral-500 block mt-6\">Only a handful of cars are able to summarise a whole era. These often end up on posters, postcards, and are often replicated as models in souvenir shops. The Fiat 500 is one of those.</span><div class=\"flex mt-6\"><div class=\"mr-2\"><a href=\"/en/authors/bidders-highway\"><img alt=\"\" class=\"rounded-full w-[48px]\" src=\"/assets/bidders-highway-63938c17.jpg\"></a></div><div><a href=\"/en/authors/bidders-highway\" class=\"block hover:underline\">Bidders Highway</a><span class=\"block text-neutral-500 text-sm\">June 10, 2023 10:25</span></div></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/ee513e37a9654b726c579de7fa474976\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><div>Only a handful of cars are able to summarise a whole era. These often end up on posters, postcards, and are often replicated as models in souvenir shops. The Fiat 500 is one of those.&nbsp;</div><div><br></div><div>Its unmistakable design is a result of the Italian automotive designer, Dante Giacosa. And what a success story it would be: the model was made between 1957 and 1975, cementing its place in Fiat’s model range, next to far more superior cars over the years.</div><div><br>The number 500 is a reference to the small, dual cylinder engine mounted in the rear. The original engine was a 479 cc unit, with 13 horsepower. The car was offered in several different versions throughout its run, while the first had rear-hinged doors, also known as “suicide doors”.<br><br></div><div><br></div><div>This changed in 1965 with the release of the 500 F – the tiny Italian was fitted with doors hinged at the font. In 1968, the 500 L was released, with a more luxurious interior, an updated dashboard, new bumpers, a new steering wheel, carpets and reclining seats. This version was also the first to feature the FIAT lettering in capitals, on the rear emblem. You might’ve heard of the expression “Cinquecento” in connection with the model. Despite the phonetic similarities with spells from Hogwarts, it’s actually Italian, and means 500. And Lusso? It’s Italian for “luxury”.&nbsp;</div><div><br></div><div>– It’s size and charm are features that are hard to find in other car models, says the seller. You can drive it and park basically anywhere, and it makes everyone smile – driver, pedestrians and everyone else. I’ve never driven a car that spreads the same amount of joy as when I drive my Fiat 500.<br><br></div></div><div class=\"xl:w-2/3 mt-10 lg:mt-12\"><h2 class=\"text-xl font-semibold mb-2\">0 Comments</h2><div class=\"mb-16\"><span class=\"block border bg-rose-50 text-neutral-600 p-4 my-4 rounded\">You need to be signed in in order to post comments.</span><ul id=\"comments\"></ul></div></div></div></article><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/en\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">View all our car auctions</a></div></main>",
+  "links": [
+    "/en/authors/bidders-highway",
+    "/en"
+  ]
+}

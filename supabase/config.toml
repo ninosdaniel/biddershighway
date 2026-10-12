@@ -1,0 +1,17 @@
+project_id = "biddershighway"
+
+[functions.website-api]
+verify_jwt = true
+# Keep the gateway enabled, as requested. Public clients send the project apikey;
+# getUser additionally validates the bearer token before account operations.
+
+[functions.website-cron]
+verify_jwt = true
+# The scheduler sends a project apikey and a separate high-entropy cron secret.
+# Both values are read from Vault; CRON_SECRET also lives in Edge secrets.
+
+[functions.website-webhooks]
+verify_jwt = true
+# Direct provider callbacks cannot pass this gateway without a project key.
+# Keep callbacks inactive until a compatible ingress is configured and tested.
+# Provider signature verification remains mandatory in the handler.

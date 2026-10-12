@@ -1,0 +1,33 @@
+{
+  "path": "/en/posts/brutal-builds-covered-by-bilsport-magazine",
+  "sourceUrl": "https://www.biddershighway.com/en/posts/brutal-builds-covered-by-bilsport-magazine",
+  "title": "Brutal builds covered by Bilsport Magazine!",
+  "description": "Två riktigt spännande bilar uppe på auktion som tidigare fått sina alldeles egna artiklar i kända tidningen Bilsport!",
+  "canonicalUrl": "https://www.biddershighway.com/en/posts/brutal-builds-covered-by-bilsport-magazine",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/posts/brutal-builds-covered-by-bilsport-magazine"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/posts/brutala-byggen-omskrivna-i-bilsport"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/posts/brutale-bauten-vorgestellt-in-bilsport"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/posts/brutala-byggen-omskrivna-i-bilsport"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pb-0 lg:px-0 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">Brutal builds covered by Bilsport Magazine!</h1><span class=\"text-neutral-500 block mt-6\">Två riktigt spännande bilar uppe på auktion som tidigare fått sina alldeles egna artiklar i kända tidningen Bilsport!</span><div class=\"flex mt-6\"><div class=\"mr-2\"><a href=\"/en/authors/rasmus-christensen\"><img alt=\"\" class=\"rounded-full w-[48px]\" src=\"/assets/rasmus-christensen-51a88c90.jpg\"></a></div><div><a href=\"/en/authors/rasmus-christensen\" class=\"block hover:underline\">Rasmus Christensen</a><span class=\"block text-neutral-500 text-sm\">July 04, 2024 10:00</span></div></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/59cd97a1384b14ff2fcc90bcd7fcd6bd\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><p>Few Swedish car enthusiasts have missed the countless stories written by Bilsport magazine about cool cars built in the garages of our long country. The first magazine of Bilsport was released back in 1962 and although until 1974 the magazine focused on race results and statistics from the last month's rally and track events, rather than interviews and stories from car builders' garages.</p> <p><br></p> <p>Getting a story written about the car by the editorial office of Bilsport has always been a sign that more people than you like what you've created. We at Bidders Highway have had several \"Bilsport cars\" on auction, including a highly valued green Volvo 244 V8 that was shared wildly on the web before the auction ended at approx. SEK 160,000. We have also had the honour of auctioning off Leif Tufvesson's incredible Chevrolet G10 Sportsvan that participated in Bilsport. The final bid landed on an impressive SEK 960,000.</p> <p><br></p> <p>At the time of writing, we have two \"Bilsport cars\" out on the site. Both are very exciting builds, and one stands out more than the other. However, both builders have at one point or another seem to think \"if the manufacturer doesn't intend to build this car, I'll have to do it myself\".</p> <p><br></p> <p>First up is a very exciting Ford Escort from 1970 that has both a wide body and something as perfect as a Sierra Sapphire Cosworth machine under the bonnet. The focus of the construction is quality and sufficient performance, but above all a trusting car that wont break down under pressure. With its low weight of approx. 1050kg and a turbocharger that can work up 1.5 bar, the performance is a fact. This is a perfect vehicle for those of you who think Mike Costin and Keith Duckworth focused way too much on F1 in the colourful 70s.</p> <p><br></p> <p>Car number two is, in its own way, even more breathtaking than the Escort. A driving-loving and inspired individual once took it upon himself to shoehorn a 5.3-liter V8 into the rear of a 1965 Porsche 912, a car that is highly unsporty from the start, even though it set the standard for one of the world's most usable sports cars. With over 400hp and a proper V8 over the rear axle, it pushes wildly exiting corners, we've been told. One wonders, of course, what Engineer Ferdinand Porsche would have said about the construction?</p> <p><br></p> <p>The icing on the cake for both fantastic machines is that they are of course inspected, approved MOT and completely street legal in their current setups!</p></div><div class=\"xl:w-2/3 mt-10 lg:mt-12\"><h2 class=\"text-xl font-semibold mb-2\">0 Comments</h2><div class=\"mb-16\"><span class=\"block border bg-rose-50 text-neutral-600 p-4 my-4 rounded\">You need to be signed in in order to post comments.</span><ul id=\"comments\"></ul></div></div></div></article><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/en\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">View all our car auctions</a></div></main>",
+  "links": [
+    "/en/authors/rasmus-christensen",
+    "/en"
+  ]
+}

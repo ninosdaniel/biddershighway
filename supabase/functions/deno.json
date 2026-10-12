@@ -1,0 +1,5 @@
+{
+  "compilerOptions": { "strict": true, "lib": ["deno.window", "dom", "esnext"] },
+  "imports": { "@supabase/supabase-js": "npm:@supabase/supabase-js@2.117.3", "cheerio": "npm:cheerio@1.2.0" },
+  "fmt": { "lineWidth": 110 }
+}

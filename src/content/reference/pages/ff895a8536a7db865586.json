@@ -1,0 +1,33 @@
+{
+  "path": "/sv/posts/vi-firar-1-ar-idag",
+  "sourceUrl": "https://www.biddershighway.com/sv/posts/vi-firar-1-ar-idag",
+  "title": "Vi firar 1 år idag!",
+  "description": "Ett stort tack till våra kunder, följare, läsare och teamet bakom Bidders Highway!",
+  "canonicalUrl": "https://www.biddershighway.com/sv/posts/vi-firar-1-ar-idag",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/posts/were-celebrating-our-1st-anniversary-today"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/posts/vi-firar-1-ar-idag"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/posts/wir-feiern-heute-unseren-1-geburtstag"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/posts/vi-firar-1-ar-idag"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pb-0 lg:px-0 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">Vi firar 1 år idag!</h1><span class=\"text-neutral-500 block mt-6\">Ett stort tack till våra kunder, följare, läsare och teamet bakom Bidders Highway!</span><div class=\"flex mt-6\"><div class=\"mr-2\"><a href=\"/sv/authors/jacob-odqvist\"><img alt=\"\" class=\"rounded-full w-[48px]\" src=\"/assets/jacob-odqvist-44be25a1.jpg\"></a></div><div><a href=\"/sv/authors/jacob-odqvist\" class=\"block hover:underline\">Jacob Odqvist</a><span class=\"block text-neutral-500 text-sm\"> 1 mars 2023 14:10</span></div></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/0f9fbc0da17f25accd37259a0125d5e1\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><div>Idag för ett år sedan var det med ett darrande finger vi tryckte på lanseringsknappen till det som idag är Bidders Highway. Skulle det fungera, skulle vi få in några bilar, skulle någon ens bry sig?<br><br>Svaret på alla tre är ett rungande - <strong>JA!</strong><br><br>Även om vår omvärld varit upp och ner på alla möjliga sätt har Bidders Highways första år med råge överträffat våra förväntningar. Helt fantastiskt. Vi är så otroligt glada och tacksamma för ert stöd, ert engagemang och era fina bilar och motorcyklar.<br><br>Vi är här för att stanna, nu åker stödhjulen av och vi lovar er en vår med riktigt fina objekt. Så håll utkik.<br>Inget av detta hade varit möjligt utan er följare.<br><br>Jag vill såklart även passa på att rikta ett särskilt tack till det hårt arbetande teamet bakom Bidders Highway.<br><br>Ni är fantastiska!<br><br>Mvh,<br>Jacob Odqvist<br>VD/Grundare&nbsp;<br><br>Bidders Highway</div></div><div class=\"xl:w-2/3 mt-10 lg:mt-12\"><h2 class=\"text-xl font-semibold mb-2\">0 Kommentarer</h2><div class=\"mb-16\"><span class=\"block border bg-rose-50 text-neutral-600 p-4 my-4 rounded\">Du måste vara inloggad för att kunna skriva kommentarer.</span><ul id=\"comments\"></ul></div></div></div></article><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/sv\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">Se alla våra bilauktioner</a></div></main>",
+  "links": [
+    "/sv/authors/jacob-odqvist",
+    "/sv"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "path": "/en/posts/welcome-to-our-first-car-meet",
+  "sourceUrl": "https://www.biddershighway.com/en/posts/welcome-to-our-first-car-meet",
+  "title": "Welcome to our first car meet!",
+  "description": "On Sunday the 11th of June in Stockholm!",
+  "canonicalUrl": "https://www.biddershighway.com/en/posts/welcome-to-our-first-car-meet",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/posts/welcome-to-our-first-car-meet"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/posts/valkommen-till-var-forsta-biltraff"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/posts/willkommen-zu-unserem-ersten-autotreffen"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/posts/valkommen-till-var-forsta-biltraff"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pb-0 lg:px-0 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">Welcome to our first car meet!</h1><div class=\"flex flex-wrap gap-2 mt-4\"><span class=\"inline-block text-sm px-3 py-1 border border-black rounded-full\">Event</span></div><span class=\"text-neutral-500 block mt-6\">On Sunday the 11th of June in Stockholm!</span><div class=\"flex mt-6\"><div class=\"mr-2\"><a href=\"/en/authors/bidders-highway\"><img alt=\"\" class=\"rounded-full w-[48px]\" src=\"/assets/bidders-highway-63938c17.jpg\"></a></div><div><a href=\"/en/authors/bidders-highway\" class=\"block hover:underline\">Bidders Highway</a><span class=\"block text-neutral-500 text-sm\">June 09, 2023 12:00</span></div></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/fa0a0dae9ec1382809ee4a3085347f20\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><div><strong>On Sunday the 11th of June we welcome you to the first of many Motor Mornings by Bidders Highway!<br></strong><br></div><div>Start your Sunday in a wonderful way with our first car meet Motor Mornings taking place in Stockholm! It's a fantastic opportunity to meet other car &amp; motorcycle enthusiasts and show off your own gems in a lovely setting.<br><br>Of course there will be breakfast and coffee available to purchase on site for the hungry ones!<br><br></div><div><strong>When</strong>: Sunday 11 June, 08.00–10.00.<br> <strong>Where</strong>: Strandvägen 56, 115 23 Stockholm (right by Djurgårdsbron).<br> <strong>How</strong>: RSVP is not required but parking is somewhat limited, so please let us know if you're coming and we'll help you out.<br>&nbsp;<br> A warm welcome to you all!<br>&nbsp;<br> /The team at Bidders Highway</div></div><div class=\"xl:w-2/3 mt-10 lg:mt-12\"><h2 class=\"text-xl font-semibold mb-2\">0 Comments</h2><div class=\"mb-16\"><span class=\"block border bg-rose-50 text-neutral-600 p-4 my-4 rounded\">You need to be signed in in order to post comments.</span><ul id=\"comments\"></ul></div></div></div></article><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/en\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">View all our car auctions</a></div></main>",
+  "links": [
+    "/en/authors/bidders-highway",
+    "/en"
+  ]
+}

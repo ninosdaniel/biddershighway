@@ -1,0 +1,33 @@
+{
+  "path": "/en/pages/safety-and-security-at-bidders-highway",
+  "sourceUrl": "https://www.biddershighway.com/en/pages/safety-and-security-at-bidders-highway",
+  "title": "Safety and security at Bidders Highway",
+  "description": "Safe, verified, and transparent auctions. Hundreds of vehicles rehomed, with binding terms and full support for buyers and sellers.",
+  "canonicalUrl": "https://www.biddershighway.com/en/pages/safety-and-security-at-bidders-highway",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/pages/safety-and-security-at-bidders-highway"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/pages/safety-and-security-at-bidders-highway"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/pages/safety-and-security-at-bidders-highway"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/pages/safety-and-security-at-bidders-highway"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><div class=\"bg-neutral-50 border-b\"><div class=\"container mx-auto px-4 py-3\"><nav class=\"flex items-center text-sm text-neutral-600\"><a href=\"/en/pages\" class=\"hover:text-blue-600\">All Pages</a></nav></div></div><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">Safety and security at Bidders Highway</h1><span class=\"text-neutral-500 block mt-6\">Safe, verified, and transparent auctions. Hundreds of vehicles rehomed, with binding terms and full support for buyers and sellers.</span><div class=\"mt-6\"><span class=\"text-neutral-500 text-sm\">September 30, 2025 09:00</span></div></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><p><span>Buying or selling through Bidders Highway should always feel safe. Our business model is designed to give both buyers and sellers confidence from the first contact to the completed deal.</span></p><p><span>Every bidder is verified with BankID or credit card. This ensures that only serious and identified participants take part in the auctions. All sellers are personally contacted by us before an auction begins so that both the seller and the object meet our requirements.</span></p><p><span>All auctions are monitored by our team to ensure fair and transparent bidding. As a buyer, you gain access to hundreds of photos of each object, often accompanied by detailed descriptions, giving you the information needed to make well-founded decisions before placing a bid.</span></p><p><span>When an auction ends, binding agreements according to our terms apply to both buyers and sellers. This creates security and predictability for all parties. Should anything unexpectedly go wrong, we are here to support and help resolve the situation.</span></p><p><span>We have already facilitated hundreds of vehicles finding new homes through our platform. Our reputation is one of our most valuable assets, and we are dedicated to ensuring that every transaction strengthens the trust placed in us.</span></p><p><span>At Bidders Highway, safety and transparency are fundamental. Our goal is for every customer to feel secure, today and in the future.</span></p></div></div><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/en\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">View all our car auctions</a></div></article></main>",
+  "links": [
+    "/en/pages",
+    "/en"
+  ]
+}

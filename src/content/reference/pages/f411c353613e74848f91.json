@@ -1,0 +1,35 @@
+{
+  "path": "/de/pages/contact-us",
+  "sourceUrl": "https://www.biddershighway.com/de/pages/contact-us",
+  "title": "Kontaktieren Sie uns",
+  "description": "Hier finden Sie Informationen, wie Sie am einfachsten mit der richtigen Person bei Bidders Highway in Kontakt treten. Wählen Sie die richtige Kontaktmethode und wir helfen Ihnen schneller.",
+  "canonicalUrl": "https://www.biddershighway.com/de/pages/contact-us",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/pages/contact-us"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/pages/contact-us"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/pages/contact-us"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/pages/contact-us"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><div class=\"bg-neutral-50 border-b\"><div class=\"container mx-auto px-4 py-3\"><nav class=\"flex items-center text-sm text-neutral-600\"><a href=\"/de/pages\" class=\"hover:text-blue-600\">Alle Seiten</a><span class=\"mx-2\">/</span><a href=\"/de/pages/about-us\" class=\"hover:text-blue-600\">Über uns</a><span class=\"mx-2\">/</span><span class=\"text-neutral-800 font-medium\">Kontaktieren Sie uns</span></nav></div></div><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">Kontaktieren Sie uns</h1><span class=\"text-neutral-500 block mt-6\">Hier finden Sie Informationen, wie Sie am einfachsten mit der richtigen Person bei Bidders Highway in Kontakt treten. Wählen Sie die richtige Kontaktmethode und wir helfen Ihnen schneller.</span><div class=\"mt-6\"><span class=\"text-neutral-500 text-sm\">September 28, 2025 13:00</span></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/ddd4f59c048eb65d68d9570e814d12f2\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><h2><b>Kundenservice &amp; Support</b></h2><p> Bei Fragen zu Accounts, Geboten, Auktionen, Besichtigungsanfragen oder Verifizierung.</p><p> E-Mail: <strong><em><a href=\"mailto:support@biddershighway.com\" rel=\"noopener noreferrer\" target=\"_blank\">support@biddershighway.com</a></em></strong></p><p> Tipp: Viele häufig gestellte Fragen werden in unseren <b><a href=\"https://www.biddershighway.com/de/questions\">FAQ</a></b> beantwortet.</p><h2><strong>Finanzen &amp; Zahlungen</strong></h2><p> Rechnungs- und Zahlungsangelegenheiten, Provisionen, Quittungen und Zahlungen.</p><p> E-Mail: <strong><em><a href=\"mailto:ekonomi@biddershighway.com\" rel=\"noopener noreferrer\" target=\"_blank\">ekonomi@biddershighway.com</a></em></strong></p><h2><strong>Presse &amp; Medien</strong></h2><p> Interviews und Medienanfragen.</p><p> Kontakt: <strong><em><a href=\"mailto:jacob.odqvist@biddershighway.com\" rel=\"noopener noreferrer\" target=\"_blank\">jacob.odqvist@biddershighway.com</a></em></strong></p><p> <strong>Wir bieten:</strong></p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span> Pressemappe mit Logos (PNG/SVG), Grafikprofil und Produkt/Screenshots.</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span> Team- und Umgebungsfotos sowie ein kurzer Firmentext.</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span> Marktdaten: Gebotsstatistiken, Bewertungstrends, Exportanteile usw. für den schwedischen und nordischen Markt.</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span> Zitate und Hintergründe vom Team/Vertretern.</li></ol></div></div><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/de\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">Alle unsere Autoauktionen ansehen</a></div></article></main>",
+  "links": [
+    "/de/pages",
+    "/de/pages/about-us",
+    "/de/questions",
+    "/de"
+  ]
+}

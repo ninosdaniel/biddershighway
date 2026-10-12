@@ -1,0 +1,33 @@
+{
+  "path": "/en/posts/a-porsche-with-cult-status-and-a-collector's-value-that-stands-out",
+  "sourceUrl": "https://www.biddershighway.com/en/posts/a-porsche-with-cult-status-and-a-collector's-value-that-stands-out",
+  "title": "A Porsche with cult status and a collector's value that stands out.",
+  "description": "When the Porsche 928 arrived, it was intended to pave the company's way into the future. It was meant to replace the 911, whose glory days were considered to be over by the mid-1970s. In hindsight, the 911 would not disappear, and the 928 would instead become a model with a life and following of its own.",
+  "canonicalUrl": "https://www.biddershighway.com/en/posts/a-porsche-with-cult-status-and-a-collector's-value-that-stands-out",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/posts/a-porsche-with-cult-status-and-a-collector's-value-that-stands-out"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/posts/en-porsche-med-kultstatus-och-ett-samlarvarde-som-sticker-ivag"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/posts/ein-porsche-mit-kultstatus-und-einem-sammlerwert-der-durch-die-decke-geht"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/posts/en-porsche-med-kultstatus-och-ett-samlarvarde-som-sticker-ivag"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><article class=\"pb-12 md:pb-20\"><header class=\"bg-off-white\"><div class=\"grid grid-cols-1 lg:grid-cols-2 container mx-auto\"><div class=\"flex flex-col justify-center px-4 pb-8 lg:pb-0 lg:px-0 lg:pr-12 order-last lg:order-first\"><h1 class=\"text-3xl lg:text-4xl xl:text-6xl\">A Porsche with cult status and a collector's value that stands out.</h1><div class=\"flex flex-wrap gap-2 mt-4\"><span class=\"inline-block text-sm px-3 py-1 border border-black rounded-full\">Featured cars</span></div><span class=\"text-neutral-500 block mt-6\">When the Porsche 928 arrived, it was intended to pave the company's way into the future. It was meant to replace the 911, whose glory days were considered to be over by the mid-1970s. In hindsight, the 911 would not disappear, and the 928 would instead become a model with a life and following of its own.</span><div class=\"flex mt-6\"><div class=\"mr-2\"><a href=\"/en/authors/bidders-highway\"><img alt=\"\" class=\"rounded-full w-[48px]\" src=\"/assets/bidders-highway-63938c17.jpg\"></a></div><div><a href=\"/en/authors/bidders-highway\" class=\"block hover:underline\">Bidders Highway</a><span class=\"block text-neutral-500 text-sm\">July 02, 2023 11:00</span></div></div></div><div class=\"mb-8 lg:mb-0\"><img src=\"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/79c4d5cbb1ed5b6c1d679ccf09f5f126\" width=\"1220\" height=\"840\"></div></div></header><div class=\"container mx-auto px-4 relative z-10 my-8 lg:my-12\"><div class=\"xl:w-2/3 auction-body\"><div>The Porsche 928 has all the ingredients of a super classic. It represents a piece of history in Porsche's timeline and has already reached new heights in terms of collector's value and cult status. The current item presented on Bidders Highway belongs to the less common 928 models. The seller tells us that he couldn't resist buying the car when it appeared on the market.</div><div><br>\"It was the suspension kit, the fender flares, and the wheels,\" the seller enthusiastically recounts. \"And on top of that, it's reliable and dependable, and it was in very good condition. This was the one I wanted as soon as I saw it.\"<br><br></div><div><br>The seller has been a \"sports car enthusiast\" his whole life and further explains that the requirements for a sports car changed when he broke his neck 20 years ago. It needed to accommodate luggage plus a wheelchair. After considering several potential options, there was nothing that could compare to the 928, but it couldn't \"scream 1970s.\"</div><div><br>\"I wanted one with a more modern look and preferably with some extra features,\" he says. \"Not the checkered seats and so on, which can also have their practicality. But I was looking for a car that looked somewhat more modern, and the 928 GTS strongly competes with cars that are new in design.\"<br><br></div><div><br></div><div>Now it's time to replace the Porsche with a more practical everyday car. The 928 will make way for a car with a bit more space and something that the seller can use for a longer period. The buyer would ideally be someone interested in cars.</div><div><br>\"Perhaps even someone with the same disability as I have,\" the seller adds. \"I'm paralyzed from the chest down, and the car has a very simple adaptation: just gas and brake controls. Removing the adaptation, which is attached to the bracket on the right side of the driver's seat, is easy. Just loosen the bolt there, a very simple procedure.\"</div></div><div class=\"xl:w-2/3 mt-10 lg:mt-12\"><h2 class=\"text-xl font-semibold mb-2\">0 Comments</h2><div class=\"mb-16\"><span class=\"block border bg-rose-50 text-neutral-600 p-4 my-4 rounded\">You need to be signed in in order to post comments.</span><ul id=\"comments\"></ul></div></div></div></article><div class=\"container mx-auto px-4 text-center py-8\"><a href=\"/en\" class=\"inline-block rounded-sm cursor-pointer transition-colors px-4 py-2 text-white bg-jaffa hover:bg-zest disabled:bg-yellow-700 disabled:text-neutral-300 px-6 py-3\">View all our car auctions</a></div></main>",
+  "links": [
+    "/en/authors/bidders-highway",
+    "/en"
+  ]
+}

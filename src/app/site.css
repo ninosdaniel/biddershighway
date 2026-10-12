@@ -1,0 +1,727 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #fff;
+  color: #171717;
+}
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+button,
+a {
+  touch-action: manipulation;
+}
+a,
+button,
+input,
+select,
+textarea,
+summary {
+  outline-offset: 4px;
+}
+:focus-visible {
+  outline: 3px solid #f1821b;
+}
+main {
+  min-height: 60vh;
+}
+.skip-link {
+  position: fixed;
+  top: -100px;
+  left: 16px;
+  padding: 12px 20px;
+  background: white;
+  color: #0c3923;
+  z-index: 100;
+}
+.skip-link:focus {
+  top: 8px;
+}
+.site-header {
+  position: relative;
+  z-index: 50;
+  background: #0c3923;
+  color: white;
+}
+.site-header-inner {
+  max-width: 1536px;
+  height: 72px;
+  margin: auto;
+  padding: 0 24px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+.site-logo {
+  display: flex;
+  flex-shrink: 0;
+  width: 160px;
+}
+.site-logo img {
+  width: 160px;
+  height: auto;
+}
+.site-desktop-nav {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.site-desktop-nav a:hover,
+.site-desktop-nav [aria-current] {
+  color: #f1821b;
+}
+.site-desktop-nav .site-sell-link {
+  background: #f1821b;
+  color: #fff;
+  padding: 9px 13px;
+  border-radius: 3px;
+}
+.site-desktop-nav .site-sell-link:hover {
+  background: #d86e0a;
+  color: white;
+}
+.site-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  font-size: 13px;
+}
+.site-header-actions button,
+.site-login-link {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.site-login-link {
+  color: #6ee7b7;
+}
+.site-signup-link {
+  background: #10b981;
+  padding: 10px 12px;
+  border-radius: 3px;
+}
+.site-language {
+  position: relative;
+}
+.site-dropdown {
+  position: absolute;
+  top: 38px;
+  right: 0;
+  padding: 8px;
+  min-width: 160px;
+  background: white;
+  color: #171717;
+  border-radius: 5px;
+  box-shadow: 0 8px 25px #0003;
+}
+.site-dropdown a {
+  display: block;
+  padding: 10px;
+}
+.site-dropdown a:hover,
+.site-dropdown [aria-current] {
+  background: #c6e6d2;
+}
+.site-menu-toggle,
+.site-mobile-nav,
+.site-mobile-login {
+  display: none;
+}
+.site-footer {
+  background: #171717;
+  color: #fffbeb;
+  padding: 64px 24px 36px;
+}
+.site-footer-grid {
+  max-width: 1320px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1.4fr repeat(3, 1fr);
+  gap: 48px;
+}
+.site-footer h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.site-footer li {
+  margin-bottom: 8px;
+  font-size: 15px;
+  opacity: 0.75;
+}
+.site-footer a:hover {
+  color: #f1821b;
+}
+.site-footer-bottom {
+  max-width: 1320px;
+  margin: 40px auto 0;
+  padding-top: 20px;
+  border-top: 1px solid #444;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  font-size: 12px;
+  color: #b5b5ad;
+}
+.site-message {
+  max-width: 760px;
+  margin: auto;
+  padding: 100px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.site-message h1 {
+  font-size: clamp(32px, 5vw, 56px);
+  line-height: 1.15;
+}
+.site-button {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 13px 22px;
+  color: white;
+  background: #f1821b;
+}
+.site-button:hover {
+  background: #d86e0a;
+}
+.site-form-message {
+  padding: 16px;
+  margin-top: 16px;
+  background: #fff4e5;
+  color: #603500;
+  border: 1px solid #f1821b;
+  border-radius: 6px;
+}
+.site-form-message a {
+  text-decoration: underline;
+}
+.site-form-busy {
+  opacity: 0.6;
+  pointer-events: none;
+}
+.site-content [class*="controller"],
+.site-content countdown-controller {
+  display: block;
+}
+.site-content img {
+  max-width: 100%;
+}
+.site-content [data-honeypot] {
+  position: absolute;
+  left: -10000px;
+}
+.site-content label:empty {
+  display: none;
+}
+.site-content .site-video {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+.site-content .site-gallery-button {
+  display: block;
+  width: 100%;
+  text-align: inherit;
+}
+.site-gallery-dialog {
+  border: 0;
+  border-radius: 10px;
+  background: #171717;
+  color: white;
+  padding: 18px;
+  width: min(1100px, 95vw);
+  max-height: 95vh;
+}
+.site-gallery-dialog::backdrop {
+  background: #000d;
+}
+.site-gallery-dialog img {
+  max-width: 100%;
+  height: 75vh;
+  object-fit: contain;
+  margin: auto;
+}
+.site-gallery-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 14px;
+}
+.site-gallery-controls button {
+  background: #333;
+  padding: 10px 16px;
+  border-radius: 6px;
+}
+@media (max-width: 1100px) {
+  .site-header-inner {
+    gap: 20px;
+  }
+  .site-header-actions {
+    gap: 12px;
+  }
+  .site-desktop-nav {
+    gap: 15px;
+  }
+  .site-login-link,
+  .site-signup-link {
+    display: none;
+  }
+  .site-mobile-login {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 8px 24px;
+    background: #f5f5f1;
+    color: #0c3923;
+    font-size: 13px;
+  }
+}
+@media (max-width: 767px) {
+  .site-header-inner {
+    height: 64px;
+    padding: 0 16px;
+    gap: 16px;
+  }
+  .site-menu-toggle {
+    display: flex;
+  }
+  .site-logo {
+    margin-right: auto;
+    width: 142px;
+  }
+  .site-logo img {
+    width: 142px;
+  }
+  .site-desktop-nav {
+    display: none;
+  }
+  .site-mobile-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px;
+    padding: 12px 16px 20px;
+    background: #f5f5f1;
+    color: #0c3923;
+  }
+  .site-mobile-nav a {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+  }
+  .site-footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+  .site-footer-grid > a {
+    grid-column: 1/-1;
+  }
+  .site-footer-bottom {
+    flex-direction: column;
+  }
+  .site-footer {
+    padding: 40px 20px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+.site-account {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 64px 24px 100px;
+}
+.site-account h1 {
+  font-family: "Gowun Dodum", serif;
+  font-size: clamp(38px, 5vw, 64px);
+  margin-bottom: 28px;
+}
+.site-account h2 {
+  font-size: 26px;
+  margin: 28px 0 16px;
+}
+.site-account p {
+  margin: 16px 0;
+}
+.site-account-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+}
+.site-account label {
+  display: block;
+  margin: 16px 0;
+}
+.site-account input:not([type="checkbox"]),
+.site-account textarea {
+  display: block;
+  width: 100%;
+  border: 1px solid #7d8d85;
+  padding: 14px;
+  background: white;
+  border-radius: 4px;
+  margin-top: 8px;
+}
+.site-account .site-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.site-account input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  flex: none;
+}
+.site-account ul {
+  list-style: none;
+  padding: 0;
+}
+.site-account li {
+  padding: 18px 0;
+  border-bottom: 1px solid #c9cfca;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.site-account li a {
+  color: #244e39;
+  text-decoration: underline;
+}
+.site-account li button {
+  margin-left: auto;
+}
+.site-account fieldset {
+  border: 0;
+  padding: 0;
+}
+.site-account button:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+.site-account [role="alert"] {
+  border-left: 3px solid #a8452d;
+  padding: 14px;
+  background: #f5e5dc;
+}
+.site-account [role="status"] {
+  padding: 14px;
+  background: #e2efdf;
+}
+.site-account .site-button {
+  margin: 10px 0;
+}
+.site-transaction {
+  max-width: 740px;
+}
+.site-captcha {
+  margin: 16px 0;
+}
+.site-link-button {
+  text-decoration: underline;
+}
+@media (max-width: 720px) {
+  .site-account {
+    padding: 40px 20px 70px;
+  }
+  .site-account-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}
+.site-listings {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 40px 24px 80px;
+}
+.site-listings-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+.site-listings h1 {
+  font-family: "Gowun Dodum", serif;
+  font-size: clamp(36px, 4vw, 58px);
+}
+.site-listing-filters {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+.site-listing-filters input,
+.site-listing-filters select {
+  border: 1px solid #d0d4ce;
+  border-radius: 4px;
+  padding: 12px;
+  background: #fff;
+  min-width: 180px;
+}
+.site-listing-filters input {
+  flex: 1;
+  min-width: 240px;
+}
+.site-listing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 36px 24px;
+}
+.site-listing-card {
+  border: 1px solid #d7dbd3;
+  border-radius: 5px;
+  overflow: hidden;
+  background: #fff;
+  transition: transform 0.15s;
+}
+.site-listing-card:hover {
+  transform: translateY(-3px);
+}
+.site-listing-card > a {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.site-card-photo {
+  position: relative;
+  aspect-ratio: 4/3;
+  background: #d6dad2;
+}
+.site-card-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.site-card-photo span {
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  background: #234b37;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 3px;
+  font-size: 13px;
+}
+.site-card-photo span:empty {
+  display: none;
+}
+.site-card-copy {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.site-card-copy h2 {
+  font-size: 23px;
+  line-height: 1.2;
+  margin: 0 0 14px;
+}
+.site-card-copy p {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #536055;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.site-card-bottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  padding-top: 24px;
+  margin-top: auto;
+}
+.site-card-copy small {
+  color: #66766b;
+  margin-top: 12px;
+}
+.site-pagination {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  padding: 48px 0;
+}
+.site-pagination a {
+  padding: 8px 18px;
+  background: #234b37;
+  color: white;
+  border-radius: 4px;
+}
+@media (max-width: 1000px) {
+  .site-listing-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 640px) {
+  .site-listings {
+    padding: 24px 16px 60px;
+  }
+  .site-listings-title {
+    align-items: start;
+    flex-direction: column;
+  }
+  .site-listing-grid {
+    grid-template-columns: 1fr;
+  }
+  .site-listing-filters > * {
+    width: 100%;
+  }
+  .site-listings-title .site-button {
+    display: none;
+  }
+}
+.site-auction {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 40px 24px 80px;
+}
+.site-auction h1 {
+  font:
+    clamp(36px, 5vw, 64px)/1.1 "Gowun Dodum",
+    serif;
+  margin: 24px 0;
+}
+.site-auction h2 {
+  font-size: 28px;
+  margin: 32px 0 18px;
+}
+.site-auction-gallery {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 10px;
+  margin: 28px 0 14px;
+}
+.site-auction-gallery button:first-child {
+  grid-row: span 2;
+}
+.site-auction-gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  aspect-ratio: 4/3;
+}
+.site-auction-columns {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(260px, 1fr);
+  gap: 60px;
+  margin-top: 40px;
+}
+.site-auction-columns aside {
+  background: #edf0e8;
+  padding: 28px;
+  align-self: start;
+  border-radius: 8px;
+}
+.site-auction-columns aside .site-button {
+  display: block;
+  text-align: center;
+  margin: 16px 0;
+}
+.site-auction-price {
+  font-size: 38px;
+}
+.site-auction ol {
+  padding: 0;
+  list-style: none;
+}
+.site-auction li {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  border-top: 1px solid #c7cec3;
+  padding: 15px 0;
+}
+.site-auction textarea {
+  display: block;
+  width: 100%;
+  padding: 16px;
+  border: 1px solid #9da998;
+  margin: 16px 0;
+}
+.site-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  background: #101712f5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 48px 24px;
+  color: white;
+}
+.site-lightbox img {
+  max-width: 85vw;
+  max-height: 85vh;
+  object-fit: contain;
+}
+.site-lightbox-close {
+  position: absolute;
+  right: 24px;
+  top: 12px;
+  font-size: 40px;
+}
+.site-lightbox > button {
+  font-size: 32px;
+  padding: 8px;
+}
+.site-invoice-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 12px 0;
+  align-items: center;
+}
+.site-swish {
+  flex-basis: 100%;
+  display: grid;
+  justify-items: start;
+  gap: 16px;
+  padding: 24px;
+  background: #edf0e8;
+  border-radius: 8px;
+}
+.site-swish figure {
+  margin: 0;
+}
+.site-swish img {
+  max-width: 100%;
+}
+@media (max-width: 800px) {
+  .site-auction-columns {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .site-auction-columns aside {
+    grid-row: 1;
+  }
+  .site-auction-gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+  .site-auction-gallery button:first-child {
+    grid-column: span 2;
+  }
+  .site-lightbox {
+    padding: 10px;
+  }
+  .site-lightbox img {
+    max-width: 80vw;
+  }
+}

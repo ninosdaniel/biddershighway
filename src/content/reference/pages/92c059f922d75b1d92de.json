@@ -1,0 +1,47 @@
+{
+  "path": "/sv/motorcycles",
+  "sourceUrl": "https://www.biddershighway.com/sv/motorcycles",
+  "title": "Motorcyklar till salu – alla märken",
+  "description": "Hitta motorcyklar efter märke på Bidders Highway: pågående auktioner, annonser och sålda motorcyklar.",
+  "canonicalUrl": "https://www.biddershighway.com/sv/motorcycles",
+  "alternates": [
+    {
+      "locale": "en",
+      "href": "https://www.biddershighway.com/en/motorcycles"
+    },
+    {
+      "locale": "sv",
+      "href": "https://www.biddershighway.com/sv/motorcycles"
+    },
+    {
+      "locale": "de",
+      "href": "https://www.biddershighway.com/de/motorcycles"
+    },
+    {
+      "locale": "x-default",
+      "href": "https://www.biddershighway.com/sv/motorcycles"
+    }
+  ],
+  "stylesheets": [
+    "/assets/tailwind-bf4ffbde.css"
+  ],
+  "mainHtml": "<main class=\"bg-white\"><div class=\"container mx-auto px-4 py-8\"><h1 class=\"font-serif uppercase text-3xl md:text-4xl lg:text-5xl text-racing-700 mb-2\">Motorcyklar</h1><p class=\"text-neutral-600 mb-8 max-w-3xl\">Här hittar du alla motorcykelmärken som säljs eller har sålts på Bidders Highway – från klassiska Husqvarna och Triumph till japanska och italienska sportcyklar. Välj ett märke för att se pågående auktioner, annonser och tidigare försäljningar.</p><ul class=\"grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3 mb-16\"><li><a href=\"/sv/motorcycles/bmw\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">BMW</a></li><li><a href=\"/sv/motorcycles/bsa\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">BSA</a></li><li><a href=\"/sv/motorcycles/ducati\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Ducati</a></li><li><a href=\"/sv/motorcycles/harley-davidson\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Harley-Davidson</a></li><li><a href=\"/sv/motorcycles/honda\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Honda</a></li><li><a href=\"/sv/motorcycles/husqvarna\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Husqvarna</a></li><li><a href=\"/sv/motorcycles/indian\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Indian</a></li><li><a href=\"/sv/motorcycles/kawasaki\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Kawasaki</a></li><li><a href=\"/sv/motorcycles/ktm\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">KTM</a></li><li><a href=\"/sv/motorcycles/moto-guzzi\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Moto Guzzi</a></li><li><a href=\"/sv/motorcycles/mv-agusta\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">MV Agusta</a></li><li><a href=\"/sv/motorcycles/puch\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Puch</a></li><li><a href=\"/sv/motorcycles/suzuki\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Suzuki</a></li><li><a href=\"/sv/motorcycles/triumph\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Triumph</a></li><li><a href=\"/sv/motorcycles/yamaha\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Yamaha</a></li><li><a href=\"/sv/motorcycles/zundapp\" class=\"block rounded-lg border border-stone-200 bg-white px-4 py-3 font-medium hover:border-racing-700 transition-colors\">Zündapp</a></li></ul></div></main>",
+  "links": [
+    "/sv/motorcycles/bmw",
+    "/sv/motorcycles/bsa",
+    "/sv/motorcycles/ducati",
+    "/sv/motorcycles/harley-davidson",
+    "/sv/motorcycles/honda",
+    "/sv/motorcycles/husqvarna",
+    "/sv/motorcycles/indian",
+    "/sv/motorcycles/kawasaki",
+    "/sv/motorcycles/ktm",
+    "/sv/motorcycles/moto-guzzi",
+    "/sv/motorcycles/mv-agusta",
+    "/sv/motorcycles/puch",
+    "/sv/motorcycles/suzuki",
+    "/sv/motorcycles/triumph",
+    "/sv/motorcycles/yamaha",
+    "/sv/motorcycles/zundapp"
+  ]
+}

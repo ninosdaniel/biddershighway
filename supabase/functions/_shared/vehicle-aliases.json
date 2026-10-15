@@ -1,0 +1,138 @@
+{
+  "make_phrases": {
+    "alfa": "alfa romeo",
+    "alfa romeo": "alfa romeo",
+    "alfaromeo": "alfa romeo",
+    "aston": "aston martin",
+    "aston martin": "aston martin",
+    "astonmartin": "aston martin",
+    "austin healey": "austin healey",
+    "austinhealey": "austin healey",
+    "benz": "mercedes",
+    "caddy": "cadillac",
+    "chev": "chevrolet",
+    "chevy": "chevrolet",
+    "de tomaso": "de tomaso",
+    "detomaso": "de tomaso",
+    "facel vega": "facel vega",
+    "folkabuss": "volkswagen",
+    "folkvagn": "volkswagen",
+    "guzzi": "moto guzzi",
+    "harley": "harley davidson",
+    "harley davidson": "harley davidson",
+    "harleydavidson": "harley davidson",
+    "healey": "austin healey",
+    "husky": "husqvarna",
+    "iso rivolta": "iso rivolta",
+    "jag": "jaguar",
+    "josse car": "josse car",
+    "lambo": "lamborghini",
+    "land rover": "land rover",
+    "landrover": "land rover",
+    "mb": "mercedes",
+    "mercedes benz": "mercedes",
+    "mercedesbenz": "mercedes",
+    "moto guzzi": "moto guzzi",
+    "motoguzzi": "moto guzzi",
+    "olds": "oldsmobile",
+    "peugot": "peugeot",
+    "range rover": "land rover",
+    "rolls": "rolls royce",
+    "rolls royce": "rolls royce",
+    "rollsroyce": "rolls royce",
+    "tomaso": "de tomaso",
+    "vw": "volkswagen"
+  },
+  "model_makes": {
+    "corvette": "chevrolet",
+    "camaro": "chevrolet",
+    "impala": "chevrolet",
+    "bel air": "chevrolet",
+    "mustang": "ford",
+    "thunderbird": "ford",
+    "bronco": "ford",
+    "defender": "land rover",
+    "discovery": "land rover",
+    "beetle": "volkswagen",
+    "bubbla": "volkswagen",
+    "golf": "volkswagen",
+    "amazon": "volvo",
+    "duett": "volvo",
+    "p1800": "volvo",
+    "charger": "dodge",
+    "challenger": "dodge",
+    "firebird": "pontiac",
+    "gto": "pontiac"
+  },
+  "sibling_groups": [
+    [
+      "volkswagen",
+      "audi",
+      "seat",
+      "skoda",
+      "porsche"
+    ],
+    [
+      "bmw",
+      "mini"
+    ],
+    [
+      "land rover",
+      "rover",
+      "jaguar"
+    ],
+    [
+      "chevrolet",
+      "gmc",
+      "pontiac",
+      "oldsmobile",
+      "buick",
+      "cadillac"
+    ],
+    [
+      "ford",
+      "mercury",
+      "lincoln"
+    ],
+    [
+      "dodge",
+      "plymouth",
+      "chrysler"
+    ],
+    [
+      "nissan",
+      "datsun"
+    ],
+    [
+      "fiat",
+      "lancia",
+      "alfa romeo"
+    ],
+    [
+      "peugeot",
+      "citroen",
+      "renault"
+    ],
+    [
+      "toyota",
+      "lexus"
+    ],
+    [
+      "mg",
+      "austin",
+      "morris",
+      "triumph",
+      "austin healey"
+    ],
+    [
+      "harley davidson",
+      "indian"
+    ],
+    [
+      "honda",
+      "yamaha",
+      "kawasaki",
+      "suzuki"
+    ]
+  ]
+}

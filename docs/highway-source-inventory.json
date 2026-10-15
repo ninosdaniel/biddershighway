@@ -1,0 +1,2285 @@
+{
+  "source_repository": "https://github.com/biddershighway/highway",
+  "source_commit": "0bae38c04fb0e6c9510d7bba659c151f456c095d",
+  "review_date": "2026-10-15",
+  "counts": {
+    "app/controllers": 263,
+    "app/jobs": 86,
+    "app/models": 148,
+    "app/policies": 71
+  },
+  "units": [
+    {
+      "path": "app/controllers/account/bookmarks_controller.rb",
+      "sha256": "129bf089e9d27c157d6eee2e4c47bce6e2fdac35c20837df7b72c74978bbc9d2"
+    },
+    {
+      "path": "app/controllers/account/buyer_live_auctions_controller.rb",
+      "sha256": "53424cf0088b34d4c11f47085928678fa6c0abd677b918aaef32531c68dcddde"
+    },
+    {
+      "path": "app/controllers/account/buyer_lost_auctions_controller.rb",
+      "sha256": "4d11f7373cd72a3224fb392ecc51175f94e2a3e9d218913ab375ee1bb58fcaaa"
+    },
+    {
+      "path": "app/controllers/account/buyer_won_auctions_controller.rb",
+      "sha256": "2e1da523308b64d9f442aee9868379f8ef6905245ab5a9555b6e6e9da1fc5ece"
+    },
+    {
+      "path": "app/controllers/account/classifieds/albums_controller.rb",
+      "sha256": "cd1bd20a8f506a7c48a102b1a2b0b39021b86d696d30edcf38e4e19208c6729f"
+    },
+    {
+      "path": "app/controllers/account/classifieds/hidings_controller.rb",
+      "sha256": "c4e64ce04ece3665dc0b217266c951bac7a6a3ea7bb1e6ac0ea8cfeaaf446fc4"
+    },
+    {
+      "path": "app/controllers/account/classifieds/moderations_controller.rb",
+      "sha256": "aa89b8e0e348c34b475705e9d6b90a6ef8b8be76596456c7be499215d9ddac49"
+    },
+    {
+      "path": "app/controllers/account/classifieds/publishings_controller.rb",
+      "sha256": "a6b41036ee0a0313d47638e627f75847e1f7a768e52a339b46b60e06439026e6"
+    },
+    {
+      "path": "app/controllers/account/classifieds/sellings_controller.rb",
+      "sha256": "fdb28d0ae0f880bdbf9c24d72accb27e0c6bcd8fb28a54252fa8f3c876617b49"
+    },
+    {
+      "path": "app/controllers/account/classifieds_controller.rb",
+      "sha256": "512ebeeaaa78c18f75d0702f7a62b2ed3b7d1f89443dc16ff081834ecb2ca7d5"
+    },
+    {
+      "path": "app/controllers/account/companies_controller.rb",
+      "sha256": "baf238a0c1e38df2e8d5a891ce69ff519f54b1efc6d6e6eda1c503a5fbe13991"
+    },
+    {
+      "path": "app/controllers/account/conversation_messages_controller.rb",
+      "sha256": "2d53d5aa667eacb3c71c14aa79075d3565da3f2a63b8372822f4af3d883778b5"
+    },
+    {
+      "path": "app/controllers/account/conversations_controller.rb",
+      "sha256": "50edbbbcba08259b6835a21531bb799af898b2dfb7e5e237903b0eab78b8bb11"
+    },
+    {
+      "path": "app/controllers/account/emails_controller.rb",
+      "sha256": "ea888b13bd4f43b121483cd47ee62e9535168be577db85be9d1d5b520a8a4dde"
+    },
+    {
+      "path": "app/controllers/account/saved_searches_controller.rb",
+      "sha256": "836e6b325c0436f0f8fc47f37b8ca9f8f3bc384e56dda53dc4e0ac041cbeaa12"
+    },
+    {
+      "path": "app/controllers/account/seller_concluded_auctions_controller.rb",
+      "sha256": "e92874e4f33a1ff7ebeef10f70202a536370c9a3883ad5fd4686607f2362b5bc"
+    },
+    {
+      "path": "app/controllers/account/seller_draft_auctions_controller.rb",
+      "sha256": "933f6350f3af1aeda3390061b5b80e42c3ae965811bf61aebd673f3dca515b75"
+    },
+    {
+      "path": "app/controllers/account/seller_live_auctions_controller.rb",
+      "sha256": "d2e26f732061fd6c378d53906812fa669a062f6ac49453a56030888c3cb62f78"
+    },
+    {
+      "path": "app/controllers/account/settings_controller.rb",
+      "sha256": "fb33ca76851cbe7b767b84457b7fad77db43211aad47328fe143fb25920e0106"
+    },
+    {
+      "path": "app/controllers/account/transports_controller.rb",
+      "sha256": "fdaba616a3604bb12f6ed1d7b44311bed349a322a5607e2a07fa3f6c90a4d54b"
+    },
+    {
+      "path": "app/controllers/account/users_controller.rb",
+      "sha256": "da32758dbbc120a6b960d54aa235528edff1db8db34f52b183473f9961bd7128"
+    },
+    {
+      "path": "app/controllers/account/verifications/addresses_controller.rb",
+      "sha256": "0f59687dea742124cbd00ed99f9b9b12dfce776047eba9ac020c603a360d7323"
+    },
+    {
+      "path": "app/controllers/account/verifications_controller.rb",
+      "sha256": "ec32b12270d981890cf330bc627b845263b06cd5567da7002429735e9e744027"
+    },
+    {
+      "path": "app/controllers/accounting/application_controller.rb",
+      "sha256": "d9a56e67e70203c8e63a43731770294ff3e46cd5c79654f2127b4419e332e218"
+    },
+    {
+      "path": "app/controllers/accounting/invoices_controller.rb",
+      "sha256": "ed791238b0ef6db7ffeda59922a379bbbc5e12419c666a35813146678ab2b39d"
+    },
+    {
+      "path": "app/controllers/accounting/monthly_invoices/downloads_controller.rb",
+      "sha256": "040835db7a25cfc4a0ecdb5f6d5a141aa51f41eacfa2695a55d0a63ea5886084"
+    },
+    {
+      "path": "app/controllers/accounting/monthly_invoices_controller.rb",
+      "sha256": "31aaa0a715fa24c2aaef27f00076365aed43360b5270aa960cde5b257cdfaf53"
+    },
+    {
+      "path": "app/controllers/accounting/monthly_photo_fees/downloads_controller.rb",
+      "sha256": "58ec961e4158445eb225e1a5d69718e25f538eff177ce5e859e0be0a94b7658d"
+    },
+    {
+      "path": "app/controllers/accounting/monthly_photo_fees_controller.rb",
+      "sha256": "e95f3ee2d7fce609ba37eb0d007efb2354abdaa6701ed16b488ee858fb08b3f7"
+    },
+    {
+      "path": "app/controllers/admin/application_controller.rb",
+      "sha256": "231b5ab1338ea0cfac88c564dfad4cece77bd3d58b62e2ae595d601ad6a63cda"
+    },
+    {
+      "path": "app/controllers/admin/leads/agreements_controller.rb",
+      "sha256": "e2c3e1a02513559d5d0678b5aaf4e3150af42be913dbb7d237f7fb6da5d0aa5e"
+    },
+    {
+      "path": "app/controllers/admin/leads/albums_controller.rb",
+      "sha256": "21346a80dcda939cbf896769ba254beadd6538d3e0515e761d188a162441682a"
+    },
+    {
+      "path": "app/controllers/admin/leads/approvals_controller.rb",
+      "sha256": "b0e049cbde1d76477e46a3f73db15cb88b74a7f45434fdfc8cf3e1db7f38b8b4"
+    },
+    {
+      "path": "app/controllers/admin/leads/base_controller.rb",
+      "sha256": "3178cc42c306461a1a729a8ff67d7f0177bb2b6804c20074ea9df3d8a9f0e427"
+    },
+    {
+      "path": "app/controllers/admin/leads/churns_controller.rb",
+      "sha256": "33fa215cfaa7baaffeb6795a517d027c321ac4a5097ca6cf8c199b3492cd92cd"
+    },
+    {
+      "path": "app/controllers/admin/leads/comments_controller.rb",
+      "sha256": "45976711e25a6cd7c452ec73c1efabf465ac8655a1d5d1ad07de42b879370b84"
+    },
+    {
+      "path": "app/controllers/admin/leads/contacts_controller.rb",
+      "sha256": "088c0ac80deae5c14b62d7d08f4a973a69f352e1d544917d2c1e508401fbb289"
+    },
+    {
+      "path": "app/controllers/admin/leads/form_reminders_controller.rb",
+      "sha256": "46ba9bfa5b102964405d4d418332db3ef26d1c6e161cfe840019fbcf8be667ed"
+    },
+    {
+      "path": "app/controllers/admin/leads/forms_controller.rb",
+      "sha256": "2e896d4afa87235bc241b5b6668cde65d26f4247a3377d3ad52c9b2364b2a9af"
+    },
+    {
+      "path": "app/controllers/admin/leads/generated_texts_controller.rb",
+      "sha256": "a05e99ec72e858c33c5cba7930becdc51cc8ffcec1a23bc60d525eaeffa43090"
+    },
+    {
+      "path": "app/controllers/admin/leads/photo_bookings_controller.rb",
+      "sha256": "b3af4710be8b92cd579b091621b0e153246793307c3929263ae5ef8856ba140b"
+    },
+    {
+      "path": "app/controllers/admin/leads/photo_reviews/albums_controller.rb",
+      "sha256": "8e5e46d80aece0f08dbb44abff7f26017dc1d8cca1366e4b3d96d4b3a98b299b"
+    },
+    {
+      "path": "app/controllers/admin/leads/photo_reviews_controller.rb",
+      "sha256": "890415589a54b447e176c55b121e8c09ba877e296bde84ad3c1ae0bb012dca4a"
+    },
+    {
+      "path": "app/controllers/admin/leads/publications_controller.rb",
+      "sha256": "946994f6c5e4ac4f7479fb09811de5d6cbd106b13ea458b5288435d9c8d3b70b"
+    },
+    {
+      "path": "app/controllers/admin/leads/self_shot_photo_bookings_controller.rb",
+      "sha256": "5b4949192c51dcabaeebdb8354f27cb7695cf678d4e059f7a73f9ad3898f6e0d"
+    },
+    {
+      "path": "app/controllers/admin/leads/texts_controller.rb",
+      "sha256": "efbec6466d30ac9537d3380b89cb7f91d2a3e00c82445d434b4d129983ae9606"
+    },
+    {
+      "path": "app/controllers/admin/leads/translated_texts_controller.rb",
+      "sha256": "9aeee52b9251a531bcd6a7507e55e9a247bf1c0a6996d194d1dab3e9121072ad"
+    },
+    {
+      "path": "app/controllers/admin/leads/verification_requests_controller.rb",
+      "sha256": "7915eec4df979b87d87a70d54f3d9b45d8ef808bd722762596fb5f0bcb2f9dc7"
+    },
+    {
+      "path": "app/controllers/admin/leads_controller.rb",
+      "sha256": "b725c4bc02f006fa8bdff52b60f6e7854ae445d756744b4e7367ac1f2dc7cd75"
+    },
+    {
+      "path": "app/controllers/ads_controller.rb",
+      "sha256": "9601b460254fc684e5e2a64cebc1101c90695abad4476dd5396612dd8f3aebd4"
+    },
+    {
+      "path": "app/controllers/after_sales_controller.rb",
+      "sha256": "617449decdf3914f1c65c841c7f68be57800a61d5527af447978fe9bd4350f76"
+    },
+    {
+      "path": "app/controllers/album_redirects_controller.rb",
+      "sha256": "eaa7a7ebc015bf4643ffb5d345d7d6df40c54f97aa96de0ee4e05fb129c5b23f"
+    },
+    {
+      "path": "app/controllers/api/llm/sales_report_toolkits_controller.rb",
+      "sha256": "011426c54ad00d1c65917425ff19336d72bcd08517ebf349dbfe36f8bfe31880"
+    },
+    {
+      "path": "app/controllers/api/lots_controller.rb",
+      "sha256": "927c890caa9ad318e155e3431557cf0a0026fecbebcceb4f78237d5d15fb1a63"
+    },
+    {
+      "path": "app/controllers/api/photo_verifications_controller.rb",
+      "sha256": "e5c37b221a89e0cbceed27c24e7281e964acb10218174baf3297648acf2d8abb"
+    },
+    {
+      "path": "app/controllers/api/reported_auction_searches_controller.rb",
+      "sha256": "f0ce34f2ae68c69e7efc1c3a3b74337816448530eae2b1119509e7abb64a78e3"
+    },
+    {
+      "path": "app/controllers/api/sales_controller.rb",
+      "sha256": "6c3ca96d9e6ff784ffd3354f21d125f02136f8d61737b2a2145b3edef631180f"
+    },
+    {
+      "path": "app/controllers/api/sales_reports_controller.rb",
+      "sha256": "6af6e7fafbfb92ed746065c3b1e81194c09488d4503b67a76e5b62dc6b2e5cab"
+    },
+    {
+      "path": "app/controllers/application_controller.rb",
+      "sha256": "6ea31ee14d4ed0763449d6792336d250e4e0b99d68aeaacbe318a171694fe009"
+    },
+    {
+      "path": "app/controllers/auction_feeds_controller.rb",
+      "sha256": "ef86cd3d083352ca68a79158f424819e6354d887d1302d955a299136ac43cc03"
+    },
+    {
+      "path": "app/controllers/auction_updates_controller.rb",
+      "sha256": "1be103d025e4625ac345ab825b85885d2aa2012cfcf9f1dacf77fbb73b96a2e9"
+    },
+    {
+      "path": "app/controllers/auctions/albums/images_controller.rb",
+      "sha256": "65a7ba6b2cfe7f93f1245f09330f7382af4b32c9d3d01da87a292495ffb77e2e"
+    },
+    {
+      "path": "app/controllers/auctions/albums_controller.rb",
+      "sha256": "1a99d6b645d5389ccd27890e192f20cfb548a266f68c27b8c87a21195cb19af1"
+    },
+    {
+      "path": "app/controllers/auctions/calendar_events_controller.rb",
+      "sha256": "6070f1262e4e5775c79a677ee8d9c607f2879c18b450b68556eba887bb91deb8"
+    },
+    {
+      "path": "app/controllers/auctions/previews_controller.rb",
+      "sha256": "e16cd709c353173f8c8d1d7095f12f9df2b10c03e47730da6f7575e3053702f0"
+    },
+    {
+      "path": "app/controllers/auctions/saved_searches_controller.rb",
+      "sha256": "e3cec83990e5eecdcb9e9a767a31a9530da30c028997d18233279010d860fc80"
+    },
+    {
+      "path": "app/controllers/auctions_controller.rb",
+      "sha256": "12af7f16b3c1dc5d5eb763a9f62643e4dc3d8e7f68e0feecbaae2195edf6c0a2"
+    },
+    {
+      "path": "app/controllers/auroras_controller.rb",
+      "sha256": "f35d22b2ddccef4d3ab98f66f099094ec7ebef786fa78acd697fab0b082f9e17"
+    },
+    {
+      "path": "app/controllers/authors_controller.rb",
+      "sha256": "d6a6951f20ed4d9d783382dacd343ffe36d530fa336fee731d49269d345c1954"
+    },
+    {
+      "path": "app/controllers/bimmers_leads_controller.rb",
+      "sha256": "fe8473ae62efbe73e3d95633fc99c479dce28783650e7775d6b191bdb33562a6"
+    },
+    {
+      "path": "app/controllers/blocketizations_controller.rb",
+      "sha256": "41547ba3c7b995c8c3a85be4fc863ca3de246ecbdcb16a8bf027d737d44ed364"
+    },
+    {
+      "path": "app/controllers/blog_posts_controller.rb",
+      "sha256": "6ddd6b71ed95c021bcf456e252a0309fa9dc8d27f661398dc82395adf74a4de7"
+    },
+    {
+      "path": "app/controllers/bookmarks_controller.rb",
+      "sha256": "dac84b2fe0353fb587599eb0f4ff7929709ac9424ccafcca0e9191360b35acc2"
+    },
+    {
+      "path": "app/controllers/brand_redirects_controller.rb",
+      "sha256": "db07effcae436f6a3de2a07437ab73abbbd3756294251e9ebb54ac2422ab1414"
+    },
+    {
+      "path": "app/controllers/brands_controller.rb",
+      "sha256": "89857ae8ab99c093b9c2012db36ec42596bdf5a80c4edc09c41518fe93641cf5"
+    },
+    {
+      "path": "app/controllers/calendar_bookings_controller.rb",
+      "sha256": "8db16f814ca192d89d7b574489b7cd7c458ce96ab89fd6aacac9e51b1b352ad8"
+    },
+    {
+      "path": "app/controllers/classified_flow/classified_leads_controller.rb",
+      "sha256": "9eaa325f6d018c2192432211662a6a076300f690fe4583cb5f115a8bf21d5788"
+    },
+    {
+      "path": "app/controllers/classified_flow/classified_previews_controller.rb",
+      "sha256": "4153e6fa139869b9bcb04c6418f97e8d500b19efd791807aedc36ef3c57662df"
+    },
+    {
+      "path": "app/controllers/classified_flow/classifieds_controller.rb",
+      "sha256": "a5cc657729c544e869a8e615bd802c63579dfa5e2a00d4566b177937d7ae5bcd"
+    },
+    {
+      "path": "app/controllers/classified_leads_controller.rb",
+      "sha256": "3f13208fb1091f615e513eec8b657c8bd5f2290a12aac6ff9fa02160ee624f92"
+    },
+    {
+      "path": "app/controllers/classifieds/albums_controller.rb",
+      "sha256": "0c0d336f3870a4b61a0fffd3c957bd4aee6270f9f32f34138eab95db89dc1ae0"
+    },
+    {
+      "path": "app/controllers/classifieds/approvals_controller.rb",
+      "sha256": "00f2d5076083edf6e60a5ccb1617459aa3c13b77b843520bb83b502f86dceabd"
+    },
+    {
+      "path": "app/controllers/classifieds/images_controller.rb",
+      "sha256": "bcf83786471bb7f4b8fc4dc79589d20562003f80868f16c7f565ca68c95fbd3f"
+    },
+    {
+      "path": "app/controllers/classifieds_controller.rb",
+      "sha256": "58ab0a0dcc5562396fe83205f9a1f62dbe2dbe65be35a3e37915c57ec5107cc3"
+    },
+    {
+      "path": "app/controllers/cli/albums_controller.rb",
+      "sha256": "115ef8b0ec9d839fc4ee680d58645f40cb08cbfe18d40d826960baa17876191f"
+    },
+    {
+      "path": "app/controllers/cli/application_controller.rb",
+      "sha256": "ad4993dbe0abaca0429da112ecb2e4d4d4988475250218faa07b35d79cbe3038"
+    },
+    {
+      "path": "app/controllers/cli/auctions_controller.rb",
+      "sha256": "62023fffaca1aca0bfd6a37f54752c4dfc21d724a1bd74b5a6ef5f222c325043"
+    },
+    {
+      "path": "app/controllers/cli/authors_controller.rb",
+      "sha256": "326f1ba80400bd420305cecab6c79d8babf8e90c2c6bf365d75ed0ee5325fa07"
+    },
+    {
+      "path": "app/controllers/cli/blog_posts_controller.rb",
+      "sha256": "cea1eaaf0de8bd094c84a4d7087e74242d35510b3753659e3d63611ea082bcfd"
+    },
+    {
+      "path": "app/controllers/cli/brands_controller.rb",
+      "sha256": "5007a575b2d3992df933aa5db696073801fb876a09c992843382a412b0c2ecce"
+    },
+    {
+      "path": "app/controllers/cli/classifieds_controller.rb",
+      "sha256": "82b67f38ef203c9729a57e70b5320f5ed21f839e6272692b21ccbc7e0b5392d5"
+    },
+    {
+      "path": "app/controllers/cli/comments/rejections_controller.rb",
+      "sha256": "ed97bd2efbd296abfdd20aba6ec12bc33637a3f3a2be60dc1a8d2eaf845e9232"
+    },
+    {
+      "path": "app/controllers/cli/comments_controller.rb",
+      "sha256": "d7e01d029dfea1c03109efb3780ded9ea2bf08df73fc3d28f57e840dc917ca0b"
+    },
+    {
+      "path": "app/controllers/cli/fortnox_invoices_controller.rb",
+      "sha256": "755ce65a60cd907070d6e8ec9112b941eebdf0bb5d2671f32c3ca6ba468a6e29"
+    },
+    {
+      "path": "app/controllers/cli/images_controller.rb",
+      "sha256": "1f54055ee6b9488483d48b0869993fded8f15e19a76ca722f9e9edf90eb796a4"
+    },
+    {
+      "path": "app/controllers/cli/leads_controller.rb",
+      "sha256": "c3335282d8a557439e8d7be40c7421244de7c0dc963153be83a0615ddf1ce0ae"
+    },
+    {
+      "path": "app/controllers/cli/lots/auctionizations_controller.rb",
+      "sha256": "c07ae7c352725451c4bca69defeec2459458711886d208f08e9bdf2226ac74fa"
+    },
+    {
+      "path": "app/controllers/cli/lots/generated_texts_controller.rb",
+      "sha256": "e783e45bbbb0e636d382d4f242bcb95da1983b6915eebaad8e6eb5790d7c189f"
+    },
+    {
+      "path": "app/controllers/cli/lots_controller.rb",
+      "sha256": "ed92a66a9d652414c549a8d3a775b08e878e8be47965ad681b75ed9926f6a7fa"
+    },
+    {
+      "path": "app/controllers/cli/pages_controller.rb",
+      "sha256": "0c269ac60f06e4476d29eaaacacf822db187aff5d758bcd70d0ea6e0c99b1e0d"
+    },
+    {
+      "path": "app/controllers/cli/photo_ops_controller.rb",
+      "sha256": "175900344154260208fa1723f8456190511950e27986fda8b0460b0a945da5d5"
+    },
+    {
+      "path": "app/controllers/cli/photographers_controller.rb",
+      "sha256": "d7ff781da1c66a9d794b6796afe1e7336978608eb6eb936e95485a522748ec07"
+    },
+    {
+      "path": "app/controllers/cli/questionnaires_controller.rb",
+      "sha256": "650f31f1dc19cd010aa952f79276fa695758504bc8f119e7e8445f4309d4aafa"
+    },
+    {
+      "path": "app/controllers/cli/questions_controller.rb",
+      "sha256": "e01be26a3b9fd3b21fac80567b46cc4c025206394bc676c8a733201d61e67fde"
+    },
+    {
+      "path": "app/controllers/cli/reported_auctions_controller.rb",
+      "sha256": "347cd97d1a2dad7d3575ca370e34e84dfc4f77f0baf5aef4f63448654e7c8538"
+    },
+    {
+      "path": "app/controllers/cli/sales_reports/pdfs_controller.rb",
+      "sha256": "c0e371a4dbdb902355317df9d57f6599dfefd697dca2083dbc4493b5061438d3"
+    },
+    {
+      "path": "app/controllers/cli/sales_reports_controller.rb",
+      "sha256": "ebccb7b8d98395349be80ab5b077c5a356cf998917b5b34605c34a59bd301859"
+    },
+    {
+      "path": "app/controllers/cli/sms_texts_controller.rb",
+      "sha256": "8fe49e6f10223d2ca687273e7a051dbab20f98a8f01c351abb904ed683de62fa"
+    },
+    {
+      "path": "app/controllers/cli/users_controller.rb",
+      "sha256": "4db89ac0ba67cd0d6f7787dfbf11fcdc58bc02f17f65b01765de6fd7ba48d561"
+    },
+    {
+      "path": "app/controllers/cli/valuations_controller.rb",
+      "sha256": "3e52b3653e42ee4df0a3339bcbd85f107bc0f2e412a03431eaa4e6a1052f56a3"
+    },
+    {
+      "path": "app/controllers/collectible_cars_controller.rb",
+      "sha256": "09ee4fde86a4e4c10a36f5452901749f8e01a0b62e2bad30457cb5a9e25d2204"
+    },
+    {
+      "path": "app/controllers/collection_leads_controller.rb",
+      "sha256": "7e50708aa1e02e4dd41cd11dbe0d6e602e03714a9a5b2f8804500c5ebb57883f"
+    },
+    {
+      "path": "app/controllers/comments_controller.rb",
+      "sha256": "10c54bdeb26af09fa132c5f53d9fad9ba378245900a0b2b2fe03b13833a72e39"
+    },
+    {
+      "path": "app/controllers/concerns/auction_side_effects.rb",
+      "sha256": "44af7ed3df48b70811edf2b0b4140e4ff4c4659872c58997416a84f820790409"
+    },
+    {
+      "path": "app/controllers/concerns/bookmarkable.rb",
+      "sha256": "60175d6a90fe142abcff4520f443e8adc197d57e26c1985df462556320ea6300"
+    },
+    {
+      "path": "app/controllers/concerns/csrf_failure_reportable.rb",
+      "sha256": "d93aeb5682288230f88b060e5f85a65d4c589f2035be23856b22de0ccc2e87c3"
+    },
+    {
+      "path": "app/controllers/concerns/error_reporting_context.rb",
+      "sha256": "8d19ebb046299de6d1388ae0b735054acc057b4b22f841a85f4c60c7b5827b1a"
+    },
+    {
+      "path": "app/controllers/concerns/login_token_authenticatable.rb",
+      "sha256": "2f448694ceb76ec4b012e9bfa8b711c9d0162cb78e0c5ebcd5fb82c5c112f16b"
+    },
+    {
+      "path": "app/controllers/concerns/noindexable.rb",
+      "sha256": "0b277d6e2cf8e346f99acac5445e85d3875cc94c4544d0879fdf33f64d3be2c6"
+    },
+    {
+      "path": "app/controllers/concerns/photo_op_booking.rb",
+      "sha256": "c37bcc25facbc78b025e45857a0f003d3e2936f27a457d6a971498fb79bf6bb0"
+    },
+    {
+      "path": "app/controllers/concerns/self_shot_photo_op_booking.rb",
+      "sha256": "87807ce311bcf619b1040f2f7ac8b13fccb4bd571caeb55f6aaac6ac53296867"
+    },
+    {
+      "path": "app/controllers/concerns/spam_protection.rb",
+      "sha256": "c606f0ab413045cfb7465d39dfb03079f16cf2bba17c7a10f164ceaf1228f9a1"
+    },
+    {
+      "path": "app/controllers/concerns/unsubscribable.rb",
+      "sha256": "697e2ba6bd8c785cdc827cf557279cf445f07d21adb97b068dbafa208218d110"
+    },
+    {
+      "path": "app/controllers/concerns/verification_completable.rb",
+      "sha256": "6e51d3431bc19c6b95920d817ab0b746153e12ff028e6193f40b1b2d77369ddb"
+    },
+    {
+      "path": "app/controllers/conversations_controller.rb",
+      "sha256": "d11f599146d2581580aa8cf6ef0f415294a39f88ebf05701c47aa816256cf972"
+    },
+    {
+      "path": "app/controllers/debug_logins_controller.rb",
+      "sha256": "9b367e0fe24b9f30b87e1586c274c4f80caeabe7f14647a3e581c420d625ed4b"
+    },
+    {
+      "path": "app/controllers/detailed_lead_uploads_controller.rb",
+      "sha256": "30578b2c9ed5705c919e2ad4e2d26d263aa37a518eba206f485877d13a593684"
+    },
+    {
+      "path": "app/controllers/detailed_leads_controller.rb",
+      "sha256": "0f6b8ff4ae3989b33f4540b9216e46fa69ddd5839f0882e49ba31fb24b410cea"
+    },
+    {
+      "path": "app/controllers/docs_controller.rb",
+      "sha256": "c4d17724e61401dbd4b7d503012f1f7cca609dc31c9930f0b575f90d48487814"
+    },
+    {
+      "path": "app/controllers/elmia_auctions_controller.rb",
+      "sha256": "bd1ca562570eb4996e8d46c3f16c76481ab253a6cbf0a808713efb0cb536c18e"
+    },
+    {
+      "path": "app/controllers/elmia_leads_controller.rb",
+      "sha256": "9b3b9cae5da41a06dbdbd0df66118c834d5de574cc9d7e3e9e2b0a5170c12a7c"
+    },
+    {
+      "path": "app/controllers/estate_leads_controller.rb",
+      "sha256": "d9799ce8c0c7b1582a445710eafbaca81b1d4b42ce5e13cf7ee5d9bb9a472296"
+    },
+    {
+      "path": "app/controllers/feeds_controller.rb",
+      "sha256": "498679f4c3409fd6af47464eab6367cfc44586ab19f8f271bb2c12bc57b6f0c7"
+    },
+    {
+      "path": "app/controllers/filter/albums/photo_completions_controller.rb",
+      "sha256": "9670ec62626534081ed8acff3723d3897cd897112568b42d33ce4ea06ccc8e56"
+    },
+    {
+      "path": "app/controllers/filter/albums_controller.rb",
+      "sha256": "87f8c8d19c3e84d0fd2e8eb0b8982266d4b94207897b7dc251bf5fe80d64f90b"
+    },
+    {
+      "path": "app/controllers/filter/application_controller.rb",
+      "sha256": "c70e718780b59053e845dc14205f5529e76e9a02ebf73ff9c609d37da07c54a0"
+    },
+    {
+      "path": "app/controllers/filter/auctions/bid_adjustments_controller.rb",
+      "sha256": "3c85971f8c1551e1ff35eb15995c12ec57e5feb4c2194dbc6717a367c17ecfc2"
+    },
+    {
+      "path": "app/controllers/filter/auctions_controller.rb",
+      "sha256": "ee45ac388efd82883b9f54a15d3ada31fd2d2c9b05cdc4e0c9470db4d205165d"
+    },
+    {
+      "path": "app/controllers/filter/authors_controller.rb",
+      "sha256": "f8ee45acda08d07a6411d4bc707da45c27bbcd65b75331cfb2d647cf94ef8232"
+    },
+    {
+      "path": "app/controllers/filter/blocket_classifieds_controller.rb",
+      "sha256": "10ef7152863b2162fedde891b5a7c057c53cf0ed0f9c0bfb46d1934715e0d5a6"
+    },
+    {
+      "path": "app/controllers/filter/blog_posts/duplications_controller.rb",
+      "sha256": "40e3600fe58821b680c1b6209c54071b4f0b1a19bd42e71f4a96a60dc18b985b"
+    },
+    {
+      "path": "app/controllers/filter/blog_posts_controller.rb",
+      "sha256": "683c518655fbc925e6deb149e710749f081491f293ee1769e09218906204fc37"
+    },
+    {
+      "path": "app/controllers/filter/brands_controller.rb",
+      "sha256": "85722660e6fc972eb34382e63aab61157ddf978b8cc3352f19c7f3c086d91a1e"
+    },
+    {
+      "path": "app/controllers/filter/classifieds/email_approvals_controller.rb",
+      "sha256": "f647ec32fb301ebab7534eaed606389b7cfccd186630993c9b4ff3a129f0bb73"
+    },
+    {
+      "path": "app/controllers/filter/classifieds_controller.rb",
+      "sha256": "4454ec6e4352dfbfa1993cc04c374e193934a631f99b4a2503e8984091cccc9d"
+    },
+    {
+      "path": "app/controllers/filter/comments/rejections_controller.rb",
+      "sha256": "55ce1d866b39195e348f7ed14fba1ff055c8aa9e62a4973c470db01f515b257f"
+    },
+    {
+      "path": "app/controllers/filter/comments_controller.rb",
+      "sha256": "a6004de93123529726a180fdb6262e7040e02baf6ca2aacdf7686235f5bf6cd9"
+    },
+    {
+      "path": "app/controllers/filter/customizable_emails_controller.rb",
+      "sha256": "e670229031852cd7c488c0c49484762f2538a2b51653f06a7ca5f86b51452be5"
+    },
+    {
+      "path": "app/controllers/filter/dashboards_controller.rb",
+      "sha256": "5e2564a46e17de93f7ea06fa7e09732fa31cdf74dcc67ac9bdcbb282f17c5722"
+    },
+    {
+      "path": "app/controllers/filter/fortnox_integrations_controller.rb",
+      "sha256": "9c03536ff8ef5df81b5e4abb5141007c7b47c399c4e8f4bf71656c411e6e40e3"
+    },
+    {
+      "path": "app/controllers/filter/invoices_controller.rb",
+      "sha256": "66a4a63dcda41dbb371ce1eebe117f739cf62877ddeb6957ac9062846e46ef3b"
+    },
+    {
+      "path": "app/controllers/filter/leads/archivals_controller.rb",
+      "sha256": "a810f295a51ebf95848403fb91b3ec4342ec5558e2e3ce67cbe91b1f1aaaa5fa"
+    },
+    {
+      "path": "app/controllers/filter/leads/classified_mailings_controller.rb",
+      "sha256": "528a3b743bd2b6db197b8e723c936f0f9082165659d7a39aa54749de729ac84b"
+    },
+    {
+      "path": "app/controllers/filter/leads/dropbox_links_controller.rb",
+      "sha256": "a29a65321487eb3e969995ebd10e94c5eb4301c1f054e28ef2240af677047deb"
+    },
+    {
+      "path": "app/controllers/filter/leads/fortnox_invoices_controller.rb",
+      "sha256": "97c3b2aadb98740f828012b80e81dcf3df85ff3bd7c08fa0a61cac098198a1be"
+    },
+    {
+      "path": "app/controllers/filter/leads/from_registration_numbers_controller.rb",
+      "sha256": "207db0882bc23862b4a07c3a12e3acaba931f310f5c1bc640847e26c538e8b48"
+    },
+    {
+      "path": "app/controllers/filter/leads/lotifications_controller.rb",
+      "sha256": "6c6367d1efe89977cea0de860cfbc7f243b3dc4abd9c7e8bc1f5033b754165ee"
+    },
+    {
+      "path": "app/controllers/filter/leads/photo_op_bookings_controller.rb",
+      "sha256": "674989938b079ce35ac36c4cc7f30a63780029d0f4495f94050b605c8e131efe"
+    },
+    {
+      "path": "app/controllers/filter/leads/photographer_candidates_controller.rb",
+      "sha256": "18aa317541ad95c67287fa6d522d7f4b494b8951cfabe8850c1e74f14fa16fb9"
+    },
+    {
+      "path": "app/controllers/filter/leads/pipedrive_syncs_controller.rb",
+      "sha256": "fc10997d3db529eda26a170217c6be1d4d35a1c836527cee65a7f80085e033b1"
+    },
+    {
+      "path": "app/controllers/filter/leads/self_shot_photo_op_bookings_controller.rb",
+      "sha256": "cd84490026934c5313208f67e22b2b8d19844039d1917ee0f68616254f2bbacd"
+    },
+    {
+      "path": "app/controllers/filter/leads_controller.rb",
+      "sha256": "fce254e675c483180dd38ad9d150c490588124d4467c4a91db6fd2da3d01eee4"
+    },
+    {
+      "path": "app/controllers/filter/lots/auctionizations_controller.rb",
+      "sha256": "c9cac1a3e42a005bacb8f3bb1180709dbf64f20407fe65ead0c198775d144750"
+    },
+    {
+      "path": "app/controllers/filter/lots/classifiedizations_controller.rb",
+      "sha256": "5e821c6e2579279ac65ff8a84a00f80733a59519a4793c6d6dddf39fc205d679"
+    },
+    {
+      "path": "app/controllers/filter/lots/generated_texts_controller.rb",
+      "sha256": "840d73741d034d135f961d159346fc1763fa1e89a3ab77296f055e454655a459"
+    },
+    {
+      "path": "app/controllers/filter/lots/photo_downloads_controller.rb",
+      "sha256": "92ee581b3a83d3a9964e544f8af1ce62ad9e04f71d8d9249c64853515ed7849a"
+    },
+    {
+      "path": "app/controllers/filter/lots/translated_texts_controller.rb",
+      "sha256": "6c362ec8d7a6cb3599a48a7286be127c5043a5bc34f28f33abae03a773e95e2a"
+    },
+    {
+      "path": "app/controllers/filter/lots/video_downloads_controller.rb",
+      "sha256": "fd6e55ec0d756a040acb4468027eb5bdc9048c04c1d0fa08343e0a5bc2054403"
+    },
+    {
+      "path": "app/controllers/filter/lots_controller.rb",
+      "sha256": "79916c515a2b77a605cbb01de3766f65c32bf276b269b3b0045a595c38455753"
+    },
+    {
+      "path": "app/controllers/filter/manual_sales_controller.rb",
+      "sha256": "a94978f5103e15d08b49f3050bccae366b8d785d2431e7d3a790adb02a97e0b3"
+    },
+    {
+      "path": "app/controllers/filter/max_bids_controller.rb",
+      "sha256": "1751468eb9e0a1c67f780e26d9e051da2155dd599019e90ed2323d71978f0834"
+    },
+    {
+      "path": "app/controllers/filter/multi_blocket_classifieds_controller.rb",
+      "sha256": "335cd1a8815d7854ea40278e85512e1d5ec0e183f01780696ba81c0b8200157f"
+    },
+    {
+      "path": "app/controllers/filter/offers_controller.rb",
+      "sha256": "44627d934e16655fd82643691339536a7cadd8db51ecdf52a6ef82a12b6b7064"
+    },
+    {
+      "path": "app/controllers/filter/pages_controller.rb",
+      "sha256": "61c4d051e36300d02084e7c52d4b605cebfab3d7a1d1e537ad714b0f274e9427"
+    },
+    {
+      "path": "app/controllers/filter/photo_ops_controller.rb",
+      "sha256": "77dc4639c3a323f914fa98533f5199fbc40d968cc91cc9582ad98e06cf6efa02"
+    },
+    {
+      "path": "app/controllers/filter/photographers_controller.rb",
+      "sha256": "db7643dc4e53e5c6ac9e4513513f2f474caef92ee104d60c4fa3ea66ba149bc0"
+    },
+    {
+      "path": "app/controllers/filter/questionnaires_controller.rb",
+      "sha256": "f07f44c0eca8176881afd9faf9186f27dd54e8764c1c057af6a95bb287140782"
+    },
+    {
+      "path": "app/controllers/filter/questions_controller.rb",
+      "sha256": "6859aa654fbc7f977787fe82c3a81fffa1e55185ebda5fa9f51c1e5770080a94"
+    },
+    {
+      "path": "app/controllers/filter/relations_controller.rb",
+      "sha256": "fe5c281fd8446f7cba72fe4ebe7b5cd53f6eae80c4c24039a8529682b5fb9ba6"
+    },
+    {
+      "path": "app/controllers/filter/reported_auctions_controller.rb",
+      "sha256": "95d290858d8cf4b63a71d6cb5decfb05454b610f9d68318f1a7b1279f1658f39"
+    },
+    {
+      "path": "app/controllers/filter/rich_text_uploads_controller.rb",
+      "sha256": "7e85d758b18609b6d9f1dbfd9f5b04e13439b4c981108c6c38e4c8c8e570cfb3"
+    },
+    {
+      "path": "app/controllers/filter/sales_dashboards_controller.rb",
+      "sha256": "24228fa379609b8610c8f30f8be0c94e30e14a71284d2006bf2f506f357ced6c"
+    },
+    {
+      "path": "app/controllers/filter/sales_referral_qr_codes_controller.rb",
+      "sha256": "95824669e8da6ed540fb5530bb35257e7ce377fe6d1bd941cd7c45ecb174d0fa"
+    },
+    {
+      "path": "app/controllers/filter/sales_reports/pdfs_controller.rb",
+      "sha256": "61ba85fc29e7f9d6cba25bac9eb60c1e50aac769cd094f7b30087bf2f168879f"
+    },
+    {
+      "path": "app/controllers/filter/sales_reports_controller.rb",
+      "sha256": "3d360d181bfa4f266050e61c8c70b806680b9feee45c0ebfb1aef4e3510bc845"
+    },
+    {
+      "path": "app/controllers/filter/search_indexes_controller.rb",
+      "sha256": "b7b13c545236dcef33e6fd96a2159b148b37c855a09859efa9f95f5e0a47b9bb"
+    },
+    {
+      "path": "app/controllers/filter/themes_controller.rb",
+      "sha256": "e0bb351f9e0fab66a0a685f6ffc89249b2ecb303ed9aafc732b87d4270540095"
+    },
+    {
+      "path": "app/controllers/filter/users/anonymizations_controller.rb",
+      "sha256": "30f66a443d60125ba9b6adae8dfcfcaf5bc4f0daf942b096dcd14404ce6ce2d5"
+    },
+    {
+      "path": "app/controllers/filter/users_controller.rb",
+      "sha256": "2cf794e0edeed86a9662f4285ece4f05e15b8fb4e54ea3b04b890cd51b2acc20"
+    },
+    {
+      "path": "app/controllers/filter/valuations_controller.rb",
+      "sha256": "1569345b8c527291b18edca248d6b2f212895dbf42ecfcf813b9ca3cce847cf5"
+    },
+    {
+      "path": "app/controllers/filter/vehicle_models_controller.rb",
+      "sha256": "99436057a89b42a3d98b14b735d719756f70bc5f4f6482706959561c94d50dbe"
+    },
+    {
+      "path": "app/controllers/google_oauth/sessions_controller.rb",
+      "sha256": "540f1005e0875cec9dcb3d39d86e1195974f654ebe958ebcc09fba69dd72d017"
+    },
+    {
+      "path": "app/controllers/invitations_controller.rb",
+      "sha256": "9a1bef6600a4921ae5c3e23b908c4019c8265e6d4689f5e6c4065171f611cf59"
+    },
+    {
+      "path": "app/controllers/invoices/payments_controller.rb",
+      "sha256": "6ab6fb60cbc68920934507cc14c80a315b0fb3deb5c706ac72d0ec0a0b58fe17"
+    },
+    {
+      "path": "app/controllers/invoices/pdfs_controller.rb",
+      "sha256": "13c94ccf4bd5fb2c1c3d953579528dce597bccbe7ff0d401c54779330a7d04f8"
+    },
+    {
+      "path": "app/controllers/invoices/swish_payment_requests_controller.rb",
+      "sha256": "dbb5bdc9fcbfdc3efb059639575b7ee45aa5d226726401dd47df08f58fb1bd5c"
+    },
+    {
+      "path": "app/controllers/jobs_controller.rb",
+      "sha256": "b4531bf79bca9b01d83d4ef3bff86b0b00b440ea3d578cec12059370ca1d8856"
+    },
+    {
+      "path": "app/controllers/lead_approvals_controller.rb",
+      "sha256": "a5cf03d39ee53a7b6722d941b1374bdc671457bb3fe786170e49070e1738108a"
+    },
+    {
+      "path": "app/controllers/lead_forms_controller.rb",
+      "sha256": "58fcd4c1f007a9037a316c7180c7c6d479beefc384f04a7184d8c1f7548c2736"
+    },
+    {
+      "path": "app/controllers/lead_reactivations/base_controller.rb",
+      "sha256": "0e71e8510284b0f0c177bed8712851f3482e1fa0f38a4272a94e9fd4937d4894"
+    },
+    {
+      "path": "app/controllers/lead_reactivations/confirmations_controller.rb",
+      "sha256": "b39f9276609d8685e3fbe995409fe890ce6efe27c5dbb4d548f7295abe3267d9"
+    },
+    {
+      "path": "app/controllers/lead_reactivations/corrections_controller.rb",
+      "sha256": "2ca320df61f73eb4d3873eb79fa6faabba6229ec3cc5a23062955146770ab60c"
+    },
+    {
+      "path": "app/controllers/lead_reactivations_controller.rb",
+      "sha256": "cddbbde0fa3457ad44c028cd8cb8906e2d9725f3b43d6d15469b8e761182d636"
+    },
+    {
+      "path": "app/controllers/leads_controller.rb",
+      "sha256": "3ed0921cb8669ae5df9ae4928a3344c2b75994596e55563f3ff177d5bb4b38d5"
+    },
+    {
+      "path": "app/controllers/listing_updates_controller.rb",
+      "sha256": "7d38ee5f81be34319b6590c570463c3d57a7c4aadd1953a95686d702e564c7f8"
+    },
+    {
+      "path": "app/controllers/listings_controller.rb",
+      "sha256": "464c925c2b4020a6fcc3fad8bb97f7e99e577ab94aaa26419874510ea58e26ed"
+    },
+    {
+      "path": "app/controllers/locales_controller.rb",
+      "sha256": "9d8a9e57adf94470c6c33d85eac2867b243b5e55ca8987c51a0c45da99d01f6e"
+    },
+    {
+      "path": "app/controllers/lookbook_controller.rb",
+      "sha256": "97243d655e0b1a85004b16711485161093bdc1535d4c60cd57d2554edfbcba51"
+    },
+    {
+      "path": "app/controllers/lots/albums/image_orders_controller.rb",
+      "sha256": "c98bcc9d7c31dddf1289f79878457c4f414bf26f2eeafe7638c9c8fc281b9545"
+    },
+    {
+      "path": "app/controllers/lots/albums/images_controller.rb",
+      "sha256": "7b039518f82289e9026af96a47df2996355f6644d6a2b1f49b58352c59b8fda9"
+    },
+    {
+      "path": "app/controllers/lots/hero_images_controller.rb",
+      "sha256": "91f7f186a1d74df4467785e127db923861e2b33d06fa8194f6ba2cfaae4874fb"
+    },
+    {
+      "path": "app/controllers/max_bids_controller.rb",
+      "sha256": "b4050c5a52b97e8eec9136cc3c873591d6e0304181448baf0e81ece2e3889cb6"
+    },
+    {
+      "path": "app/controllers/mission_control/base_controller.rb",
+      "sha256": "b1b4d17fc3ce1437163b3ffaa7f16723559794223d155a68a6d3adc79bca5c64"
+    },
+    {
+      "path": "app/controllers/newsletter_signups_controller.rb",
+      "sha256": "0ab8778f2b8ef71e75d018801f8ff140e76f15b3d958f971da49974997443eb4"
+    },
+    {
+      "path": "app/controllers/nineteen_eighty_four/application_controller.rb",
+      "sha256": "7dc56f595c4f867f1548c94f8e95504905bc2063cb1843a2c3a3e6a76dc21747"
+    },
+    {
+      "path": "app/controllers/nineteen_eighty_four/handlers_controller.rb",
+      "sha256": "37e716c2f3e511431ea6fd1f7a9900688b9168fad012af0494e319190da93de8"
+    },
+    {
+      "path": "app/controllers/nineteen_eighty_four/leads/assignments_controller.rb",
+      "sha256": "aa62dfc8d8a4e6e09118feba4a602eedf55474d84e99b817ac1bb956baadbbd4"
+    },
+    {
+      "path": "app/controllers/nineteen_eighty_four/leads/denials_controller.rb",
+      "sha256": "16251cb7f70c0176a2c5a837962c45a5f20627cc9299dcb88425adc15157e077"
+    },
+    {
+      "path": "app/controllers/nineteen_eighty_four/throughputs_controller.rb",
+      "sha256": "85edc7ecd84dbc338f9ba7e36e189a5bdf8c5c5fde7c10a202a94bbf4b2d5f2c"
+    },
+    {
+      "path": "app/controllers/nineteen_eighty_four/unassigned_leads_controller.rb",
+      "sha256": "13973f001414517db762c8d4aa794120775205a867f9a7001c0859264ac87785"
+    },
+    {
+      "path": "app/controllers/notifications_controller.rb",
+      "sha256": "3bb32ba18702faa9bd1c5157e2ea9aaf90d7f237aadd1964984de366c5684c08"
+    },
+    {
+      "path": "app/controllers/offer_acceptances_controller.rb",
+      "sha256": "5f28e17ca1dced5783b1bed90972fe61e26066f0103d61bdfcc704b9c431aaa8"
+    },
+    {
+      "path": "app/controllers/offer_rejections_controller.rb",
+      "sha256": "6f0bed2c65180841b5354edbddfd6f6f5a8685ab6d94fe350832a11f5ad3a6d2"
+    },
+    {
+      "path": "app/controllers/offers_controller.rb",
+      "sha256": "1930d6d31a2a4ffd0c8dc26d97385d1054ff5ebb0fdbfc1724ab4d76ecf8e46b"
+    },
+    {
+      "path": "app/controllers/pages_controller.rb",
+      "sha256": "22cffb826d6a1cf1b528e209f04e5ba9bc53e5a70acf87613c55da027fa74345"
+    },
+    {
+      "path": "app/controllers/photo_offers_controller.rb",
+      "sha256": "46a1dba4d546e0204f39670014b62b85b035e01cacd58a91ff9eaae9d9484479"
+    },
+    {
+      "path": "app/controllers/photo_ops/albums_controller.rb",
+      "sha256": "302e2500aa3baea0961a38e45b5ef1078a391efa1d587de4582b959dc49ad5a6"
+    },
+    {
+      "path": "app/controllers/photo_ops/completions_controller.rb",
+      "sha256": "97aff2e09f757f3fae7b2ca09f1ad6ade2de52f990ddfe1b93a4e1850069479e"
+    },
+    {
+      "path": "app/controllers/photo_ops/video_uploads_controller.rb",
+      "sha256": "efa909986f20ab2e5c1aac94f4ca6ff1cc1cd6d2dfbdca64ff2b566194b5b235"
+    },
+    {
+      "path": "app/controllers/photo_ops_controller.rb",
+      "sha256": "02bca6308a21895d673c7e090b39150278b154a8689d1e4217cad3f3253b0c81"
+    },
+    {
+      "path": "app/controllers/post_previews_controller.rb",
+      "sha256": "355aa7a1f29513b6169acc9e193f6b5b8eb8737975451ab5bbe115510ea5af05"
+    },
+    {
+      "path": "app/controllers/preview_lots/albums/images_controller.rb",
+      "sha256": "225543686173ad4e0b7bd601b15ff011094140c8ed94f55741871f715e7761d6"
+    },
+    {
+      "path": "app/controllers/preview_lots/albums_controller.rb",
+      "sha256": "7cc3d6c19b5b0922c1c1c104478492937ed223e25a96199426554106cfd848e9"
+    },
+    {
+      "path": "app/controllers/preview_lots_controller.rb",
+      "sha256": "5379a10789b0b67839c0b01d15a44e262bc125815218e5137594f7537a5a61a9"
+    },
+    {
+      "path": "app/controllers/purchases_controller.rb",
+      "sha256": "25c1cbc5f1543ce12b4a7d0bc4e9936dff97ceec3f7fa98a07fb86459ef2b373"
+    },
+    {
+      "path": "app/controllers/qr_codes_controller.rb",
+      "sha256": "0a78d31de0bc2da11e31f535450effdca19ab309edcf162c4607a0f057bdb74f"
+    },
+    {
+      "path": "app/controllers/question_categories_controller.rb",
+      "sha256": "fe24d2e5f6052c3db479b56c5e9992de012d20f5baefa971464020109e5eb7a3"
+    },
+    {
+      "path": "app/controllers/questionnaires_controller.rb",
+      "sha256": "8057d7028f5b3bab2b2f18e68f680026bd4a9c00cb505d09e7e87e2176d70028"
+    },
+    {
+      "path": "app/controllers/questions_controller.rb",
+      "sha256": "c1a18b796ec9749e0043dc4d6d59b62aa8c0ed3cdf6e9da16fa9ea66ad7785a9"
+    },
+    {
+      "path": "app/controllers/saved_searches_controller.rb",
+      "sha256": "d57c3c010561fa712cc3ae351a29eaf5ee74e1f392024e91b75ed8ce8e48d276"
+    },
+    {
+      "path": "app/controllers/seller_approvals_controller.rb",
+      "sha256": "eaeabacdd3a96dd4d219a93ea74817e57ece6f90e211bb4f6e547b2d35e65682"
+    },
+    {
+      "path": "app/controllers/seller_denials_controller.rb",
+      "sha256": "386aeed18a735f99e804eeab921c6d95d21201bd7c747c1dc3b08aa18ce628dc"
+    },
+    {
+      "path": "app/controllers/short_photo_ops_controller.rb",
+      "sha256": "78411bfc28aa4c657a9cdb2ebc3bcbf34bca76c54bbebe307bd2419cc5613958"
+    },
+    {
+      "path": "app/controllers/sign_ins_controller.rb",
+      "sha256": "4d37a06538543d9d9155dd120d702dd5c3a48bce308c8324eb13692515df4615"
+    },
+    {
+      "path": "app/controllers/signup_leads_controller.rb",
+      "sha256": "443b213d36c5d613d87e3558b20c4916de527505c041388bd47368dde69f9d80"
+    },
+    {
+      "path": "app/controllers/sitemaps_controller.rb",
+      "sha256": "00c6fea4b44e44cc592e4bf4f8b02dcbe892e4667e5980a9cd74a7b579cbbb8a"
+    },
+    {
+      "path": "app/controllers/slack_events_controller.rb",
+      "sha256": "b3bf3122a9e16adb51a12c38696b9fbd074a65e461f6083d8940574cbcbb9e65"
+    },
+    {
+      "path": "app/controllers/slack_interactions_controller.rb",
+      "sha256": "e48de08ead1bd1b625bb0dc5a60cea16c080f71fd9e5d0eea1aa69b4c8931621"
+    },
+    {
+      "path": "app/controllers/sms_acceptances_controller.rb",
+      "sha256": "2acd455da6e6a3f265a02177e7c0bc77c04598639af4ef0090aa3a41579c8f75"
+    },
+    {
+      "path": "app/controllers/swish_callbacks_controller.rb",
+      "sha256": "fab1a9920537a45d9911f774a79ee7c3fce31beacc34517f5fe12b5eb52d7b73"
+    },
+    {
+      "path": "app/controllers/swish_payment_requests/cancellations_controller.rb",
+      "sha256": "a422ac9fed3e30320cb4226302212a195368d1abd8ab57585274e5a495e0d6f7"
+    },
+    {
+      "path": "app/controllers/swish_payment_requests/qr_codes_controller.rb",
+      "sha256": "3352783cfc924ad19c7dbe5a273cb94d793602fcce52a6fb6d6a853af1aa1119"
+    },
+    {
+      "path": "app/controllers/swish_qr_codes_controller.rb",
+      "sha256": "10cb44acdc1ef7694a96d00eea834d4ad7c93316ac64f09c33b9f53aad67d30b"
+    },
+    {
+      "path": "app/controllers/terms_controller.rb",
+      "sha256": "52baee6245869609e950997b4a4bbe3b3e2e030e9c70e64176977a1288bf2797"
+    },
+    {
+      "path": "app/controllers/themes_controller.rb",
+      "sha256": "11ba317eaa45456ed67e522dd51bf5ade4fff761abf02a2ef01ba5986949c15d"
+    },
+    {
+      "path": "app/controllers/turbo_frames_controller.rb",
+      "sha256": "5679fa65d3692ab47ccbecea72ec79df9b8bf30cfbffefa1b7267723f3948998"
+    },
+    {
+      "path": "app/controllers/unsubscriptions/one_clicks_controller.rb",
+      "sha256": "aa1cd2329a1b0198e726afd9e2843839de260e495c8e272d28beb5a2b6d7786d"
+    },
+    {
+      "path": "app/controllers/unsubscriptions/welcome_series_controller.rb",
+      "sha256": "dd67da8481cabf16fc710eb7ca5b0701b81de952d890993a98963936d10c2e03"
+    },
+    {
+      "path": "app/controllers/unsubscriptions_controller.rb",
+      "sha256": "31dd9ccdf2b8efcc8ac4475a633c5458bc6d28577dacf71be5758991380d24b7"
+    },
+    {
+      "path": "app/controllers/users_controller.rb",
+      "sha256": "4b9318a583e506e20bd74ae7a374c63578bf3c178ecdf089d5187ec80dc33b61"
+    },
+    {
+      "path": "app/controllers/valuations_controller.rb",
+      "sha256": "a5fd65c51b873944454272a1e65a52e34c763c278c64a8806b0855dffa3eb26e"
+    },
+    {
+      "path": "app/controllers/vehicle_models_controller.rb",
+      "sha256": "d4f177f43dd4dff701c0ec1f73980bad4d055e6f4c7f50c0f014f71d2758020a"
+    },
+    {
+      "path": "app/controllers/volvos_controller.rb",
+      "sha256": "868327d01653a3781850bfe787761e1f66ff4e7944a4914f2d638ba562712657"
+    },
+    {
+      "path": "app/jobs/activate_auction_job.rb",
+      "sha256": "82e8b2732d0f6e7cc7c46381e345c9642257462a3fe34013331c06a24e2829a0"
+    },
+    {
+      "path": "app/jobs/add_email_to_listmonk_job.rb",
+      "sha256": "82a9415db8825caafadf4e4ec34ce064195685489c0f25aaf628d0d0166e967e"
+    },
+    {
+      "path": "app/jobs/add_user_to_listmonk_job.rb",
+      "sha256": "add27eb750ea8d093580f1b851dd13c07ee1980e90f6a2a2f060b4b5152c86a8"
+    },
+    {
+      "path": "app/jobs/application_job.rb",
+      "sha256": "d51e125007521b0f59765422cf3cf949b59b2054cdac6567a95b4a7aeaf1d722"
+    },
+    {
+      "path": "app/jobs/archive_pipedrive_deal_job.rb",
+      "sha256": "e83e97affb2c369df395878b8ef53a1077483fce36fcfb291bd7e4c6ab4377da"
+    },
+    {
+      "path": "app/jobs/bid_mailer_job.rb",
+      "sha256": "e32a3b051dcefe2716ebfa939a2c0c46fdbd8aa2d1616d8a4eb3e7d26d33f3e8"
+    },
+    {
+      "path": "app/jobs/bind_leads_to_user_job.rb",
+      "sha256": "7733fffa7325cdeb2dc699caddbdd74f2a6d1d12218c456d246382d523d073d6"
+    },
+    {
+      "path": "app/jobs/bind_user_to_lead_job.rb",
+      "sha256": "d65b365ecabeb34ebce2f5e8ce556f36575d6e1f26018182797f3de5769ab6bb"
+    },
+    {
+      "path": "app/jobs/blocketization_job.rb",
+      "sha256": "d4e2698d5b2c4cb79c28299928607003cecbc3098cc6eda24b68124e040c2afb"
+    },
+    {
+      "path": "app/jobs/blocklist_listmonk_subscriber_job.rb",
+      "sha256": "dceb64a73770719c8839284de4454a7f025070f64919499a8f1efed6f812fa81"
+    },
+    {
+      "path": "app/jobs/classify_classified_job.rb",
+      "sha256": "8642e9a4c0b73fc365502c4ee000e0e0e4a3991a6cfc2672c4f42b93f1390300"
+    },
+    {
+      "path": "app/jobs/cleanup_photo_download_job.rb",
+      "sha256": "603f06bca479d282effddc8a26a1e439ad187e33a7201ee8fbcb53759a9af0d1"
+    },
+    {
+      "path": "app/jobs/compute_user_interests_job.rb",
+      "sha256": "55885d0fdbd27f620e74b7980568d0f8b2c335c4a6b0313b1a21d7dbf418dcc7"
+    },
+    {
+      "path": "app/jobs/concerns/listmonk_subscribing.rb",
+      "sha256": "3a24e316704e3eb90ddea4ea22ad0263e591dd47e16096cd4f8e31c125481393"
+    },
+    {
+      "path": "app/jobs/concerns/sitemap_output.rb",
+      "sha256": "f447e9e59b4b6d9fb76f9550e728806bfe9caaeddd37bdf509a2a4bdb9fbb936"
+    },
+    {
+      "path": "app/jobs/conclusion_check_job.rb",
+      "sha256": "09c4eb66e444b2c13c1e0df8eb404f1c793f85b0e87fd4556a6d2d202551e387"
+    },
+    {
+      "path": "app/jobs/create_conversation_message_notifications_job.rb",
+      "sha256": "7ec748d9c61f793f02161e78d3ff308b0dcbf5d36bbc361462ec8d8b35c8c33f"
+    },
+    {
+      "path": "app/jobs/create_invoice_note_on_pipedrive_job.rb",
+      "sha256": "16c37db949e99f5dd0b11ea195004e5019a7479d17cc0f56e6ce4ceda9a88ece"
+    },
+    {
+      "path": "app/jobs/create_photo_op_note_on_pipedrive_job.rb",
+      "sha256": "7b0bf7526139f3764e2464931523f82859ae5d2f8895d4f1f9cc8a30369451e5"
+    },
+    {
+      "path": "app/jobs/create_setup_fee_invoice_job.rb",
+      "sha256": "75419a6782dcb4747f5175f725c18dfe2537d9cb6c6a8302a84da13916e044c3"
+    },
+    {
+      "path": "app/jobs/create_site_event_job.rb",
+      "sha256": "18a422f64a18f56444a15e0cd7e77fab307818c9a393754d108541dcf70ebac4"
+    },
+    {
+      "path": "app/jobs/crystal_sitemap_job.rb",
+      "sha256": "1c04ccfd5f3fec8d6307f2925ced94bc5562f42aeaad239e0a31dc197f5319f6"
+    },
+    {
+      "path": "app/jobs/daily_update_job.rb",
+      "sha256": "221250068a00445496594ecbd9a6bab5994693ecff0ceafe9533240cacfd2800"
+    },
+    {
+      "path": "app/jobs/email_highest_bidders_job.rb",
+      "sha256": "93d5010abfeac2d58c42fdcd989fb01dd8d64580805187cc2bd96a2ada2c187c"
+    },
+    {
+      "path": "app/jobs/enqueue_auction_jobs_job.rb",
+      "sha256": "b470425ccb81fb64c587799be796acd215155bb9d6c600511a6bd79a032911d1"
+    },
+    {
+      "path": "app/jobs/find_lat_lng_from_postal_code_job.rb",
+      "sha256": "f38732ecdcaeee2f4dcb23ee604d616f4dd9dd1c771a648f3f85c87117462f83"
+    },
+    {
+      "path": "app/jobs/generate_sitemap_job.rb",
+      "sha256": "e7abb9cea4e10ce4383ab165ac4f006123f9b783f13058c93322bef452a18cd5"
+    },
+    {
+      "path": "app/jobs/geocode_lead_location_job.rb",
+      "sha256": "fabe1e50d5c87b89c91c135afdc5c36aa9546392b6964e4000e2b1bd95b44bfa"
+    },
+    {
+      "path": "app/jobs/import_blocket_classifieds_job.rb",
+      "sha256": "50655a3d3d3a5279b5e0762db469ef9d8441aa3c6edf42cd0b7225cc67c8952a"
+    },
+    {
+      "path": "app/jobs/import_tomax_classified_job.rb",
+      "sha256": "7e1c456f67ddce61258e9422d5e77d0b124b9e983514da29fcb9a660b16ae0d0"
+    },
+    {
+      "path": "app/jobs/new_bid_batch_job.rb",
+      "sha256": "ead9d500611502270aa4ebfdf8e7a3da3a3f5eba34f560f90d7b14b8000fb730"
+    },
+    {
+      "path": "app/jobs/notify_reserve_lowered_job.rb",
+      "sha256": "0ba3815a54e3cec8fb8b7f8312b83ea02e1f72425993d6d0fd18f80ef50f62e9"
+    },
+    {
+      "path": "app/jobs/notify_saved_searches_job.rb",
+      "sha256": "7f0c35836a8521d0e74afe71561662e70e9bb76d4f0b6cae7483c8770076e825"
+    },
+    {
+      "path": "app/jobs/populate_lead_job.rb",
+      "sha256": "d9cfb872416821c180a035c8d0b01c41551682809d3622ecc1c8fcfdf46288ee"
+    },
+    {
+      "path": "app/jobs/populate_model_from_car_info_job.rb",
+      "sha256": "9765c77b0b3811b9fdeff2d54b7750296536c7d9522f73fc22c6a1188eca4919"
+    },
+    {
+      "path": "app/jobs/reconcile_swish_payment_job.rb",
+      "sha256": "d893871ddbf2e357f2fe5b91896c22ab61a8d9657c97cf90697f5a4ee08016b0"
+    },
+    {
+      "path": "app/jobs/refresh_listings_view_job.rb",
+      "sha256": "35373b0aeeb991e61a499a1d94c16fc6cf97f6fa0a896808d2e4ab706778c8a7"
+    },
+    {
+      "path": "app/jobs/reindex_job.rb",
+      "sha256": "08c21192aac9244716ebb024ac76a950521dae298fdef20a73d70ffa20b61da0"
+    },
+    {
+      "path": "app/jobs/reopen_pipedrive_deal_job.rb",
+      "sha256": "d8b8fd920336e408f68cbe8489bf4743656ca135fb67a60d2c688dfcadaa60c8"
+    },
+    {
+      "path": "app/jobs/scrape_bilweb_auction_job.rb",
+      "sha256": "84c18d8a07a208ce9f80f92e36330a0578a59cf8f5d10672ff189e843adc82ce"
+    },
+    {
+      "path": "app/jobs/scrape_sajab_auction_job.rb",
+      "sha256": "c27852ed48b1e0eb7fd57c6748efd373c30b43d2cb32d73413081a2500e737c0"
+    },
+    {
+      "path": "app/jobs/send_deferred_agreements_job.rb",
+      "sha256": "9840596894902a3253a41511dc0e39d3d3b211c6dec7fcd742e84315dece75e4"
+    },
+    {
+      "path": "app/jobs/send_ending_in_fifteen_minutes_notifications_job.rb",
+      "sha256": "e5c3833cce495f8c145aa0812d79e593cad8f806d8ff0846949f37c531e09dca"
+    },
+    {
+      "path": "app/jobs/send_ending_soon_notifications_job.rb",
+      "sha256": "af4183a36acc169a5ff32d92fedd316753b748868fd67b9831a8718ad8b5e35c"
+    },
+    {
+      "path": "app/jobs/send_facebook_event_job.rb",
+      "sha256": "19bd4a65ad25a0c96392de7ecb19e0d38ce62b79394bb0a13951efcb11bb4102"
+    },
+    {
+      "path": "app/jobs/send_lower_reserve_job.rb",
+      "sha256": "dc23532755b68081d8d28c9fa5ca5dbb2a24c26727475ef2a2b81828303fc0dc"
+    },
+    {
+      "path": "app/jobs/send_rerun_question_email_job.rb",
+      "sha256": "74d396b91a2ae7badc28e41f99ca8104a7562882427795ae05722ebc6d56c01e"
+    },
+    {
+      "path": "app/jobs/send_reserve_close_notifications_job.rb",
+      "sha256": "cd7840022c149035c7bdb474cd49b6a026367cd0f5129880c70bbbadaeac524b"
+    },
+    {
+      "path": "app/jobs/send_sold_follow_up_email_job.rb",
+      "sha256": "2ddc966df274c2517fe784684aa55a8289856d08d3d3f85ae601a2bed9789378"
+    },
+    {
+      "path": "app/jobs/send_tracking_event_job.rb",
+      "sha256": "2565d035dc3a926e819488259de1e98242058a6859b9edcf80e265c091d48238"
+    },
+    {
+      "path": "app/jobs/send_verification_reminder_email_job.rb",
+      "sha256": "3f89d13a44c40f3e2734c6f7cd8943083869e73079bf40f768240b25d7e1015e"
+    },
+    {
+      "path": "app/jobs/settle_auction_as_manually_sold_job.rb",
+      "sha256": "3d47272bd6fd04ecaf6080a1a26c84785bffffff2dfaa9e2761f541d7bf5f1a7"
+    },
+    {
+      "path": "app/jobs/settle_auction_as_sold_job.rb",
+      "sha256": "97ebb4b94fb52b0cc8cb107ac07d0cd320f7b95abf55c86daf586ea77f7f7e0c"
+    },
+    {
+      "path": "app/jobs/settle_auction_as_unsold_job.rb",
+      "sha256": "df33a3bdf4316857eac2736c930966886bff3e2eb5dd2e0eca516a93d37556c8"
+    },
+    {
+      "path": "app/jobs/slack_event_job.rb",
+      "sha256": "591a7c21f0d1890510b6b11db790291a1c2b06e0f606d72009b1dfc0011869b0"
+    },
+    {
+      "path": "app/jobs/slack_notifier_job.rb",
+      "sha256": "b6c36b99d409ad7d4c7c617e2843b1a598e7fd09cbf52f07e7c5d037f0d983ab"
+    },
+    {
+      "path": "app/jobs/slack_notify_classified_written_job.rb",
+      "sha256": "eb264db717f7bc0b1f00374433c8fa1cdcd0a76047b7a00d01a8805f5006431c"
+    },
+    {
+      "path": "app/jobs/slack_notify_estimated_valuation_job.rb",
+      "sha256": "981cb886e289afaa5f413b40dfb9aff56522c86a87adb21926e2db935727f03a"
+    },
+    {
+      "path": "app/jobs/slack_notify_handler_assignment_job.rb",
+      "sha256": "61b8db9e09e22f8e01e84a05c4cd5c3af45a315458a375a8a80ce9f41f3ab595"
+    },
+    {
+      "path": "app/jobs/slack_notify_lead_reactivation_job.rb",
+      "sha256": "3e5eff96f3999854e592a72983468eae1cdab67ff8351788b39fe37c2922ebbf"
+    },
+    {
+      "path": "app/jobs/slack_notify_lead_valuation_job.rb",
+      "sha256": "fe0441972a946fb9fcdade5d11a4ba6a8096e24af3b18665eaeea6b091d0b9b9"
+    },
+    {
+      "path": "app/jobs/slack_notify_new_lead_form_job.rb",
+      "sha256": "975773cacce44548b069e2a0ea5ab56e69fce0fe8cee68762af38dab3836cb49"
+    },
+    {
+      "path": "app/jobs/slack_notify_new_valuation_job.rb",
+      "sha256": "4618205e8c832f3ed5a69ab197003da9fded7dd449c318d63ef7478c5e538a1a"
+    },
+    {
+      "path": "app/jobs/slack_update_new_lead_job.rb",
+      "sha256": "4b655323cef4f99e3d83fdb4bd36fcbc6202e4a1d0c8826568b78363cbf91e7d"
+    },
+    {
+      "path": "app/jobs/sync_auction_payments_job.rb",
+      "sha256": "b8a39eaf0f7c6fb9f39263a0da1cd7e2e64d76b900ea2ed7c001c603ac73e321"
+    },
+    {
+      "path": "app/jobs/sync_images_to_pipedrive_job.rb",
+      "sha256": "c0dd61a8c316263cbc32396d756976e22a269b6929b739ea4db608e38e8c9294"
+    },
+    {
+      "path": "app/jobs/sync_lead_form_status_to_pipedrive_job.rb",
+      "sha256": "a41432663cbcc108a10431cf84f636d45ab5b7111ef080cbca6e8fddbd5febb3"
+    },
+    {
+      "path": "app/jobs/sync_lead_from_pipedrive_job.rb",
+      "sha256": "9b05f56c9bfdd0fc4a23081fa515efc293ddb149b2699ecff0c18c929234570b"
+    },
+    {
+      "path": "app/jobs/sync_lead_to_pipedrive_job.rb",
+      "sha256": "e6254fa6d519d4633006b61fb208580185c27a38b6d5defbcc44d243390fdbe3"
+    },
+    {
+      "path": "app/jobs/sync_lead_valuation_to_pipedrive_job.rb",
+      "sha256": "68867437ea3df11c17bdbac9e10f72d55dedc6a5cfb564109d27f4c8ae8ddf16"
+    },
+    {
+      "path": "app/jobs/sync_photo_op_status_to_pipedrive_job.rb",
+      "sha256": "d63f8c6aad3bde59cf37a30a0eb183eee0c3d2e50ad4b419a47056b529291954"
+    },
+    {
+      "path": "app/jobs/text_delivery_job.rb",
+      "sha256": "7295a56bd80c3ad257aae9be58d36471323244a4a631173b2be04f650a539a42"
+    },
+    {
+      "path": "app/jobs/track_user_sign_in_job.rb",
+      "sha256": "333f10773a22d63281030c533340ee8d83791b3595b0ea25f00b78bc8724f8a3"
+    },
+    {
+      "path": "app/jobs/tracking_job.rb",
+      "sha256": "9f24d938be58a0ecb185083035f7fac81c058dba52f4fb2b47f37f1a25b71b1c"
+    },
+    {
+      "path": "app/jobs/translate_blog_post_job.rb",
+      "sha256": "10bdb2f7a7c6ed4b84092b9515595ae24fb545c78710e264e147f2e5fd447693"
+    },
+    {
+      "path": "app/jobs/translate_lot_text_job.rb",
+      "sha256": "d64d015df8ce8ac1a50c70befd839fe9c6461239798b6af329a261244be28deb"
+    },
+    {
+      "path": "app/jobs/update_listmonk_email_address_job.rb",
+      "sha256": "4d4975dd5e7d4ee621b34e0bd227aebe3a79878c246d6c0ad9e0d774cdf79d8e"
+    },
+    {
+      "path": "app/jobs/update_listmonk_language_job.rb",
+      "sha256": "340fff2feda79f0fe792a782c550d14421239efd425c94310dac5e3a69837f7a"
+    },
+    {
+      "path": "app/jobs/upload_auction_photos_to_google_drive_job.rb",
+      "sha256": "119bf7923c5d6e02e483f8506aa82ab00edb4b391f939af9de612a8ee6823f7b"
+    },
+    {
+      "path": "app/jobs/upload_sitemap_job.rb",
+      "sha256": "b3dd812c1b95a08bf59de2674aa18c379014ce55d7cee3a75175d33f65337c2f"
+    },
+    {
+      "path": "app/jobs/valuate_lead_job.rb",
+      "sha256": "4ad101f1e35d03cb4f138f2b1976334945eb07bfb1f87f67376504cd50aa2126"
+    },
+    {
+      "path": "app/jobs/write_blocketization_texts_job.rb",
+      "sha256": "74f9e96c063a847f5cd4caa0d92dab319c762000769013015f084e7485642443"
+    },
+    {
+      "path": "app/jobs/write_brand_summary_job.rb",
+      "sha256": "5b2171caa24f7f1d9c779a2816c6d722cd2d721c36871dd8e4e75bbfac979d9d"
+    },
+    {
+      "path": "app/jobs/write_lot_summary_job.rb",
+      "sha256": "fb6e581a81c124d0dc2c7f56dd9085e151d03f93ab83c9bd282399a277effe34"
+    },
+    {
+      "path": "app/jobs/write_lot_text_job.rb",
+      "sha256": "a4fcda25b23d14d6e93e20fa6356b24838ceaaf99d4271e92521116157d60444"
+    },
+    {
+      "path": "app/jobs/write_vehicle_model_summary_job.rb",
+      "sha256": "9a04b8a48a4ccb465588c582c4839ef5c3f6544a3ba87b41ad5e4be698a8a1de"
+    },
+    {
+      "path": "app/models/accounting/handler_payout_spreadsheet.rb",
+      "sha256": "066bd98ab89395c61c5ea447f63ad08b1dbcbab62cf782ee2ce00659bc8f0372"
+    },
+    {
+      "path": "app/models/accounting/invoice_finder.rb",
+      "sha256": "7aa2deca8709ed47f686b5b104943405f5a3f9fcfbaf30db6fec842e616fb42d"
+    },
+    {
+      "path": "app/models/accounting/month_list.rb",
+      "sha256": "cca6081a86a255c75ea9d37d10bf0a93ab0c15b3c19b8fa71656332f0cbde90e"
+    },
+    {
+      "path": "app/models/accounting/monthly_handler_payout_report.rb",
+      "sha256": "464fee1e214a4bf5a22a5563500af763945f91b08d7a7db264e38bc828afa2bc"
+    },
+    {
+      "path": "app/models/accounting/monthly_photo_fee_report.rb",
+      "sha256": "51d87256c8c08865306ae1dd68fa26a7a400250b49ee2e53148287fec5272770"
+    },
+    {
+      "path": "app/models/accounting/monthly_photo_fee_spreadsheet.rb",
+      "sha256": "14dc95415767942fab194bd01d061b20e3808e7e9996eede22dc708cc8d9d66b"
+    },
+    {
+      "path": "app/models/address.rb",
+      "sha256": "6630a6e163de6855ad51885d24c8bbde618fd998f923c08ce8e20d43b4523e62"
+    },
+    {
+      "path": "app/models/admin_email.rb",
+      "sha256": "4927d642c953a142ce87c18e5db0b62d7eff08a1111e2b98e5ec99e0a11a4fd0"
+    },
+    {
+      "path": "app/models/ai.rb",
+      "sha256": "58b39f7b9fa33702e62dc62b46cbca3e0538fce2b39f1a95cbe7236981df1be0"
+    },
+    {
+      "path": "app/models/album.rb",
+      "sha256": "90ff3bbfeca9c72107116165617bc08335ea9bc2a528a48baa55b9627a5bcc3c"
+    },
+    {
+      "path": "app/models/application_record.rb",
+      "sha256": "cdcc4dea303d49e577f3dec6e2d11b5c95b3a00ed5808f342a92966a76e0e868"
+    },
+    {
+      "path": "app/models/archived_bid.rb",
+      "sha256": "ea2aab8c061536cf32f4548eb3faf8f6fec828a1b25c5ab8371b56541eac5834"
+    },
+    {
+      "path": "app/models/archived_max_bid.rb",
+      "sha256": "762f274f094ce6975afcf11a0b5c89d77611a8d5a4e7774f6ef3d93212c2cd1d"
+    },
+    {
+      "path": "app/models/auction/lifecycles.rb",
+      "sha256": "23f94194bcf3bcf29c9fdbe0e6c73a7181a5839b6578c2731f94dc62ff08b96e"
+    },
+    {
+      "path": "app/models/auction/manual_sales.rb",
+      "sha256": "0894bf87504cd089e9051d1fddb633d1c9ad87f393878c1b68228b0573f036e6"
+    },
+    {
+      "path": "app/models/auction.rb",
+      "sha256": "a52142ad6f8694899594eb1ab7b15e90b405c724a1942c6d6b5bc484ad439bb6"
+    },
+    {
+      "path": "app/models/auction_form/question.rb",
+      "sha256": "0ddd47e9b5b7adb4237904549b1760fa4cddc8e0da3f502871baa8ed3def833f"
+    },
+    {
+      "path": "app/models/auction_form.rb",
+      "sha256": "c86475d551b9283161601fefdf5e1627b6f14f3f0f2e0099ef656055109c94a4"
+    },
+    {
+      "path": "app/models/auction_schedule.rb",
+      "sha256": "cf64b9063c92214b6900ed9e6a8b3630f52bc678db117d00747d17500552ed08"
+    },
+    {
+      "path": "app/models/author.rb",
+      "sha256": "84b495121606a90dee1a6f9facf7a1e05a087625315b8d5b6b701936e59e913a"
+    },
+    {
+      "path": "app/models/bid.rb",
+      "sha256": "6b0c9f25bb13ce0c7d399bf702146b6bac6498550554b2fd668587e00b800f9d"
+    },
+    {
+      "path": "app/models/blocked_client.rb",
+      "sha256": "948b231c56b1adda33ff5388e193ea898e0a678e1a5bf8f889d79d8e15f57d74"
+    },
+    {
+      "path": "app/models/blocketization.rb",
+      "sha256": "6de6b7d2df7670aaded78968a822c84e98f44dbf0d59917dd85e1175f478e2f3"
+    },
+    {
+      "path": "app/models/blog_post.rb",
+      "sha256": "e272e13f83935d00c6b2f2a9e9a8d12b850e8a394738a871eb496e21f9bb54e9"
+    },
+    {
+      "path": "app/models/bookmark.rb",
+      "sha256": "64bb886c101e6c45757b04971d819889bd3800c27c9473fdd6bd361d879e2410"
+    },
+    {
+      "path": "app/models/brand.rb",
+      "sha256": "d51140b4d24b2edf85af851e45bd1ab907539e387f2cc49a3c894f3f9e01bec2"
+    },
+    {
+      "path": "app/models/branded_qr_code.rb",
+      "sha256": "82912184f418038020b4a31d17cacf5bd5f11167a7765898012375ba90216859"
+    },
+    {
+      "path": "app/models/business_hours.rb",
+      "sha256": "a902b626761c4bd73cb46ec9895ada0f1dd9c08cd2fccbee2e053d8b6a3cfdb6"
+    },
+    {
+      "path": "app/models/calendar_booking.rb",
+      "sha256": "dc744b2cbd59dd3b866be417753954a1043f8fa69bff774f46949d60d37c3aef"
+    },
+    {
+      "path": "app/models/calendar_event.rb",
+      "sha256": "3830c04ba67ac647802533bc3d94fa92b8c7abd681719eefda37df1b92582110"
+    },
+    {
+      "path": "app/models/car_inflector.rb",
+      "sha256": "1d7faefce08e6754900dbc52101c611991ee0090de1432856b97185405902fd8"
+    },
+    {
+      "path": "app/models/car_info/response.rb",
+      "sha256": "84b16ec0b4a757591d7edc8f792d1599ed49fe17990d37964a3e7cd8f290052b"
+    },
+    {
+      "path": "app/models/car_info.rb",
+      "sha256": "d8e36d436f91cd759db1e9840d7220d38c91574823d639dca32803dada4757e1"
+    },
+    {
+      "path": "app/models/classic_lot.rb",
+      "sha256": "a76cf22304773e1354776804157bb66479c24094fdbf1830aec1586ec5cadf6b"
+    },
+    {
+      "path": "app/models/classified.rb",
+      "sha256": "e69ae5605ece859351f78e4841fab8cd0ff499136d97ac40c6575b2e3a9752f8"
+    },
+    {
+      "path": "app/models/comment.rb",
+      "sha256": "13946158530b89c04d5a8e87ff51a0ba6ccfdefacd688b55b5384ac1987be90f"
+    },
+    {
+      "path": "app/models/concerns/admin_checklistable.rb",
+      "sha256": "52aca2516cb0257a7d212d65983ac113317e7241be1b52fd6a104d485fff1b1e"
+    },
+    {
+      "path": "app/models/concerns/alias_matchable.rb",
+      "sha256": "d44d8d0746d9c721b5bb30f57fe4b373ba8a19c0c9de45cb7fc51fbb8678431d"
+    },
+    {
+      "path": "app/models/concerns/cashable.rb",
+      "sha256": "d168315da9bb0881f0273459b771630ff04e91b5fd6a1a36b76c56b338ccb7df"
+    },
+    {
+      "path": "app/models/concerns/commentable.rb",
+      "sha256": "5b080f9ffcfbb6ec272ca3717e80772c4d32c2ece60974347cbd17a44f1ee4b1"
+    },
+    {
+      "path": "app/models/concerns/customer_addressable.rb",
+      "sha256": "11aef330997d96172888c62c673d5f4c08f29927974a0aaf3f06dc0356b9d443"
+    },
+    {
+      "path": "app/models/concerns/date_of_birthable.rb",
+      "sha256": "5f991fccd381550c86864192b68983cf140d47e76caa7933413002c80ba4a3a7"
+    },
+    {
+      "path": "app/models/concerns/filter_visibility.rb",
+      "sha256": "d9e0209cbe16e5227b4eba79f078f610e78098a6bbc04cd4a77104d5a2f3154c"
+    },
+    {
+      "path": "app/models/concerns/fortnox_payment_status.rb",
+      "sha256": "043d1682d3f75fe93aeff08a1c915f36769c36a410c088dc35b4f80014f4850f"
+    },
+    {
+      "path": "app/models/concerns/fortnox_projectable.rb",
+      "sha256": "4913cafce9dd330554ab9a1ee6268ee43eb2aaf8a620e14d89437b046e24d062"
+    },
+    {
+      "path": "app/models/concerns/minimum_image_dimensions.rb",
+      "sha256": "426bb8eccf9c81bc3235f6eb5cd2f7fbe11e69e1b3b843041eac52442b3cc274"
+    },
+    {
+      "path": "app/models/concerns/notifiable.rb",
+      "sha256": "91bba2873071bce42041328ef3fdb982c2c441d8861aaddccfe33a347f6fcdf3"
+    },
+    {
+      "path": "app/models/concerns/phone_normalizable.rb",
+      "sha256": "cea2bfa7b1dc7753a9ef6520181a02d71bf2a7680c52ffe7ee8d442357c3be8a"
+    },
+    {
+      "path": "app/models/concerns/postal_code_normalizable.rb",
+      "sha256": "5c43e64d86dc82c49da2d8e3a6debf736b0a65a3789201edb5976911f8eb324b"
+    },
+    {
+      "path": "app/models/concerns/questionnaire_schemable.rb",
+      "sha256": "0a9dd90540c2d1a4267e77ee25f4bb6d8a5eb4a3550ef4eb5d9491bc4e8ac675"
+    },
+    {
+      "path": "app/models/concerns/recommended_listings.rb",
+      "sha256": "c93aa7ef2921a83d3a8760de79af2ccc2c63924ba7c9565ea1a1f86ae278643d"
+    },
+    {
+      "path": "app/models/concerns/searchable.rb",
+      "sha256": "e28e8cc916eb8d81fd6c6849a95b4ae7a385239ca75e12ea4ed51f800c558f8b"
+    },
+    {
+      "path": "app/models/concerns/separator_normalizable.rb",
+      "sha256": "574c16e5e9240eec844a044020ac2ab3aa07e419b8d7018a9682d5292714cc64"
+    },
+    {
+      "path": "app/models/concerns/site_eventable.rb",
+      "sha256": "b39ca9626844bde815439e41830ed491214a9bee6716068b706acadd7b095ddd"
+    },
+    {
+      "path": "app/models/concerns/status_tracking.rb",
+      "sha256": "0764652dd0f5c4da613b74390e17db9221496ff0652bac8eb54bab0be2b0491c"
+    },
+    {
+      "path": "app/models/concerns/totally_translatable.rb",
+      "sha256": "bca06940d3cdaf6e36ed1fcf3cfb6a6fdfc4546f6d3c8cad9ddaa8f0c3a11086"
+    },
+    {
+      "path": "app/models/concerns/vehicle_typeable.rb",
+      "sha256": "3f17c4a8eb3a24a82fa2c8ddaa94c74797e5b26fe5dc2bd95fc82762152f14dc"
+    },
+    {
+      "path": "app/models/conversation.rb",
+      "sha256": "451efbb601560f3564a08e68f462bee34ebd50d076c9a81fd8cf1d1f36788663"
+    },
+    {
+      "path": "app/models/conversation_message.rb",
+      "sha256": "e5da35ebb42dcfc777a1e2291d8a9728b1a26beaf455a01da5752236a9c5bf16"
+    },
+    {
+      "path": "app/models/conversation_user.rb",
+      "sha256": "3aa804863faa61c3bf3425ba052f7bc09c1f48349f77e88bf8aa1365778e67cc"
+    },
+    {
+      "path": "app/models/customizable_email.rb",
+      "sha256": "27359fb8b8aa370821c193c0645c727a80a72121619a8262d1a384c036b8e239"
+    },
+    {
+      "path": "app/models/daily_digest.rb",
+      "sha256": "ade5780aa6f3082bb306f4011432643c1aaa7572b8cfac75933fff944dbdb22f"
+    },
+    {
+      "path": "app/models/detailed_lead.rb",
+      "sha256": "a55ca4cf0e884268058040359bd70bd054e9b250d6d987007cfa73a036f0914d"
+    },
+    {
+      "path": "app/models/dropbox/client.rb",
+      "sha256": "5a45b847702aad20ead8c2ccf48c5d400dad514fe389423836266bf91b7a89cc"
+    },
+    {
+      "path": "app/models/dropbox.rb",
+      "sha256": "9675bb79ffeb8643be9127454d7c8371de8651101297d976f00d6421ae1c71fe"
+    },
+    {
+      "path": "app/models/error_fingerprint.rb",
+      "sha256": "d19858fdd5e5d9dda51fb17aff65fc46926083d06907b46e9e00eda32faa4a9d"
+    },
+    {
+      "path": "app/models/exchange.rb",
+      "sha256": "4d0d623510defc176a266ef7f272826e81486fb44b13820ab1a9ff5f86e7888f"
+    },
+    {
+      "path": "app/models/filter/query.rb",
+      "sha256": "ea3a9800f0c5730a1782720f291a37b0df1b8faabd4311d2c3d0880f9ada53ed"
+    },
+    {
+      "path": "app/models/fortnox.rb",
+      "sha256": "f71909a7a7e39c477be08fa54fb67c327fca0fe14ac6c83945f48b7f3b2133f2"
+    },
+    {
+      "path": "app/models/fortnox_integration.rb",
+      "sha256": "bef14754654c4f6e03d8a2db43c65885e1ba45fbe48f22d94fb048690c81f561"
+    },
+    {
+      "path": "app/models/fortnox_invoice.rb",
+      "sha256": "21984c4df672b6c3c712a5b4e734a7312e7a90961b6e4f2ae0fdd0125e58a209"
+    },
+    {
+      "path": "app/models/geocoder.rb",
+      "sha256": "514e72bf1cdd9b369a39c69cb442349b6c9149535cc27cdb380daf942fe1a026"
+    },
+    {
+      "path": "app/models/google_drive/client.rb",
+      "sha256": "d86664d9c8b4fcf2ee2958497ce18ba279d65f229749297237a0535faf1bc408"
+    },
+    {
+      "path": "app/models/google_drive.rb",
+      "sha256": "77065062d928554f74cf50b3255381133857aacb4a68062a0e694cef6e455f47"
+    },
+    {
+      "path": "app/models/handler_scorecard.rb",
+      "sha256": "b283eb951496e4d6ca13fd79461929dbf027fb56727bdf4d8756a66317d5d856"
+    },
+    {
+      "path": "app/models/icon.rb",
+      "sha256": "f715efff4773eeda3dee7e2fa5897b4298b65b8a418af158d97c09c74067e2d4"
+    },
+    {
+      "path": "app/models/image.rb",
+      "sha256": "c9aa242733d56a2d7c9cca68d3f82aaa3212a82e670c46756b4682c9c39e1a4c"
+    },
+    {
+      "path": "app/models/incomplete_user.rb",
+      "sha256": "b9e448b49f38a0cf72ee7642810e641d5bda02ddfe8ec7a952496e172cf63adc"
+    },
+    {
+      "path": "app/models/lead/pipedrive_owner.rb",
+      "sha256": "7e7f856c0f63673bb45e79f2a08240055738a3392cacfe092607e2e09141a4b9"
+    },
+    {
+      "path": "app/models/lead.rb",
+      "sha256": "956711033e6fbdf9940b7cd99058f2946b2d2ef752a6b49c092c61c7741b0b04"
+    },
+    {
+      "path": "app/models/lead_comment.rb",
+      "sha256": "5e7f9d8a07568c1c277f8820ea37c7e7843461fc3f9f1d6dc889f0067e2f8817"
+    },
+    {
+      "path": "app/models/lead_form.rb",
+      "sha256": "e82f277844f804c56b5f8f3d247b53c7305941041ee7beb8e2a6397ee3c6bf78"
+    },
+    {
+      "path": "app/models/lead_status.rb",
+      "sha256": "55bf786e7876bda930efc0bbf799ac675a62a3412ab5b4ebff12b50573522688"
+    },
+    {
+      "path": "app/models/listing.rb",
+      "sha256": "67e424b76186df3098713872ccfb7cb13fdc72ccc5e5cad3661644c8da89264b"
+    },
+    {
+      "path": "app/models/listmonk.rb",
+      "sha256": "7b9cc6ea3374a095ef47190c825b043dac8557f4dffcfa299237e5487fce989b"
+    },
+    {
+      "path": "app/models/live_listing.rb",
+      "sha256": "432462eac1fcc23d9b2804e431e0a69431431c74d7eaf3fcb87e2ba428a2f995"
+    },
+    {
+      "path": "app/models/lot/body_normalizer.rb",
+      "sha256": "97411cec7fe99d8def9160b75b7dbd0679006492dcfcf56588d6ba67285c68e4"
+    },
+    {
+      "path": "app/models/lot/car_data.rb",
+      "sha256": "ca2d281a9e862e8e138a680fd222170daf56e67794092c0a24aff1805c5a6797"
+    },
+    {
+      "path": "app/models/lot.rb",
+      "sha256": "6b97c185b202e3cff7f3b38b42056360eec65233d6e44a5bf381efb732593394"
+    },
+    {
+      "path": "app/models/mail_recipient.rb",
+      "sha256": "c722cd28c51249b498868c5126faac1d15267022beb8efddf3ae337091a1e8f1"
+    },
+    {
+      "path": "app/models/max_bid.rb",
+      "sha256": "70d1d1e6e92a3f694e3e4930f81d4475c663e0b44a2228869e086e5c2b80dce4"
+    },
+    {
+      "path": "app/models/media_post.rb",
+      "sha256": "7be307d34eb921b501cbca1b012c2ea3bb055700dadbccd5253db06bf21f7975"
+    },
+    {
+      "path": "app/models/newsletter_signup.rb",
+      "sha256": "2f91bc725b93803498a78ea1288a32f737f59248c18a12da2afd61f10f9d4a6b"
+    },
+    {
+      "path": "app/models/notification.rb",
+      "sha256": "f9280cf7754568eff2e7eee5193c7e03f8d09caf65ecdb877d84c924caabd4be"
+    },
+    {
+      "path": "app/models/offer.rb",
+      "sha256": "90f7cbae30610b2e9127253e6de09572818a0e1d0e8396b7677e3ec8fe84b6db"
+    },
+    {
+      "path": "app/models/page.rb",
+      "sha256": "f6d5c64f5acfcb400ac09c158ad270f23633b27aff3f8bd5d16a9782edcbda54"
+    },
+    {
+      "path": "app/models/payment_method.rb",
+      "sha256": "8be3b9c80ef462056c7b825b5dccfacdbf16b5bb2f3adde019f153c48b5798b2"
+    },
+    {
+      "path": "app/models/photo_op.rb",
+      "sha256": "4a2b8d100c38fee9f092c6f00bcdd1ebc856766286fd43f4446974f8177003e6"
+    },
+    {
+      "path": "app/models/photographer.rb",
+      "sha256": "3ddc39e5362c6a334db2d9f5f47108be811ca8566d142aec6507ee81e2516535"
+    },
+    {
+      "path": "app/models/pipedrive/owner_directory.rb",
+      "sha256": "41928a6622e857c872e4fcefc494bdf67d656c6afb8c2b9e4bb94a4cc33f63ce"
+    },
+    {
+      "path": "app/models/pipedrive.rb",
+      "sha256": "b8f053ff19d7fa6dc41b9922e99da29dc8c748d82079ec07fe78aaa92089f5b9"
+    },
+    {
+      "path": "app/models/pipedrive_scheduler.rb",
+      "sha256": "e355d2082b677de9a7859f20e3752f28b91a5fe7661cb323bb21568b85a73435"
+    },
+    {
+      "path": "app/models/question.rb",
+      "sha256": "ceb6c9bfd639592d21da829ae3a3c68ec8ad3f2af368cb1acd33359bcdac9a1f"
+    },
+    {
+      "path": "app/models/questionnaire/importer.rb",
+      "sha256": "ef0bbf529668570e9492e75eb182caa094789a330abe691a5d5dbd7e519a43a3"
+    },
+    {
+      "path": "app/models/questionnaire/question.rb",
+      "sha256": "a8601b4719e56e8a2bef09743c24d6e5f1bd9d7dbf38738737bc5541ca56b9fe"
+    },
+    {
+      "path": "app/models/questionnaire/schema.rb",
+      "sha256": "be828a891866fbcac78b187c8133280cebfb8cfec22540df70ec93f17743e46f"
+    },
+    {
+      "path": "app/models/questionnaire/types/ternary.rb",
+      "sha256": "70738d3dcba22608bf05acfc58fb89114cac11619ebd66a3fe7bed2b1a4bee80"
+    },
+    {
+      "path": "app/models/questionnaire.rb",
+      "sha256": "c4b16a07e6975b55b1feacd754d3ca770b002dc18c814de407ddafbb76e7c012"
+    },
+    {
+      "path": "app/models/reported_auction.rb",
+      "sha256": "2ac47a2609e72feda9f2122550485f1cecd416f71bb7128c9b8ed602302b1eb1"
+    },
+    {
+      "path": "app/models/sales_report.rb",
+      "sha256": "5c1811b9ea9923b482af24ff4fe4322d3d3dfd46ff79a6f225b13a39ff7a2668"
+    },
+    {
+      "path": "app/models/sales_report_reported_auction.rb",
+      "sha256": "b66909c7e727760bfda4c76140d34a2ecf31b1e116f0312edde7443afb67cd46"
+    },
+    {
+      "path": "app/models/saved_search.rb",
+      "sha256": "cabcd2125f2f5c56d981f0acc28f604b58107515486f1115f934c4601eacd4a7"
+    },
+    {
+      "path": "app/models/search_item.rb",
+      "sha256": "ad8ba20336ee7dea3903936554f82c6633aea7c77cd9003be0828c7cca99c5c1"
+    },
+    {
+      "path": "app/models/sign_in.rb",
+      "sha256": "c75662f74915bbdcad225d1a0ec687122ac267e84f23c8fc17f5f9ecff6a79da"
+    },
+    {
+      "path": "app/models/site_event.rb",
+      "sha256": "fed24f330418971d7875d2641e5881417f2696277cb9a31dc7e464f844d88f9d"
+    },
+    {
+      "path": "app/models/sitemap/storage.rb",
+      "sha256": "cd07e9b1f793bee52d27a4f576730aea6926aa75b08785c2580d1d6035f00f48"
+    },
+    {
+      "path": "app/models/slack_bot/classified_written_modal.rb",
+      "sha256": "f6975ae23df9b6a1da1d14d562cd63b7f0ac568674a688ecaf9b3ef5971578b9"
+    },
+    {
+      "path": "app/models/slack_bot/estimated_valuation_modal.rb",
+      "sha256": "ee45e3860b668ce8c58f78a188c2ff9715ac6749dcee343c2dd23deb974ecf78"
+    },
+    {
+      "path": "app/models/slack_bot/event.rb",
+      "sha256": "98407530125599eb8090beca93d576175090406fa30405599e3feec4da61e756"
+    },
+    {
+      "path": "app/models/slack_bot/lead_form_modal.rb",
+      "sha256": "2e010e64537d57cbf1bb464b91a3f867c0207dc7854785a51614711392849fa9"
+    },
+    {
+      "path": "app/models/slack_bot/lead_modal.rb",
+      "sha256": "844daf95e1a0cff6047a79d00a5abe375f45809990cab165427bd6654cec53be"
+    },
+    {
+      "path": "app/models/slack_bot/lead_reactivation_modal.rb",
+      "sha256": "dd46ff0662cc25644b499c3a0cec939fab19d829fe0b8fd6a93d9764909b2898"
+    },
+    {
+      "path": "app/models/slack_bot/lead_valuation_modal.rb",
+      "sha256": "40ad4b7757ddca94ffdc06433061974a2ad29b337b726a3b9ed4755f4145f5f4"
+    },
+    {
+      "path": "app/models/slack_bot/more_info_modal.rb",
+      "sha256": "460feb2cc015f5d8e3e6f612cf90bf73d67244ed20e6085eb04adf4117a88c38"
+    },
+    {
+      "path": "app/models/slack_bot/valuation_modal.rb",
+      "sha256": "0b7192d9d7b7f8d632bfe7dea50c8e53e2fbe53326ec7e82deccdcbf8d0728e3"
+    },
+    {
+      "path": "app/models/slack_bot.rb",
+      "sha256": "8060742a0739f550a6481d9c75d6c80ac24032e9d82030f6b8d2a809d466720a"
+    },
+    {
+      "path": "app/models/smart_api/response.rb",
+      "sha256": "c685e1ff646701f37541984a67998bc9fe82bd8468b79550d49ca332a8c8d450"
+    },
+    {
+      "path": "app/models/smart_api.rb",
+      "sha256": "0ddef211819df25ac4033fc1d766ef52d1c52dcd246c3e33dd566fe7a4767b56"
+    },
+    {
+      "path": "app/models/sms.rb",
+      "sha256": "ea41f6f21872cec09b12718acb5985ea6c13cf2ff5b1585c609c936bfefad8d5"
+    },
+    {
+      "path": "app/models/sms_text.rb",
+      "sha256": "cdc56e4b50e48d5cd1148f958174e2ee6c1f7cfade4d1b82bb5017be3c7f4ab6"
+    },
+    {
+      "path": "app/models/swish_payment.rb",
+      "sha256": "9ab999012c14fe1a95044e36c03dc27ece786412860b2f5a9f7757f6eb49b2aa"
+    },
+    {
+      "path": "app/models/swish_payment_request.rb",
+      "sha256": "ec87b5f831ac3df59b8dbb3f0e75ad45f9dd5105c1bc65e6822872abb3de3b9f"
+    },
+    {
+      "path": "app/models/term.rb",
+      "sha256": "882717167357f28c858600cffe75bc8fbc20849ae0405e923a2ce3fd7f4fa4b5"
+    },
+    {
+      "path": "app/models/theme.rb",
+      "sha256": "36b992b9db8006addb096524f1815b0b2ef7888e5829f36879044fea419e8ce2"
+    },
+    {
+      "path": "app/models/transport.rb",
+      "sha256": "3a52a1d1ae3ab90f3860536138d7f19e3eae240fbd3ea96ae7495f148018bf5e"
+    },
+    {
+      "path": "app/models/trustpilot_review.rb",
+      "sha256": "4acb80f124752efaef0d89385d0d1ff2f23ecc0f6b5a7a28b6288f301d856476"
+    },
+    {
+      "path": "app/models/user/authentication.rb",
+      "sha256": "23b9e9ebd7c08ac2b6ec16a9e4cf30871170b0e4780dc9116c694505eba5a436"
+    },
+    {
+      "path": "app/models/user/header_counts.rb",
+      "sha256": "2645a1bb69a2b9e873b75910f2fcfd51444c91b723e8314a54b0e1657ea89ece"
+    },
+    {
+      "path": "app/models/user.rb",
+      "sha256": "03fa5cb4badc21ed4856bd057efb0ea5d9dba729d53af59650c8a3acf5027d18"
+    },
+    {
+      "path": "app/models/user_interest.rb",
+      "sha256": "c9ff38748f6316b894e7607dcbb321b50c3856d89434de8f867c96d2385781bd"
+    },
+    {
+      "path": "app/models/valuation.rb",
+      "sha256": "b2dbcc14afd7bb7b7d45a8aa8612988f07d671b9fa116c4f47ba6d1528e7d5ba"
+    },
+    {
+      "path": "app/models/vehicle_match.rb",
+      "sha256": "2cdb9c144c3e5e18501447d1fe16d689e8026f02010ba2ee0ca676fb9e6296ef"
+    },
+    {
+      "path": "app/models/vehicle_model.rb",
+      "sha256": "9cf8dfe6f607b20d7ae21a56315c68b1daa0ac01e8ef4fc4d3b622da572150cd"
+    },
+    {
+      "path": "app/models/vehicle_name.rb",
+      "sha256": "dfe6c783ffed47f2920309856e1ce180f640139ad4fd645a3e819c52ff8bea5f"
+    },
+    {
+      "path": "app/models/verification.rb",
+      "sha256": "6d20b74a9ee191204d33df1d1135c3e3ad2ac9032643c5d5923be2f524907dce"
+    },
+    {
+      "path": "app/models/verified_crawler.rb",
+      "sha256": "8dc7be87eda39d4447ed54cb1745e330f02beb023971cc582469e0bfc79dcf3c"
+    },
+    {
+      "path": "app/models/video_upload.rb",
+      "sha256": "4e9a0833c432a611d39b589e18b42d179e10abdc627cbccf0ce26621109320c0"
+    },
+    {
+      "path": "app/models/youtube.rb",
+      "sha256": "0d48c3407f4109bef7f55a7c6187f27291511f9b93f69f17e2bb87da637e3437"
+    },
+    {
+      "path": "app/policies/ad_policy.rb",
+      "sha256": "152bb511491cafecee51807a903f463869dbe8e2210f00a04364a43a5eebe145"
+    },
+    {
+      "path": "app/policies/admin/album_policy.rb",
+      "sha256": "4a4b66ffe44c57a4a730baa002ebcfeddeda738b0fd2f6094edaa4716b641b57"
+    },
+    {
+      "path": "app/policies/admin/application_policy.rb",
+      "sha256": "6f90e173f0d24bb905ef50276d22721fac14a36093a683a2ab468d587b281cab"
+    },
+    {
+      "path": "app/policies/admin/filter_namespace_policy.rb",
+      "sha256": "802ea81f716a310d6c4449e25ad1731a13b87ca76a5dfab205f9ff60d4025ddf"
+    },
+    {
+      "path": "app/policies/admin/lead_policy.rb",
+      "sha256": "21e3a5e2e4f9dcd5d939a17ecd6eb3537064f55120e0e1333ff8e2e3c484b2d8"
+    },
+    {
+      "path": "app/policies/admin/photo_op_policy.rb",
+      "sha256": "415ce89bf8f5b48a0eaf3413f356a8e858fbb66fbd31bcd4083c4b1e628beae4"
+    },
+    {
+      "path": "app/policies/admin/sales_admin_policy.rb",
+      "sha256": "f19377b09b475a0ad0156e45ed94b1481ad7170470c17f14f0cec9b8042d4693"
+    },
+    {
+      "path": "app/policies/after_sale_policy.rb",
+      "sha256": "89c2778f66653842c87707e9ad51681df5177ff31ed67416425ec997e8cf35dc"
+    },
+    {
+      "path": "app/policies/album_policy.rb",
+      "sha256": "625e74aa56b961aa7f9f0509070fe341272e1dfbb565be7b28499fc47fa923ec"
+    },
+    {
+      "path": "app/policies/api/auction_policy.rb",
+      "sha256": "c2417e073814c04cd72b295f5d4a1ac51e4777908a158bca43f7bdc3ccced50f"
+    },
+    {
+      "path": "app/policies/api/lot_policy.rb",
+      "sha256": "f63210f140d0386546c3227d6c7e37d1462fc547cb401d9c2dc9171a0ea2f308"
+    },
+    {
+      "path": "app/policies/application_policy.rb",
+      "sha256": "9b2d9f819722a80ddaf32948c1718b799b5054e67368037d0ec2c4848831c974"
+    },
+    {
+      "path": "app/policies/auction_feed_policy.rb",
+      "sha256": "0dd7fe6293c2fac859d9c66df6225b7db9ca5d37a1b3ff53e5854efcf45eb600"
+    },
+    {
+      "path": "app/policies/auction_form_policy.rb",
+      "sha256": "9bc21e4263cf44b59feb0daecde8463e28dec59bb22998047dcc53ca10902470"
+    },
+    {
+      "path": "app/policies/auction_policy.rb",
+      "sha256": "24e66841569ef4a7a2605ee3a7886a08642d3983949a33dd65e5e015b5e07d79"
+    },
+    {
+      "path": "app/policies/auctions/preview_policy.rb",
+      "sha256": "b5da2e9117bec832678ea7b44b6785457948769dcd108704d15dcdcc40c8e631"
+    },
+    {
+      "path": "app/policies/blog_post_policy.rb",
+      "sha256": "f8e7671e966664cc9a2085289f0b1fa3627a3e2100b7bea5b799b9c2645e7c9f"
+    },
+    {
+      "path": "app/policies/bookmark_policy.rb",
+      "sha256": "d375d390543d5c08264dffc3454b99b3415df28b87358e1b3f684afd32879d24"
+    },
+    {
+      "path": "app/policies/brand_policy.rb",
+      "sha256": "b6a123ccbcd22e8ef8d6ff1a4342e4efda59202b07dce447834de403144bb932"
+    },
+    {
+      "path": "app/policies/buyer_won_auction_policy.rb",
+      "sha256": "6285cdd05489e8d337ce19d352900b257c83406c47a4991e76b8439e5cc82bb3"
+    },
+    {
+      "path": "app/policies/calendar_booking_policy.rb",
+      "sha256": "86c10d1812c575f57399b09f6d370a84630213fa1935caac4438fe38604ee9ff"
+    },
+    {
+      "path": "app/policies/calendar_event_policy.rb",
+      "sha256": "c87499f3cff9b2622d93a7a6f3139ed61ffd26ef8c52fcb7074acd6938781efc"
+    },
+    {
+      "path": "app/policies/classified_admin_policy.rb",
+      "sha256": "e858c5c873108041cc1f3dbdfe047c0013cccd477316468c7a3031e8c6384185"
+    },
+    {
+      "path": "app/policies/classified_approval_policy.rb",
+      "sha256": "643d922785be6d9c63116ad0ceb5ec6210ad8bb93a5f7071fa26cd44f590f540"
+    },
+    {
+      "path": "app/policies/classified_email_policy.rb",
+      "sha256": "8629fad4b22e553b3949487b3a25402a4dcda3ac622bb9dc496df25c9a2546fd"
+    },
+    {
+      "path": "app/policies/classified_flow/classified_policy.rb",
+      "sha256": "633922119aceb589f88da3b758eff800e59491c73394c1a597fab562f4d0b1d7"
+    },
+    {
+      "path": "app/policies/classified_flow/lot_policy.rb",
+      "sha256": "b5419b4e282b55436e10c4b1337568b30c8c6971d2e865e56d02bef4245ce5e7"
+    },
+    {
+      "path": "app/policies/classified_image_policy.rb",
+      "sha256": "2f6ccf15adb0f944ab47072df601033ec3f32bcf8384f9463dba208c706221d4"
+    },
+    {
+      "path": "app/policies/classified_policy.rb",
+      "sha256": "151487a78102372e8ffebc4ebcac30287546ce9bee0705fe1ba8db78862e902c"
+    },
+    {
+      "path": "app/policies/comment_policy.rb",
+      "sha256": "884b05368e5bc4f2c726a9db9c5a39afdfd21f21583ca62c9bc3d8e231f54f51"
+    },
+    {
+      "path": "app/policies/conversation_message_policy.rb",
+      "sha256": "99ed9ffcb71ceba92d04aba319f95ee2db89a6d472e9cedf648d9edf520b0dd7"
+    },
+    {
+      "path": "app/policies/conversation_policy.rb",
+      "sha256": "bc9556f5fdc2f1479770b0cd3e9bb2e3157eb12e269cafcbe9adf5cfc29e21e7"
+    },
+    {
+      "path": "app/policies/detailed_lead_policy.rb",
+      "sha256": "e1c69c46ecdc888a23cdc6b05677c8e5cdf675d649fd2681530cea1cbe3f48db"
+    },
+    {
+      "path": "app/policies/incomplete_user_policy.rb",
+      "sha256": "603bd3f9096b821d61508278ae727ca0992ec914697f103016139dcbc80ab4a2"
+    },
+    {
+      "path": "app/policies/invitation_policy.rb",
+      "sha256": "90715a25df2de3dcd840730723d17ce70bdefcead25e07ed3e453bfad0ed6839"
+    },
+    {
+      "path": "app/policies/job_policy.rb",
+      "sha256": "01e376fe639ab7807f73e768440bac694a134c63ac39e8506754741ef1aa67df"
+    },
+    {
+      "path": "app/policies/lead_form_policy.rb",
+      "sha256": "8ec3235c799c40ebacaf1ad67c4d0acc87e0d9983d99b77d05f01625f71f12e2"
+    },
+    {
+      "path": "app/policies/lead_policy.rb",
+      "sha256": "99a5f2c6ac100bb61e09f46596679285337d6bcb62c5d1d73ff059febb295a57"
+    },
+    {
+      "path": "app/policies/lot_image_policy.rb",
+      "sha256": "65e4ab026ccf087858563903376d981ce06afee574e5ab360a0198e5844e75cf"
+    },
+    {
+      "path": "app/policies/lot_policy.rb",
+      "sha256": "46aa8353aecda21f4d70f0412b8e91575604cb21fb4411312294e1610caa36d4"
+    },
+    {
+      "path": "app/policies/max_bid_policy.rb",
+      "sha256": "aacca92d99df08731d74a069ccfc143132e0d349f5bfc3c536bf1ccb9472144c"
+    },
+    {
+      "path": "app/policies/newsletter_signup_policy.rb",
+      "sha256": "9045a5096c5e3bb136dfe15691e00a528a7df46c486a9d327b8b5efebbe88964"
+    },
+    {
+      "path": "app/policies/notification_policy.rb",
+      "sha256": "34a0eaf180b7ffa9f49275cab4023b3bb94f76f3422107b232d721bf8cdf52a6"
+    },
+    {
+      "path": "app/policies/offer_acceptance_policy.rb",
+      "sha256": "fa741a35769fc3cf0425c05cd85a7b0ac3c6e509410a931eb255af402200435a"
+    },
+    {
+      "path": "app/policies/offer_policy.rb",
+      "sha256": "78b495d29be0a2c447620fd530e25769bb21cf1cd65855af710aa317e828ea58"
+    },
+    {
+      "path": "app/policies/offer_rejection_policy.rb",
+      "sha256": "f57806f4de9376a4ddd8e1787e67b3af31af99d4424ccfa80bc701d644977f23"
+    },
+    {
+      "path": "app/policies/payment_method_policy.rb",
+      "sha256": "b1223ab6b36aee61ade4f796d49cb54346f0d9e6f5dfca686684b5d0aabc34d7"
+    },
+    {
+      "path": "app/policies/payment_policy.rb",
+      "sha256": "026270813cec2dca42597da2bf3baee074c38359027cf73a25f886cb81e34a08"
+    },
+    {
+      "path": "app/policies/photo_op_policy.rb",
+      "sha256": "cf4fad3222f79e40e172f7bc5da8270dca9cf893fdd35658678b986af2ebe46a"
+    },
+    {
+      "path": "app/policies/photo_ops/album_policy.rb",
+      "sha256": "31a5d3ab646346f277d1cb3780adcc1e5a219f278a4f61f7b465e189c3f6dfc5"
+    },
+    {
+      "path": "app/policies/photo_ops/video_upload_policy.rb",
+      "sha256": "93302cf98aec0982bbef26c95b2597cb5e4688c472438e6e58abfef06f0b9f28"
+    },
+    {
+      "path": "app/policies/photographer_album_policy.rb",
+      "sha256": "4c258a89b8e2affc4c7b7003078dcd356e195bc3e0c53fb05e01f792cffc7610"
+    },
+    {
+      "path": "app/policies/post_preview_policy.rb",
+      "sha256": "1d36e115b64a15ed889e44a43d5bcae6dd3808eea20d7cd00ba2b3de327003aa"
+    },
+    {
+      "path": "app/policies/public_policy.rb",
+      "sha256": "e25499f8b930b602c25bb4b19d552331b44b813784f9c002ee2e469978773343"
+    },
+    {
+      "path": "app/policies/purchase_policy.rb",
+      "sha256": "909fd9e5cc8ec60e9ecbcd0334d21ef931a3a9bfc3ac208d7b42a2a1ee75c2a0"
+    },
+    {
+      "path": "app/policies/question_category_policy.rb",
+      "sha256": "cb8ba9d36ebd16f4977d02073678a8e44c57ad0188f8905f9551ac4e70bb6f7f"
+    },
+    {
+      "path": "app/policies/question_policy.rb",
+      "sha256": "1b0eb0d3ef960c97ca07f4a6eef62dc1cee3501b3a12abfca4007dc62e5b1d97"
+    },
+    {
+      "path": "app/policies/questionnaire_policy.rb",
+      "sha256": "17306cf990a7edce1ec67f0e727494a2438fa18524b5b1a71e405cc6f3c04394"
+    },
+    {
+      "path": "app/policies/saved_search_policy.rb",
+      "sha256": "2f2cc8efa1442aa81f7978e847001e2daaa332e8d155d3c454fee8a5eb317ab2"
+    },
+    {
+      "path": "app/policies/seller_approval_policy.rb",
+      "sha256": "ee1bbd15040cfa9bac57498492ddf410f9657378e8c80c44257b60544309441a"
+    },
+    {
+      "path": "app/policies/sign_in_policy.rb",
+      "sha256": "8fd113cd44d7171a4db8adda84958d84567cc429f38c1a9b5dd1f813368e9c42"
+    },
+    {
+      "path": "app/policies/sms_acceptance_policy.rb",
+      "sha256": "59ccc61cb556b617841337b09315a352cc02f7a90b8ae3e7537cf89cf3f1a44e"
+    },
+    {
+      "path": "app/policies/term_policy.rb",
+      "sha256": "2482f992a16354e7b8c27c0ac7eb45a6abbb2a5939a0b9f95a55c17930834dc8"
+    },
+    {
+      "path": "app/policies/theme_policy.rb",
+      "sha256": "130172878005baad5dc7cc1c369684936e0b3a1b88dc46febe12c0cf01a3acfa"
+    },
+    {
+      "path": "app/policies/transport_policy.rb",
+      "sha256": "4cb1a2c29945b5e43a2c86fd28c6b85cd82f180cf4a0d9536de293791c024998"
+    },
+    {
+      "path": "app/policies/unsubscription_policy.rb",
+      "sha256": "ed19f35cdf1b889655d8631d29adfa5f2e0a05adb0052911bb34a36271b367d4"
+    },
+    {
+      "path": "app/policies/user_policy.rb",
+      "sha256": "cb51dacac915a853404d1ac1850e997304faeba7c08df75a920f053e4e2c1c95"
+    },
+    {
+      "path": "app/policies/valuation_policy.rb",
+      "sha256": "09803be3ff42d3a8e405d213bc6703d2f9c6a3f02deee07b6e1be811cc01d4a8"
+    },
+    {
+      "path": "app/policies/vehicle_model_policy.rb",
+      "sha256": "d0d91c33fda22b6d313c7fbfddc9fb9612b03c11af368a29b821d16aae8da999"
+    },
+    {
+      "path": "app/policies/volvo_policy.rb",
+      "sha256": "76a338734eeabf871ff8fea5cae4fd168544f8fca79403b5aad1f1d7d361ffab"
+    },
+    {
+      "path": "app/policies/won_auction_policy.rb",
+      "sha256": "a715209fef748f3e628f7479c2d385307fec5da92725c08120d2c146b65c4182"
+    }
+  ]
+}

@@ -105,7 +105,7 @@ export function SiteHeader({ locale, alternates = {} }) {
                 <span className="icon" aria-hidden="true">
                   language
                 </span>{" "}
-                {locale.toUpperCase()}
+                {locale[0].toUpperCase() + locale.slice(1)}
               </button>
               {languageOpen && (
                 <nav
@@ -147,9 +147,11 @@ export function SiteHeader({ locale, alternates = {} }) {
                   ]
                 : label("sign_in")}
             </Link>
-            <Link className="site-signup-link" href={`/${locale}/users/new`}>
-              {label("create_account")}
-            </Link>
+            {!signedIn && (
+              <Link className="site-signup-link" href={`/${locale}/users/new`}>
+                {label("create_account")}
+              </Link>
+            )}
           </div>
         </div>
         {menuOpen && (
@@ -178,7 +180,11 @@ export function SiteHeader({ locale, alternates = {} }) {
                   ]
                 : label("sign_in")}
             </Link>
-            <Link href={`/${locale}/users/new`}>{label("create_account")}</Link>
+            {!signedIn && (
+              <Link href={`/${locale}/users/new`}>
+                {label("create_account")}
+              </Link>
+            )}
           </nav>
         )}
       </header>
@@ -188,7 +194,9 @@ export function SiteHeader({ locale, alternates = {} }) {
             ? { en: "My account", sv: "Mitt konto", de: "Mein Konto" }[locale]
             : label("sign_in")}
         </Link>
-        <Link href={`/${locale}/users/new`}>{label("create_account")}</Link>
+        {!signedIn && (
+          <Link href={`/${locale}/users/new`}>{label("create_account")}</Link>
+        )}
       </div>
     </>
   );

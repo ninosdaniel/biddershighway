@@ -11,7 +11,7 @@ export function BackendForm({ action = "", locale, children, className }) {
   const requestId = useRef(null);
   const router = useRouter();
   const isLead =
-    /\/(sales_inquiries|collection_leads|estate_leads|estate-sales|classified_leads)$/.test(
+    /\/(leads|sales_inquiries|collection_leads|estate_leads|estate-sales|classified_leads)$/.test(
       action,
     );
   const words = {

@@ -5,8 +5,9 @@ Edge Function backend and Postgres cron implementation.
 
 FAQ, Articles, Sell with us and the footer destinations now use local Next.js
 routes. The original branding, fonts, public images and 721 public-page snapshots
-are included, in English, Swedish and German. The original header had inert
-buttons and the app had only a homepage; it had no routes to open.
+are included, in English, Swedish and German. The catalogue, vehicle cards,
+auction details, album viewer, brand/model archives and classified details use
+local components and the existing database records.
 
 ## Run locally
 
@@ -19,11 +20,20 @@ Open **http://localhost:3000/en**. The old Vite server on port 5173, if still
 running, is not the Next.js application. `npm run build` and `npm start` run the
 production build. `.next/` is generated output, not a source directory.
 
-Use `.env.example` for configuration. Preserve an existing `.env`; legacy
-`VITE_SUPABASE_*` values are temporarily accepted by `next.config.mjs`. New
-configuration uses `NEXT_PUBLIC_SUPABASE_URL` and
+Use `.env.example` for configuration. Next.js loads `.env` and `.env.local`
+directly. Browser configuration uses `NEXT_PUBLIC_SUPABASE_URL` and
 `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY`. Never expose secret/service-role keys in
 browser variables. The image-base setting points at the original public CDN.
+There are no `VITE_*` aliases; the local `.env` uses the Next.js names directly.
+
+For the complete public vehicle fields, set `WEBSITE_DATABASE_READ_URL` in
+ignored `.env.local` (or a server secret in the deployment environment). It is
+never exposed to the browser. The server verifies TLS against
+`config/supabase-ca.crt`, checks out a connection, explicitly starts a
+`READ ONLY` transaction, runs a parameterized public projection, and rolls back.
+This adapter needs no migration. Without it, the existing public Supabase RPCs
+still provide the basic catalogue and auction details; classified/brand reads
+require the server connection. Preserve `.env.local` as a private file.
 
 ## Current migration state
 
@@ -42,9 +52,18 @@ Supabase Auth contains 33,640 email accounts; the 4,205 profiles without email
 remain preserved without email login. No invitation, confirmation or other
 email was sent or queued. This is a snapshot, not ongoing synchronization.
 The copied FAQ, article and informational content remains in
-`src/content/reference`; it is not database content. Classified detail pages and
-vehicle category/model routes still need their native database views; they do
-not fall back to the original website.
+`src/content/reference`; it is not database content. Brand/model archives match
+the original alias and vehicle-type rules. Public projections hide private
+contact/provider fields and mask VINs. Gallery navigation, filters, sorting and
+pagination work locally.
+
+The October 14 visual update made no database changes and does not synchronize
+with the original site. Existing bid amounts, photographs and vehicle status are
+used as-is. Pipedrive/Fortnox production credentials are still pending access to
+the original Hatchbox deployment on DigitalOcean; credential retrieval is paused
+at the user's request. Mail configuration is unchanged. Classified messaging and
+authenticated Rails account/admin parity remain backend work; public classified
+contact currently leads to account registration, as on the original anonymous view.
 
 The Supabase implementation includes accounts, verified bidding, offers, leads,
 comments, settlement, Swish/Fortnox adapters and scheduled workers. The database
@@ -85,6 +104,16 @@ npm run check:edge
 npm run test:edge
 npm run build
 ```
+
+With the server-only connection configured, an optional integration check runs
+only public SELECT queries inside the same read-only adapter:
+
+```sh
+node --conditions=react-server --env-file=.env.local scripts/check-public-reader.mjs
+```
+
+It checks transaction mode, catalogue/brand reads, private-field exclusion and
+missing-record handling without changing records or submitting forms.
 
 `npm run import:reference` refreshes/resumes the public editorial import, capped
 at 1,200 routes and three concurrent requests. Set `BH_SOURCE_DIR` to the original

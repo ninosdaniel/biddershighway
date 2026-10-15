@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-export function Countdown({ end, children, className }) {
+export function Countdown({ end, children, className, locale = "en" }) {
   const [remaining, setRemaining] = useState(null);
   useEffect(() => {
     function update() {
@@ -16,8 +16,15 @@ export function Countdown({ end, children, className }) {
     const interval = setInterval(update, 1000);
     return () => clearInterval(interval);
   }, [end]);
-  if (remaining === null || remaining > 259200)
-    return <span className={className}>{children}</span>;
+  if (remaining === null) return <span className={className}>{children}</span>;
+  if (remaining > 86400) {
+    const days = Math.ceil(remaining / 86400);
+    return (
+      <span className={className}>
+        {days} {{ en: "days", sv: "dagar", de: "Tage" }[locale]}
+      </span>
+    );
+  }
   const d = Math.floor(remaining / 86400);
   const h = Math.floor((remaining % 86400) / 3600);
   const m = Math.floor((remaining % 3600) / 60);

@@ -37,6 +37,7 @@ before(async () => {
       "utf8",
     ),
   );
+  await db.exec(await fs.readFile(new URL("./fixtures/customer-schema.sql", import.meta.url), "utf8"));
   for (const file of [
     "20261012000200_website_backend.sql",
     "20261012000300_website_jobs.sql",
@@ -44,6 +45,11 @@ before(async () => {
     "20261012000600_identity_orders.sql",
     "20261012000700_swish_payments.sql",
     "20261012000800_hidden_price_projection.sql",
+    "20261015001100_customer_workflows.sql",
+    "20261015001200_ai_workflows.sql",
+    "20261015001300_saved_search_notifications.sql",
+    "20261015001500_classified_management.sql",
+    "20261015001600_vehicle_uploads.sql",
   ]) {
     const sql = await fs.readFile(
       new URL("../migrations/" + file, import.meta.url),
@@ -80,6 +86,86 @@ before(async () => {
 });
 after(async () => {
   await db?.close();
+});
+
+const customerCommand = (actor, action, input, request = crypto.randomUUID()) => scalar("select public.website_customer_command($1,$2,$3,$4)", [actor, action, input, request]);
+async function advanceAi(runId, stage, context, result = null) {
+  const job = (await db.query("update website_private.jobs set status='running',lease_token=gen_random_uuid(),lease_until=now()+interval '2 minutes' where payload->>'run_id'=$1 and payload->>'stage'=$2 returning id,lease_token", [runId,stage])).rows[0];
+  await scalar("select public.website_ai_advance($1,$2,$3,$4,$5,$6)",[runId,stage,context,result,job.id,job.lease_token]);
+  await scalar("select public.website_finish_job($1,$2)",[job.id,job.lease_token]);
+}
+test("Claude workflows require explicit staff access and protect newer edits", async () => {
+  const lot = await scalar("insert into public.lots(name,registration_number,body_sv,created_at,updated_at) values('AI car','TEST','Original',now(),now()) returning id");
+  await db.query("update public.users set role='admin' where id=(select user_id from website_private.accounts where auth_id=$1)",[rival]);
+  await assert.rejects(scalar("select public.website_ai_request($1,'lot_summary',$2,$3)",[rival,lot,crypto.randomUUID()]), /forbidden/);
+  await db.query("insert into website_private.staff(auth_id) values($1)",[seller]);
+  await assert.rejects(scalar("select public.website_ai_request($1,'lot_summary',$2,$3)",[seller,lot,crypto.randomUUID()]), /ai_not_enabled/);
+  await db.exec("update website_private.settings set value='true' where key='ai_enabled'");
+  const request=crypto.randomUUID();
+  const run=await scalar("select public.website_ai_request($1,'lot_summary',$2,$3)",[seller,lot,request]);
+  assert.equal((await scalar("select public.website_ai_request($1,'lot_summary',$2,$3)",[seller,lot,request])).id,run.id);
+  await assert.rejects(scalar("select public.website_ai_advance($1,'generate','{}','{}',$2,$3)",[run.id,crypto.randomUUID(),crypto.randomUUID()]), /stale_record/);
+  await advanceAi(run.id,"generate",{}, {excerpt_sv:"A reviewed excerpt",categories:["Sportbilar"]});
+  await db.query("update public.lots set body_sv='Human edit',updated_at=now() where id=$1",[lot]);
+  await assert.rejects(scalar("select public.website_ai_apply($1,$2)",[seller,run.id]), /stale_record/);
+  assert.equal(await scalar("select body_sv from public.lots where id=$1",[lot]),"Human edit");
+  const fresh=await scalar("select public.website_ai_request($1,'lot_summary',$2,$3)",[seller,lot,crypto.randomUUID()]);
+  await advanceAi(fresh.id,"generate",{}, {excerpt_sv:"A reviewed excerpt",categories:["Sportbilar"]});
+  await assert.rejects(scalar("select public.website_ai_apply($1,$2)",[bidder,fresh.id]), /forbidden/);
+  await scalar("select public.website_ai_apply($1,$2)",[seller,fresh.id]);
+  await scalar("select public.website_ai_apply($1,$2)",[seller,fresh.id]);
+  assert.equal(await scalar("select excerpt_sv from public.lots where id=$1",[lot]),"A reviewed excerpt");
+  assert.equal(await scalar("select count(*)::int from public.taggings where taggable_id=$1",[lot]),1);
+  await db.query("update public.users set role='normal_user' where id=(select user_id from website_private.accounts where auth_id=$1)",[rival]);
+});
+
+test("Claude valuation binds reports to retrieved evidence and converts SEK to cents once", async () => {
+  const lead=await scalar("insert into public.leads(registration_number,data_manufacturer,data_model,email,created_at,updated_at) values('TEST','Porsche','911','private@example.test',now(),now()) returning id");
+  const comparison=await scalar("insert into public.reported_auctions(name,body,search_tokens,highest_bid_amount_cents,url,closed_at,created_at,updated_at) values('Porsche 911','Test','porsche 911',45000000,'https://example.test/car',now(),now(),now()) returning id");
+  const run=await scalar("select public.website_ai_request($1,'lead_valuation',$2,$3)",[seller,lead,crypto.randomUUID()]);
+  const source=await scalar("select public.website_ai_run($1)",[run.id]);
+  assert.ok(!JSON.stringify(source.source).includes("private@example.test"));
+  await advanceAi(run.id,"queries",{comparisons:[{id:comparison}]});
+  await advanceAi(run.id,"qualify",{qualification:{qualified:true,confidence:.8,notable:true,reasoning:"Collector car"}});
+  await advanceAi(run.id,"value",{}, {qualified:true,confidence:.8,estimated_value:450000,reasoning:"Comparable sale",matches:[{id:comparison}]});
+  const applied=await scalar("select public.website_ai_apply($1,$2)",[seller,run.id]);
+  assert.equal(await scalar("select valuation_cents from public.sales_reports where id=$1",[applied.report_id]),45000000);
+  await scalar("select public.website_ai_apply($1,$2)",[seller,run.id]);
+  assert.equal(await scalar("select count(*)::int from public.sales_reports"),1);
+  for(const signature of ["public.website_staff_data(uuid,text,uuid,text,integer)","public.website_ai_request(uuid,text,uuid,uuid)","public.website_ai_run(uuid)","public.website_reported_candidates(text[],text[],integer)","public.website_ai_apply(uuid,uuid)"]) {
+    assert.equal(await scalar("select has_function_privilege('authenticated',$1,'execute')",[signature]),false);
+  }
+});
+test("classified conversations preserve history, isolate members and deduplicate retries", async () => {
+  const owner = await scalar("select user_id from website_private.accounts where auth_id=$1", [seller]);
+  const lot = await scalar("insert into public.lots(name,registration_number,seller_id,created_at,updated_at) values('Classified','TEST',$1,now(),now()) returning id", [owner]);
+  await db.query("insert into public.classifieds(lot_id,slug,published_status,created_at,updated_at) values($1,'message-car',1,now(),now())", [lot]);
+  const request = crypto.randomUUID(), input = { slug: "message-car", body: "Is the service history available?" };
+  const first = await customerCommand(bidder, "conversation_start", input, request);
+  assert.deepEqual(await customerCommand(bidder, "conversation_start", input, request), first);
+  assert.equal(await scalar("select count(*)::int from public.conversation_messages where conversation_id=$1", [first.id]), 1);
+  assert.equal((await scalar("select public.website_conversations($1,$2)", [seller, first.id])).messages[0].body, input.body);
+  await assert.rejects(scalar("select public.website_conversations($1,$2)", [rival, first.id]), /not_found/);
+  await assert.rejects(customerCommand(rival, "conversation_reply", { id: first.id, body: "Intrusion" }), /not_found/);
+  await assert.rejects(customerCommand(seller, "conversation_start", input), /own_listing/);
+  await customerCommand(seller, "conversation_reply", { id: first.id, body: "Yes, it is." });
+  assert.equal((await scalar("select public.website_conversations($1,$2)", [bidder, first.id])).messages.length, 2);
+  const serialized = JSON.stringify(await scalar("select public.website_conversations($1,$2)", [bidder, first.id]));
+  assert.ok(!serialized.includes("@example.test"));
+  assert.ok(!serialized.includes("user_id"));
+  for (const role of ["anon", "authenticated"]) assert.equal(await scalar("select has_function_privilege($1,'public.website_conversations(uuid,uuid,timestamp with time zone)','execute')", [role]), false);
+});
+
+test("saved searches belong to the confirmed account; preferences cannot change authority", async () => {
+  const search = await customerCommand(bidder, "saved_search_create", { term: "Porsche 911", email: "other@example.test" });
+  assert.equal((await customerCommand(bidder, "saved_search_create", { term: "porsche 911" })).id, search.id);
+  await assert.rejects(customerCommand(rival, "saved_search_delete", { id: search.id }), /not_found/);
+  const activity = await scalar("select public.website_account_activity($1)", [bidder]);
+  assert.equal(activity.saved_searches[0].id, search.id);
+  await customerCommand(bidder, "preferences", { locale: "de", email_features: false, role: "admin", verified: true });
+  assert.equal(await scalar("select role from public.users where id=(select user_id from website_private.accounts where auth_id=$1)", [bidder]), "normal_user");
+  await customerCommand(bidder, "saved_search_delete", { id: search.id });
+  assert.equal((await scalar("select public.website_account_activity($1)", [bidder])).saved_searches.length, 0);
 });
 
 test("service-only backend and unconfirmed accounts cannot gain access", async () => {

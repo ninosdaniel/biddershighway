@@ -29,7 +29,7 @@ export function SiteFooter({ locale }) {
       [
         ["about_us", "pages/about-us"],
         ["articles", "posts"],
-        ["contact_us", "pages/contact-us"],
+        ["contact_us", "mailto:support@biddershighway.com"],
         ["work_with_us", "jobs"],
       ],
     ],
@@ -53,7 +53,7 @@ export function SiteFooter({ locale }) {
                 <li key={key}>
                   <Link
                     href={
-                      path === "jobs"
+                      path.startsWith("mailto:") ? path : path === "jobs"
                         ? "https://biddershighway.uhigher.com"
                         : `/${locale}/${path}`
                     }

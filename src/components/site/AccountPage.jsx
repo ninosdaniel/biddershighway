@@ -1,4 +1,5 @@
 "use client";
+import { AccountNavigation } from "./CustomerWorkflows";
 import Link from "next/link";
 import { BankId } from "./BankId";
 import { InvoiceActions } from "./InvoiceActions";
@@ -121,6 +122,7 @@ export function AccountPage({ locale }) {
   };
   return (
     <div className="site-account">
+      <AccountNavigation locale={locale} />
       <h1>{w[0]}</h1>
       {error && <p role="alert">{error}</p>}
       {status && <p role="status">{status}</p>}

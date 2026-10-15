@@ -3,6 +3,8 @@ import { scrapeBilweb, scrapeSajab } from "./scrapers.ts";
 import { fortnox, invoicePaid } from "./fortnox.ts";
 import { reconcileSwish } from "./swish.ts";
 import { ensureCustomer } from "./billing.ts";
+import { performAi } from "./ai.ts";
+import { savedSearchMatches } from "./vehicle-match.ts";
 
 export type Job = {
   id: string;
@@ -21,6 +23,8 @@ const escape = (s: unknown) =>
       ]!,
   );
 const subjects: Record<string, string[]> = {
+  conversation_message: ["New message about your classified", "Nytt meddelande om din annons", "Neue Nachricht zu Ihrem Inserat"],
+  saved_search_match: ["A vehicle matches your saved search", "Ett fordon matchar din bevakning", "Ein Fahrzeug passt zu Ihrer gespeicherten Suche"],
   outbid: [
     "You have been outbid",
     "Du har blivit överbjuden",
@@ -85,7 +89,9 @@ async function email(db: Database, job: Job) {
     "Uppdatering från Bidders Highway",
     "Neuigkeiten von Bidders Highway",
   ])[n];
-  const destination = job.payload.slug
+  const destination = job.payload.conversation_id
+    ? `/${locale}/account/conversations/${encodeURIComponent(String(job.payload.conversation_id))}`
+    : job.payload.slug
     ? `/${locale}/auctions/${encodeURIComponent(String(job.payload.slug))}`
     : `/${locale}/account`;
   const url = new URL(destination, env("SITE_URL")).href;
@@ -145,7 +151,18 @@ async function checkPayment(db: Database, payment: Record<string, unknown>) {
 }
 
 export async function perform(db: Database, job: Job) {
-  if (
+  if (job.kind === "ai") {
+    await performAi(db, job);
+  } else if (job.kind === "saved_search_matches") {
+    const batch = await rpc(db, "website_saved_search_batch", { p_auction: job.payload.auction_id, p_after: job.payload.after || null });
+    for (const search of batch.searches) if (savedSearchMatches(search.term, batch.text)) {
+      await rpc(db, "website_saved_search_notify", { p_auction: job.payload.auction_id, p_search: search.id });
+    }
+    if (batch.searches.length === 500) await rpc(db, "website_enqueue_continuation", {
+      p_kind: "saved_search_matches", p_key: `saved-search:${job.payload.auction_id}:${batch.searches.at(-1).id}`,
+      p_payload: { auction_id: job.payload.auction_id, after: batch.searches.at(-1).id },
+    });
+  } else if (
     ["refresh_listings", "compute_interests", "daily_update"].includes(job.kind)
   ) {
     await rpc(db, "website_maintenance", { p_kind: job.kind });
@@ -167,6 +184,10 @@ export async function perform(db: Database, job: Job) {
       p_kind: job.kind,
       p_key: job.dedupe_key,
       p_payload: job.payload,
+    });
+    if (job.kind === "auction_live") await rpc(db, "website_enqueue_continuation", {
+      p_kind: "saved_search_matches", p_key: `saved-search:${job.payload.auction_id}`,
+      p_payload: { auction_id: job.payload.auction_id },
     });
   } else if (job.kind === "sync_payments") {
     await syncPayments(db, job);

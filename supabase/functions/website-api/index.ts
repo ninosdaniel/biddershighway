@@ -16,6 +16,8 @@ import {
 } from "../_shared/http.ts";
 import { bankid } from "../_shared/bankid.ts";
 import { invoicePdf } from "../_shared/billing.ts";
+import { vehicleUpload } from "../_shared/uploads.ts";
+import { sanitizeGeneratedHtml } from "../_shared/ai.ts";
 import {
   cancelSwish,
   reconcileSwish,
@@ -106,6 +108,33 @@ export async function handle(request: Request): Promise<Response> {
       );
       if (action === "account")
         result = await rpc(db, "website_account", { p_auth_id: user.id });
+      else if (action === "account_activity")
+        result = await rpc(db, "website_account_activity", { p_auth_id: user.id });
+      else if (action === "staff_data")
+        result = await rpc(db, "website_staff_data", { p_auth_id: user.id, p_resource: text(input.resource || "leads", 30), p_id: input.id ? uuid(input.id) : null, p_query: text(input.query || "", 200), p_page: Math.max(1, Math.min(10000, Number(input.page) || 1)) });
+      else if (action === "ai_request")
+        result = await rpc(db, "website_ai_request", { p_auth_id: user.id, p_kind: text(input.kind, 40), p_id: uuid(input.id), p_request_id: uuid(body.request_id) });
+      else if (action === "ai_apply")
+        result = await rpc(db, "website_ai_apply", { p_auth_id: user.id, p_id: uuid(input.id) });
+      else if (["upload_prepare", "upload_complete"].includes(action))
+        result = await vehicleUpload(db, user.id, action, input);
+      else if (action === "classifieds")
+        result = await rpc(db, "website_classifieds", { p_auth_id: user.id, p_slug: input.slug ? text(input.slug, 300) : null, p_staff: input.staff === true });
+      else if (["classified_create", "classified_update", "classified_submit", "classified_publish", "classified_hide", "classified_sold", "classified_reopen"].includes(action)) {
+        if (input.body_sv !== undefined) input.body_sv = sanitizeGeneratedHtml(text(input.body_sv, 20000));
+        result = await rpc(db, "website_classified_command", { p_auth_id: user.id, p_action: action, p_input: input, p_request_id: uuid(body.request_id) });
+      }
+      else if (action === "conversations")
+        result = await rpc(db, "website_conversations", {
+          p_auth_id: user.id,
+          p_id: input.id ? uuid(input.id) : null,
+          p_before: input.before ? text(input.before, 40) : null,
+        });
+      else if (["conversation_start", "conversation_reply", "saved_search_create", "saved_search_delete", "preferences", "notification_delete", "notifications_read"].includes(action))
+        result = await rpc(db, "website_customer_command", {
+          p_auth_id: user.id, p_action: action, p_input: input,
+          p_request_id: uuid(body.request_id),
+        });
       else if (action === "invoice_pdf")
         result = await invoicePdf(db, user.id, uuid(input.payment_id));
       else if (action === "swish_start")

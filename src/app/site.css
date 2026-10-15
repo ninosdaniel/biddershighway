@@ -603,41 +603,6 @@ main {
   font-size: 28px;
   margin: 32px 0 18px;
 }
-.site-auction-gallery {
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
-  gap: 10px;
-  margin: 28px 0 14px;
-}
-.site-auction-gallery button:first-child {
-  grid-row: span 2;
-}
-.site-auction-gallery img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  aspect-ratio: 4/3;
-}
-.site-auction-columns {
-  display: grid;
-  grid-template-columns: minmax(0, 2fr) minmax(260px, 1fr);
-  gap: 60px;
-  margin-top: 40px;
-}
-.site-auction-columns aside {
-  background: #edf0e8;
-  padding: 28px;
-  align-self: start;
-  border-radius: 8px;
-}
-.site-auction-columns aside .site-button {
-  display: block;
-  text-align: center;
-  margin: 16px 0;
-}
-.site-auction-price {
-  font-size: 38px;
-}
 .site-auction ol {
   padding: 0;
   list-style: none;
@@ -655,32 +620,6 @@ main {
   padding: 16px;
   border: 1px solid #9da998;
   margin: 16px 0;
-}
-.site-lightbox {
-  position: fixed;
-  inset: 0;
-  z-index: 1000;
-  background: #101712f5;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 48px 24px;
-  color: white;
-}
-.site-lightbox img {
-  max-width: 85vw;
-  max-height: 85vh;
-  object-fit: contain;
-}
-.site-lightbox-close {
-  position: absolute;
-  right: 24px;
-  top: 12px;
-  font-size: 40px;
-}
-.site-lightbox > button {
-  font-size: 32px;
-  padding: 8px;
 }
 .site-invoice-actions {
   display: flex;
@@ -704,24 +643,1425 @@ main {
 .site-swish img {
   max-width: 100%;
 }
-@media (max-width: 800px) {
-  .site-auction-columns {
-    grid-template-columns: 1fr;
-    gap: 24px;
+
+/* Shared proportions and colors from the original Highway components. */
+.site-header {
+  background: #0c3923;
+}
+.site-header-inner {
+  max-width: 1280px;
+  height: 64px;
+  padding: 0;
+  gap: 8px;
+}
+.site-logo {
+  flex-basis: 320px;
+}
+.site-desktop-nav {
+  flex: 1;
+  justify-content: center;
+  gap: 16px;
+  white-space: nowrap;
+}
+.site-header-actions {
+  min-width: 320px;
+  justify-content: flex-end;
+  gap: 12px;
+  font-size: 14px;
+}
+.site-desktop-nav .site-sell-link {
+  padding: 8px 12px;
+  background: #f1821b;
+}
+.site-login-link {
+  color: #6ee7b7;
+}
+.site-signup-link {
+  background: #10b981;
+  padding: 12px 8px;
+}
+.site-dropdown {
+  top: 40px;
+  background: #0c3923;
+  color: #fff;
+  padding: 0;
+}
+.site-dropdown a {
+  padding: 12px 24px;
+}
+.site-dropdown a:hover,
+.site-dropdown [aria-current] {
+  background: #294b34;
+}
+.site-footer {
+  padding: 80px 24px 96px;
+}
+.site-footer-grid,
+.site-footer-bottom {
+  max-width: 1248px;
+}
+.site-footer-grid {
+  grid-template-columns: 1.5fr repeat(3, 1fr);
+  gap: 32px;
+}
+.site-footer-grid > a img {
+  width: auto;
+  max-width: 230px;
+  height: auto;
+}
+.site-footer li {
+  font-size: 16px;
+  opacity: 0.7;
+}
+.site-footer-bottom {
+  margin-top: 32px;
+  border-top: 4px solid #40404080;
+  padding-top: 16px;
+}
+.site-catalog-surface {
+  background: #f5f5f1;
+}
+.site-listings {
+  max-width: 1280px;
+  padding: 16px 16px 0;
+}
+.site-trustpilot {
+  display: block;
+  margin-bottom: 36px;
+}
+.site-listings h1 {
+  font:
+    60px/1 "Gowun Dodum",
+    sans-serif;
+  letter-spacing: -0.025em;
+  color: #356037;
+  margin: 0 0 24px;
+}
+.site-filter-pills,
+.site-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.site-filter-pills {
+  gap: 24px;
+  margin-bottom: 20px;
+}
+.site-pills a {
+  padding: 8px 12px;
+  border: 1px solid #eee4a9;
+  border-radius: 999px;
+  font-size: 14px;
+  line-height: 20px;
+  background: #fffdf0;
+}
+.site-pills a[aria-current] {
+  color: #fff;
+  background: #356037;
+  border-color: #356037;
+}
+.site-pills-lifecycle_status a {
+  background: #edfff6;
+  border-color: #cde7dc;
+}
+.site-pills-lifecycle_status a[aria-current] {
+  background: #27785a;
+  border-color: #27785a;
+}
+.site-listing-filters {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+  padding: 20px;
+  margin-bottom: 12px;
+  border: 1px solid #e7e5e4;
+  border-radius: 12px;
+  background: #fff;
+}
+.site-listing-filters label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 14px;
+  color: #404040;
+}
+.site-filter-search {
+  flex: 1;
+  min-width: 230px;
+}
+.site-listing-filters input,
+.site-listing-filters select {
+  width: 100%;
+  height: 40px;
+  min-width: 0;
+  border: 1px solid #e7e5e4;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 14px;
+  background: #fafaf9;
+}
+.site-listing-filters select {
+  width: 192px;
+}
+.site-filter-year {
+  width: 112px;
+}
+.site-filter-actions {
+  display: flex;
+  gap: 8px;
+}
+.site-filter-actions a,
+.site-filter-actions button {
+  height: 40px;
+  padding: 8px 16px;
+  border: 1px solid #356037;
+  border-radius: 8px;
+  font-size: 14px;
+}
+.site-filter-actions button {
+  color: #fff;
+  background: #356037;
+}
+.site-brand-pills {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+.site-brand-pills a {
+  font-size: 12px;
+  line-height: 16px;
+  border: 1px solid #e7e5e4;
+  border-radius: 999px;
+  padding: 4px 10px;
+  background: #fafaf6;
+}
+.site-brand-pills a:hover,
+.site-brand-pills a[aria-current] {
+  background: #356037;
+  color: white;
+}
+.site-featured-auction {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: repeat(2, 200px);
+  gap: 8px;
+  padding: 8px;
+  border-radius: 15px;
+  background: #0a0a0a;
+  margin-bottom: 40px;
+}
+.site-featured-auction > a {
+  overflow: hidden;
+  border-radius: 11px;
+}
+.site-featured-auction img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.site-featured-main {
+  grid-row: span 2;
+  position: relative;
+}
+.site-featured-main::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(0deg, #000d, #0003 65%, transparent);
+}
+.site-featured-copy {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 28px;
+  color: #fff;
+  z-index: 1;
+}
+.site-featured-label {
+  background: #ffffff26;
+  border-radius: 999px;
+  padding: 4px 12px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+.site-featured-copy h2 {
+  margin-top: 12px;
+  font:
+    36px/1.1 "Gowun Dodum",
+    sans-serif;
+  letter-spacing: -0.025em;
+}
+.site-featured-copy p {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-top: 12px;
+}
+.site-featured-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #ffffff80;
+  padding: 8px 16px;
+  margin-top: 20px;
+  border-radius: 3px;
+}
+.site-ending-soon {
+  padding: 28px;
+  border-radius: 32px;
+  background: #c6e6d2;
+  margin-bottom: 32px;
+}
+.site-ending-soon > h2 {
+  font:
+    30px/1.2 "Gowun Dodum",
+    sans-serif;
+  color: #356037;
+  margin-bottom: 16px;
+}
+.site-listing-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 48px 24px;
+}
+.site-ending-soon .site-listing-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+}
+.site-listing-card {
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  overflow: visible;
+}
+.site-listing-card:hover {
+  transform: none;
+}
+.site-listing-card > a {
+  display: block;
+}
+.site-card-photo {
+  aspect-ratio: 82/56;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.site-card-photo img {
+  border-radius: 8px;
+  transition: filter 0.15s;
+}
+.site-card-photo:hover img {
+  filter: brightness(1.08);
+}
+.site-card-photo .site-card-kind {
+  position: absolute;
+  top: auto;
+  bottom: 12px;
+  left: 12px;
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: #356037e6;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.025em;
+}
+.site-card-photo .site-card-kind.classified {
+  background: #e07310e6;
+}
+.site-card-photo .site-reserve-badge,
+.site-reserve-badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: #fffbeb;
+  border: 1px solid #e6b75f;
+  border-radius: 999px;
+  padding: 6px 12px;
+  color: #422b15;
+  font-size: 14px;
+  font-weight: 600;
+}
+.site-reserve-badge .icon {
+  font-size: 16px;
+  position: static;
+  padding: 0;
+  background: none;
+  color: inherit;
+}
+.site-card-location {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 14px;
+  color: #a3a3a3;
+  margin: 4px 0 8px;
+}
+.site-card-location .icon {
+  color: #e07310;
+  font-size: 18px;
+}
+.site-listing-card h2 {
+  font:
+    400 24px/1.3 "Gowun Dodum",
+    sans-serif;
+  color: #356037;
+  margin: 8px 0;
+}
+.site-card-description {
+  font-size: 14px;
+  line-height: 1.5;
+  opacity: 0.7;
+  margin-bottom: 4px;
+}
+.site-card-price {
+  font-size: 18px;
+  margin-top: 8px;
+}
+.site-card-state {
+  font-size: 14px;
+}
+.site-pagination {
+  padding: 32px 0 24px;
+  gap: 8px;
+  align-items: center;
+}
+.site-pagination a {
+  background: transparent;
+  color: #356037;
+  padding: 8px 12px;
+}
+.site-pagination a[aria-current] {
+  background: #356037;
+  color: white;
+}
+.site-pagination-gap {
+  margin: 0 8px;
+}
+@media (max-width: 1279px) {
+  .site-header-inner {
+    max-width: 1024px;
   }
-  .site-auction-columns aside {
-    grid-row: 1;
+  .site-logo {
+    flex-basis: 220px;
   }
-  .site-auction-gallery {
-    grid-template-columns: 1fr 1fr;
+  .site-header-actions {
+    min-width: 260px;
   }
-  .site-auction-gallery button:first-child {
-    grid-column: span 2;
-  }
-  .site-lightbox {
-    padding: 10px;
-  }
-  .site-lightbox img {
-    max-width: 80vw;
+  .site-listings {
+    max-width: 1024px;
   }
 }
+@media (max-width: 1023px) {
+  .site-header-inner {
+    max-width: 768px;
+    padding: 0 8px;
+  }
+  .site-logo {
+    flex-basis: 160px;
+  }
+  .site-header-actions {
+    min-width: 80px;
+  }
+  .site-listing-filters {
+    flex-wrap: wrap;
+  }
+  .site-filter-search {
+    flex-basis: 100%;
+  }
+  .site-ending-soon .site-listing-grid,
+  .site-listing-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .site-featured-auction {
+    grid-template-rows: repeat(2, 160px);
+  }
+  .site-listings h1 {
+    font-size: 48px;
+  }
+  .site-listings {
+    max-width: 768px;
+  }
+}
+@media (min-width: 1024px) {
+  .site-mobile-login {
+    display: none;
+  }
+  .site-login-link {
+    display: flex;
+  }
+  .site-signup-link {
+    display: block;
+  }
+}
+@media (max-width: 767px) {
+  .site-header-inner {
+    padding: 0 8px;
+  }
+  .site-logo {
+    flex-basis: auto;
+    width: 160px;
+  }
+  .site-logo img {
+    width: 160px;
+  }
+  .site-header-actions {
+    min-width: 0;
+  }
+  .site-trustpilot {
+    margin-bottom: 28px;
+  }
+  .site-listings h1 {
+    font-size: 36px;
+    line-height: 1.1;
+  }
+  .site-filter-pills {
+    gap: 12px;
+  }
+  .site-listing-filters {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 16px;
+  }
+  .site-filter-search {
+    grid-column: 1/-1;
+    min-width: 0;
+  }
+  .site-listing-filters select,
+  .site-filter-year {
+    width: 100%;
+  }
+  .site-listing-filters label:nth-child(2),
+  .site-filter-actions {
+    grid-column: 1/-1;
+  }
+  .site-filter-actions > * {
+    flex: 1;
+    text-align: center;
+  }
+  .site-featured-auction {
+    display: block;
+  }
+  .site-featured-auction > a:not(:first-child) {
+    display: none;
+  }
+  .site-featured-main {
+    display: block;
+    min-height: 320px;
+  }
+  .site-featured-main img {
+    height: 360px;
+  }
+  .site-featured-copy {
+    padding: 20px;
+  }
+  .site-featured-copy h2 {
+    font-size: 30px;
+  }
+  .site-ending-soon {
+    padding: 20px;
+  }
+  .site-ending-soon .site-listing-grid,
+  .site-listing-grid {
+    grid-template-columns: 1fr;
+  }
+  .site-ending-soon .site-listing-card:nth-child(n + 3) {
+    display: none;
+  }
+  .site-footer {
+    padding: 40px 8px 32px;
+  }
+  .site-footer-grid {
+    display: block;
+    padding: 0 16px;
+  }
+  .site-footer-grid > * {
+    margin-bottom: 32px;
+  }
+  .site-footer-grid > a {
+    display: block;
+  }
+  .site-footer-bottom {
+    margin: 0 16px;
+  }
+}
+.site-auction-surface {
+  background: #f5f5f1;
+}
+.site-auction {
+  max-width: 1280px;
+  padding: 32px 16px 64px;
+}
+.site-auction-back {
+  display: inline-block;
+  margin-bottom: 12px;
+  color: #d67716;
+  text-decoration: underline;
+}
+.site-auction-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+  gap: 0 32px;
+}
+.site-auction-visual {
+  grid-column: 1;
+  grid-row: 1;
+}
+.site-auction-cover {
+  position: relative;
+}
+.site-auction-cover > button {
+  display: block;
+  width: 100%;
+}
+.site-auction-cover img {
+  width: 100%;
+  aspect-ratio: 1.515;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.site-auction-thumbnails {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 12px;
+}
+.site-auction-thumbnails img {
+  width: 100%;
+  aspect-ratio: 1.5;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.site-auction-sidebar {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  min-width: 0;
+}
+.site-auction-sticky {
+  position: sticky;
+  top: 16px;
+}
+.site-auction h1 {
+  font:
+    48px/1 "Gowun Dodum",
+    serif;
+  margin: 0 0 32px;
+  color: #000;
+}
+.site-auction-location {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 28px;
+}
+.site-auction-location > .icon {
+  background: #ddd;
+  border-radius: 100%;
+  padding: 8px;
+  color: #777;
+  font-size: 18px;
+}
+.site-auction-location small,
+.site-auction-location strong {
+  display: block;
+}
+.site-auction-location small {
+  color: #737373;
+  font-size: 14px;
+}
+.site-auction-share {
+  border-top: 1px solid #d4d4d4;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  color: #737373;
+  padding: 16px 0;
+}
+.site-auction-share a,
+.site-auction-share button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+}
+.site-auction-share .icon {
+  font-size: 18px;
+}
+.site-bid-panel {
+  position: relative;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  padding: 24px 16px 0;
+}
+.site-bid-price {
+  padding: 0 16px;
+}
+.site-bid-price > span {
+  display: block;
+  color: #737373;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+.site-bid-price > strong {
+  font-size: 24px;
+}
+.site-bid-history > summary {
+  position: absolute;
+  right: 24px;
+  top: 30px;
+  cursor: pointer;
+  list-style: none;
+}
+.site-bid-history summary::-webkit-details-marker {
+  display: none;
+}
+.site-bid-history[open] {
+  margin-top: 24px;
+}
+.site-bid-history[open] > summary .icon {
+  transform: rotate(180deg);
+}
+.site-bid-history time {
+  display: block;
+  font-size: 12px;
+  color: #737373;
+}
+.site-bid-history ol {
+  max-height: 320px;
+  overflow: auto;
+}
+.site-bid-by {
+  text-align: center;
+  font-size: 14px;
+  color: #737373;
+  margin: 24px 0 16px;
+}
+.site-bid-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 24px;
+}
+.site-bid-actions a {
+  flex: 1;
+  text-align: center;
+  padding: 10px 12px;
+  font-size: 14px;
+  border-radius: 4px;
+  margin: 0;
+}
+.site-watch-button {
+  border: 1px solid #454b3c;
+}
+.site-bid-reserve {
+  font-size: 12px;
+  text-align: center;
+  color: #737373;
+  margin: 16px 0;
+}
+.site-bid-countdown {
+  background: #eeeee7;
+  padding: 16px;
+  margin: 24px -16px 0;
+  text-align: center;
+}
+.site-bid-countdown > span {
+  font-size: 24px;
+  font-weight: 600;
+}
+.site-bid-countdown small {
+  display: block;
+  color: #737373;
+  font-size: 12px;
+}
+.site-sell-similar {
+  text-align: center;
+  font-size: 14px;
+  color: #737373;
+  margin-top: 20px;
+}
+.site-sell-similar a {
+  color: #d67716;
+  text-decoration: underline;
+}
+.site-auction-content {
+  grid-column: 1;
+  grid-row: 2;
+  min-width: 0;
+}
+.site-auction-tabs {
+  display: flex;
+  gap: 16px;
+  margin: 32px 0 24px;
+  color: #737373;
+}
+.site-auction-tabs > * {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding-bottom: 12px;
+}
+.site-auction-tabs [aria-current] {
+  color: #000;
+  border-bottom: 1px solid #000;
+}
+.site-auction-tabs span {
+  font-size: 12px;
+  line-height: 20px;
+  height: 20px;
+  padding: 0 8px;
+  border-radius: 999px;
+  background: #737373;
+  color: white;
+}
+.site-auction-content h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 16px;
+}
+.site-auction-facts {
+  margin: 0 0 32px;
+}
+.site-auction-facts > div {
+  display: flex;
+  gap: 8px;
+  padding: 12px 0;
+  border-bottom: 1px solid #d4d4d4;
+}
+.site-auction-facts dt {
+  color: #737373;
+  width: 45%;
+}
+.site-auction-description {
+  line-height: 1.75;
+}
+.site-auction-description iframe {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border: 0;
+  margin-bottom: 32px;
+}
+.site-auction-description h2 {
+  margin-top: 28px;
+}
+.site-auction-description p {
+  margin-bottom: 16px;
+}
+.site-auction-description ul {
+  list-style: disc;
+  padding-left: 24px;
+  margin-bottom: 20px;
+}
+.site-auction-description li {
+  display: list-item;
+  border: 0;
+  padding: 0;
+}
+.site-auction-disclaimer {
+  margin: 32px 0 48px;
+  border-top: 1px solid #d4d4d4;
+  padding-top: 16px;
+  color: #737373;
+  font-size: 14px;
+}
+.site-auction-disclaimer a {
+  text-decoration: underline;
+}
+.site-comment-form {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+.site-comment-form textarea {
+  margin: 0;
+  border-color: #d4d4d4;
+  border-radius: 4px;
+  background: #fff;
+}
+.site-comment-form button {
+  color: #d67716;
+}
+.site-auction-comment {
+  padding: 20px 0;
+  border-top: 1px solid #d4d4d4;
+}
+.site-auction-comment header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.site-auction-comment time {
+  color: #737373;
+  font-size: 14px;
+}
+.site-auction-comment p {
+  white-space: pre-line;
+}
+.site-all-auctions {
+  display: block;
+  text-align: center;
+  margin: 48px 0;
+  color: #d67716;
+  text-decoration: underline;
+}
+.site-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+@media (max-width: 1279px) {
+  .site-auction {
+    max-width: 1024px;
+  }
+  .site-auction h1 {
+    font-size: 36px;
+  }
+}
+@media (max-width: 1023px) {
+  .site-auction {
+    max-width: 768px;
+    padding-top: 12px;
+  }
+  .site-auction-layout {
+    display: flex;
+    flex-direction: column;
+  }
+  .site-auction-sidebar {
+    margin-top: 24px;
+  }
+  .site-auction-sticky {
+    position: static;
+  }
+  .site-auction h1 {
+    font-size: 36px;
+  }
+}
+@media (max-width: 480px) {
+  .site-auction-tabs {
+    gap: 12px;
+    justify-content: space-between;
+    font-size: 14px;
+  }
+  .site-auction-tabs > * {
+    gap: 4px;
+  }
+  .site-auction-thumbnails {
+    gap: 6px;
+  }
+  .site-auction-facts dt {
+    width: 50%;
+  }
+}
+.site-desktop-nav .site-sell-link {
+  font-weight: 400;
+}
+.site-trustpilot {
+  margin-bottom: 44px;
+}
+.site-filter-category select {
+  width: 176px;
+}
+.site-reserve-badges {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  right: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 8px;
+  z-index: 2;
+  pointer-events: none;
+}
+.site-reserve-badges .site-reserve-badge {
+  position: relative;
+  top: auto;
+  left: auto;
+  line-height: 1;
+  box-shadow: 0 3px 6px #0002;
+}
+.site-reserve-badges .no_reserve {
+  background: #ecfdf5;
+  border-color: #059669;
+  color: #022c22;
+}
+.site-reserve-badges .reserve_close {
+  background: #fefce8;
+  border-color: #eab308;
+  color: #422006;
+}
+.site-reserve-badges .reserve_met {
+  background: #f0f9ff;
+  border-color: #0284c7;
+  color: #082f49;
+}
+@media (max-width: 767px) {
+  .site-filter-category select {
+    width: 100%;
+  }
+  .site-listing-filters label:nth-child(2) {
+    grid-column: auto;
+  }
+}
+.site-album-page {
+  background: #000;
+  color: #fff;
+  height: 100dvh;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.site-album-menu {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.site-album-menu a {
+  font:
+    20px/1.4 "Gowun Dodum",
+    sans-serif;
+}
+.site-album-menu a[aria-current] {
+  color: #f1821b;
+}
+.site-album-menu .site-album-back {
+  background: #fff;
+  color: #356037;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font:
+    600 14px/20px "Inter var",
+    sans-serif;
+  margin-bottom: 4px;
+}
+.site-album-stage {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-album-stage > img {
+  width: calc(100% - 160px);
+  height: 100%;
+  object-fit: contain;
+}
+.site-album-stage > a {
+  font-size: 54px;
+  padding: 16px;
+}
+.site-album-strip {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 8px;
+  flex-shrink: 0;
+}
+.site-album-strip a {
+  flex: 0 0 144px;
+  height: 96px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.site-album-strip img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.site-album-strip a[aria-current] {
+  border: 3px solid #f1821b;
+}
+@media (max-width: 767px) {
+  .site-album-menu {
+    position: static;
+    padding: 8px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .site-album-menu a {
+    font-size: 14px;
+  }
+  .site-album-menu .site-album-back {
+    flex-basis: 100%;
+  }
+  .site-album-stage > img {
+    width: calc(100% - 64px);
+  }
+  .site-album-stage > a {
+    padding: 8px;
+    font-size: 32px;
+  }
+  .site-album-strip a {
+    flex-basis: 104px;
+    height: 72px;
+  }
+}
+.site-auction-cover > a {
+  display: block;
+}
+.site-auction-people {
+  display: flex;
+  gap: 24px;
+}
+.site-auction-facts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+.site-auction-facts > div {
+  display: block;
+  border: 0;
+  padding: 0;
+}
+.site-auction-facts dt,
+.site-auction-facts dd {
+  display: inline;
+  width: auto;
+}
+.site-auction-facts dt {
+  margin-right: 4px;
+}
+.site-valuation {
+  background: white;
+  border-radius: 8px;
+  border-left: 4px solid #356037;
+  padding: 24px;
+  margin-bottom: 32px;
+}
+.site-valuation blockquote {
+  font-size: 18px;
+  font-style: italic;
+  color: #404040;
+  margin-bottom: 16px;
+}
+.site-valuation > div {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.site-valuation img {
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+}
+.site-valuation small {
+  display: block;
+  color: #737373;
+  font-size: 14px;
+}
+.site-hero-badges {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+.site-hero-badges a {
+  font-size: 12px;
+  border-radius: 999px;
+  border: 1px solid #4f46e5;
+  background: #eef2ff;
+  color: #312e81;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px;
+}
+.site-hero-badges a:first-child {
+  border-color: #059669;
+  background: #ecfdf5;
+  color: #022c22;
+}
+.site-hero-badges .icon {
+  font-size: 16px;
+}
+.site-function-test {
+  background: #fff;
+  border: 1px solid #bbf7d0;
+  border-radius: 6px;
+  padding: 12px;
+  margin-top: 24px;
+}
+.site-function-test h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.site-function-test ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4px 12px;
+  margin-top: 12px;
+}
+.site-function-test li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 4px;
+  border: 0;
+  padding: 0;
+  font-size: 14px;
+}
+.site-function-test .passed {
+  color: #15803d;
+}
+.site-function-test .failed {
+  color: #dc2626;
+}
+.site-function-test .icon {
+  font-size: 18px;
+}
+@media (max-width: 767px) {
+  .site-function-test ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .site-auction-facts {
+    font-size: 14px;
+  }
+  .site-valuation blockquote {
+    font-size: 16px;
+  }
+}
+
+.site-brand-index,
+.site-brand-content {
+  max-width: 1280px;
+  margin: auto;
+  padding: 32px 16px 64px;
+}
+.site-brand-index h1,
+.site-brand-hero h1 {
+  font:
+    60px/1.1 "Gowun Dodum",
+    serif;
+}
+.site-brand-index > p {
+  max-width: 768px;
+  margin: 12px 0 32px;
+  color: #525252;
+}
+.site-brand-index ul {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+}
+.site-brand-index a {
+  display: block;
+  border: 1px solid #e7e5e4;
+  padding: 12px 16px;
+  border-radius: 8px;
+  background: white;
+  font-weight: 500;
+}
+.site-brand-index a:hover {
+  border-color: #356037;
+}
+.site-brand-hero {
+  max-width: 1280px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.site-brand-hero > div {
+  padding: 48px 48px 48px 16px;
+  align-self: center;
+}
+.site-brand-hero nav,
+.site-vehicle-breadcrumb {
+  font-size: 14px;
+  color: #737373;
+  margin-bottom: 12px;
+}
+.site-brand-hero p,
+.site-brand-hero small {
+  display: block;
+  margin-top: 24px;
+  color: #737373;
+}
+.site-brand-hero > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  min-height: 350px;
+}
+.site-brand-sell {
+  background: #c6e6d2;
+  padding: 32px 16px;
+}
+.site-brand-sell > div {
+  max-width: 1248px;
+  margin: auto;
+}
+.site-brand-sell h2 {
+  font:
+    32px/1.2 "Gowun Dodum",
+    serif;
+}
+.site-brand-sell p {
+  margin: 12px 0 20px;
+}
+.site-brand-models {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 40px;
+}
+.site-brand-models a {
+  border: 1px solid #d4d4d4;
+  border-radius: 999px;
+  padding: 6px 16px;
+  font-size: 14px;
+}
+.site-brand-models a[aria-current] {
+  background: #0c3923;
+  color: white;
+}
+.site-brand-body {
+  max-width: 832px;
+  margin-bottom: 48px;
+}
+.site-brand-body p {
+  margin-bottom: 16px;
+}
+.site-classified-excerpt {
+  color: #737373;
+  margin-bottom: 24px;
+}
+@media (max-width: 1023px) {
+  .site-brand-index ul {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .site-brand-hero {
+    grid-template-columns: 1fr;
+  }
+  .site-brand-hero > img {
+    grid-row: 1;
+    max-height: 450px;
+    min-height: 0;
+  }
+  .site-brand-hero > div {
+    padding: 32px 16px;
+  }
+}
+@media (max-width: 767px) {
+  .site-brand-index ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .site-brand-index h1,
+  .site-brand-hero h1 {
+    font-size: 36px;
+  }
+}
+.site-brand-hero {
+  background: #f5f5f1;
+}
+.site-brand-sell {
+  background: #0c3923;
+  color: #fff;
+  padding: 64px 16px;
+  text-align: center;
+}
+.site-brand-sell > div {
+  max-width: 864px;
+}
+.site-brand-sell h2 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.site-brand-sell p {
+  font-size: 20px;
+  color: #e7e5e4;
+  margin-bottom: 32px;
+}
+.site-brand-sell small {
+  display: block;
+  font-size: 12px;
+  opacity: 0.7;
+  margin-top: 12px;
+}
+.site-brand-lead-fields {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+.site-brand-lead-fields input {
+  width: 100%;
+  min-width: 0;
+  padding: 12px 16px;
+  border: 2px solid #d6d3d1;
+  border-radius: 6px;
+  background: white;
+  color: #171717;
+}
+.site-brand-lead-fields label {
+  display: flex;
+}
+.site-brand-lead-fields label input {
+  border-radius: 0 6px 6px 0;
+}
+.site-brand-lead-fields label img {
+  background: #1d4ed8;
+  border-radius: 6px 0 0 6px;
+  padding: 0 4px;
+  width: 28px;
+}
+.site-brand-lead .site-button {
+  width: 100%;
+  margin-top: 16px;
+  padding: 16px;
+  font-size: 18px;
+  font-weight: 700;
+}
+@media (max-width: 767px) {
+  .site-brand-sell {
+    padding: 40px 16px;
+  }
+  .site-brand-sell h2 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 639px) {
+  .site-brand-lead-fields {
+    grid-template-columns: 1fr;
+  }
+}
+/* Account workflows share the storefront typography and controls. */
+.site-account-nav { display:flex; flex-wrap:wrap; gap:1rem; margin:1rem 0 2rem; }
+.site-account-nav a { text-decoration:underline; text-underline-offset:4px; }
+.site-conversations { display:grid; grid-template-columns:minmax(180px,1fr) minmax(0,3fr); gap:2rem; }
+.site-conversations aside li { border-bottom:1px solid #ddd; padding:1rem 0; }
+.site-conversations aside p { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; max-width:240px; }
+.site-message-list { list-style:none; padding:0; }
+.site-message-list li { padding:1rem; margin:1rem 0; background:#f1f1f1; border-radius:8px; }
+.site-message-list .site-message-own { background:#e6edf1; margin-left:2rem; }
+.site-message-list p { white-space:pre-wrap; overflow-wrap:anywhere; }
+.site-message-list time { font-size:.8rem; color:#555; }
+.site-save-search { display:flex; align-items:end; gap:1rem; flex-wrap:wrap; margin:1rem 0; }
+.site-save-search input { display:block; border:1px solid #bbb; padding:.7rem; }
+.site-staff-records { list-style:none; padding:0; }
+.site-staff-records li,.site-ai-draft { border-bottom:1px solid #ccc; padding:1.5rem 0; }
+.site-ai-text,.site-ai-reasoning { white-space:pre-wrap; overflow-wrap:anywhere; }
+.site-ai-text { max-height:30rem; overflow:auto; background:#f5f5f5; padding:1rem; font-size:.9rem; }
+.site-upload-previews { display:flex; flex-wrap:wrap; gap:1rem; margin:1rem 0; }
+.site-upload-previews img { width:160px; height:110px; object-fit:cover; }
+@media(max-width:640px) { .site-conversations { grid-template-columns:1fr; } }

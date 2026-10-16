@@ -1,0 +1,788 @@
+{
+  "source": {
+    "repository": "biddershighway/highway",
+    "commit": "0bae38c04fb0e6c9510d7bba659c151f456c095d",
+    "blobs": {
+      "app/models/questionnaire/schema.rb": "41b6277ad236a1673d74732a5331877ebe3340d8",
+      "config/locales/sv.yml": "e041946458868bf1adecf0baee16767809800a9e"
+    }
+  },
+  "scale_labels": {
+    "1": "Dåligt",
+    "2": "Mindre bra",
+    "3": "Bra",
+    "4": "Utmärkt"
+  },
+  "schemas": {
+    "car_form": [
+      {
+        "key": "seller_type",
+        "type": "enum",
+        "section": "basics",
+        "label": "Är du privat säljare eller handlare?"
+      },
+      {
+        "key": "odometer",
+        "type": "number",
+        "section": "basics",
+        "label": "Mätarställning i kilometer"
+      },
+      {
+        "key": "odometer_correct",
+        "type": "boolean",
+        "section": "basics",
+        "label": "Kan mätarställningen garanteras?"
+      },
+      {
+        "key": "total_owners",
+        "type": "number",
+        "section": "basics",
+        "label": "Totalt antal ägare"
+      },
+      {
+        "key": "vat",
+        "type": "boolean",
+        "section": "basics",
+        "label": "Finns avdragsgill moms på fordonet?"
+      },
+      {
+        "key": "financing_available",
+        "type": "boolean",
+        "section": "basics",
+        "label": "Finns det lån på fordonet?"
+      },
+      {
+        "key": "swedish_sold",
+        "type": "boolean",
+        "section": "basics",
+        "label": "Är fordonet svensksålt?",
+        "reveal": "sale_country"
+      },
+      {
+        "key": "sale_country",
+        "type": "text",
+        "section": "basics",
+        "label": "Vilket land importerades fordonet från?",
+        "reveal_only": true
+      },
+      {
+        "key": "paint_condition",
+        "type": "scale",
+        "section": "exterior",
+        "label": "Hur är lackens skick?",
+        "reveal": "paint_detail",
+        "points": 4,
+        "harmonize": "high"
+      },
+      {
+        "key": "paint_detail",
+        "type": "long_text",
+        "section": "exterior",
+        "label": "Beskriv lackens brister",
+        "reveal_only": true
+      },
+      {
+        "key": "body_condition",
+        "type": "scale",
+        "section": "exterior",
+        "label": "Hur är karossens skick?",
+        "reveal": "body_detail",
+        "points": 4,
+        "harmonize": "high"
+      },
+      {
+        "key": "body_detail",
+        "type": "long_text",
+        "section": "exterior",
+        "label": "Beskriv karossens brister (bucklor, rost, renoveringar)",
+        "reveal_only": true
+      },
+      {
+        "key": "glass_condition",
+        "type": "scale",
+        "section": "exterior",
+        "label": "Hur är rutornas skick?",
+        "reveal": "glass_detail",
+        "points": 4,
+        "harmonize": "high"
+      },
+      {
+        "key": "glass_detail",
+        "type": "long_text",
+        "section": "exterior",
+        "label": "Beskriv rutornas brister",
+        "reveal_only": true
+      },
+      {
+        "key": "is_original",
+        "type": "boolean",
+        "section": "exterior",
+        "label": "Är fordonet i originalskick?",
+        "reveal": "modifications_detail"
+      },
+      {
+        "key": "modifications_detail",
+        "type": "long_text",
+        "section": "exterior",
+        "label": "Beskriv modifieringarna",
+        "reveal_only": true
+      },
+      {
+        "key": "interior_condition",
+        "type": "scale",
+        "section": "interior",
+        "label": "Hur är interiörens skick?",
+        "reveal": "interior_detail",
+        "points": 4,
+        "harmonize": "high"
+      },
+      {
+        "key": "interior_detail",
+        "type": "long_text",
+        "section": "interior",
+        "label": "Beskriv interiörens brister",
+        "reveal_only": true
+      },
+      {
+        "key": "dashboard_condition",
+        "type": "scale",
+        "section": "interior",
+        "label": "Hur är instrumentpanelens skick?",
+        "reveal": "dashboard_detail",
+        "points": 4,
+        "harmonize": "high"
+      },
+      {
+        "key": "dashboard_detail",
+        "type": "long_text",
+        "section": "interior",
+        "label": "Beskriv instrumentpanelens brister",
+        "reveal_only": true
+      },
+      {
+        "key": "headliner_condition",
+        "type": "scale",
+        "section": "interior",
+        "label": "Hur är innertakets skick?",
+        "reveal": "headliner_detail",
+        "points": 4,
+        "harmonize": "high"
+      },
+      {
+        "key": "headliner_detail",
+        "type": "long_text",
+        "section": "interior",
+        "label": "Beskriv innertakets brister",
+        "reveal_only": true
+      },
+      {
+        "key": "extra_equipment",
+        "type": "long_text",
+        "section": "interior",
+        "label": "Vilken utrustning och vilka tillval finns?"
+      },
+      {
+        "key": "engine_condition",
+        "type": "scale",
+        "section": "mechanics",
+        "label": "Hur är motorns skick?",
+        "reveal": "engine_detail",
+        "points": 4,
+        "harmonize": "high"
+      },
+      {
+        "key": "engine_detail",
+        "type": "long_text",
+        "section": "mechanics",
+        "label": "Beskriv motorns brister",
+        "reveal_only": true
+      },
+      {
+        "key": "transmission_condition",
+        "type": "scale",
+        "section": "mechanics",
+        "label": "Hur är växellådans skick?",
+        "reveal": "transmission_detail",
+        "points": 4,
+        "harmonize": "high"
+      },
+      {
+        "key": "transmission_detail",
+        "type": "long_text",
+        "section": "mechanics",
+        "label": "Beskriv växellådans brister",
+        "reveal_only": true
+      },
+      {
+        "key": "brakes_condition",
+        "type": "scale",
+        "section": "mechanics",
+        "label": "Hur är bromsarnas skick?",
+        "reveal": "brakes_detail",
+        "points": 4,
+        "harmonize": "high"
+      },
+      {
+        "key": "brakes_detail",
+        "type": "long_text",
+        "section": "mechanics",
+        "label": "Beskriv bromsarnas brister",
+        "reveal_only": true
+      },
+      {
+        "key": "tires_condition",
+        "type": "scale",
+        "section": "mechanics",
+        "label": "Hur är däck och fälgars skick?",
+        "reveal": "tires_detail",
+        "points": 4,
+        "harmonize": "high"
+      },
+      {
+        "key": "tires_detail",
+        "type": "long_text",
+        "section": "mechanics",
+        "label": "Beskriv däck och fälgars brister",
+        "reveal_only": true
+      },
+      {
+        "key": "drivable_ok",
+        "type": "ternary",
+        "section": "function_test",
+        "label": "Går fordonet att köra som det står?",
+        "reveal": "drivable_issue"
+      },
+      {
+        "key": "drivable_issue",
+        "type": "text",
+        "section": "function_test",
+        "label": "Beskriv varför det inte går att köra",
+        "reveal_only": true
+      },
+      {
+        "key": "inspection_ok",
+        "type": "ternary",
+        "section": "function_test",
+        "label": "Är fordonet godkänt på besiktning?",
+        "reveal": "inspection_issue"
+      },
+      {
+        "key": "inspection_issue",
+        "type": "text",
+        "section": "function_test",
+        "label": "Beskriv besiktningsanmärkningarna",
+        "reveal_only": true
+      },
+      {
+        "key": "climate_ok",
+        "type": "ternary",
+        "section": "function_test",
+        "label": "Fungerar klimatanläggningen?",
+        "reveal": "climate_issue"
+      },
+      {
+        "key": "climate_issue",
+        "type": "text",
+        "section": "function_test",
+        "label": "Beskriv felet på klimatanläggningen",
+        "reveal_only": true
+      },
+      {
+        "key": "trip_meter_ok",
+        "type": "ternary",
+        "section": "function_test",
+        "label": "Fungerar trippmätaren?",
+        "reveal": "trip_meter_issue"
+      },
+      {
+        "key": "trip_meter_issue",
+        "type": "text",
+        "section": "function_test",
+        "label": "Beskriv felet på trippmätaren",
+        "reveal_only": true
+      },
+      {
+        "key": "media_ok",
+        "type": "ternary",
+        "section": "function_test",
+        "label": "Fungerar ljud- och mediasystemet?",
+        "reveal": "media_issue"
+      },
+      {
+        "key": "media_issue",
+        "type": "text",
+        "section": "function_test",
+        "label": "Beskriv felet på mediasystemet",
+        "reveal_only": true
+      },
+      {
+        "key": "electrics_ok",
+        "type": "ternary",
+        "section": "function_test",
+        "label": "Fungerar all elektronik?",
+        "reveal": "electrics_issue"
+      },
+      {
+        "key": "electrics_issue",
+        "type": "text",
+        "section": "function_test",
+        "label": "Beskriv de elektriska felen",
+        "reveal_only": true
+      },
+      {
+        "key": "warning_lights_ok",
+        "type": "ternary",
+        "section": "function_test",
+        "label": "Är instrumentpanelen fri från varningslampor?",
+        "reveal": "warning_lights_issue"
+      },
+      {
+        "key": "warning_lights_issue",
+        "type": "text",
+        "section": "function_test",
+        "label": "Beskriv varningslamporna",
+        "reveal_only": true
+      },
+      {
+        "key": "seat_belts_ok",
+        "type": "ternary",
+        "section": "function_test",
+        "label": "Fungerar alla bilbälten?",
+        "reveal": "seat_belts_issue"
+      },
+      {
+        "key": "seat_belts_issue",
+        "type": "text",
+        "section": "function_test",
+        "label": "Beskriv felet på bältena",
+        "reveal_only": true
+      },
+      {
+        "key": "lighting_ok",
+        "type": "ternary",
+        "section": "function_test",
+        "label": "Fungerar all yttre belysning?",
+        "reveal": "lighting_issue"
+      },
+      {
+        "key": "lighting_issue",
+        "type": "text",
+        "section": "function_test",
+        "label": "Beskriv felet på belysningen",
+        "reveal_only": true
+      },
+      {
+        "key": "engine_starts_ok",
+        "type": "ternary",
+        "section": "function_test",
+        "label": "Startar och går motorn felfritt?",
+        "reveal": "engine_start_issue"
+      },
+      {
+        "key": "engine_start_issue",
+        "type": "text",
+        "section": "function_test",
+        "label": "Beskriv motorproblemet",
+        "reveal_only": true
+      },
+      {
+        "key": "clutch_ok",
+        "type": "ternary",
+        "section": "function_test",
+        "label": "Fungerar kopplingen?",
+        "reveal": "clutch_issue"
+      },
+      {
+        "key": "clutch_issue",
+        "type": "text",
+        "section": "function_test",
+        "label": "Beskriv felet på kopplingen",
+        "reveal_only": true
+      },
+      {
+        "key": "gearbox_ok",
+        "type": "ternary",
+        "section": "function_test",
+        "label": "Växlar växellådan felfritt?",
+        "reveal": "gearbox_issue"
+      },
+      {
+        "key": "gearbox_issue",
+        "type": "text",
+        "section": "function_test",
+        "label": "Beskriv felet på växlingen",
+        "reveal_only": true
+      },
+      {
+        "key": "is_fully_serviced",
+        "type": "boolean",
+        "section": "history",
+        "label": "Är fordonet fullservat?"
+      },
+      {
+        "key": "service_documented",
+        "type": "boolean",
+        "section": "history",
+        "label": "Finns kvitton och dokumentation som belägger servicehistoriken?"
+      },
+      {
+        "key": "latest_inspection",
+        "type": "text",
+        "section": "history",
+        "label": "När besiktigades fordonet senast?"
+      },
+      {
+        "key": "additional_notes",
+        "type": "long_text",
+        "section": "history",
+        "label": "Är det något mer du vill lyfta fram?"
+      }
+    ],
+    "motorcycle_form": [
+      {
+        "key": "seller_type",
+        "type": "enum",
+        "section": "basics",
+        "label": "Är du privat säljare eller handlare?"
+      },
+      {
+        "key": "odometer",
+        "type": "number",
+        "section": "basics",
+        "label": "Mätarställning i kilometer"
+      },
+      {
+        "key": "odometer_correct",
+        "type": "boolean",
+        "section": "basics",
+        "label": "Kan mätarställningen garanteras?"
+      },
+      {
+        "key": "total_owners",
+        "type": "number",
+        "section": "basics",
+        "label": "Totalt antal ägare"
+      },
+      {
+        "key": "vat",
+        "type": "boolean",
+        "section": "basics",
+        "label": "Finns avdragsgill moms på fordonet?"
+      },
+      {
+        "key": "financing_available",
+        "type": "boolean",
+        "section": "basics",
+        "label": "Finns det lån på fordonet?"
+      },
+      {
+        "key": "swedish_sold",
+        "type": "boolean",
+        "section": "basics",
+        "label": "Är fordonet svensksålt?",
+        "reveal": "sale_country"
+      },
+      {
+        "key": "sale_country",
+        "type": "text",
+        "section": "basics",
+        "label": "Vilket land importerades fordonet från?",
+        "reveal_only": true
+      },
+      {
+        "key": "paint_condition",
+        "type": "scale",
+        "section": "chassis",
+        "label": "Hur är lackens skick?",
+        "reveal": "paint_detail",
+        "points": 4,
+        "harmonize": "high"
+      },
+      {
+        "key": "paint_detail",
+        "type": "long_text",
+        "section": "chassis",
+        "label": "Beskriv lackens brister",
+        "reveal_only": true
+      },
+      {
+        "key": "bodywork_condition",
+        "type": "scale",
+        "section": "chassis",
+        "label": "Hur är kåpornas och plåtens skick?",
+        "reveal": "bodywork_detail",
+        "points": 4,
+        "harmonize": "high"
+      },
+      {
+        "key": "bodywork_detail",
+        "type": "long_text",
+        "section": "chassis",
+        "label": "Beskriv kåpornas och plåtens brister",
+        "reveal_only": true
+      },
+      {
+        "key": "frame_condition",
+        "type": "scale",
+        "section": "chassis",
+        "label": "Hur är ramens skick?",
+        "reveal": "frame_detail",
+        "points": 4,
+        "harmonize": "high"
+      },
+      {
+        "key": "frame_detail",
+        "type": "long_text",
+        "section": "chassis",
+        "label": "Beskriv ramens brister (rost, krockskador)",
+        "reveal_only": true
+      },
+      {
+        "key": "is_original",
+        "type": "boolean",
+        "section": "chassis",
+        "label": "Är fordonet i originalskick?",
+        "reveal": "modifications_detail"
+      },
+      {
+        "key": "modifications_detail",
+        "type": "long_text",
+        "section": "chassis",
+        "label": "Beskriv modifieringarna",
+        "reveal_only": true
+      },
+      {
+        "key": "engine_condition",
+        "type": "scale",
+        "section": "drivetrain",
+        "label": "Hur är motorns skick?",
+        "reveal": "engine_detail",
+        "points": 4,
+        "harmonize": "high"
+      },
+      {
+        "key": "engine_detail",
+        "type": "long_text",
+        "section": "drivetrain",
+        "label": "Beskriv motorns brister",
+        "reveal_only": true
+      },
+      {
+        "key": "transmission_condition",
+        "type": "scale",
+        "section": "drivetrain",
+        "label": "Hur är växellådans skick?",
+        "reveal": "transmission_detail",
+        "points": 4,
+        "harmonize": "high"
+      },
+      {
+        "key": "transmission_detail",
+        "type": "long_text",
+        "section": "drivetrain",
+        "label": "Beskriv växellådans brister",
+        "reveal_only": true
+      },
+      {
+        "key": "final_drive_condition",
+        "type": "scale",
+        "section": "drivetrain",
+        "label": "Hur är slutväxelns skick (kedja/rem/kardan)?",
+        "reveal": "final_drive_detail",
+        "points": 4,
+        "harmonize": "high"
+      },
+      {
+        "key": "final_drive_detail",
+        "type": "long_text",
+        "section": "drivetrain",
+        "label": "Beskriv slutväxelns brister",
+        "reveal_only": true
+      },
+      {
+        "key": "brakes_condition",
+        "type": "scale",
+        "section": "drivetrain",
+        "label": "Hur är bromsarnas skick?",
+        "reveal": "brakes_detail",
+        "points": 4,
+        "harmonize": "high"
+      },
+      {
+        "key": "brakes_detail",
+        "type": "long_text",
+        "section": "drivetrain",
+        "label": "Beskriv bromsarnas brister",
+        "reveal_only": true
+      },
+      {
+        "key": "fork_condition",
+        "type": "scale",
+        "section": "drivetrain",
+        "label": "Hur är fjädring och gaffel i skick?",
+        "reveal": "fork_detail",
+        "points": 4,
+        "harmonize": "high"
+      },
+      {
+        "key": "fork_detail",
+        "type": "long_text",
+        "section": "drivetrain",
+        "label": "Beskriv fjädringens brister",
+        "reveal_only": true
+      },
+      {
+        "key": "tires_condition",
+        "type": "scale",
+        "section": "drivetrain",
+        "label": "Hur är däck och fälgars skick?",
+        "reveal": "tires_detail",
+        "points": 4,
+        "harmonize": "high"
+      },
+      {
+        "key": "tires_detail",
+        "type": "long_text",
+        "section": "drivetrain",
+        "label": "Beskriv däck och fälgars brister",
+        "reveal_only": true
+      },
+      {
+        "key": "drivable_ok",
+        "type": "ternary",
+        "section": "function_test",
+        "label": "Går fordonet att köra som det står?",
+        "reveal": "drivable_issue"
+      },
+      {
+        "key": "drivable_issue",
+        "type": "text",
+        "section": "function_test",
+        "label": "Beskriv varför det inte går att köra",
+        "reveal_only": true
+      },
+      {
+        "key": "inspection_ok",
+        "type": "ternary",
+        "section": "function_test",
+        "label": "Är fordonet godkänt på besiktning?",
+        "reveal": "inspection_issue"
+      },
+      {
+        "key": "inspection_issue",
+        "type": "text",
+        "section": "function_test",
+        "label": "Beskriv besiktningsanmärkningarna",
+        "reveal_only": true
+      },
+      {
+        "key": "electrics_ok",
+        "type": "ternary",
+        "section": "function_test",
+        "label": "Fungerar all elektronik?",
+        "reveal": "electrics_issue"
+      },
+      {
+        "key": "electrics_issue",
+        "type": "text",
+        "section": "function_test",
+        "label": "Beskriv de elektriska felen",
+        "reveal_only": true
+      },
+      {
+        "key": "warning_lights_ok",
+        "type": "ternary",
+        "section": "function_test",
+        "label": "Är instrumentpanelen fri från varningslampor?",
+        "reveal": "warning_lights_issue"
+      },
+      {
+        "key": "warning_lights_issue",
+        "type": "text",
+        "section": "function_test",
+        "label": "Beskriv varningslamporna",
+        "reveal_only": true
+      },
+      {
+        "key": "lighting_ok",
+        "type": "ternary",
+        "section": "function_test",
+        "label": "Fungerar all yttre belysning?",
+        "reveal": "lighting_issue"
+      },
+      {
+        "key": "lighting_issue",
+        "type": "text",
+        "section": "function_test",
+        "label": "Beskriv felet på belysningen",
+        "reveal_only": true
+      },
+      {
+        "key": "engine_starts_ok",
+        "type": "ternary",
+        "section": "function_test",
+        "label": "Startar och går motorn felfritt?",
+        "reveal": "engine_start_issue"
+      },
+      {
+        "key": "engine_start_issue",
+        "type": "text",
+        "section": "function_test",
+        "label": "Beskriv motorproblemet",
+        "reveal_only": true
+      },
+      {
+        "key": "clutch_ok",
+        "type": "ternary",
+        "section": "function_test",
+        "label": "Fungerar kopplingen?",
+        "reveal": "clutch_issue"
+      },
+      {
+        "key": "clutch_issue",
+        "type": "text",
+        "section": "function_test",
+        "label": "Beskriv felet på kopplingen",
+        "reveal_only": true
+      },
+      {
+        "key": "gearbox_ok",
+        "type": "ternary",
+        "section": "function_test",
+        "label": "Växlar växellådan felfritt?",
+        "reveal": "gearbox_issue"
+      },
+      {
+        "key": "gearbox_issue",
+        "type": "text",
+        "section": "function_test",
+        "label": "Beskriv felet på växlingen",
+        "reveal_only": true
+      },
+      {
+        "key": "is_fully_serviced",
+        "type": "boolean",
+        "section": "history",
+        "label": "Är fordonet fullservat?"
+      },
+      {
+        "key": "service_documented",
+        "type": "boolean",
+        "section": "history",
+        "label": "Finns kvitton och dokumentation som belägger servicehistoriken?"
+      },
+      {
+        "key": "latest_inspection",
+        "type": "text",
+        "section": "history",
+        "label": "När besiktigades fordonet senast?"
+      },
+      {
+        "key": "additional_notes",
+        "type": "long_text",
+        "section": "history",
+        "label": "Är det något mer du vill lyfta fram?"
+      }
+    ]
+  }
+}

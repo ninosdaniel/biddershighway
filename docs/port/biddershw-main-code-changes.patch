@@ -1,0 +1,172 @@
+diff --git a/docs/port/PARITY.md b/docs/port/PARITY.md
+index 5875639..71970c7 100644
+--- a/docs/port/PARITY.md
++++ b/docs/port/PARITY.md
+@@ -1,5 +1,7 @@
+ # Port coverage
+ 
++**Latest main-to-main review:** see [MAIN-COMPARISON.md](MAIN-COMPARISON.md), pinned to old `0bae38c` and new `303d057`. The table below documents the earlier baseline; it must not be read as current full parity. The latest audit found substantive missing workflows and a seller-fee minimum regression, which has an additive local fix.
++
+ Reference: `biddershighway/highway` commit `ecc5a60c40f690733b107030eb7fa9ea0821e047`. The complete source inventory and original routes are in this directory. No database records were available; sample listings must never be imported as production inventory.
+ 
+ | Area | Implemented in this checkout | Still needed for full Rails parity |
+diff --git a/scripts/compare-highway.mjs b/scripts/compare-highway.mjs
+new file mode 100644
+index 0000000..408776c
+--- /dev/null
++++ b/scripts/compare-highway.mjs
+@@ -0,0 +1,60 @@
++import { execFileSync } from "node:child_process";
++import { createHash } from "node:crypto";
++import { readFileSync, writeFileSync } from "node:fs";
++import path from "node:path";
++
++const source = process.argv[2];
++if (!source) throw new Error("Usage: node scripts/compare-highway.mjs /path/to/fresh/highway-clone");
++const sourceCommit = "0bae38c04fb0e6c9510d7bba659c151f456c095d";
++const targetCommit = "303d0572e3357e69171cda5b6e280d93e7712c7b";
++const git = (cwd, ...args) => execFileSync("git", ["-C", cwd, ...args], { encoding: "utf8", maxBuffer: 20_000_000 }).trimEnd();
++const identity = (url) => url.replace(/^git@github.com:/, "https://github.com/").replace(/\.git$/, "").toLowerCase();
++if (identity(git(source, "remote", "get-url", "origin")) !== "https://github.com/biddershighway/highway" || git(source, "rev-parse", "HEAD") !== sourceCommit) throw new Error("Wrong source repository or commit; review and repin the comparison first.");
++if (identity(git(process.cwd(), "remote", "get-url", "origin")) !== "https://github.com/biddershw/biddershighway" || git(process.cwd(), "rev-parse", "HEAD") !== targetCommit) throw new Error("Wrong target repository or commit; review and repin the comparison first.");
++
++const folders = ["app/controllers", "app/jobs", "app/models", "app/policies", "app/services", "app/mailers", "app/views", "app/pdfs", "app/javascript", "config", "lib/tasks"];
++const tree = git(source, "ls-tree", "-r", "HEAD").split("\n").map(line => {
++  const [entry, filename] = line.split("\t");
++  return { filename, blob: entry.split(" ")[2] };
++});
++const units = tree.filter(({ filename }) => folders.some(folder => filename.startsWith(`${folder}/`)) && /\.(rb|js|yml|yaml|rake|cr)$/.test(filename)).map(({ filename, blob }) => {
++  const bytes = readFileSync(path.join(source, filename));
++  const actualBlob = createHash("sha1").update(`blob ${bytes.length}\0`).update(bytes).digest("hex");
++  if (actualBlob !== blob) throw new Error(`Source working file differs from pinned GitHub commit: ${filename}`);
++  const content = bytes.toString("utf8");
++  return {
++    path: filename, git_blob: blob, sha256: createHash("sha256").update(bytes).digest("hex"),
++    methods: [...content.matchAll(/^[ \t]*def[ \t]+([^\s(;]+)/gm)].map(match => ({ name: match[1], line: content.slice(0, match.index).split("\n").length })),
++    github_url: `https://github.com/biddershighway/highway/blob/${sourceCommit}/${filename}`,
++    status: "not_verified",
++  };
++});
++const inventory = {
++  source: { repository: "biddershighway/highway", branch: "main", commit: sourceCommit },
++  target: { repository: "BiddersHW/biddershighway", branch: "main", commit: targetCommit },
++  date: "2026-10-15",
++  counts: Object.fromEntries(folders.map(folder => [folder, units.filter(unit => unit.path.startsWith(`${folder}/`)).length])),
++  method_count: units.reduce((count, unit) => count + unit.methods.length, 0),
++  notes: [
++    "Tracked source files verified against Git blobs from the pinned GitHub commit. Method extraction is lexical, not runtime Rails route expansion; inherited actions, callbacks and templates need behavior review.",
++    "not_verified is not an implementation claim. See workflow-coverage.json for the reviewed controller/job mapping and MAIN-COMPARISON.md for confirmed gaps.",
++  ],
++  units,
++};
++writeFileSync("docs/port/main-comparison-inventory.json", JSON.stringify(inventory, null, 2) + "\n");
++const oldSchema = JSON.parse(git(process.cwd(), "show", `${targetCommit}:src/lib/port/rails-schema.json`));
++const currentSchema = JSON.parse(execFileSync("ruby", ["scripts/read-rails-schema.rb", path.join(source, "db/schema.rb")], { encoding: "utf8", maxBuffer: 10_000_000 }));
++const oldTables = new Map(oldSchema.tables.map(table => [table.name, table]));
++const changes = currentSchema.tables.flatMap(table => {
++  const original = oldTables.get(table.name);
++  if (!original) return [{ kind: "new_table", table: table.name, definition: table }];
++  const oldCols = new Map(original.columns.map(col => [col.name, col]));
++  const newCols = new Map(table.columns.map(col => [col.name, col]));
++  return [
++    ...table.columns.filter(col => !oldCols.has(col.name)).map(col => ({ kind: "add_column", table: table.name, column: col })),
++    ...table.columns.filter(col => oldCols.has(col.name) && JSON.stringify(col) !== JSON.stringify(oldCols.get(col.name))).map(col => ({ kind: "change_column", table: table.name, before: oldCols.get(col.name), after: col })),
++    ...original.columns.filter(col => !newCols.has(col.name)).map(col => ({ kind: "legacy_column_removed_in_source", table: table.name, column: col })),
++  ];
++});
++writeFileSync("docs/port/schema-diff.json", JSON.stringify({ source: inventory.source, target: inventory.target, source_tables: currentSchema.tables.length, target_tables: oldSchema.tables.length, changes, note: "Structural comparison, not a migration. Retained legacy columns need an explicit data/compatibility migration; do not drop populated columns mechanically." }, null, 2) + "\n");
++console.log(`Verified ${units.length} tracked source files, ${inventory.method_count} declared Ruby methods and ${changes.length} table/column differences.`);
+diff --git a/scripts/test-database.mjs b/scripts/test-database.mjs
+index ee4e7a2..bda8d58 100644
+--- a/scripts/test-database.mjs
++++ b/scripts/test-database.mjs
+@@ -150,6 +150,16 @@ try {
+     assert.equal(jobs.length,2);
+     await db.query("SELECT public.finish_outbox($1,'blocked','Provider not configured')",[jobs[0].id]);
+   });
++  // Source SoldStateTest: floor nonzero seller fees, preserve a waived fee, and
++  // keep larger percentage fees. Exercise the actual Supabase purchase command.
++  for (const [amount, rate, expected] of [[5000000, 2.5, 200000], [8000000, 2.5, 200000], [12000000, 2.5, 240000], [5000000, 0, 0], [30000000, 10, 2400000]]) {
++    const id = (await db.query("INSERT INTO public.auctions(lot_id,seller_id,slug,published_status,lifecycle_status,reserve_price_cents,commission_seller_percent) VALUES($1,$2,$3,1,6,$4,$5) RETURNING id", [lot, seller, `seller-fee-${amount}-${rate}`, amount, rate])).rows[0].id;
++    await as("authenticated", authA, () => db.query("SELECT public.auction_command('purchase',$1)", [id]));
++    const settled = (await db.query("SELECT commission_seller_cents,commission_seller_vat,paid FROM public.auctions WHERE id=$1", [id])).rows[0];
++    assert.equal(settled.commission_seller_cents, expected);
++    assert.equal(Number(settled.commission_seller_vat), 1.25);
++    assert.equal(settled.paid, false);
++  }
+   await db.query("UPDATE app_private.settings SET writes_enabled=false");
+   await as("authenticated",authA,()=>rejects("SELECT public.save_search('Volvo')",[],/migration_on_hold/));
+   console.log("PASS: SQL compilation, bid resolution, privacy, account ownership, role escalation, Storage RLS and write gates.");
+diff --git a/src/lib/domain/auctions.ts b/src/lib/domain/auctions.ts
+index 8c4c784..e00a6e8 100644
+--- a/src/lib/domain/auctions.ts
++++ b/src/lib/domain/auctions.ts
+@@ -20,13 +20,14 @@ export function soldState(input: {
+   const cappedShortfall = input.shortfallEnabled ? Math.min(Math.round(reserve * buyerRate), 7_500_000) : 0;
+   const limit = reserve - Math.min(cappedShortfall, commission);
+   const adjustedReserve = reserve - cappedShortfall;
++  const sellerRate = (input.sellerPercent ?? 2.5) * 0.8 / 100;
+   return {
+     sold: bid >= limit,
+     close: bid >= adjustedReserve * (adjustedReserve <= 15_000_000 ? 0.75 : 0.85),
+     veryClose: bid + 500_000 >= limit,
+     shortfall: Math.max(reserve - bid, 0),
+     commission,
+-    sellerCommission: Math.round(bid * (input.sellerPercent ?? 2.5) * 0.8 / 100),
++    sellerCommission: sellerRate === 0 ? 0 : Math.max(Math.round(bid * sellerRate), 200_000),
+   };
+ }
+ 
+diff --git a/supabase/migrations/20261015000100_seller_commission_minimum.sql b/supabase/migrations/20261015000100_seller_commission_minimum.sql
+new file mode 100644
+index 0000000..fdbdd3d
+--- /dev/null
++++ b/supabase/migrations/20261015000100_seller_commission_minimum.sql
+@@ -0,0 +1,20 @@
++-- Source: biddershighway/highway main @ 0bae38c, app/services/sold_state.rb.
++-- Apply prospectively; do not recalculate historical sales or invoices.
++BEGIN;
++CREATE OR REPLACE FUNCTION app_private.settle_sale(p_auction_id uuid,p_buyer_id uuid,p_amount integer,p_sale_type text) RETURNS void LANGUAGE plpgsql SECURITY DEFINER SET search_path = '' AS $$
++DECLARE a public.auctions; buyer_vat numeric; seller_vat numeric;
++BEGIN
++ SELECT * INTO STRICT a FROM public.auctions WHERE id=p_auction_id FOR UPDATE;
++ IF a.lifecycle_status IN (9,10) THEN RAISE EXCEPTION 'already_concluded'; END IF;
++ IF p_amount IS NULL OR p_amount<=0 OR p_buyer_id IS NULL OR p_buyer_id=a.seller_id THEN RAISE EXCEPTION 'invalid_sale'; END IF;
++ SELECT CASE WHEN customer_type=2 THEN 1 ELSE 1.25 END INTO buyer_vat FROM public.users WHERE id=p_buyer_id;
++ SELECT CASE WHEN customer_type=2 THEN 1 ELSE 1.25 END INTO seller_vat FROM public.users WHERE id=a.seller_id;
++ UPDATE public.auctions SET buyer_id=p_buyer_id,sale_price_cents=p_amount,sale_price_currency='SEK',lifecycle_status=9,sale_type=p_sale_type,
++   commission_cents=least(greatest(round(p_amount*a.commission_buyer_percent::numeric*0.8/100),400000),6000000),commission_currency='SEK',commission_vat=coalesce(buyer_vat,1.25),
++   commission_seller_cents=CASE WHEN a.commission_seller_percent=0 THEN 0 ELSE greatest(round(p_amount*a.commission_seller_percent::numeric*0.8/100),200000) END,commission_seller_currency='SEK',commission_seller_vat=coalesce(seller_vat,1.25),
++   reserve_shortfall_cents=greatest(coalesce(a.reserve_price_cents,0)-p_amount,0),updated_at=now() WHERE id=a.id;
++ PERFORM app_private.emit('auction.sold',a.id,jsonb_build_object('buyer_id',p_buyer_id),'sold:'||a.id::text||':'||a.sequence_number::text);
++ -- Invoice creation, bookkeeping and communication are separate idempotent jobs.
++ -- paid stays false until a provider-confirmed settlement is recorded.
++END $$;
++COMMIT;
+diff --git a/tests/auction-rules.test.ts b/tests/auction-rules.test.ts
+index 7163e57..8601ece 100644
+--- a/tests/auction-rules.test.ts
++++ b/tests/auction-rules.test.ts
+@@ -40,6 +40,9 @@ describe("Rails auction rules", () => {
+ });
+ 
+ describe("Rails SoldState parity", () => {
++  it.each([[5_000_000, 2.5, 200_000], [8_000_000, 2.5, 200_000], [12_000_000, 2.5, 240_000], [5_000_000, 0, 0], [30_000_000, 10, 2_400_000]])("preserves the source seller fee for %s cents at %s percent", (bid, sellerPercent, expected) => {
++    expect(soldState({ reserve: bid, bid, sellerPercent }).sellerCommission).toBe(expected);
++  });
+   it.each([[10000000, 9500000, true], [20000000, 18900000, true], [200000000, 194000000, true], [200000000, 193900000, false], [20000000, 18800000, false]])("reserve %s / bid %s", (reserve, bidAmount, expected) => { expect(soldState({ reserve, bid: bidAmount, shortfallEnabled: true }).sold).toBe(expected); });
+   it("does not enable reserve shortfall by default", () => { expect(soldState({ reserve: 10000000, bid: 9500000 }).sold).toBe(false); });
+   it.each([[9500000, 570000], [20000000, 1200000], [116000000, 6000000], [4750000, 400000]])("commission on %s", (amount, expected) => { expect(soldState({ reserve: 10000000, bid: amount }).commission).toBe(expected); });
+diff --git a/tests/schema-draft.test.ts b/tests/schema-draft.test.ts
+index 10d637c..f23b420 100644
+--- a/tests/schema-draft.test.ts
++++ b/tests/schema-draft.test.ts
+@@ -3,7 +3,7 @@ import { readFileSync, readdirSync } from "node:fs";
+ import schema from "../src/lib/port/rails-schema.json";
+ 
+ it("keeps the nine authorized schema migrations in dependency order", () => {
+-  const migrations = readdirSync("supabase/migrations").filter(file => file.endsWith(".sql")).sort();
++  const migrations = readdirSync("supabase/migrations").filter(file => /^20260922.*\.sql$/.test(file)).sort();
+   expect(migrations).toHaveLength(9);
+   expect(migrations[0]).toBe("20260922000001_rails_schema.sql");
+   expect(migrations[8]).toBe("20260922000009_photography.sql");

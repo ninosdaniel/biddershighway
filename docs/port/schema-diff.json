@@ -1,0 +1,469 @@
+{
+  "source": {
+    "repository": "biddershighway/highway",
+    "branch": "main",
+    "commit": "0bae38c04fb0e6c9510d7bba659c151f456c095d"
+  },
+  "target": {
+    "repository": "BiddersHW/biddershighway",
+    "branch": "main",
+    "commit": "303d0572e3357e69171cda5b6e280d93e7712c7b"
+  },
+  "source_tables": 59,
+  "target_tables": 57,
+  "changes": [
+    {
+      "kind": "add_column",
+      "table": "blog_posts",
+      "column": {
+        "name": "name_sv",
+        "type": "string",
+        "options": {}
+      }
+    },
+    {
+      "kind": "add_column",
+      "table": "blog_posts",
+      "column": {
+        "name": "excerpt_sv",
+        "type": "text",
+        "options": {}
+      }
+    },
+    {
+      "kind": "add_column",
+      "table": "blog_posts",
+      "column": {
+        "name": "body_sv",
+        "type": "text",
+        "options": {}
+      }
+    },
+    {
+      "kind": "add_column",
+      "table": "blog_posts",
+      "column": {
+        "name": "slug_sv",
+        "type": "string",
+        "options": {}
+      }
+    },
+    {
+      "kind": "add_column",
+      "table": "blog_posts",
+      "column": {
+        "name": "name_en",
+        "type": "string",
+        "options": {}
+      }
+    },
+    {
+      "kind": "add_column",
+      "table": "blog_posts",
+      "column": {
+        "name": "excerpt_en",
+        "type": "text",
+        "options": {}
+      }
+    },
+    {
+      "kind": "add_column",
+      "table": "blog_posts",
+      "column": {
+        "name": "body_en",
+        "type": "text",
+        "options": {}
+      }
+    },
+    {
+      "kind": "add_column",
+      "table": "blog_posts",
+      "column": {
+        "name": "slug_en",
+        "type": "string",
+        "options": {}
+      }
+    },
+    {
+      "kind": "add_column",
+      "table": "blog_posts",
+      "column": {
+        "name": "name_de",
+        "type": "string",
+        "options": {}
+      }
+    },
+    {
+      "kind": "add_column",
+      "table": "blog_posts",
+      "column": {
+        "name": "excerpt_de",
+        "type": "text",
+        "options": {}
+      }
+    },
+    {
+      "kind": "add_column",
+      "table": "blog_posts",
+      "column": {
+        "name": "body_de",
+        "type": "text",
+        "options": {}
+      }
+    },
+    {
+      "kind": "add_column",
+      "table": "blog_posts",
+      "column": {
+        "name": "slug_de",
+        "type": "string",
+        "options": {}
+      }
+    },
+    {
+      "kind": "legacy_column_removed_in_source",
+      "table": "blog_posts",
+      "column": {
+        "name": "body",
+        "type": "text",
+        "options": {}
+      }
+    },
+    {
+      "kind": "legacy_column_removed_in_source",
+      "table": "blog_posts",
+      "column": {
+        "name": "excerpt",
+        "type": "text",
+        "options": {
+          "null": false
+        }
+      }
+    },
+    {
+      "kind": "legacy_column_removed_in_source",
+      "table": "blog_posts",
+      "column": {
+        "name": "locale",
+        "type": "string",
+        "options": {
+          "default": "sv",
+          "null": false
+        }
+      }
+    },
+    {
+      "kind": "legacy_column_removed_in_source",
+      "table": "blog_posts",
+      "column": {
+        "name": "name",
+        "type": "string",
+        "options": {
+          "null": false
+        }
+      }
+    },
+    {
+      "kind": "legacy_column_removed_in_source",
+      "table": "blog_posts",
+      "column": {
+        "name": "slug",
+        "type": "string",
+        "options": {
+          "null": false
+        }
+      }
+    },
+    {
+      "kind": "new_table",
+      "table": "brands",
+      "definition": {
+        "name": "brands",
+        "options": {
+          "id": "uuid",
+          "default": "gen_random_uuid()"
+        },
+        "columns": [
+          {
+            "name": "aliases",
+            "type": "string",
+            "options": {
+              "default": [],
+              "null": false,
+              "array": true
+            }
+          },
+          {
+            "name": "created_at",
+            "type": "datetime",
+            "options": {
+              "null": false
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "options": {
+              "null": false
+            }
+          },
+          {
+            "name": "slug",
+            "type": "string",
+            "options": {
+              "null": false
+            }
+          },
+          {
+            "name": "summary_de",
+            "type": "text",
+            "options": {}
+          },
+          {
+            "name": "summary_en",
+            "type": "text",
+            "options": {}
+          },
+          {
+            "name": "summary_sv",
+            "type": "text",
+            "options": {}
+          },
+          {
+            "name": "updated_at",
+            "type": "datetime",
+            "options": {
+              "null": false
+            }
+          },
+          {
+            "name": "vehicle_type",
+            "type": "integer",
+            "options": {
+              "default": 0,
+              "null": false
+            }
+          }
+        ],
+        "indexes": [
+          {
+            "columns": [
+              "vehicle_type",
+              "slug"
+            ],
+            "options": {
+              "name": "index_brands_on_vehicle_type_and_slug",
+              "unique": true
+            }
+          }
+        ],
+        "checks": []
+      }
+    },
+    {
+      "kind": "add_column",
+      "table": "fortnox_invoices",
+      "column": {
+        "name": "paid_at",
+        "type": "datetime",
+        "options": {}
+      }
+    },
+    {
+      "kind": "add_column",
+      "table": "leads",
+      "column": {
+        "name": "setup_fee_cents",
+        "type": "integer",
+        "options": {}
+      }
+    },
+    {
+      "kind": "add_column",
+      "table": "leads",
+      "column": {
+        "name": "setup_fee_currency",
+        "type": "string",
+        "options": {}
+      }
+    },
+    {
+      "kind": "add_column",
+      "table": "lots",
+      "column": {
+        "name": "photos_reviewed",
+        "type": "boolean",
+        "options": {
+          "default": false,
+          "null": false
+        }
+      }
+    },
+    {
+      "kind": "add_column",
+      "table": "photo_ops",
+      "column": {
+        "name": "kind",
+        "type": "integer",
+        "options": {
+          "default": 0,
+          "null": false
+        }
+      }
+    },
+    {
+      "kind": "change_column",
+      "table": "photo_ops",
+      "before": {
+        "name": "photographer_id",
+        "type": "uuid",
+        "options": {
+          "null": false
+        }
+      },
+      "after": {
+        "name": "photographer_id",
+        "type": "uuid",
+        "options": {}
+      }
+    },
+    {
+      "kind": "add_column",
+      "table": "saved_searches",
+      "column": {
+        "name": "locale",
+        "type": "string",
+        "options": {
+          "default": "sv",
+          "null": false
+        }
+      }
+    },
+    {
+      "kind": "add_column",
+      "table": "themes",
+      "column": {
+        "name": "blog_post_id",
+        "type": "uuid",
+        "options": {
+          "null": false
+        }
+      }
+    },
+    {
+      "kind": "legacy_column_removed_in_source",
+      "table": "themes",
+      "column": {
+        "name": "blog_post_en_id",
+        "type": "uuid",
+        "options": {}
+      }
+    },
+    {
+      "kind": "legacy_column_removed_in_source",
+      "table": "themes",
+      "column": {
+        "name": "blog_post_sv_id",
+        "type": "uuid",
+        "options": {
+          "null": false
+        }
+      }
+    },
+    {
+      "kind": "add_column",
+      "table": "users",
+      "column": {
+        "name": "company_billing_email",
+        "type": "string",
+        "options": {}
+      }
+    },
+    {
+      "kind": "new_table",
+      "table": "vehicle_models",
+      "definition": {
+        "name": "vehicle_models",
+        "options": {
+          "id": "uuid",
+          "default": "gen_random_uuid()"
+        },
+        "columns": [
+          {
+            "name": "brand_id",
+            "type": "uuid",
+            "options": {
+              "null": false
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "options": {
+              "null": false
+            }
+          },
+          {
+            "name": "slug",
+            "type": "string",
+            "options": {
+              "null": false
+            }
+          },
+          {
+            "name": "aliases",
+            "type": "string",
+            "options": {
+              "default": [],
+              "null": false,
+              "array": true
+            }
+          },
+          {
+            "name": "summary_sv",
+            "type": "text",
+            "options": {}
+          },
+          {
+            "name": "summary_en",
+            "type": "text",
+            "options": {}
+          },
+          {
+            "name": "summary_de",
+            "type": "text",
+            "options": {}
+          },
+          {
+            "name": "created_at",
+            "type": "datetime",
+            "options": {
+              "null": false
+            }
+          },
+          {
+            "name": "updated_at",
+            "type": "datetime",
+            "options": {
+              "null": false
+            }
+          }
+        ],
+        "indexes": [
+          {
+            "columns": [
+              "brand_id",
+              "slug"
+            ],
+            "options": {
+              "name": "index_vehicle_models_on_brand_id_and_slug",
+              "unique": true
+            }
+          }
+        ],
+        "checks": []
+      }
+    }
+  ],
+  "note": "Structural comparison, not a migration. Retained legacy columns need an explicit data/compatibility migration; do not drop populated columns mechanically."
+}

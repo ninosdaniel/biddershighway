@@ -10,6 +10,8 @@ import { Countdown } from "./Countdown";
 const copy = {
   sv: {
     bid: "Lägg bud",
+    purchase: "Köp nu",
+    after_sale: "Köp efter auktion",
     offer: "Lägg förhandsbud",
     save: "Bevaka",
     price: "Högsta bud",
@@ -50,6 +52,8 @@ const copy = {
   },
   en: {
     bid: "Place a bid",
+    purchase: "Buy now",
+    after_sale: "Buy after auction",
     offer: "Place an offer",
     save: "Watch",
     price: "Highest bid",
@@ -90,6 +94,8 @@ const copy = {
   },
   de: {
     bid: "Gebot abgeben",
+    purchase: "Jetzt kaufen",
+    after_sale: "Nach der Auktion kaufen",
     offer: "Angebot abgeben",
     save: "Beobachten",
     price: "Höchstgebot",
@@ -395,6 +401,11 @@ export function AuctionDetail({
                   </p>
                 )}
                 <div className="site-bid-actions">
+                  {!classified && ["purchase", "after_sale"].includes(auction.purchase_kind) && (
+                    <Link className="site-button" href={`/${locale}/auctions/${encodeURIComponent(auction.slug)}/${auction.purchase_kind === "purchase" ? "purchases" : "after_sales"}/new`}>
+                      {w[auction.purchase_kind]}
+                    </Link>
+                  )}
                   {!classified && (
                     <Link
                       className="site-watch-button"

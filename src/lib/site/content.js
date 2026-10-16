@@ -235,7 +235,7 @@ export const getPublicPage = cache(async (key) => {
   const requested = new URL(key, REFERENCE_ORIGIN);
   if (publicPageKey(requested.pathname, requested.searchParams) !== key)
     return null;
-  // The copied content is for editorial/informational pages only. Business
+  // The copied content is for remaining informational pages only. Business
   // records must come from our database, even when it is empty or unavailable.
   // Never replace missing records with snapshots or original-site responses.
   if (!isStaticContentPath(requested.pathname)) return null;

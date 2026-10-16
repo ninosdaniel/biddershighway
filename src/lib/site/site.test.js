@@ -9,7 +9,22 @@ import {
   localHref,
   publicPageKey,
   routeSegment,
+  purchaseRoute,
+  isAccountPath,
 } from "./paths.js";
+
+test("original purchase and after-sale URLs resolve to private checkout screens", () => {
+  for (const locale of ["en", "sv", "de"]) {
+    for (const suffix of ["purchases", "purchases/new", "after_sales", "after_sales/new"]) {
+      const path = `/${locale}/auctions/porsche-%C3%A5/${suffix}`;
+      assert.deepEqual(purchaseRoute(path), { slug: "porsche-å", kind: suffix.startsWith("purchases") ? "purchase" : "after_sale" });
+      assert.equal(isAccountPath(path), true);
+      assert.equal(publicPageKey(path), null);
+    }
+    assert.deepEqual(purchaseRoute(`/${locale}/after_sales/test-car`), { slug: "test-car", kind: "after_sale" });
+  }
+  for (const path of ["/en/auctions/a%2Fb/purchases", "/en/auctions/%2e%2e/purchases", "/en/auctions/%zz/purchases", "/en/auctions/x/purchases/new/other", "/en/after_sales/x?token=secret", "/fr/after_sales/car"]) assert.equal(purchaseRoute(path), null);
+});
 
 test("public content cannot request administrative, private, or arbitrary paths", () => {
   for (const url of [
@@ -99,7 +114,7 @@ test("metadata and locale links come from the correct page", () => {
   assert.equal(page.mainHtml, "<h1>FAQ</h1>");
 });
 
-test("punctuated article slugs load their local imports without the original site", async (t) => {
+test("published editorial routes never resurrect local snapshots", async (t) => {
   t.mock.method(globalThis, "fetch", () => {
     throw new Error("Editorial content must load locally");
   });
@@ -111,8 +126,7 @@ test("punctuated article slugs load their local imports without the original sit
     for (const param of [slug, encodeURIComponent(slug)]) {
       const key = publicPageKey(`/sv/posts/${routeSegment(param)}`);
       const page = await getPublicPage(key);
-      assert.equal(page?.source, "import", key);
-      assert.ok(page.mainHtml, key);
+      assert.equal(page, null, key);
     }
   }
 });

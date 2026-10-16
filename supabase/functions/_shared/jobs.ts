@@ -4,7 +4,7 @@ import { fortnox, invoicePaid } from "./fortnox.ts";
 import { reconcileSwish } from "./swish.ts";
 import { ensureCustomer } from "./billing.ts";
 import { performAi } from "./ai.ts";
-import { savedSearchMatches } from "./vehicle-match.ts";
+import { parseVehicle, savedSearchMatches } from "./vehicle-match.ts";
 
 export type Job = {
   id: string;
@@ -273,6 +273,14 @@ export async function perform(db: Database, job: Job) {
           .join("\n"),
       }),
     });
+  } else if (job.kind === "report_sale") {
+    const source = await rpc(db, "website_sale_report_source", { p_auction: job.payload.auction_id });
+    if (source) {
+      const parsed = parseVehicle(source.name);
+      await rpc(db, "website_record_sale_report", {
+        p_auction: job.payload.auction_id, p_make: parsed.make, p_tokens: parsed.tokens.join(" "),
+      });
+    }
   } else if (job.kind === "settlement") {
     const payments = await rpc(db, "website_job_data", {
       p_kind: "settlement",

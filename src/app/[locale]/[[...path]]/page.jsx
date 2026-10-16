@@ -1,4 +1,4 @@
-import { notFound, redirect } from "next/navigation";
+import { notFound, redirect, permanentRedirect } from "next/navigation";
 import Link from "next/link";
 import { SiteHeader } from "../../../components/site/SiteHeader";
 import { SiteFooter } from "../../../components/site/SiteFooter";
@@ -10,12 +10,16 @@ import {
   isAccountPath,
   localHref,
   routeSegment,
+  purchaseRoute,
 } from "../../../lib/site/paths";
 import { AccountPage } from "../../../components/site/AccountPage";
 import { ConversationsPage, CustomerActivity } from "../../../components/site/CustomerWorkflows";
 import { StaffWorkspace } from "../../../components/site/StaffWorkspace";
 import { ClassifiedManager } from "../../../components/site/ClassifiedManager";
 import { TransactionPage } from "../../../components/site/TransactionPage";
+import { PurchaseCheckout } from "../../../components/site/PurchaseCheckout";
+import { EditorialPage } from "../../../components/site/EditorialPage";
+import { editorialRoute, editorialAlternates, editorialMetadata } from "../../../lib/site/editorial";
 import { ListingsPage } from "../../../components/site/ListingsPage";
 import { AuctionDetail } from "../../../components/site/AuctionDetail";
 import { AuctionGallery } from "../../../components/site/AuctionGallery";
@@ -29,6 +33,7 @@ import {
   featuredAuction,
   publicClassified,
   publicBrands,
+  publicEditorial,
 } from "../../../lib/site/database";
 import homeSv from "../../../content/home/sv.json";
 import homeEn from "../../../content/home/en.json";
@@ -44,9 +49,11 @@ async function resolve(params, searchParams) {
 }
 
 export async function generateMetadata({ params, searchParams }) {
-  const { key, pathname, locale } = await resolve(params, searchParams);
-  if (/\/(account|admin)(\/|$)/.test(pathname || "")) return { title: "Bidders Highway", robots: { index: false, follow: false } };
+  const { key, pathname, locale, search } = await resolve(params, searchParams);
+  if (purchaseRoute(pathname) || /\/(account|admin)(\/|$)/.test(pathname || "")) return { title: "Bidders Highway", robots: { index: false, follow: false } };
   if (!key) return { title: "Bidders Highway" };
+  const editorial = editorialRoute(pathname, search);
+  if (editorial) return editorialMetadata(await publicEditorial(editorial.resource, locale, editorial.slug, editorial.page, editorial.tag), locale);
   const vehicle = pathname.match(
     /^\/(en|sv|de)\/(auctions|classifieds)\/([^/]+)(?:\/albums.*)?$/,
   );
@@ -110,6 +117,16 @@ export default async function PublicPage({ params, searchParams }) {
   if (!locale) notFound();
   if (localHref(pathname, locale) !== pathname)
     redirect(localHref(pathname, locale));
+  const editorial = editorialRoute(pathname, search);
+  if (editorial) {
+    const data = await publicEditorial(editorial.resource, locale, editorial.slug, editorial.page, editorial.tag);
+    if (!data || (data.page > 1 && !data.items.length)) notFound();
+    const alternates = editorialAlternates(data);
+    if (data.kind === "post" && pathname !== alternates[locale]) permanentRedirect(alternates[locale]);
+    return <><SiteHeader locale={locale} alternates={alternates} /><main id="main-content"><EditorialPage data={data} locale={locale} /></main><SiteFooter locale={locale} /></>;
+  }
+  const checkout = purchaseRoute(pathname);
+  if (checkout) return <><SiteHeader locale={locale} /><main id="main-content"><PurchaseCheckout key={`${locale}:${checkout.kind}:${checkout.slug}`} locale={locale} {...checkout} /></main><SiteFooter locale={locale} /></>;
   if (pathname === `/${locale}/admin`) return <><SiteHeader locale={locale} /><main id="main-content"><StaffWorkspace locale={locale} /></main><SiteFooter locale={locale} /></>;
   const manageClassified = pathname.match(/^\/(?:en|sv|de)\/(account|admin)\/classifieds(?:\/([^/]+)(?:\/edit)?)?$/);
   if (manageClassified) return <><SiteHeader locale={locale} /><main id="main-content"><ClassifiedManager locale={locale} staff={manageClassified[1] === "admin"} slug={manageClassified[2]} /></main><SiteFooter locale={locale} /></>;

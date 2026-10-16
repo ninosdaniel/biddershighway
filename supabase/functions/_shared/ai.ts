@@ -3,6 +3,7 @@ import prompts from "./ai-prompts.json" with { type: "json" };
 import { Database, env, rpc } from "./http.ts";
 import { Comparison, parseVehicle, rankComparisons } from "./vehicle-match.ts";
 import type { Job } from "./jobs.ts";
+import { formatQuestionnaire } from "./questionnaire.ts";
 
 export const categories = ["4x4","A-traktor","Cabbar","Coupé","Engelskt","Franskt","Halvkombi","Hot hatches","Hot rod","Italienskt","JDM/Japanskt","Kit car","Kombi","Lyxbil","MC","Modern Classics","Modifierat","Muskelbilar","Pickup","Race","Sedan","Sportbilar","SUV","Svenskt","Tyskt","USA-bilar","Veteran","Övrigt"];
 type Value = Record<string, unknown>;
@@ -110,8 +111,8 @@ export async function performAi(db:Database,job:Job) {
   const context={...source,lot:source.name,categories, count:inventory.length,years:years.length?`${years[0]}–${years.at(-1)}`:"okänt",models:inventory.slice(0,12).map((v:Value)=>v.name).join(", "),variants:inventory.slice(0,12).map((v:Value)=>v.name).join(", ")};
   const template=run.kind === "page_translate"?"Translate this Swedish informational page into English and German. Preserve its meaning and HTML structure. {{body_sv}}":prompts[run.kind as keyof typeof prompts];
   if(!template) throw new Error("unsupported_ai_task");
-  let prompt=fill(template,context);
-  if(run.kind === "lot_text") prompt+="\n"+JSON.stringify(source.questionnaire?.answers)+"\nReturn the HTML in the body_sv JSON field.";
+  let prompt=fill(template,run.kind === "lot_text" ? {...context,name:source.questionnaire?.vehicle_name || source.name} : context);
+  if(run.kind === "lot_text") prompt+="\n"+formatQuestionnaire(source.questionnaire)+"\nReturn the HTML in the body_sv JSON field.";
   const result=await claude(run.kind,prompt,run.kind === "lot_text"?"text":["lot_summary","brand_summary","model_summary"].includes(run.kind)?"high":"medium");
   await advance({},result);
 }

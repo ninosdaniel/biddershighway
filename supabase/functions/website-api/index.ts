@@ -110,6 +110,17 @@ export async function handle(request: Request): Promise<Response> {
         result = await rpc(db, "website_account", { p_auth_id: user.id });
       else if (action === "account_activity")
         result = await rpc(db, "website_account_activity", { p_auth_id: user.id });
+      else if (action === "purchase_quote")
+        result = await rpc(db, "website_purchase_quote", {
+          p_auth_id: user.id, p_slug: text(input.slug, 300), p_kind: text(input.kind, 20),
+        });
+      else if (action === "purchase") {
+        if (input.accepted !== true) throw new HttpError(422, "purchase_confirmation_required");
+        result = await rpc(db, "website_purchase", {
+          p_auth_id: user.id, p_quote_id: uuid(input.quote_id),
+          p_accepted: true, p_request_id: uuid(body.request_id),
+        });
+      }
       else if (action === "staff_data")
         result = await rpc(db, "website_staff_data", { p_auth_id: user.id, p_resource: text(input.resource || "leads", 30), p_id: input.id ? uuid(input.id) : null, p_query: text(input.query || "", 200), p_page: Math.max(1, Math.min(10000, Number(input.page) || 1)) });
       else if (action === "ai_request")
@@ -202,6 +213,14 @@ export async function handle(request: Request): Promise<Response> {
           p_auth_id: user.id,
           p_offer_id: uuid(input.id),
           p_accept: input.accept === true,
+        });
+      else if (action === "post_comment")
+        result = await rpc(db, "website_post_comment", {
+          p_auth_id: user.id,
+          p_post_id: uuid(input.post_id),
+          p_body: text(input.body, 5000),
+          p_parent_id: input.parent_id ? uuid(input.parent_id) : null,
+          p_request_id: uuid(body.request_id),
         });
       else if (action === "comment")
         result = await rpc(db, "website_comment", {

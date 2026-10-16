@@ -1,5 +1,13 @@
 # Supabase backend migration
 
+For the current code comparison and outstanding workflows, see the
+[16 October review against Highway main](port/CURRENT-WORKSPACE-COMPARISON.md).
+Deployment statements below record the earlier deployment; hosted state was
+not rechecked during this review. Local, undeployed migrations `018`–`021` add
+classified ownership/photo fixes, direct/after-sale checkout, and Claude
+questionnaire context, and live editorial publication/comments. Apply all unapplied migrations in order and deploy the
+updated API/worker together before enabling these workflows.
+
 The Next.js frontend and Supabase backend implementation are in this checkout.
 This is **not yet a complete production replacement for Highway**. Migrations
 `002` through `009` were applied to Bidders (`qkeoofwvggqndnxrlfxs`) on 12 October
@@ -30,9 +38,12 @@ and production records were not imported into the repository.
 | Identity | Edge-native BankID auth/collect/cancel and dynamic QR; Stripe Identity session and signed webhook alternative |
 | Bidding | Service-only transactional RPC, auction row lock, verification/terms/seller/state checks, original proxy-bid rules and 120-second extensions |
 | Offers | Verified pre-auction offers and seller-only accept/reject, transactionally settled |
+| Purchases / after-sales | Localized React checkout, buyer-bound expiring quotes, atomic server-price settlement, stale-price checks and replay-safe receipts; migration `019` is pending |
+| Claude questionnaire input | Original Swedish car/motorcycle labels, condition wording, conditional follow-ups and legacy forms; safe lead fallbacks and stale-draft checks in pending migration `020` |
 | Lead intake | Sales, collection, estate and classified lead records; CAPTCHA, rate limits, request deduplication and expiring capability for detailed follow-up |
-| Comments | Authenticated, deduplicated submissions held for moderation |
-| Settlement | Sold/unsold decision, original fee bounds and optional shortfall rule, invoices/outbox creation; no payment assumed from invoice creation |
+| Comments | Auction submissions remain moderated. Article comments and replies follow the source immediate-publication rule, bind the confirmed caller, deduplicate retries and reject private/cross-article parents; migration `021` is pending |
+| Live editorial | Published articles/pages, author archives, 15-article pagination, tags, localized slug redirects/fallbacks, podcasts, rich text and metadata; request-fresh Supabase reader in migration `021` |
+| Settlement | Sold/unsold decision, original fee bounds and optional shortfall rule, invoices/outbox creation and committed-sale research reporting; no payment assumed from invoice creation |
 | Payments | Swish app/QR checkout, cancellation, provider reconciliation and callback validation; only the invoice owner can initiate payment |
 | Invoices | Fortnox customer creation, service-account token renewal, invoice issuing/bookkeeping, owner-only PDF previews and bank reconciliation |
 | Background work | Durable queue, leases, deduplication, exponential retries, dead-letter state and provider-operation reconciliation |
@@ -97,9 +108,11 @@ post-sale follow-ups use the outbox. Replaying the clock cannot settle twice.
 - BankID and Stripe Identity are implemented but have not been tested against
   provider sandboxes or the hosted Edge runtime. Stripe Identity is an alternative
   verification flow, not a copy of the old manual credit-card review flow.
-- CRM/Listmonk/Slack/SMS integration, photo/file uploads, vehicle valuation,
-  saved-search matching, AI translation and admin/sales/photographer tools are
-  not ported. Public lead intake persists the lead and queues an email to support.
+- CRM/Listmonk/Slack/SMS integration and the full sales/photographer workflows
+  are not ported. Classified image uploads, vehicle valuation, saved-search
+  matching, AI translation and a staff draft-review screen now exist in local
+  code. Their remaining gaps are recorded in the 16 October comparison.
+  Public lead intake persists the lead and queues an email to support.
 - Imported competitor results are staged privately; promoting them into the
   original reported-auction research dataset is not implemented. Bilweb date
   parsing and full metadata parity remain outstanding.
@@ -107,16 +120,20 @@ post-sale follow-ups use the outbox. Replaying the clock cannot settle twice.
   reminders, unsold top-three bidder campaigns and all original email variations
   need parity review. External email APIs provide bounded idempotency windows;
   a delivery timeout beyond that window requires reconciliation.
-- The native Supabase auction/catalog view covers core interactions; the original
-  full classified transaction flow, category filters, vehicle-model pages, and
-  every gallery/account layout have not yet reached full parity.
+- Native catalogue filters, brand/model pages and public galleries now exist.
+  Purchase/after-sales checkout, the full classified lifecycle and every
+  gallery/account workflow have not yet reached full parity.
 
 The homepage/catalog and auction pages always read Supabase, independently of
 `NEXT_PUBLIC_WEBSITE_BACKEND_ENABLED`. An empty database yields an empty catalog
 and absent auction records yield 404; neither source-site pages nor snapshots
 can fill missing business data. Unsupported classified detail/category routes
-also cannot fall back to the original site. Editorial pages and core forms
-remain local imported content. The flag only activates account/form calls to
+also cannot fall back to the original site. Articles, pages and authors now use
+`get_website_editorial`; apply migration `021` before deploying their React
+routes. It grants public execution to `anon`/`authenticated` and exposes no
+drafts. If the server connection uses a custom database role, explicitly grant
+that role execute on this public reader. FAQ and remaining core forms still
+use local imported content. The flag only activates account/form calls to
 Edge Functions and never enables financial writes in the database by itself.
 
 ## Production data import

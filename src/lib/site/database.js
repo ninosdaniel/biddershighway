@@ -55,3 +55,41 @@ export const publicBrands = cache(async (locale) => {
   if (!hasReadDatabase()) return [];
   return readDatabase(brandsSql, [locale]);
 });
+
+// Request-scoped memoization shares metadata/page reads. No persistent cache:
+// publication, edits and Claude translation applies appear on the next request.
+export const publicEditorial = cache(
+  async (resource, locale, slug = null, page = 1, tag = null) => {
+    if (hasReadDatabase()) {
+      const rows = await readDatabase(
+        "select public.get_website_editorial($1,$2,$3,$4,$5) as editorial",
+        [resource, locale, slug, page, tag],
+      );
+      return rows[0]?.editorial || null;
+    }
+    if (
+      !process.env.NEXT_PUBLIC_SUPABASE_URL ||
+      !process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY
+    )
+      return null;
+    const client = createClient(
+      process.env.NEXT_PUBLIC_SUPABASE_URL,
+      process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY,
+      {
+        auth: { persistSession: false, autoRefreshToken: false },
+        global: {
+          fetch: (input, init) => fetch(input, { ...init, cache: "no-store" }),
+        },
+      },
+    );
+    const { data, error } = await client.rpc("get_website_editorial", {
+      p_resource: resource,
+      p_locale: locale,
+      p_slug: slug,
+      p_page: page,
+      p_tag: tag,
+    });
+    if (error) throw new Error("Editorial content could not be loaded");
+    return data;
+  },
+);

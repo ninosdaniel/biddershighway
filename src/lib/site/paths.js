@@ -69,7 +69,7 @@ export function publicPageKey(pathname, search = {}) {
 }
 
 export function isStaticContentPath(pathname) {
-  return /^\/(en|sv|de)\/(questions|question_categories|posts|authors|pages|docs|sales_inquiries|collection_leads|estate-sales|classified_leads|sign_ins|users|valuations)(\/|$)/.test(
+  return /^\/(en|sv|de)\/(questions|question_categories|docs|sales_inquiries|collection_leads|estate-sales|classified_leads|sign_ins|users|valuations)(\/|$)/.test(
     pathname,
   );
 }
@@ -108,6 +108,7 @@ export function assetHref(value) {
 }
 
 export function isAccountPath(pathname) {
+  if (purchaseRoute(pathname)) return true;
   if (
     typeof pathname !== "string" ||
     /[\\\x00-\x20]/.test(pathname) ||
@@ -117,4 +118,19 @@ export function isAccountPath(pathname) {
   return /^\/(en|sv|de)\/(account(?:\/[^/]+)*|terms|notifications|saved_searches|detailed_leads\/[^/]+\/edit|auctions\/[^/]+\/(max_bids|offers|bookmarks)(?:\/new)?|offer_acceptances\/[^/]+|offer_rejections\/[^/]+)$/.test(
     pathname,
   );
+}
+
+// Preserve both Rails checkout URLs and the after-sale landing link.
+export function purchaseRoute(pathname) {
+  if (typeof pathname !== "string" || /[?#\\\x00-\x20]|%2f|%5c/i.test(pathname)) return null;
+  const route = pathname.match(/^\/(en|sv|de)\/auctions\/([^/]+)\/(purchases|after_sales)(?:\/new)?$/);
+  const afterSale = pathname.match(/^\/(en|sv|de)\/after_sales\/([^/]+)$/);
+  if (!route && !afterSale) return null;
+  try {
+    const slug = decodeURIComponent((route || afterSale)[2]);
+    if ([".", ".."].includes(slug) || /[\\/\x00-\x1f]/.test(slug)) return null;
+    return { slug, kind: route?.[3] === "purchases" ? "purchase" : "after_sale" };
+  } catch {
+    return null;
+  }
 }

@@ -3,6 +3,11 @@
 Next.js 16 / React 19 migration of the Bidders Highway website, with a Supabase
 Edge Function backend and Postgres cron implementation.
 
+The [16 October comparison](docs/port/CURRENT-WORKSPACE-COMPARISON.md) reviews
+this workspace directly against `biddershighway/highway:main` on GitHub.
+It records implemented workflows, remaining gaps and locally tested fixes.
+Full functional parity is not complete.
+
 FAQ, Articles, Sell with us and the footer destinations now use local Next.js
 routes. The original branding, fonts, public images and 721 public-page snapshots
 are included, in English, Swedish and German. The catalogue, vehicle cards,
@@ -31,17 +36,19 @@ ignored `.env.local` (or a server secret in the deployment environment). It is
 never exposed to the browser. The server verifies TLS against
 `config/supabase-ca.crt`, checks out a connection, explicitly starts a
 `READ ONLY` transaction, runs a parameterized public projection, and rolls back.
-This adapter needs no migration. Without it, the existing public Supabase RPCs
+The vehicle queries need no added migration; live editorial reads require migration `021`. Without it, the existing public Supabase RPCs
 still provide the basic catalogue and auction details; classified/brand reads
 require the server connection. Preserve `.env.local` as a private file.
 
 ## Current migration state
 
-Public editorial pages and core forms are local. The homepage/catalog and auction
-details read Supabase independently of `NEXT_PUBLIC_WEBSITE_BACKEND_ENABLED`.
+Articles, informational pages, author archives and vehicle records now read
+Supabase independently of `NEXT_PUBLIC_WEBSITE_BACKEND_ENABLED`. Article/page
+publication and approved Claude translations appear on the next request.
+Migration `021` must be applied before serving these editorial routes.
 That flag controls account/form actions, not public reads. Empty databases show
 an empty catalog; missing auction records show 404. The runtime no longer fetches
-pages from the original site or substitutes vehicle snapshots. The retired
+pages from the original site or substitutes vehicle/editorial snapshots. The retired
 `REFERENCE_CONTENT_MODE` setting has no effect.
 
 On 12 October 2026, the production snapshot was copied into Bidders Supabase:
@@ -51,8 +58,9 @@ keys were verified. The public reader now returns 2,261 published listings.
 Supabase Auth contains 33,640 email accounts; the 4,205 profiles without email
 remain preserved without email login. No invitation, confirmation or other
 email was sent or queued. This is a snapshot, not ongoing synchronization.
-The copied FAQ, article and informational content remains in
-`src/content/reference`; it is not database content. Brand/model archives match
+The copied content remains in `src/content/reference` for migration evidence.
+Only remaining informational routes such as FAQ and forms use those snapshots;
+articles, authors and pages cannot fall back to them. Brand/model archives match
 the original alias and vehicle-type rules. Public projections hide private
 contact/provider fields and mask VINs. Gallery navigation, filters, sorting and
 pagination work locally.
@@ -61,14 +69,16 @@ The October 14 visual update made no database changes and does not synchronize
 with the original site. Existing bid amounts, photographs and vehicle status are
 used as-is. Pipedrive/Fortnox production credentials are still pending access to
 the original Hatchbox deployment on DigitalOcean; credential retrieval is paused
-at the user's request. Mail configuration is unchanged. Classified messaging and
-authenticated Rails account/admin parity remain backend work; public classified
-contact currently leads to account registration, as on the original anonymous view.
+at the user's request. Mail configuration is unchanged. Classified messaging,
+saved searches, AI staff drafts and classified image uploads now have local
+implementations. Hosted acceptance and complete account/admin parity remain
+outstanding; the comparison above records their current limits.
 
 The Supabase implementation includes accounts, verified bidding, offers, leads,
-comments, settlement, Swish/Fortnox adapters and scheduled workers. The database
-migrations and three Edge Functions have been deployed to Bidders through the
-Supabase dashboard. The legacy JWT gateway stays enabled on all three functions,
+comments, settlement, Swish/Fortnox adapters and scheduled workers. Backend
+migrations `002`–`010` and the three Edge Functions were deployed through the
+Supabase dashboard on 12 October; later local workflow changes need separate
+deployment verification. Migrations `018`–`021` and the latest API/worker changes have not been deployed. The legacy JWT gateway stays enabled on all three functions,
 as requested. Transactions and cron execution are **disabled** pending
 provider configuration and acceptance. It is not yet full Rails feature parity: see the explicit remaining
 work and deployment prerequisites in [the backend migration notes](docs/backend-migration.md).

@@ -1,0 +1,390 @@
+[
+  {
+    "id": "framework_and_support",
+    "status": "framework_review",
+    "patterns": [
+      "app/controllers/(?:concerns/|.*(?:application|base)_controller\\.rb$|(?:debug_logins|lookbook|turbo_frames)_controller\\.rb$|mission_control/)",
+      "app/jobs/(?:application_job\\.rb$|concerns/)"
+    ],
+    "target_paths": [
+      "supabase/functions/website-api/index.ts",
+      "supabase/migrations/20261012000200_website_backend.sql",
+      "supabase/functions/_shared/http.ts"
+    ],
+    "gap": "Rails framework, development tools and shared behavior need explicit Next/Supabase equivalents; not counted as independent complete features."
+  },
+  {
+    "id": "claude_ai",
+    "status": "partial",
+    "patterns": [
+      "app/jobs/(?:valuate_lead|classify_classified|translate_blog_post|translate_lot_text|write_(?:blocketization_texts|brand_summary|lot_summary|lot_text|vehicle_model_summary))_job\\.rb$",
+      "app/controllers/(?:admin/leads|filter/lots)/(?:generated_texts|translated_texts)_controller\\.rb$"
+    ],
+    "target_paths": [
+      "supabase/functions/_shared/ai.ts",
+      "supabase/migrations/20261015001200_ai_workflows.sql",
+      "src/components/site/StaffWorkspace.jsx",
+      "supabase/functions/_shared/questionnaire.ts",
+      "supabase/functions/_shared/questionnaire-schema.json",
+      "supabase/migrations/20261016002000_questionnaire_ai_context.sql",
+      "supabase/functions/tests/questionnaire_test.ts"
+    ],
+    "gap": "Ten staff task kinds and valuation stages exist. Car/motorcycle/legacy questionnaire formatting, Swedish labels, conditional details and safe lead fallbacks are ported and tested. Automatic chaining, some source evidence/quality behavior, selectable blog source/targets, stable translated slugs, HTML preservation and original action URLs remain. Reviewed blog/page translations now appear through the live public editorial reader after apply; hosted deployment remains pending."
+  },
+  {
+    "id": "external_apis",
+    "status": "missing",
+    "patterns": [
+      "app/controllers/(?:cli|api)/"
+    ],
+    "target_paths": [
+      "supabase/functions/website-api/index.ts",
+      "src/app/[locale]/[[...path]]/page.jsx"
+    ],
+    "gap": "The original token-authorized CLI, sales/comparable/report APIs and LLM toolkit have no replacement entry points. website-api serves the website account, not these original integrations."
+  },
+  {
+    "id": "accounting",
+    "status": "missing",
+    "patterns": [
+      "app/controllers/accounting/",
+      "app/jobs/create_setup_fee_invoice_job\\.rb$"
+    ],
+    "target_paths": [
+      "supabase/functions/_shared/jobs.ts",
+      "supabase/functions/_shared/billing.ts"
+    ],
+    "gap": "Buyer/seller commission invoices exist; accounting dashboards, monthly exports, setup and photography fee workflows do not."
+  },
+  {
+    "id": "lead_operations",
+    "status": "missing",
+    "patterns": [
+      "app/controllers/(?:admin/|nineteen_eighty_four/)"
+    ],
+    "target_paths": [
+      "src/components/site/StaffWorkspace.jsx",
+      "supabase/migrations/20261015001200_ai_workflows.sql"
+    ],
+    "gap": "Staff UI lists records and generates AI drafts; source contact/agreement/forms/photo review/approval/publication/churn/assignment workflows and routes are absent."
+  },
+  {
+    "id": "admin_crud",
+    "status": "missing",
+    "patterns": [
+      "app/controllers/filter/"
+    ],
+    "target_paths": [
+      "src/components/site/StaffWorkspace.jsx",
+      "supabase/migrations/20261015001200_ai_workflows.sql"
+    ],
+    "gap": "The original Filter resource editors, state transitions, moderation, exports and custom actions are absent. The current staff record list is not a CRUD port; AI/classified helpers do not expose these original actions."
+  },
+  {
+    "id": "purchase_after_sale",
+    "status": "partial",
+    "patterns": [
+      "app/controllers/(?:purchases|after_sales)_controller\\.rb$"
+    ],
+    "target_paths": [
+      "src/components/site/PurchaseCheckout.jsx",
+      "src/components/site/AuctionDetail.jsx",
+      "src/app/[locale]/[[...path]]/page.jsx",
+      "supabase/functions/website-api/index.ts",
+      "supabase/migrations/20261016001900_purchase_checkout.sql",
+      "supabase/functions/_shared/jobs.ts",
+      "supabase/tests/backend.test.mjs",
+      "supabase/functions/tests/purchases_test.ts"
+    ],
+    "gap": "Direct purchase and unsold after-sale checkout now have localized React routes, authenticated quotes and atomic Supabase settlement with retry/stale-price protection, invoice jobs and comparable-sale reporting. Hosted rollout/provider acceptance, original mailer/billing-recipient/Slack variations and true multi-connection concurrency acceptance remain. Stronger identity, self-purchase and listing eligibility gates and configured buyer-fee behavior are documented differences."
+  },
+  {
+    "id": "seller_forms_and_approval",
+    "status": "missing",
+    "patterns": [
+      "app/controllers/(?:lead_forms|questionnaires|calendar_bookings|lead_approvals|seller_approvals|seller_denials|photo_offers|valuations|lead_reactivations)_controller\\.rb$",
+      "app/controllers/lead_reactivations/"
+    ],
+    "target_paths": [
+      "supabase/functions/website-api/index.ts",
+      "src/app/[locale]/[[...path]]/page.jsx",
+      "src/components/site/TransactionPage.jsx"
+    ],
+    "gap": "Basic lead follow-up edits exist but the questionnaire, approval/denial, reactivation, booking and valuation-capability workflows are missing."
+  },
+  {
+    "id": "photographer",
+    "status": "missing",
+    "patterns": [
+      "app/controllers/(?:photo_ops/|photo_ops_controller|short_photo_ops_controller)"
+    ],
+    "target_paths": [
+      "src/app/[locale]/[[...path]]/page.jsx",
+      "supabase/functions/_shared/uploads.ts"
+    ],
+    "gap": "No photographer/booking/completion/video or short-link workflow; current upload adapter authorizes classified drafts only."
+  },
+  {
+    "id": "classified_management",
+    "status": "partial",
+    "patterns": [
+      "app/controllers/(?:account/classifieds(?:/|_controller)|classified_flow/|classifieds/approvals_controller)"
+    ],
+    "target_paths": [
+      "src/components/site/ClassifiedManager.jsx",
+      "supabase/migrations/20261015001500_classified_management.sql",
+      "supabase/migrations/20261016001800_classified_ownership_and_upload_completion.sql"
+    ],
+    "gap": "Draft/edit/moderation and staff publish/hide/sold/reopen exist. Original classified_admin ownership roles, automatic translations/notifications, email approval links and complete field validation still differ. NULL-owner authorization and photo completion defects fixed in migration 018."
+  },
+  {
+    "id": "media_management",
+    "status": "partial",
+    "patterns": [
+      "app/controllers/(?:lots/|detailed_lead_uploads_controller)"
+    ],
+    "target_paths": [
+      "supabase/functions/_shared/uploads.ts",
+      "supabase/migrations/20261015001600_vehicle_uploads.sql",
+      "supabase/migrations/20261016001800_classified_ownership_and_upload_completion.sql"
+    ],
+    "gap": "Classified image upload exists; shared lead/photographer uploads, album editing, deletion, ordering, cover selection, video, ZIP/Drive/Dropbox workflows are incomplete or absent."
+  },
+  {
+    "id": "invoices_swish",
+    "status": "partial",
+    "patterns": [
+      "app/controllers/(?:invoices/|swish_payment_requests/|swish_callbacks_controller|swish_qr_codes_controller)",
+      "app/jobs/(?:reconcile_swish_payment|sync_auction_payments)_job\\.rb$"
+    ],
+    "target_paths": [
+      "supabase/functions/_shared/swish.ts",
+      "supabase/functions/_shared/billing.ts",
+      "supabase/functions/website-webhooks/index.ts",
+      "supabase/config.toml"
+    ],
+    "gap": "Provider adapters and owner-bound invoice UI exist. Original accountless invoice capability links, historical invoice binding, gateway-compatible callbacks and provider sandbox acceptance remain open."
+  },
+  {
+    "id": "identity",
+    "status": "partial",
+    "patterns": [
+      "app/controllers/account/verifications"
+    ],
+    "target_paths": [
+      "src/components/site/BankId.jsx",
+      "supabase/functions/_shared/bankid.ts",
+      "supabase/functions/website-api/index.ts"
+    ],
+    "gap": "BankID and Stripe Identity are implemented, but hosted acceptance, legacy verification/address migration and original manual card verification are not equivalent."
+  },
+  {
+    "id": "account_missing",
+    "status": "missing",
+    "patterns": [
+      "app/controllers/account/(?:companies|emails|transports)_controller\\.rb$",
+      "app/controllers/(?:google_oauth/|collectible_cars_controller|signup_leads_controller)"
+    ],
+    "target_paths": [
+      "src/components/site/AccountPage.jsx",
+      "supabase/functions/website-api/index.ts"
+    ],
+    "gap": "No complete company billing editor, email-change confirmation, transport request, Google OAuth or original signup-interest workflow."
+  },
+  {
+    "id": "messaging",
+    "status": "partial",
+    "patterns": [
+      "app/controllers/(?:account/(?:conversations|conversation_messages)|conversations)_controller\\.rb$",
+      "app/jobs/create_conversation_message_notifications_job\\.rb$"
+    ],
+    "target_paths": [
+      "src/components/site/CustomerWorkflows.jsx",
+      "supabase/migrations/20261015001100_customer_workflows.sql",
+      "supabase/functions/_shared/jobs.ts"
+    ],
+    "gap": "Membership-isolated conversations, messages and notifications exist. Conversation list caps, timestamp-only message pagination, templates and end-to-end delivery require further parity work."
+  },
+  {
+    "id": "saved_searches",
+    "status": "partial",
+    "patterns": [
+      "app/controllers/(?:account/|auctions/)?saved_searches_controller\\.rb$",
+      "app/jobs/notify_saved_searches_job\\.rb$"
+    ],
+    "target_paths": [
+      "src/components/site/CustomerWorkflows.jsx",
+      "supabase/migrations/20261015001100_customer_workflows.sql",
+      "supabase/migrations/20261015001300_saved_search_notifications.sql",
+      "supabase/functions/_shared/jobs.ts"
+    ],
+    "gap": "Persistence, matching and notifications exist. The source permits email/capability searches; current matching requires a confirmed Auth account, so legacy subscriber-only searches are excluded."
+  },
+  {
+    "id": "account_core",
+    "status": "partial",
+    "patterns": [
+      "app/controllers/(?:account/|bookmarks_controller|notifications_controller|terms_controller|sign_ins_controller|users_controller|sms_acceptances_controller)"
+    ],
+    "target_paths": [
+      "src/components/site/AccountPage.jsx",
+      "src/components/site/CustomerWorkflows.jsx",
+      "supabase/migrations/20261012000200_website_backend.sql",
+      "supabase/migrations/20261015001100_customer_workflows.sql"
+    ],
+    "gap": "Account/profile/terms/bookmarks/preferences and auction history exist. Original role/verification compatibility and all original route-specific screens are not complete; history is capped at 500."
+  },
+  {
+    "id": "bidding_offers_comments",
+    "status": "partial",
+    "patterns": [
+      "app/controllers/(?:max_bids|offers|offer_acceptances|offer_rejections|comments)_controller\\.rb$"
+    ],
+    "target_paths": [
+      "src/components/site/AuctionDetail.jsx",
+      "supabase/functions/website-api/index.ts",
+      "supabase/migrations/20261012000200_website_backend.sql",
+      "supabase/migrations/20261012000300_website_jobs.sql"
+    ],
+    "gap": "Verified bidding, proxy rules, offer decisions and moderated comment submission exist. Original route compatibility, bid admin adjustments, threaded/attached comments and moderation tools remain incomplete."
+  },
+  {
+    "id": "lead_intake",
+    "status": "partial",
+    "patterns": [
+      "app/controllers/(?:leads|collection_leads|estate_leads|classified_leads|bimmers_leads|detailed_leads)_controller\\.rb$"
+    ],
+    "target_paths": [
+      "src/components/site/BackendForm.jsx",
+      "src/components/site/TransactionPage.jsx",
+      "supabase/functions/website-api/index.ts",
+      "supabase/migrations/20261012000200_website_backend.sql",
+      "supabase/functions/_shared/jobs.ts"
+    ],
+    "gap": "CAPTCHA-protected intake and capability-bound basic details exist; registration enrichment, customer binding, CRM and automatic valuation/follow-up orchestration do not."
+  },
+  {
+    "id": "public_vehicles",
+    "status": "partial",
+    "patterns": [
+      "app/controllers/(?:listings|listing_updates|auctions|auction_updates|classifieds|brands|vehicle_models)_controller\\.rb$",
+      "app/controllers/(?:auctions/albums|classifieds/(?:albums|images))"
+    ],
+    "target_paths": [
+      "src/app/[locale]/[[...path]]/page.jsx",
+      "src/components/site/AuctionDetail.jsx",
+      "src/components/site/BrandArchive.jsx",
+      "src/lib/site/public-queries.js"
+    ],
+    "gap": "Live database catalogue, detail, galleries and brand/model archives exist. Recommendation ranking, full live-update semantics, legacy redirects and complete public behavior are not fully verified."
+  },
+  {
+    "id": "editorial",
+    "status": "partial",
+    "patterns": [
+      "app/controllers/(?:authors|blog_posts|pages|docs|questions|question_categories)_controller\\.rb$"
+    ],
+    "target_paths": [
+      "src/app/[locale]/[[...path]]/page.jsx",
+      "src/lib/site/content.js",
+      "src/lib/site/editorial.js",
+      "src/lib/site/database.js",
+      "src/components/site/EditorialPage.jsx",
+      "src/components/site/EditorialComments.jsx",
+      "supabase/migrations/20261016002100_live_editorial.sql",
+      "supabase/functions/tests/editorial_test.ts",
+      "src/lib/site/editorial-render.test.js"
+    ],
+    "gap": "Live published articles/pages/authors, source pagination/tag rules, localized slugs/metadata, public comments/replies and reviewed Claude output are implemented. Staff editorial CRUD, authenticated previews, automatic translated-slug creation, themes, Instagram and source Slack notices remain. FAQ/docs still use imports. Migration 021/API/frontend deployment and hosted acceptance remain pending."
+  },
+  {
+    "id": "discovery_and_compatibility",
+    "status": "missing",
+    "patterns": [
+      "app/controllers/(?:sitemaps|auction_feeds|feeds|album_redirects|brand_redirects|ads|themes|elmia_auctions|blocketizations|post_previews|qr_codes|invitations)_controller\\.rb$",
+      "app/controllers/(?:preview_lots|auctions/(?:previews|calendar_events))"
+    ],
+    "target_paths": [
+      "src/app/[locale]/[[...path]]/page.jsx",
+      "src/lib/site/paths.js",
+      "supabase/functions/_shared/jobs.ts"
+    ],
+    "gap": "Source feeds, sitemap endpoint/index, campaign pages, capability previews, calendar events, short links or compatibility redirects lack complete equivalents. A basic sitemap storage job does not implement these routes."
+  },
+  {
+    "id": "external_integrations",
+    "status": "missing",
+    "patterns": [
+      "app/controllers/(?:slack_events|slack_interactions|newsletter_signups|unsubscriptions)_controller\\.rb$",
+      "app/controllers/unsubscriptions/",
+      "app/jobs/.*(?:listmonk|pipedrive|slack|tracking|facebook|text_delivery|site_event|google_drive|blocket|tomax).*_job\\.rb$",
+      "app/jobs/(?:bind_leads_to_user|bind_user_to_lead|find_lat_lng_from_postal_code|geocode_lead_location|populate_lead|populate_model_from_car_info|send_deferred_agreements|track_user_sign_in|reindex|cleanup_photo_download)_job\\.rb$"
+    ],
+    "target_paths": [
+      "supabase/functions/website-api/index.ts",
+      "supabase/functions/_shared/jobs.ts"
+    ],
+    "gap": "No equivalent operational adapters for CRM, Listmonk subscriptions/email changes, Slack, SMS, tracking, external classified imports, enrichment, geocoding or Drive/download processing. Newsletter UI currently starts an Auth email flow."
+  },
+  {
+    "id": "auction_jobs",
+    "status": "partial",
+    "patterns": [
+      "app/jobs/(?:activate_auction|conclusion_check|enqueue_auction_jobs|settle_auction_as_(?:manually_sold|sold|unsold)|bid_mailer|new_bid_batch|send_ending_in_fifteen_minutes_notifications|send_ending_soon_notifications|send_lower_reserve|send_rerun_question_email|send_sold_follow_up_email|compute_user_interests|daily_update|refresh_listings_view)_job\\.rb$"
+    ],
+    "target_paths": [
+      "supabase/migrations/20261012000300_website_jobs.sql",
+      "supabase/migrations/20261012000500_website_scheduler.sql",
+      "supabase/functions/_shared/jobs.ts"
+    ],
+    "gap": "Executable lifecycle, queue, commission invoicing, schedules and notification handlers exist. All original scheduling triggers, batching, audiences/templates, financial side effects and live acceptance are not complete."
+  },
+  {
+    "id": "missing_auction_notifications",
+    "status": "missing",
+    "patterns": [
+      "app/jobs/(?:email_highest_bidders|notify_reserve_lowered|send_reserve_close_notifications|send_verification_reminder_email)_job\\.rb$"
+    ],
+    "target_paths": [
+      "supabase/migrations/20261012000300_website_jobs.sql",
+      "supabase/functions/_shared/jobs.ts"
+    ],
+    "gap": "No source-equivalent reserve-change/near-reserve, unsold highest-bidder or verification-reminder orchestration."
+  },
+  {
+    "id": "sitemap_jobs",
+    "status": "partial",
+    "patterns": [
+      "app/jobs/(?:crystal_sitemap|generate_sitemap|upload_sitemap)_job\\.rb$"
+    ],
+    "target_paths": [
+      "supabase/functions/_shared/jobs.ts",
+      "src/app/[locale]/[[...path]]/page.jsx"
+    ],
+    "gap": "A basic sitemap is uploaded to storage, but original sitemap index/redirect, translated editorial, classified, brand/model and other source URL coverage are missing."
+  },
+  {
+    "id": "scrapers",
+    "status": "partial",
+    "patterns": [
+      "app/jobs/scrape_(?:bilweb|sajab)_auction_job\\.rb$"
+    ],
+    "target_paths": [
+      "supabase/functions/_shared/scrapers.ts",
+      "supabase/functions/_shared/jobs.ts"
+    ],
+    "gap": "Scrapers stage external data. They do not complete source-equivalent promotion to reported_auctions, metadata normalization and research indexing."
+  },
+  {
+    "id": "legacy_or_environment",
+    "status": "framework_review",
+    "patterns": [
+      "app/controllers/(?:auroras|volvos|elmia_leads|jobs|locales)_controller\\.rb$"
+    ],
+    "target_paths": [
+      "src/app/[locale]/[[...path]]/page.jsx",
+      "src/lib/site/paths.js"
+    ],
+    "gap": "Source environment, locale and legacy route behavior needs explicit review; file presence alone does not show a currently routed feature."
+  }
+]

@@ -27,7 +27,7 @@ export async function rpc(
   const { data, error } = await db.rpc(name, args);
   if (error) {
     const safe =
-      /^(authentication_required|account_disabled|terms_required|verification_required|address_required|auction_closed|seller_cannot_bid|invalid_bid_increment|bid_too_low|bid_matches_existing_maximum|idempotency_conflict|transactions_not_enabled|invalid_name|invalid_locale|invalid_email|invalid_phone|registration_required|not_found|offers_closed|offer_closed|forbidden|invalid_comment|invoice_not_ready|already_paid|payment_reconciliation_required|invalid_message|own_listing|invalid_search|search_limit|invalid_input|stale_record|ai_not_enabled|listing_incomplete)$/;
+      /^(authentication_required|account_disabled|terms_required|verification_required|address_required|auction_closed|seller_cannot_bid|invalid_bid_increment|bid_too_low|bid_matches_existing_maximum|idempotency_conflict|transactions_not_enabled|invalid_name|invalid_locale|invalid_email|invalid_phone|registration_required|not_found|offers_closed|offer_closed|forbidden|invalid_comment|invoice_not_ready|already_paid|payment_reconciliation_required|invalid_message|own_listing|invalid_search|search_limit|invalid_input|stale_record|ai_not_enabled|listing_incomplete|purchase_unavailable|seller_cannot_purchase|purchase_quote_expired|purchase_quote_changed|purchase_confirmation_required)$/;
     throw new HttpError(
       error.message === "authentication_required" ? 401 : 422,
       safe.test(error.message) ? error.message : "request_failed",
